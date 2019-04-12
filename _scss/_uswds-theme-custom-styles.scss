@@ -20,6 +20,50 @@ i.e.
 ----------------------------------------
 */
 
+// Our title is a bit long
+.usa-header--basic .usa-navbar {
+  @include at-media(desktop) {
+    width: 40%;
+  }
+}
+
+.chp-hero {
+  @include u-bg('orange-warm-50');
+  // matches the green we used in the diagram even though it isn't in the system
+  // background-color: #2E8540;
+
+  &__body {
+    @include u-padding-y(4);
+  }
+
+  &__title,
+  &__desc {
+    @include u-text('white');
+  }
+}
+
+.process-steps h3 {
+  position: relative;
+  padding-left: units(5);
+}
+
+.process-steps h3:before {
+  content: attr(data-step);
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  line-height: 30px;
+  text-align: center;
+  font-family: "Source Sans Pro","Helvetica Neue","Helvetica","Roboto","Arial",sans-serif;
+  font-size: 100%;
+  @include u-bg('orange-warm-50');
+  @include u-text('white');
+}
+
+
 .chp-quote {
   background-color: #f6f8fa;
   border-radius: 3px;

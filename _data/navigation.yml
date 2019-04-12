@@ -1,0 +1,65 @@
+primary:
+  - text: Overview
+    href: /
+  - text: Hiring Phases
+    href: /hiring-phases/
+    name: hiring-phases
+  - text: Hiring Roles
+    href: /hiring-roles/
+    name: hiring-roles
+  - text: Rating Guide
+    href: /rating-guide/
+
+hiring-phases:
+  - text: Job analysis
+    href: /hiring-phases/job-analysis/
+    phase: job-analysis
+    subnav:
+      - text: About Core Competencies
+        href: "#about-core-competencies"
+      - text: Completing a Job Analysis
+        href: "#completing-a-job-analysis"
+      - text: Converting Job Skills to Competencies
+        href: "#converting-job-skills-to-competencies"
+      - text: About Proficiency Levels
+        href: "#about-proficiency-levels"
+      - text: Sample Competencies and Proficiency Levels
+        href: "#sample-competencies-and-proficiency-levels"
+      - text: Defining Minimum Qualifications From Competencies
+        href: "#defining-minimum-qualifications-from-competencies"
+      - text: Creating a Structured Interview from Competencies
+        href: "#creating-a-structured-interview-from-competencies"
+  - text: Job announcement
+    href: /hiring-phases/job-announcement/
+    phase: job-announcement
+  - text: Pre-qualification resume review
+    href: /hiring-phases/pre-qualification-resume-review/
+    phase: pre-qualification-resume-review
+    subnav:
+    - text: Preparing for Resume Reviews
+      href: "/hiring-phases/pre-qualification-resume-review/#pre-for-resume-reviews"
+    - text: Reviewing Resumes
+      href: "/hiring-phases/pre-qualification-resume-review/#reviewing-resumes"
+  - text: TQ1 - First interview
+    href: /hiring-phases/tq1/
+    phase: tq1
+  - text: TQ2 - Second interview
+    href: /hiring-phases/tq2/
+    phase: tq2
+  - text: Certificate
+    href: /hiring-phases/certificate/
+    phase: certificate
+
+hiring-roles:
+  - text: Human Resources
+    href: /hiring-roles/hr/
+    role: hr
+  - text: Subject Matter Expert
+    href: /hiring-roles/sme/
+    role: sme
+
+rating-guide:
+  - text: Resume Review Ratings
+    href: /rating-guide/resume-review-ratings/
+  - text: Resume Review Outcomes
+    href: /rating-guide/resume-review-outcomes/

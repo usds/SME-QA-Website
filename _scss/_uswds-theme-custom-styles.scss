@@ -1,0 +1,59 @@
+/*
+* * * * * ==============================
+* * * * * ==============================
+* * * * * ==============================
+* * * * * ==============================
+========================================
+========================================
+========================================
+----------------------------------------
+USWDS THEME CUSTOM STYLES
+----------------------------------------
+!! Copy this file to your project's
+   sass root. Don't edit the version
+   in node_modules.
+----------------------------------------
+Custom project SASS goes here.
+
+i.e.
+@include u-padding-right('05');
+----------------------------------------
+*/
+
+.chp-quote {
+  background-color: #f6f8fa;
+  border-radius: 3px;
+  font-size: 85%;
+  line-height: 1.45;
+  overflow: auto;
+  @include u-padding(2);
+  @include u-margin-y(2);
+}
+
+blockquote {
+  border-left: .25em solid #dfe2e5;
+  color: #6a737d;
+  padding: 0 .5rem;
+}
+
+.chp-rolenav {
+  @include u-margin-y(3);
+}
+
+.chp-phasenav,
+.chp-rolenav {
+  &__title {
+    @include u-font-family('sans');
+    @include u-margin-y(1);
+  }
+}
+
+.chp-page-list {
+  &__title {
+    @include u-font-size('body', 'md')
+  }
+
+  &__desc {
+    margin: 0 0 units(2) 0;
+  }
+}

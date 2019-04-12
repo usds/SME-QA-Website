@@ -33,7 +33,7 @@
             {% endfor %}
           </ul>
           {% else %}
-          <a class="{% if _section.class %}{{ _section.class }}{% else %} usa-nav-link {% endif %} {% if _section.href == page.permalink %} usa-current{% endif %}" href="{% if _section.external %}{{ _section.href }}{% else %}{{ _section.href | relative_url }}{% endif %}">
+          <a class="{% if _section.class %}{{ _section.class }}{% else %} usa-nav-link {% endif %} {% if _section.href == page.permalink %} usa-current{% endif %}" href="{% if _section.external %}{{ _section.href }}{% else %}{{ _section.href | relative_url }}{% endif %}" data-href="{{ _section.href }}" data-permalink="{{ page.permalink }}">
             <span>{{ _section.text }}</span>
           </a>
           {% endif %}

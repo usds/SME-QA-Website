@@ -19,7 +19,7 @@ title: Subject Matter Experts (SMEs)
 <dl class="chp-page-list">
 {% assign guides = site.rating-guide %}
 {% for guide in guides %}
-<dt class="chp-page-list__title"><a href="{{ guide.permalink }}">{{ guide.title }}</a></dt>
+<dt class="chp-page-list__title"><a href="{{ site.baseurl }}{{ guide.permalink }}">{{ guide.title }}</a></dt>
 <dd class="chp-page-list__desc">{{ guide.description }}</dd>
 {% endfor %}
 </dl>

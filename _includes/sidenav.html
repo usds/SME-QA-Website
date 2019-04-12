@@ -13,7 +13,7 @@
         {% assign _current = true %}
       {% endif %}
     <li class="usa-sidenav__item">
-      <a href="{{ link.href | relative_url }}" {% if _current %} class="usa-current" {% endif %} {% if link.class %}class="{{ link.class }}" {% endif %}>
+      <a href="{{ site.baseurl }}{{ link.href }}" {% if _current %} class="usa-current" {% endif %} {% if link.class %}class="{{ link.class }}" {% endif %}>
         {{ link.text }}
       </a>
       {% if link.subnav and _current %}

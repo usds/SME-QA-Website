@@ -9,6 +9,10 @@ primary:
     name: hiring-roles
   - text: Rating Guide
     href: /rating-guide/
+    name: rating-guide
+  - text: Meetings
+    href: /meetings/
+    name: meetings
 
 hiring-phases:
   - text: Job analysis
@@ -16,22 +20,27 @@ hiring-phases:
     phase: job-analysis
     subnav:
       - text: About Core Competencies
-        href: "#about-core-competencies"
+        href: "/hiring-phases/job-analysis/#about-core-competencies"
       - text: Completing a Job Analysis
-        href: "#completing-a-job-analysis"
+        href: "/hiring-phases/job-analysis/#completing-a-job-analysis"
       - text: Converting Job Skills to Competencies
-        href: "#converting-job-skills-to-competencies"
+        href: "/hiring-phases/job-analysis/#converting-job-skills-to-competencies"
       - text: About Proficiency Levels
-        href: "#about-proficiency-levels"
+        href: "/hiring-phases/job-analysis/#about-proficiency-levels"
       - text: Sample Competencies and Proficiency Levels
-        href: "#sample-competencies-and-proficiency-levels"
+        href: "/hiring-phases/job-analysis/#sample-competencies-and-proficiency-levels"
       - text: Defining Minimum Qualifications From Competencies
-        href: "#defining-minimum-qualifications-from-competencies"
+        href: "/hiring-phases/job-analysis/#defining-minimum-qualifications-from-competencies"
       - text: Creating a Structured Interview from Competencies
-        href: "#creating-a-structured-interview-from-competencies"
+        href: "/hiring-phases/job-analysis/#creating-a-structured-interview-from-competencies"
   - text: Job announcement
     href: /hiring-phases/job-announcement/
     phase: job-announcement
+    subnav:
+    - text: Focus on content
+      href: "/hiring-phases/job-announcement/#focus-on-content"
+    - text: Creating the announcement
+      href: "/hiring-phases/job-announcement/#creating-the-announcement"
   - text: Pre-qualification resume review
     href: /hiring-phases/pre-qualification-resume-review/
     phase: pre-qualification-resume-review
@@ -63,3 +72,9 @@ rating-guide:
     href: /rating-guide/resume-review-ratings/
   - text: Resume Review Outcomes
     href: /rating-guide/resume-review-outcomes/
+
+meetings:
+  - text: Agenda for Job Analysis Workshop - Day 1
+    href: /meetings/job-analysis/day-1/
+  - text: Agenda for Job Analysis Workshop - Day 2
+    href: /meetings/job-analysis/day-2/

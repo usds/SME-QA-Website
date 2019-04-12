@@ -2,7 +2,6 @@
 layout: article
 permalink: /rating-guide/resume-review-ratings/
 section: rating-guide
-sidenav: rating-guide
 slug: resume-review-ratings
 title: Resume Review Ratings
 description: Defines the 3 ratings resume can receive

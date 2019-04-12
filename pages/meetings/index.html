@@ -1,0 +1,14 @@
+---
+layout: article
+permalink: /meetings/
+section: meetings
+title: Meetings
+---
+
+{% assign meetings = site.meetings %}
+<dl class="chp-page-list">
+  {% for meeting in meetings %}
+  <dt class="chp-page-list__title"><a href="{{ site.baseurl }}{{ meeting.permalink }}">{{ meeting.title }}</a></dt>
+  <dd class="chp-page-list__desc">{{ meeting.description }}</dd>
+  {% endfor %}
+</dl>

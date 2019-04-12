@@ -1,0 +1,291 @@
+---
+layout: article
+permalink: /hiring-phases/pre-qualification-resume-review/
+section: hiring-phases
+title: Pre-Qualification Resume Review
+sidenav: hiring-phases
+---
+
+<h2 id="prep-for-resume-reviews">Preparing for Resume Reviews</h2>
+<h3 id="hr-specialists">HR Specialists</h3>
+
+<p>
+  To manage the applicant pipeline for subject matter experts (SMEs), you'll use
+  existing features in USA Staffing.
+</p>
+<p>
+  When SMEs finish their resume reviews and interviews, they will return the
+  list of applicants to you. It's important to trust the SMEs' judgment and not
+  reverse their decisions. If you're concerned about a score, make a note of it
+  to discuss during the next pilot checkpoint meeting.
+</p>
+
+{% assign hr-tasks = site.hr-tasks | where: "phase","pre-qualification-resume-review" | where: "role","hr" %}
+<ul>
+  {% for task in hr-tasks %}
+  <li><a href="{{ site.baseurl }}{{ task.permalink }}">{{ task.title }}</a></li>
+  {% endfor %}
+</ul>
+
+<h2 id="reviewing-resumes">Reviewing Resumes</h2>
+<h3 id="smes">Subject Matter Experts</h3>
+{% assign sme-tasks = site.sme-tasks | where: "phase","pre-qualification-resume-review" | where: "role","sme" %}
+<ul>
+  {% for task in sme-tasks %}
+  <li><a href="{{ site.baseurl }}{{ task.permalink }}">{{ task.title }}</a></li>
+  {% endfor %}
+</ul>
+
+<!--
+  * [Reviewing the First Resume Screening in USA Jobs](#reviewing-the-first-resume-screening-in-usa-jobs)
+  * [Creating a List of Applicants for Tiebreaker Resume Reviews](#creating-a-list-of-applicants-for-tiebreaker-resume-reviews)
+  * [Reviewing the Tiebreaker Resume Screening in USA Jobs](#reviewing-the-tiebreaker-resume-screening-in-usa-jobs)
+  * [Scheduling Interview 1 with Remaining Applicants](#scheduling-interview-1-with-remaining-applicants)
+  - [Manually Scheduling Interview 1](#manually-scheduling-interview-1)
+  - [Scheduling Interview 1 Using a Free Trial of a Calendar Service](#scheduling-interview-1-using-a-free-trial-of-a-calendar-service)
+  * [Creating a List of Technical Interview 1 Interviewees](#creating-a-list-of-techical-interview-1-interviewees)
+  * [Reviewing the Technical Interview 1 Assessments in USA Jobs](#reviewing-the-technical-interview-1-assessments-in-usa-jobs)
+  * [Scheduling Interview 2 with Remaining Applicants](#scheduling-interview-2-with-remaining-applicants)
+  - [Manually Scheduling Interview 2](#manually-scheduling-interview-2)
+  - [Scheduling Interview 2 Using a Free Trial of a Calendar Service](#scheduling-interview-2-using-a-free-trial-of-a-calendar-service)
+  * [Creating a List of TQ2 Interviewees](#creating-a-list-of-tq2-interviewees)
+  * [Reviewing the Technical Interview 2 Assessments in USA Jobs](#reviewing-the-technical-interview-2-assessments-in-usa-jobs)
+  * [Creating a List of Applicants for Tiebreaker Transcript Reviews](#creating-a-list-of-applicants-for-tiebreaker-transcript-reviews)
+  * [Reviewing the Tiebreaker Transcript Reviews in USA Jobs](#reviewing-the-tiebreaker-transcript-reviews-in-usa-jobs)
+-->
+
+<!--
+  ### Reviewing the First Resume Screening in USA Jobs
+
+  Because the resume review process can be prone to error for SMEs who are less familiar with USA Jobs, it's important to check the stored list they returned to you after their first round of reviews.
+
+  1. For each applicant, confirm that the SMEs have provided a note with a score and score description. Email the SMEs to correct information if:
+
+  - Only one SME provided a score
+  - The SME did not provide at least a strong one-sentence score justification referring to the competencies.
+
+  2. Confirm that each applicant row has either a check or a flag.
+
+  - If the flag was selected but no "Undecided" score was provided, de-select the flag and select the checkmark instead.
+  - If the flag was not selected but an "Undecided" score was provided, de-select the checkmark and select the flag.
+
+  ### Creating a List of Applicants for Tiebreaker Resume Reviews
+
+  After you review the first round of resume reviews from SMEs, the third SME in the group will complete reviews of applicants who received an "Undecided" score.
+
+  1. To add the tiebreaker, add the third SME to the stored list.
+  2. In the Instructions field, paste these instructions:
+
+  The hiring manager for the ____ role needs your help to break some ties in the resume screening process. Please review the applicants with highlighted flags at the end of their row. As the tie breaker, you must give a score of “Pass” or “Does Not
+  Pass.” You have two days to complete these reviews.
+
+  3. Disregard the rating “view” link.
+  4. Within each applicant's row, click the _Notes_ bubble and enter a score of `Pass` or `Does not pass`. Include a strong sentence explaining why you are or are not passing the applicant, basing your assessment on the required competencies and
+  proficiency levels.
+  5. Leave the flag at the end of the row selected.
+  6. Click the checkmark at the end of the row to indicate your review is complete for that applicant.
+  7. When you complete your assessments for all applicants, at the bottom of the page, change your status to “Complete.”
+
+  ```
+
+  ```
+
+  8. For oversight of the checks and flags, add yourself and your provided USDS contacts to the stored list.
+  9. Click _Send Review_.
+
+  ### Reviewing the Tiebreaker Resume Screening in USA Jobs
+
+  Check the stored list the tiebreaker SME completed after their final round of resume reviews.
+
+  1. Confirm that all flagged applicants now have checks, indicating that the tiebreaker SME reviewed their resume. If any applicants were missed, email the tiebreaking SME to complete the reviews.
+  2. For each applicant, confirm that the SMEs have provided a note with a score and score description. Email the tiebreaker SME to correct information if:
+
+  - There is no score.
+  - The SME did not provide at least a one-sentence score justification referring to the competencies.
+
+  3. “Recall” the review. At this point, all checks and flags have been cleared, and you can now use the checks to keep track of your note reviews for the next step.
+  4. Confirm each applicant’s notes:
+
+  - If two separate notes say “Does not Pass,” change the “Min Quals” code from “PA” to “IQID”. Click “Override applicant score.”
+  - If two separate notes say "Pass," you do not need to take any action as the applicant's status is still "Qualified".
+
+  5. DO NOT give the applicant any numerical score at this point. The SME resume review process does not result in qualification points, but rather qualifies applicants for entry into the passing score assessment process.
+
+  ### Scheduling Interview 1 with Remaining Applicants
+
+  Using either a manual scheduling process or an online calendar service, schedule the first round of interviews with the applicants who passed the resume review process.
+
+  ##### Manually Scheduling Interview 1
+
+  1. Divide the remaining applicants evenly among the SMEs available for the first interview round. These should be the same group of SMEs who participated in resume review. There is only one SME per phone interview.
+  2. Assuming 1 hour per interview, ask each SME to send you a list of the hours they have blocked on their calendars for interview week.
+  3. Reach out to applicants to ask them to select a time slot within two days. HR can then set up calendar invitations between the SME and the applicant.
+
+  ##### Scheduling Interview 1 Using an Online Calendar Service
+
+  1. Divide the remaining applicants evenly among the SMEs available for the first interview round. There is only one SME per phone interview.
+  2. Inform each Interview 1 SME of how many one hour time slots they need to be available for that week. Ask them to enter the hours directly into the calendar application.
+  3. In the USA Staffing email that you send to applicants notifying them that they are in the next round, include the calendar URL and instructions stating they have two days to choose a time slot for a phone interview based on the availability in
+  the link.
+  4. When an applicant books a time slot, the SME attached to that slot will receive an email confirmation that includes the applicant's name.
+  5. In the stored list in USA Staffing, use the “Notes” bubble to tell the SMEs the applicant to whom they are assigned. Include the date, time, and phone number where the SME should call the applicant.
+
+  ### Creating a List of Technical Interview 1 Interviewees
+
+  To move applicants on to the Technical Interview 1 list, prepare the list of remaining eligible applicants.
+
+  1. In USA Staffing, create and save a second stored list called `Interview 1`.
+  2. Create a review for the stored list with a due date of five business days from today.
+  3. In the Instructions field, paste these instructions:
+
+
+  You've been assigned phone interviews with 1/3 of the remaining applicants. You have 5 days to complete your interviews.
+  - You should have received an email confirmation regarding each confirmed interview you'll be conducting.
+  - The "Notes" bubble for the candidate in USA Staffing will also have assignment and interview date information.
+
+  During your phone interview, you must:
+  - Use the structured interview script and the interview scoring template for your phone interview.
+  - Transcribe everything the applicant says during the phone call. You can make notes about their behavior within the transcript but do not add any personal commentary.
+  - Assess whether the candidate meets the required proficiency levels for the competencies needed for this position and input this into the scoring template.
+
+
+  After each interview, in USA Staffing:
+  1. Cut and paste your overall score and summary of the assessment into the "Notes" bubble and mark the row with a check.
+  2. Upload your interview template document (including the full transcript) to the Documents tab.
+  3. When all your interviews are finished, change your status at the bottom of the page to “Complete”.
+  4. Email HR to let them know your interviews are done.
+
+  4. Add the SMEs who will be conducting the first round of interviews as reviewers to the stored list.
+  5. For oversight, add yourself and your provided USDS contacts to the stored list.
+  6. Click _Send Review_.
+
+  ### Reviewing the Technical Interview 1 Assessments in USA Staffing
+
+  Check the assessments given by SMEs during their TQ1 interviews in USA Staffing.
+
+  1. Confirm that all applicants have checkmarks, indicating that the SMEs completed the interviews. If any applicants were missed, email the assigned SME to complete the reviews.
+  2. For each applicant, confirm that the SMEs have provided a note with a score and score description. Email the SME to correct information if:
+
+  - There is no score.
+  - The SME did not provide a strong overall assessment paragraph referring to the competencies.
+
+  3. For each applicant, confirm that the SME has uploaded a completed template in the Documents tab. The document should be included in the case documents, _not_ the applicant documents. Email the SME to upload any missing templates.
+  4. “Recall” the review. At this point, all checkmarks have been cleared, and you can now use them to keep track of your note reviews for the next step.
+  5. Confirm each applicant’s notes:
+
+  - For notes with a score of 1 or 2, change the “Min Quals” code from “PA” to “IQID”. Click “Override applicant score.”
+  - For notes with a score of 3, 4, or 5, you do not need to take any action as the applicant's status is still "Qualified".
+
+  ### Scheduling Interview 2 with Remaining Applicants
+
+  Using either a manual scheduling process or a trial of a calendar service, schedule the second round of interviews with the applicants who passed the first round.
+
+  1. For each participating SME, create a USA Staffing account.
+  2. In USA Staffing, create and save a third applicant list called “Interview 2.”
+  3. Exclude ineligibles from the resume review round by selecting the Status (RSC) filter “PA.”
+  4. Schedule the interviews using one of the scheduling processes below.
+
+  ##### Manually Scheduling Interview 2
+
+  1. Divide the remaining applicants evenly among the SMEs available for the second interview round. There is only one SME per phone interview.
+  2. Assuming 1 hour per interview, ask each SME to send you a list of the hours they have blocked on their calendars for interview week.
+  3. Reach out to applicants to ask them to select a time slot within two days. HR can then set up calendar invitations between the SME and the applicant.
+
+  ##### Scheduling Interview 2 Using an Online Calendar Service
+
+  1. Divide the remaining applicants evenly among the SMEs available for the first interview round. There is only one SME per phone interview.
+  2. Inform each Interview 2 SME of how many one hour time slots they need to be available for that week. Ask them to enter the hours directly into the calendar application.
+  3. In the USA Staffing email that you send to applicants notifying them that they are in the next round, include the calendar URL and instructions stating they have two days to choose a time slot for a phone interview based on the availability in
+  the link.
+  4. When an applicant books a time slot, the SME attached to that slot will receive an email confirmation that includes the applicant's name.
+  5. In the stored list in USA Staffing, use the “Notes” bubble to tell the SMEs which applicant they're assigned to. Include the date, time, and phone number where the SME should call the applicant.
+
+  ### Creating a List of TQ2 Interviewees
+
+  To move candidates onto the Technical Interview 2 list, prepare the list of remaining eligible applicants. Review each candidate to make sure their eligibility code matches the SME TQ1 score found in the notes section.
+
+  1. In USA Staffing, create and save a third stored list called `Interview 2.` This list must be filtered for only eligible applicants.
+  2. Create a review for the stored list with a due date of five business days from today.
+  3. In the Instructions field, paste these instructions:
+
+
+  You've been assigned phone interviews with the listed candidates. You have 5 days to complete your interviews.
+  - You should have received an email confirmation regarding each confirmed interview you'll be conducting.
+  - The "Notes" bubble for the candidate in USA Staffing will also have assignment and interview date information.
+
+  During your phone interview, you must:
+  - Use the structured interview script and interview scoring template for your phone interview.
+  - Transcribe everything the applicant says during the phone call. You can make notes about their behavior within the transcript but do not add any personal commentary.
+  - Assess whether the candidate meets the required proficiency levels for the competencies needed for this position and enter this into the scoring template.
+
+  After each interview, in USA Staffing:
+  1. Cut and paste your overall score and summary notes into the "Notes" bubble.
+  2. Upload your interview template document to the black Documents tab.
+  3. When all your interviews are finished, change your status at the bottom of the page to “Complete”.
+  4. Email HR to let them know your interviews are done.
+
+  4. Add the SMEs who will be conducting the second round of interviews as reviewers to the stored list.
+  5. For oversight, add yourself and your provided USDS contacts to the stored list.
+  6. Click _Send Review_.
+
+  ### Reviewing the Technical Interview 2 Assessments in USA Staffing
+
+  Check the assessments given by SMEs during their TQ2 interviews in USA Staffing.
+
+  1. For each applicant, confirm that the SMEs have provided a note with a score and score description. Email the SME to correct information if:
+
+  - There is no score.
+  - The SME did not provide at least a one-sentence score description referring to the competencies.
+
+  2. Confirm that each applicant row has either a check or a flag.
+
+  - If the flag was selected but no 3 score was provided, de-select the flag and select the checkmark instead.
+  - If the flag was not selected but a 3 score and a 4 or 5 was provided, de-select the checkmark and select the flag.
+
+  3. For each applicant, confirm that the SME has uploaded a completed scoring template, including the transcript, in the Documents tab. The document should be included in the case documents, _not_ the applicant documents. Email the SME to upload any
+  missing templates.
+  4. Within the SME's view of the list, confirm each applicant’s notes:
+
+  - For notes with one score of 3 and another score of 4 or 5, the applicant's status is still "Qualified", but will need a tiebreaker review from a third SME. Make sure the the flag icon is marked for these applicants.
+
+  ### Creating a List of Applicants for Tiebreaker Transcript Reviews
+
+  After you review the second interview templates and flags, the third SME in the group will complete tiebreaker reviews of transcripts for applicants who received one score of 3 and another score of 4 or 5.
+
+  1. To add a the tiebreaker, add the third SME to the stored list.
+  2. In the Instructions field, paste these instructions:
+  The hiring manager for the \_\_\_\_ role needs your help to make decisions about undecided applicants. Please review the transcripts for applicants with highlighted flags at the end of their row. You have 2 days to complete your reviews.
+  3. Disregard the rating “view” link.
+  4. Review each flagged applicant's two transcripts from the Documents tab.
+  5. Within each applicant's row, click the _Notes_ bubble and enter a score of 1 to 5. Include a strong sentence explaining your score, basing your assessment on the required competencies and proficiency levels.
+  6. Leave the flag at the end of the row selected.
+  7. Click the checkmark at the end of the row to indicate the your review is complete for that applicant.
+  8. When you complete your assessments for all applicants, at the bottom of the page, change your status to “Complete.”
+
+  ```
+
+  ```
+
+  9. For oversight of the checks and flags, add yourself and your provided USDS contacts to the stored list.
+  10. Click _Send Review_.
+
+  ### Reviewing the Tiebreaker Transcript Reviews in USA Staffing
+
+  Check the stored list the tiebreaker SME returned to you after their final round of interview transcript reviews.
+
+  1. Confirm that all flagged applicants now have checks, indicating that the tiebreaker SME reviewed the transcripts. If any applicants were missed, email the SME to complete the reviews.
+  2. For each applicant, confirm that the SMEs have provided a note with a score and score description. Email the tiebreaker SME to correct information if:
+
+  - There is no score.
+  - The SME did not provide a strong paragraph justifying the score that relates to the competencies.
+
+  3. “Recall” the review.
+  4. Within the HR view of the list, if two separate notes have scores of 1 or 2, or two 3s, change the “Min Quals” code from “PA” to “IQID”. Click “Override applicant score.”
+  5. At this point, all remaining applicants are considered qualified. Add rating scores based on the scores from the passing score interview assessments. The Min Quals rating for all applicants should be "ELRV".
+
+  - Any applicant with two 4s should get 70 points.
+  - Any applicant with one 4 and one 5 should get 85 points.
+  - Any applicant with two 5s should get 100 points.
+
+  6. You can now adjudicate preference and other eligibility, then issue certificates.
+-->

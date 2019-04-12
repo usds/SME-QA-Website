@@ -1,0 +1,12 @@
+---
+layout: article
+permalink: /rating-guide/
+section: rating-guide
+title: Rating Guide
+---
+
+{% assign guides = site.rating-guide %}
+{% for guide in guides %}
+<h2>{{ guide.title }}</h2>
+  {{ guide.content | markdownify }}
+{% endfor %}

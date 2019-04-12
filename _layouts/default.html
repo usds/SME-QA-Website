@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include _head.html %}
+
+<body>
+  <a class="usa-skipnav" href="#main-content">Skip to main content</a>
+  {% include _banner.html %}
+  {% include _header.html %}
+  <main id="main-content" role="main" class="margin-bottom-9">
+    {{ content }}
+  </main>
+
+  <script src="{{ site.baseurl }}/assets/js/uswds.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/shims/svg4everybody.js"></script>
+  <script>
+    svg4everybody();
+  </script>
+</body>
+
+</html>

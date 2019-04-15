@@ -54,6 +54,11 @@ hiring-phases:
   - text: TQ1 - First interview
     href: /hiring-phases/tq1/
     phase: tq1
+    subnav:
+    - text: Interviewing Applicants for Technical Assessment One
+      href: "/hiring-phases/tq1/#interviewing-applicants-for-technical-assessment-one"
+    - text: Reviewing First Interview Documentation and Ratings
+      href: "/hiring-phases/tq1/#reviewing-first-interview-documentation-and-ratings"
   - text: TQ2 - Second interview
     href: /hiring-phases/tq2/
     phase: tq2

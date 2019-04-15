@@ -4,6 +4,7 @@ permalink: /sme-tasks/sme-group-one-resume-review/
 section: hiring-phases
 sidenav: hiring-phases
 phase: pre-qualification-resume-review
+sub-phase: reviewing-resumes
 role: sme
 rolenav: hiring-roles
 slug: sme-group-one-reviewing-resumes

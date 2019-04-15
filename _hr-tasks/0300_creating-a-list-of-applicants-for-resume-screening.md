@@ -4,6 +4,7 @@ permalink: /hr-tasks/creating-a-list-of-applicants-for-resume-screening/
 section: hiring-phases
 sidenav: hiring-phases
 phase: pre-qualification-resume-review
+sub-phase: prep-for-resume-reviews
 role: hr
 rolenav: hiring-roles
 slug: creating-a-list-of-applicants-for-resume-screening

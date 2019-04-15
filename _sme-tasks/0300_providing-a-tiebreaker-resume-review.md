@@ -4,6 +4,7 @@ permalink: /sme-tasks/providing-a-tiebreaker-resume-review/
 section: hiring-phases
 sidenav: hiring-phases
 phase: pre-qualification-resume-review
+sub-phase: reviewing-resumes
 role: sme
 rolenav: hiring-roles
 slug: providing-a-tiebreaker-resume-review

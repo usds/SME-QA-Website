@@ -17,4 +17,13 @@ sidenav: hiring-phases
   {% endfor %}
 </ul>
 
+<h4>Rating Guide</h4>
+<dl class="chp-page-list">
+{% assign guides = site.rating-guide | where: "phases","tq1" %}
+{% for guide in guides %}
+<dt class="chp-page-list__title"><a href="{{ site.baseurl }}{{ guide.permalink }}">{{ guide.title }}</a></dt>
+<dd class="chp-page-list__desc">{{ guide.description }}</dd>
+{% endfor %}
+</dl>
+
 <!-- h3 id="hr-specialists-1">HR Specialists</h3 -->

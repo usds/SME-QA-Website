@@ -2,7 +2,7 @@
 layout: article
 permalink: /rating-guide/interview-assessment-ratings/
 section: rating-guide
-phases: [tq1, tq2]
+phases: [first-interview, second-interview]
 slug: interview-assessment-ratings
 title: Interview Assessment Ratings
 description: Defines the 5 ratings an interview can receive

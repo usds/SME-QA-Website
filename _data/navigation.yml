@@ -51,17 +51,17 @@ hiring-phases:
       href: "/hiring-phases/pre-qualification-resume-review/#reviewing-resumes"
     - text: Reviewing Resume Documentation and Ratings
       href: "/hiring-phases/pre-qualification-resume-review/#reviewing-resume-documentation-and-ratings"
-  - text: TQ1 - First interview
-    href: /hiring-phases/tq1/
-    phase: tq1
+  - text: First interview
+    href: /hiring-phases/first-interview/
+    phase: first-interview
     subnav:
     - text: Interviewing Applicants for Technical Assessment One
-      href: "/hiring-phases/tq1/#interviewing-applicants-for-technical-assessment-one"
+      href: "/hiring-phases/first-interview/#interviewing-applicants-for-technical-assessment-one"
     - text: Reviewing First Interview Documentation and Ratings
-      href: "/hiring-phases/tq1/#reviewing-first-interview-documentation-and-ratings"
-  - text: TQ2 - Second interview
-    href: /hiring-phases/tq2/
-    phase: tq2
+      href: "/hiring-phases/first-interview/#reviewing-first-interview-documentation-and-ratings"
+  - text: Second interview
+    href: /hiring-phases/second-interview/
+    phase: second-interview
   - text: Certificate
     href: /hiring-phases/certificate/
     phase: certificate

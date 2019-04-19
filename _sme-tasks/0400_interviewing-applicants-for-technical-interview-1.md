@@ -3,7 +3,7 @@ layout: article
 permalink: /sme-tasks/interviewing-applicants-for-technical-interview-1/
 section: hiring-phases
 sidenav: hiring-phases
-phase: tq1
+phase: first-interview
 sub-phase: prep-for-resume-reviews
 role: sme
 rolenav: hiring-roles

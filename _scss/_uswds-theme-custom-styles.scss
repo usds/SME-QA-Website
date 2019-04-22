@@ -63,7 +63,6 @@ i.e.
   @include u-text('white');
 }
 
-
 .chp-quote {
   background-color: #f6f8fa;
   border-radius: 3px;
@@ -109,4 +108,8 @@ blockquote {
   td {
     width: 85%;
   }
+}
+
+.chp-nested-list ul {
+  margin: .5em 0 1em 0;
 }

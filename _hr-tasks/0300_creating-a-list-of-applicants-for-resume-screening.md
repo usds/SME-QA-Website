@@ -12,8 +12,6 @@ title: Creating a List of Applicants for Resume Screening
 description: How to create an initial list of applicants for SME review.
 ---
 
-### Creating a List of Applicants for Resume Screening
-
 Send all remaining resumes to SMEs for a full review against the competencies listed in the job announcement. SMEs are responsible for deciding whether an applicant's experience meets the minimum qualification for the job.
 
 <ol>

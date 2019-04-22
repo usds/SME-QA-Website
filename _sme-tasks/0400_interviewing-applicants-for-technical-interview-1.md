@@ -4,7 +4,7 @@ permalink: /sme-tasks/interviewing-applicants-for-technical-interview-1/
 section: hiring-phases
 sidenav: hiring-phases
 phase: first-interview
-sub-phase: prep-for-resume-reviews
+sub-phase: interviewing-applicants-for-technical-assessment-1
 role: sme
 rolenav: hiring-roles
 slug: interviewing-applicants-for-technical-interview-1

@@ -55,4 +55,40 @@ sidenav: hiring-phases
   <li>What does the job seeker want to know and what do they already know?</li>
 </ul>
 
-## Creating the announcement
+<h2 id="creating-the-announcement">Creating the announcement</h2>
+
+### Overview and locations
+
+#### 1. Overview
+
+No changes.
+
+#### 2. Locations
+
+No changes.
+
+<img src="{{site.baseurl}}/assets/img/usas/announcement-text-p1.png" alt="USA Staffing announcement text screenshot of page one">
+
+<h3>Agency Marketing</h4>
+
+<h4>3. Marketing message</h4>
+
+<p><strong>What:</strong> Text detailing the office/unit/ group the individual will belong to.</p>
+<p><strong>Where:</strong> This text will appear in two places:</p>
+<ol>
+  <li>The Agency pop-up window which appears when a user clicks on the agency name link in the header of the announcement.</li>
+  <li>Where you’ll work - First paragraph.</li>
+</ol>
+
+<h4>4. Marketing link</h4>
+
+<h4>5. Benefits link</h4>
+
+<h3>Duties</h3>
+
+<h4>6. Summary</h4>
+
+<img src="{{site.baseurl}}/assets/img/usas/announcement-text-p2.png" alt="USA Staffing announcement text screenshot of page two">
+
+<img src="{{site.baseurl}}/assets/img/usas/announcement-text-p3.png" alt="USA Staffing announcement text screenshot of page three">
+<img src="{{site.baseurl}}/assets/img/usas/announcement-text-p4.png" alt="USA Staffing announcement text screenshot of page four">

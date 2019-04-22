@@ -57,6 +57,8 @@ hiring-phases:
     subnav:
     - text: Interviewing Applicants for Technical Assessment One
       href: "/hiring-phases/first-interview/#interviewing-applicants-for-technical-assessment-one"
+    - text: Creating a List of Technical Interview 1 Interviewees
+      href: "/hiring-phases/first-interview/#creating-list-of-inteview-one-interviewees"
     - text: Reviewing First Interview Documentation and Ratings
       href: "/hiring-phases/first-interview/#reviewing-first-interview-documentation-and-ratings"
   - text: Second interview

@@ -9,10 +9,10 @@ role: hr
 rolenav: hiring-roles
 slug: reviewing-technical-interview-two-assessments
 title: Reviewing the Technical Interview 2 Assessments in USA Staffing
-description: How to check the assessments given by SMEs during their TQ2 interviews in USA Staffing.
+description: How to check the assessments given by SMEs during their second round of interviews in USA Staffing.
 ---
 
-Check the assessments given by SMEs during their TQ2 interviews in USA Staffing.
+Check the assessments given by SMEs during their second round of interviews in USA Staffing.
 
 1. For each applicant, confirm that the SMEs have provided a note with a score and score description. Email the SME to correct information if:
   - There is no score.

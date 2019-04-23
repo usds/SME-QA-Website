@@ -6,22 +6,26 @@ title: Second interview
 sidenav: hiring-phases
 ---
 
-<h2 id="interviewing-applicants-for-technical-assessment-two">
-  Interviewing Applicants for Technical Assessment Two
+<h2 id="preparing-for-interview-two">
+  Preparing for Interview Two
 </h2>
-<h3 id="smes">Subject Matter Experts</h3>
-{% assign sme-tasks = site.sme-tasks | where: "phase","second-interview" | where: "role","sme" %}
+<h3 id="hr-specialists-1">HR Specialists</h3>
+{% assign hr-tasks = site.hr-tasks | where: "phase","second-interview" | where: "sub-phase","preparing-for-interview-two" | where: "role","hr" %}
 <dl class="chp-page-list">
-  {% for task in sme-tasks %}
+  {% for task in hr-tasks %}
   <dt class="chp-page-list__title"><a href="{{ site.baseurl }}{{ task.permalink }}">{{ task.title }}</a></dt>
   <dd class="chp-page-list__desc">{{ task.description }}</dd>
   {% endfor %}
 </dl>
 
-<h3 id="hr-specialists-1">HR Specialists</h3>
-{% assign hr-tasks = site.hr-tasks | where: "phase","second-interview" | where: "role","hr" %}
+
+<h2 id="interviewing-applicants-for-technical-assessment-two">
+  Interviewing Applicants for Technical Assessment Two
+</h2>
+<h3 id="smes">Subject Matter Experts</h3>
+{% assign sme-tasks = site.sme-tasks | where: "phase","second-interview" | where: "sub-phase","interviewing-applicants-for-technical-assessment-two" | where: "role","sme" %}
 <dl class="chp-page-list">
-  {% for task in hr-tasks %}
+  {% for task in sme-tasks %}
   <dt class="chp-page-list__title"><a href="{{ site.baseurl }}{{ task.permalink }}">{{ task.title }}</a></dt>
   <dd class="chp-page-list__desc">{{ task.description }}</dd>
   {% endfor %}
@@ -34,4 +38,16 @@ sidenav: hiring-phases
   <dt class="chp-page-list__title"><a href="{{ site.baseurl }}{{ guide.permalink }}">{{ guide.title }}</a></dt>
   <dd class="chp-page-list__desc">{{ guide.description }}</dd>
 {% endfor %}
+</dl>
+
+<h2 id="reviewing-second-interview-documentation-and-ratings">
+  Reviewing Second Interview Documentation and Ratings
+</h2>
+<h3 id="hr-specialists-2">HR Specialists</h3>
+{% assign hr-tasks = site.hr-tasks | where: "phase","second-interview" | where: "sub-phase","reviewing-second-interview-documentation-and-ratings" | where: "role","hr" %}
+<dl class="chp-page-list">
+  {% for task in hr-tasks %}
+  <dt class="chp-page-list__title"><a href="{{ site.baseurl }}{{ task.permalink }}">{{ task.title }}</a></dt>
+  <dd class="chp-page-list__desc">{{ task.description }}</dd>
+  {% endfor %}
 </dl>

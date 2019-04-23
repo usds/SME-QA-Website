@@ -64,6 +64,13 @@ hiring-phases:
   - text: Second interview
     href: /hiring-phases/second-interview/
     phase: second-interview
+    subnav:
+    - text: Preparing for interview two
+      href: "/hiring-phases/second-interview/#preparing-for-interview-two"
+    - text: Interviewing applicants for Technical Assessment Two
+      href: "/hiring-phases/second-interview/#interviewing-applicants-for-technical-assessment-two"
+    - text: Reviewing Second Interview Documentation and Ratings
+      href: "/hiring-phases/second-interview/#reviewing-second-interview-documentation-and-ratings"
   - text: Certificate
     href: /hiring-phases/certificate/
     phase: certificate
@@ -83,6 +90,8 @@ rating-guide:
     href: /rating-guide/resume-review-outcomes/
   - text: Interview Assessment Ratings
     href: /rating-guide/interview-assessment-ratings/
+  - text: Interview Score Table
+    href: /rating-guide/interview-score-table/
 
 meetings:
   - text: Agenda for Job Analysis Workshop - Day 1

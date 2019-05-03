@@ -29,7 +29,7 @@
   "homepage": "https://github.com/usds/website-v2#readme",
   "devDependencies": {
     "autoprefixer": "^9.1.5",
-    "browser-sync": "^2.24.6",
+    "browser-sync": "^2.26.5",
     "chalk": "^2.0.1",
     "css-mqpacker": "^7.0.0",
     "cssnano": "^4.1.4",
@@ -45,6 +45,7 @@
     "normalize.css": "^8.0.1",
     "path": "^0.12.7",
     "run-sequence": "^1.1.5",
+    "tar": ">=4.4.2",
     "uswds": "2.0.1"
   }
 }

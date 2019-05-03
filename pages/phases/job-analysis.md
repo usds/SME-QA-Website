@@ -18,6 +18,16 @@ sidenav: hiring-phases
         Assessment strategy template
       </a>
     </li>
+    <li class="chp-toolkit__item">
+      <a href="{{ site.baseurl }}/meetings/job-analysis/day-1/" class="chp-toolkit__link">
+        Agenda for Job Analysis Workshop - Day 1
+      </a>
+    </li>
+    <li class="chp-toolkit__item">
+      <a href="{{ site.baseurl }}/meetings/job-analysis/day-2/" class="chp-toolkit__link">
+        Agenda for Job Analysis Workshop - Day 2
+      </a>
+    </li>
   </ul>
 </div>
 

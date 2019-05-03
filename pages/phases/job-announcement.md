@@ -6,6 +6,19 @@ title: Job announcement
 sidenav: hiring-phases
 ---
 
+<p class="usa-intro">
+  In this phase you will craft and post a job announcement. The job announcement allows the applicants to know what the job is about.
+</p>
+
+<div class="chp-toolkit">
+  <h4 class="chp-toolkit__title">Toolkit</h4>
+  <ul class="chp-toolkit__list">
+    <li class="chp-toolkit__item">
+      <a href="https://usajobs.github.io/ATP-Support/job-announcement-playbook/" target="_blank" class="chp-toolit__link">Job announcement playbook</a>
+    </li>
+  </ul>
+</div>
+
 ## Focus on content
 
 <p>

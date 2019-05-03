@@ -29,6 +29,10 @@ sidenav: hiring-phases
 
 <h2 id="reviewing-resumes">Reviewing Resumes</h2>
 <h3 id="smes">Subject Matter Experts</h3>
+<p>
+  Before you begin you must first complete the <a href="{{site.baseurl}}/docs/sme-confidentiality-agreement.pdf">confidentiality agreement</a> and return it to your HR person.
+</p>
+
 {% assign sme-tasks = site.sme-tasks | where: "phase","pre-qualification-resume-review" | where: "role","sme" %}
 <ul>
   {% for task in sme-tasks %}

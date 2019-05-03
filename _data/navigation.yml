@@ -1,38 +1,47 @@
 primary:
   - text: Overview
     href: /
-  - text: Hiring Phases
-    href: /hiring-phases/
+    name: overview
+  - text: Get started
+    href: /get-started/
     name: hiring-phases
-  - text: Hiring Roles
-    href: /hiring-roles/
-    name: hiring-roles
   - text: Rating Guide
     href: /rating-guide/
     name: rating-guide
-  - text: Meetings
-    href: /meetings/
-    name: meetings
+  - text: Templates
+    href: /templates/
+    name: templates
+  - text: Case Studies
+    href: /case-studies/
+    name: case-studies
+
+overview:
+  - text: About the pilot
+    href: /
+  - text: Understanding pre-qualification
+    href: /overview/understanding-pre-qualification/
 
 hiring-phases:
   - text: Job analysis
     href: /hiring-phases/job-analysis/
     phase: job-analysis
     subnav:
-      - text: About Core Competencies
-        href: "/hiring-phases/job-analysis/#about-core-competencies"
-      - text: Completing a Job Analysis
-        href: "/hiring-phases/job-analysis/#completing-a-job-analysis"
-      - text: Converting Job Skills to Competencies
-        href: "/hiring-phases/job-analysis/#converting-job-skills-to-competencies"
-      - text: About Proficiency Levels
-        href: "/hiring-phases/job-analysis/#about-proficiency-levels"
-      - text: Sample Competencies and Proficiency Levels
-        href: "/hiring-phases/job-analysis/#sample-competencies-and-proficiency-levels"
-      - text: Defining Minimum Qualifications From Competencies
-        href: "/hiring-phases/job-analysis/#defining-minimum-qualifications-from-competencies"
-      - text: Creating a Structured Interview from Competencies
-        href: "/hiring-phases/job-analysis/#creating-a-structured-interview-from-competencies"
+    - text: About Core Competencies
+      href: "/hiring-phases/job-analysis/#about-core-competencies"
+    - text: Conducting a Job Analysis Workshop
+      href: "/hiring-phases/job-analysis/#conducting-a-job-analysis-workshop"
+    - text: Write Down Job Tasks
+      href: "/hiring-phases/job-analysis/#write-down-job-tasks"
+    - text: Converting Job Tasks to Competencies
+      href: "/hiring-phases/job-analysis/#converting-job-tasks-to-competencies"
+    - text: About Proficiency Levels
+      href: "/hiring-phases/job-analysis/#about-proficiency-levels"
+    - text: Sample Competencies and Proficiency Levels
+      href: "/hiring-phases/job-analysis/#sample-competencies-and-proficiency-levels"
+    - text: Defining Minimum Qualifications from Competencies
+      href: "/hiring-phases/job-analysis/#defining-minimum-qualifications-from-competencies"
+    - text: Creating a Strucutred Interview from Competencies
+      href: "/hiring-phases/job-analysis/#creating-a-structured-interview-from-competencies"
   - text: Job announcement
     href: /hiring-phases/job-announcement/
     phase: job-announcement
@@ -41,8 +50,14 @@ hiring-phases:
       href: "/hiring-phases/job-announcement/#focus-on-content"
     - text: Creating the announcement
       href: "/hiring-phases/job-announcement/#creating-the-announcement"
-    - text: Recruitment
-      href: "/hiring-phases/job-announcement/recruitment/"
+  - text: Recruitment
+    href: "/hiring-phases/recruitment/"
+    phase: recruitment
+    subnav:
+    - text: Strategy
+      href: "/hiring-phases/recruitment/#strategy"
+    - text: Resources
+      href: "/hiring-phases/recruitment/#resources"
   - text: Pre-qualification resume review
     href: /hiring-phases/pre-qualification-resume-review/
     phase: pre-qualification-resume-review
@@ -86,17 +101,33 @@ hiring-roles:
     role: sme
 
 rating-guide:
+  - text: Overview
+    href: /rating-guide/
   - text: Resume Review Ratings
     href: /rating-guide/resume-review-ratings/
   - text: Resume Review Outcomes
     href: /rating-guide/resume-review-outcomes/
   - text: Interview Assessment Ratings
     href: /rating-guide/interview-assessment-ratings/
-  - text: Interview Score Table
-    href: /rating-guide/interview-score-table/
+  - text: Interview Results Key
+    href: /rating-guide/interview-results-key/
+  - text: Determining Interview Assessment Ratings
+    href: /rating-guide/determining-interview-assessment-ratings/
+  - text: Transmuting Ratings into Scores
+    href: /rating-guide/transmuting-ratings-into-scores/
 
-meetings:
-  - text: Agenda for Job Analysis Workshop - Day 1
-    href: /meetings/job-analysis/day-1/
-  - text: Agenda for Job Analysis Workshop - Day 2
-    href: /meetings/job-analysis/day-2/
+templates:
+  - text: Assessment strategy
+    href: "/templates/assessment-strategy/"
+  - text: SME interview rating form
+    href: "/templates/sme-interview-rating-form/"
+  - text: SME Criteria and Expectations
+    href: "/templates/sme-criteria-and-expectations/"
+
+case-studies:
+  - text: Health and Human Services
+    href: "/case-studies/hhs/"
+  - text: Department of Interior
+    href: "/case-studies/doi/"
+  - text: General Services Administration
+    href: "/case-studies/gsa/"

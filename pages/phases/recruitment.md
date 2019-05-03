@@ -1,10 +1,14 @@
 ---
 layout: article
-permalink: /hiring-phases/job-announcement/recruitment/
+permalink: /hiring-phases/recruitment/
 section: hiring-phases
 title: Recruitment
 sidenav: hiring-phases
 ---
+
+<p class="usa-intro">
+  Now that you have a job announcement posted you will need to let applicants know that it exists. Relying on usajobs.gov to attract applicants is known as the "post and prey" model of recruitment and it is ineffective. We highly recommend that you develop a recruitment strategy and use the resources below to reach applicants where they are. 
+</p>
 
 ## Strategy
 

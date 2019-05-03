@@ -50,8 +50,6 @@ collections:
     output: true
   rating-guide:
     output: true
-  meetings:
-    output: true
 
 # Exclude from processing.
 exclude:

@@ -27,18 +27,147 @@ i.e.
   }
 }
 
-.chp-hero {
-  @include u-bg('orange-warm-50');
-  // matches the green we used in the diagram even though it isn't in the system
-  // background-color: #2E8540;
+.chp-home-hero {
+  @include u-bg('blue-cool-30');
 
   &__body {
-    @include u-padding-y(4);
+    @include u-padding-y(8);
   }
 
   &__title,
   &__desc {
-    @include u-text('white');
+    // @include u-text('white');
+  }
+
+  &__callout {
+    @include u-margin-y(2);
+    @include u-font-size('body', 'xl');
+  }
+
+  &__lead {
+    @include u-font-size('body', 'lg');
+  }
+}
+
+
+.chp-home-certs {
+  position: relative;
+  text-align: center;
+  @include u-padding-y(5);
+  width: 100%;
+
+  @include at-media('mobile-lg') {
+    @include grid-col(6);
+  }
+
+  &__stat,
+  &__desc {
+    // @include u-text('white');
+  }
+
+  &__stat {
+    @include u-font-size('body', '3xl');
+  }
+
+  &__desc {
+    @include u-font-size('body', 'lg');
+  }
+}
+
+.chp-home-certs::after {
+  content: "";
+  background-image: url(/assets/img/solid/times.svg);
+  background-size: 35%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.2;
+}
+
+.chp-home {
+  &__sub-title {
+    text-transform: uppercase;
+    letter-spacing: .3em;
+    font-weight: 400;
+  }
+}
+
+.chp-home-features {
+  &__row {
+    @include grid-row();
+    @include grid-gap(3);
+  }
+
+  &__container {
+    @include at-media('tablet') {
+      @include grid-col(6);
+    }
+    @include at-media('tablet-lg') {
+      @include grid-col(4);
+    }
+  }
+}
+
+.chp-home-featured {
+  display: block;
+  height: 100%;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px, rgba(0, 0, 0, 0.05) 0px 0.5px 1px;
+  transition: all 0.333s ease-out 0s;
+  border-radius: 4px;
+  text-decoration: none;
+  @include u-text('black');
+  @include u-padding(3);
+
+  &:visited {
+    @include u-text('black');
+  }
+
+  &:hover {
+    transform: translate3d(0px, -1px, 0px);
+    box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px, rgba(0, 0, 0, 0.18) 0px 4px 11px;
+  }
+
+  &__figure {
+    flex-shrink: 0;
+    margin: 0;
+    @include u-padding-y(3);
+
+    svg {
+      width: 4rem;
+      fill: color('blue-cool-30');
+    }
+  }
+
+  &__body {
+    flex: 1;
+    min-width: 0;
+    @include u-font-size('body', 'lg');
+  }
+}
+
+.chp-article .chp-toolkit {
+  @include u-margin-y(6);
+
+  &__title {
+    position: relative;
+    color: color('blue-cool-50v');
+
+    &::before {
+      content: '';
+      position: absolute;
+      height: 4px;
+      top: -1rem;
+      left: 0px;
+      width: 80%;
+      background-color: color('blue-cool-50v');
+    }
   }
 }
 
@@ -93,7 +222,7 @@ blockquote {
 
 .chp-page-list {
   &__title {
-    @include u-font-size('body', 'md')
+    @include u-font-size('body', 'md');
   }
 
   &__desc {

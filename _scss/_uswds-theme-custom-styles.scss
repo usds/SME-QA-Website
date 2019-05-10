@@ -31,7 +31,7 @@ i.e.
   @include u-bg('blue-cool-30');
 
   &__body {
-    @include u-padding-y(6);
+    @include u-padding-y(4);
   }
 
   &__title,
@@ -41,11 +41,12 @@ i.e.
 
   &__callout {
     @include u-margin-y(2);
-    @include u-font-size('body', 'xl');
+    @include u-font-size('body', 'lg');
   }
 
   &__lead {
-    @include u-font-size('body', 'lg');
+    @include u-font-size('body', 'md');
+    max-width: inherit;
   }
 }
 

@@ -12,10 +12,6 @@ about: Learn how to get involved
 * Agency:
 * Office:
 
-<!--
-        Describe what you are stuck on, what you have tried, and how you would like us to help.
--->
-
 ## Describe your hiring situation
 
 <!--
@@ -30,8 +26,5 @@ about: Learn how to get involved
 ## Additional Context
 <!--
         Add any other context you feel is helpful
--->
-
-<!--
        Thanks for reaching out!
 -->

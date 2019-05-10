@@ -5,9 +5,6 @@ primary:
   - text: Get started
     href: /get-started/
     name: hiring-phases
-  - text: Rating Guide
-    href: /rating-guide/
-    name: rating-guide
   - text: Templates
     href: /templates/
     name: templates

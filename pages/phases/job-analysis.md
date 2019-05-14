@@ -4,10 +4,13 @@ permalink: /hiring-phases/job-analysis/
 section: hiring-phases
 title: Job analysis
 sidenav: hiring-phases
+intro: Job analysis is the umbrella term used to describe a set of tasks that result in core competencies and proficiency levels that will allow you to assess applicants.
+roles: [Human Resources, Subject-Matter-Experts]
+duration: 11 hours
 ---
 
 <p class="usa-intro">
-  Job analysis is the umbrella term used to describe a set of tasks that result in core competencies and proficiency levels that will allow you to assess applicants.
+  {{ page.intro }}
 </p>
 
 <div class="chp-toolkit">

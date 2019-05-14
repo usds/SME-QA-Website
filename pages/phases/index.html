@@ -1,0 +1,23 @@
+---
+layout: article
+permalink: /hiring-phases/
+section: hiring-phases
+title: Overview
+sidenav: hiring-phases
+---
+
+{% assign hiring-phases = site.data.navigation[page.sidenav] %}
+{% for hiring-phase in hiring-phases %}
+  {% assign _href = hiring-phase.href %}
+  {% assign phase-page = site.pages | where: "permalink", _href %}
+  {% if hiring-phase.text == 'Overview' %}
+    {% continue %}
+  {% else %}
+<dl class="chp-page-list">
+    {% for phase in phase-page %}
+  <dt class="chp-page-list__title"><a href="{{ site.baseurl }}{{ phase.permalink }}">{{ phase.title }}</a></dt>
+  <dd class="chp-page-list__desc">{{ phase.intro }}</dd>
+    {% endfor %}
+</dl>
+  {% endif %}
+{% endfor %}

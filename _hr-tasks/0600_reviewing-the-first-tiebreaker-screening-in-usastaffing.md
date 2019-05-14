@@ -3,7 +3,7 @@ layout: article
 permalink: /hr-tasks/reviewing-the-tiebreaker-resume-screening-in-usastaffing/
 section: hiring-phases
 sidenav: hiring-phases
-phase: pre-qualification-resume-review
+phase: reviewing-resumes
 sub-phase: reviewing-resume-documentation-and-ratings
 role: hr
 rolenav: hiring-roles

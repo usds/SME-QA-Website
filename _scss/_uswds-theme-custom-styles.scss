@@ -61,11 +61,6 @@ i.e.
     @include grid-col(6);
   }
 
-  &__stat,
-  &__desc {
-    // @include u-text('white');
-  }
-
   &__stat {
     @include u-font-size('body', '3xl');
   }
@@ -191,9 +186,14 @@ i.e.
       height: 4px;
       top: -1rem;
       left: 0px;
-      width: 80%;
+      width: 100%;
       background-color: color('blue-cool-50v');
     }
+  }
+
+  &__list {
+    column-count: 2;
+    column-gap: units(2);
   }
 }
 
@@ -241,8 +241,29 @@ blockquote {
 .chp-phasenav,
 .chp-rolenav {
   &__title {
-    @include u-font-family('sans');
     @include u-margin-y(1);
+    color: color('blue-cool-50v');
+    text-transform: uppercase;
+  }
+}
+
+.chp-article-sidenav__container {
+  @include at-media('desktop') {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 5%;
+  }
+}
+
+.chp-phase-meta {
+  &__title {
+    margin-top: units(3);
+    color: color('blue-cool-50v');
+    text-transform: uppercase;
+  }
+
+  &__desc {
+    margin-top: units(1);
   }
 }
 

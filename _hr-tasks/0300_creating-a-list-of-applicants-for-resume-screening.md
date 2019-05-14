@@ -3,7 +3,7 @@ layout: article
 permalink: /hr-tasks/creating-a-list-of-applicants-for-resume-screening/
 section: hiring-phases
 sidenav: hiring-phases
-phase: pre-qualification-resume-review
+phase: reviewing-resumes
 sub-phase: prep-for-resume-reviews
 role: hr
 rolenav: hiring-roles

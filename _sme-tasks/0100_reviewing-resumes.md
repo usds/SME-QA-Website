@@ -3,7 +3,7 @@ layout: article
 permalink: /sme-tasks/reviewing-resumes/
 section: hiring-phases
 sidenav: hiring-phases
-phase: pre-qualification-resume-review
+phase: reviewing-resumes
 sub-phase: reviewing-resumes
 role: sme
 rolenav: hiring-roles

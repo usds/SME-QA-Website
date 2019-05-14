@@ -3,7 +3,7 @@ layout: article
 permalink: /hr-tasks/creating-a-list-of-applicants-for-tiebreaker-resume-reviews/
 section: hiring-phases
 sidenav: hiring-phases
-phase: pre-qualification-resume-review
+phase: reviewing-resumes
 sub-phase: reviewing-resume-documentation-and-ratings
 role: hr
 rolenav: hiring-roles

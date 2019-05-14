@@ -3,7 +3,7 @@ layout: article
 permalink: /hr-tasks/setting-up-usa-staffing-for-a-new-role/
 section: hiring-phases
 sidenav: hiring-phases
-phase: pre-qualification-resume-review
+phase: reviewing-resumes
 sub-phase: prep-for-resume-reviews
 role: hr
 rolenav: hiring-roles

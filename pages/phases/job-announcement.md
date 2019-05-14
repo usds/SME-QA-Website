@@ -4,10 +4,13 @@ permalink: /hiring-phases/job-announcement/
 section: hiring-phases
 title: Job announcement
 sidenav: hiring-phases
+intro: In this phase you will craft and post a job announcement. The job announcement allows the applicants to know what the job is about.
+roles: [Human Resources]
+duration: 6 hours
 ---
 
 <p class="usa-intro">
-  In this phase you will craft and post a job announcement. The job announcement allows the applicants to know what the job is about.
+  {{ page.intro }}
 </p>
 
 <div class="chp-toolkit">

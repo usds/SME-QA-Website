@@ -1,18 +1,31 @@
 ---
 layout: article
-permalink: /hiring-phases/pre-qualification-resume-review/
+permalink: /hiring-phases/reviewing-resumes/
 section: hiring-phases
-title: Pre-Qualification Resume Review
+title: Reviewing Resumes
 sidenav: hiring-phases
+intro: In this phase the Subject-Matter-Experts (SMEs) review applicant's resumes.
+roles: [Human Resources, Subject-Matter-Experts]
+duration: Approximately 4 days
 ---
 
 <p class="usa-intro">
-  In this phase the Subject-Matter-Experts (SMEs) review applicant's resumes.
+  {{ page.intro }}
 </p>
 
 <div class="chp-toolkit">
   <h4 class="chp-toolkit__title">Toolkit</h4>
   <ul class="chp-toolkit__list">
+    <li class="chp-toolkit__item">
+      <a class="chp-toolkit__link">
+        Training Agenda and PowerPoint
+      </a>
+    </li>
+    <li class="chp-toolkit__item">
+      <a class="chp-toolkit__link">
+        Sample Resumes
+      </a>
+    </li>
     <li class="chp-toolkit__item">
       <a href="{{site.baseurl}}/docs/sme-confidentiality-agreement.pdf" class="chp-toolkit__link">
         SME Confidentiality Agreement
@@ -21,6 +34,11 @@ sidenav: hiring-phases
     <li class="chp-toolkit__item">
       <a href="{{ site.baseurl }}/docs/sme-background-info-sheet.docx" class="chp-toolkit__link">
         SME Background Info Sheet
+      </a>
+    </li>
+    <li class="chp-toolkit__item">
+      <a href="{{site.baseurl}}/rating-guide/#resume-review-ratings" class="chp-toolkit__link">
+        Resume Review Rating Guide
       </a>
     </li>
   </ul>
@@ -39,7 +57,7 @@ sidenav: hiring-phases
   to discuss during the next pilot checkpoint meeting.
 </p>
 
-{% assign hr-tasks = site.hr-tasks | where: "phase","pre-qualification-resume-review" | where: "sub-phase","prep-for-resume-reviews" | where: "role","hr" %}
+{% assign hr-tasks = site.hr-tasks | where: "phase","reviewing-resumes" | where: "sub-phase","prep-for-resume-reviews" | where: "role","hr" %}
 <ul>
   {% for task in hr-tasks %}
   <li><a href="{{ site.baseurl }}{{ task.permalink }}">{{ task.title }}</a></li>
@@ -52,7 +70,7 @@ sidenav: hiring-phases
   Before you begin you must first complete the <a href="{{site.baseurl}}/docs/sme-confidentiality-agreement.pdf">confidentiality agreement</a> and return it to your HR person.
 </p>
 
-{% assign sme-tasks = site.sme-tasks | where: "phase","pre-qualification-resume-review" | where: "role","sme" %}
+{% assign sme-tasks = site.sme-tasks | where: "phase","reviewing-resumes" | where: "role","sme" %}
 <ul>
   {% for task in sme-tasks %}
   <li><a href="{{ site.baseurl }}{{ task.permalink }}">{{ task.title }}</a></li>
@@ -63,7 +81,7 @@ sidenav: hiring-phases
   Reviewing Resume Documentation and Ratings
 </h2>
 <h3 id="hr-specialists-2">HR Specialists</h3>
-{% assign hr-tasks-two = site.hr-tasks | where: "phase","pre-qualification-resume-review" | where: "sub-phase","reviewing-resume-documentation-and-ratings" | where: "role","hr" %}
+{% assign hr-tasks-two = site.hr-tasks | where: "phase","reviewing-resumes" | where: "sub-phase","reviewing-resume-documentation-and-ratings" | where: "role","hr" %}
 <ul>
   {% for task in hr-tasks-two %}
   <li><a href="{{ site.baseurl }}{{ task.permalink }}">{{ task.title }}</a></li>

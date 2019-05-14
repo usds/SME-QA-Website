@@ -3,7 +3,7 @@ layout: article
 permalink: /hr-tasks/reviewing-resumes-to-remove-ineligible-candidates/
 section: hiring-phases
 sidenav: hiring-phases
-phase: pre-qualification-resume-review
+phase: reviewing-resumes
 sub-phase: prep-for-resume-reviews
 role: hr
 rolenav: hiring-roles

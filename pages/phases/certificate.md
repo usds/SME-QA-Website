@@ -4,10 +4,12 @@ permalink: /hiring-phases/certificate/
 section: hiring-phases
 title: Certificate
 sidenav: hiring-phases
+intro: In this phase the hiring manager is given a certificate with qualified applicants who have passed through a rigorous assessment by multiple Subject-Matter-Experts (SMEs).
+roles: [Human Resources, Hiring Manager]
 ---
 
 <p class="usa-intro">
-  In this phase the hiring manager is given a certificate with qualified applicants who have passed through a rigorous assessment by multiple Subject-Matter-Experts (SMEs). The hiring manager may now choose to do additional interviews.
+  {{ page.intro }}
 </p>
 
 More soon.

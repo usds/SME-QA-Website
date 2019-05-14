@@ -1,0 +1,10 @@
+
+{% if page.roles %}
+<h5 class="chp-phase-meta__title">Participants</h5>
+<p class="chp-phase-meta__desc">{{ page.roles | join: ', ' }}</p>
+{% endif %}
+
+{% if page.duration %}
+<h5 class="chp-phase-meta__title">Time</h5>
+<p class="chp-phase-meta__desc">{{ page.duration }}</p>
+{% endif %}

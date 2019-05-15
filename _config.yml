@@ -46,6 +46,8 @@ logo: /img/usds-logo-onwhite.png
 collections:
   hr-tasks:
     output: true
+  meetings:
+    output: true
   sme-tasks:
     output: true
   rating-guide:

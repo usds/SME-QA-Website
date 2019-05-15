@@ -16,4 +16,4 @@ NPS posted [a job announcement](https://www.usajobs.gov/GetJob/ViewDetails/53224
 * Sysadmin - Network Infrastructure
 * Sysadmin - Patch Management
 
-The announcement closed on Friday May 3rd after receiving 224 applications. After SME resume review, 116 applicants will not move forward. After tiebreakers are decided, NPS will start the [interview phase](/hiring-phases/first-interview/).
+The announcement closed on Friday May 3rd after receiving 224 applications. After SME resume review and tiebreakers are decided, NPS will start the [interview phase](/hiring-phases/first-interview/).

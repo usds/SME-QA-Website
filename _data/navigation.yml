@@ -2,7 +2,7 @@ primary:
   - text: Overview
     href: /
     name: overview
-  - text: Hiring Phases
+  - text: Get started
     href: /hiring-phases/
     name: hiring-phases
   - text: Case Studies
@@ -16,9 +16,22 @@ overview:
     href: /overview/our-process/
 
 hiring-phases:
-  - text: Overview
-    href: /hiring-phases/
-    phase: overview
+  - text: Getting started
+    href: /hiring-phases/getting-started/
+    phase: getting-started
+    subnav:
+    - text: Identify Positions and Billets
+      href: "/hiring-phases/getting-started/#identify-positions-and-billets"
+    - text: Choosing Subject Matter Experts
+      href: "/hiring-phases/getting-started/#choosing-subject-matter-experts"
+    - text: Training Subject Matter Experts
+      href: "/hiring-phases/getting-started/#training-subject-matter-experts"
+    - text: Building a Recuitment Pipeline
+      href: "/hiring-phases/getting-started/#building-a-recruitment-pipeline"
+    - text: Creating a Case File
+      href: "/hiring-phases/getting-started/#creating-a-case-file"
+    - text: Measuring a Hiring Action
+      href: "/hiring-phases/getting-started/#measuring-a-hiring-action"
   - text: Job analysis workshop
     href: /hiring-phases/job-analysis/
     phase: job-analysis
@@ -47,14 +60,8 @@ hiring-phases:
       href: "/hiring-phases/job-announcement/#focus-on-content"
     - text: Creating the announcement
       href: "/hiring-phases/job-announcement/#creating-the-announcement"
-  - text: Recruitment
-    href: "/hiring-phases/recruitment/"
-    phase: recruitment
-    subnav:
-    - text: Planning recruitment
-      href: "/hiring-phases/recruitment/#planning-recruitment"
-    - text: Recruiting for your current roles
-      href: "/hiring-phases/recruitment/#recruiting-for-your-current-roles"
+    - text: Recruiting for your roles
+      href: "/hiring-phases/job-announcement/#recruiting-for-your-roles"
   - text: Reviewing Resumes
     href: /hiring-phases/reviewing-resumes/
     phase: reviewing-resumes
@@ -85,18 +92,16 @@ hiring-phases:
       href: "/hiring-phases/second-interview/#interviewing-applicants-for-technical-assessment-two"
     - text: Reviewing Second Interview Documentation and Ratings
       href: "/hiring-phases/second-interview/#reviewing-second-interview-documentation-and-ratings"
-  - text: Preference Adjudication
-    href: /hiring-phases/preference-adjudication/
-    phase: preference-adjudication
   - text: Certificate
     href: /hiring-phases/certificate/
     phase: certificate
-  - text: Hiring Manager Interviews
-    href: /hiring-phases/hiring-manager-interviews/
-    phase: hiring-manager-interviews
-  - text: Selections
-    href: /hiring-phases/selections/
-    phase: selections
+    subnav:
+    - text: HR Preference Adjudication
+      href: "/hiring-phases/certificate/#hr-preference-adjudication"
+    - text: Hiring manager interviews
+      href: "/hiring-phases/certificate/#hiring-manager-interviews"
+    - text: Selections
+      href: "/hiring-phases/certificate/#selections"
 
 hiring-roles:
   - text: Human Resources

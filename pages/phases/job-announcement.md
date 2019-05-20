@@ -19,6 +19,11 @@ duration: 6 hours
     <li class="chp-toolkit__item">
       <a href="https://usajobs.github.io/ATP-Support/job-announcement-playbook/" target="_blank" class="chp-toolit__link">Job announcement playbook</a>
     </li>
+    <li class="chp-toolkit__item">
+      <a href="{{ site.baseurl }}/hiring-phases/recruitment/technology-job-boards/" class="chp-toolkit__link">
+        Useful job boards for IT positions
+      </a>
+    </li>
   </ul>
 </div>
 
@@ -155,3 +160,27 @@ duration: 6 hours
     </div>
   </div>
 </div>
+
+## Recruiting For Your Roles
+
+When you have positions ready to be announced, plan where you'll advertise the opportunities to attract the best talent based on your needs.
+
+1.  **Post to free and popular targeted job boards**
+
+If you have access to paid job boards, then absolutely use those resources, but consider also finding popular job boards targeted to the audience you are trying to reach. See "[Popular Technology Job Boards](#popular-technology-job-boards)" for some ideas.
+
+2.  **Answer questions about your job posting via email or phone**
+
+Both USDS and The Lab have tasked a panel of people involved in the hiring action with answering questions over a conference call. Include the time and phone number for the pre-scheduled call in your job announcement, along with an explanation of the types of questions you'll cover. For example:
+
+> To address questions about the application process and requirements, `{YOUR OFFICE}` will offer several optional phone calls during the application period for this position. For details about the timing of those calls and how to participate, see <https://www.eventbrite.com/o/[id]>."
+
+While these calls don't help attract applicants, they improve the applicant experience by narrowing the pool to truly interested applicants who need specific answers to stay in contention. If scheduled calls are too much for your group, simply include a phone number or email address that would be staffed  as long as the job is posted, beginning the day your job opens.
+
+3.  **Personal and professional referrals**
+
+Good old fashioned networking is still extremely effective. Mention positions to your internal networks and ask them to reach out to *their* networks to encourage people to apply.
+
+4.  **Resume mining**
+
+The Agency Talent Portal from USAJOBS allows you to search over a million resumes. To request an account, write to <a href="mailto:recruiter-help@usajobs.gov">recruiter-help@usajobs.gov</a>.

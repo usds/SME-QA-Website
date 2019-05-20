@@ -2,11 +2,11 @@
 layout: article
 permalink: /hiring-phases/job-analysis/
 section: hiring-phases
-title: Job analysis
+title: Job analysis workshop
 sidenav: hiring-phases
-intro: Job analysis is the umbrella term used to describe a set of tasks that result in core competencies and proficiency levels that will allow you to assess applicants.
+intro: This process uses job analysis to bridge what may be a standardized position description (PD) with the actual job being hired for at the agency. By completing this workshop, the agency will ensure they have an accurate job description that is not just cut and paste from a PD, and correct qualifications for the assessment process. A subset of SMEs representing the role being hired for should take part in a 2-day job analysis workshop in order to define the qualifications and proficiency requirements for the position being posted. As part of this workshop they should work with HR to write two sets of structured interview questions.
 roles: [Human Resources, Subject-Matter-Experts]
-duration: 11 hours
+duration: 2-day workshop with SMEs and HR participating
 ---
 
 <p class="usa-intro">

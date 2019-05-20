@@ -4,94 +4,71 @@ permalink: /hiring-phases/recruitment/
 section: hiring-phases
 title: Recruitment
 sidenav: hiring-phases
-intro: Now that you have a job announcement posted you will need to let applicants know that it exists. Relying on usajobs.gov to attract applicants is known as the "post and pray" model of recruitment and it is ineffective. We highly recommend that you develop a recruitment strategy and use the resources below to reach applicants where they are.
+phase: recruitment
+intro: Though applicant volume from usajobs.gov often convinces agencies that they do not need to recruit, this process is meant to utilize SMEs to fill multiple roles at an agency. The agency should always have a recruitment plan in place outside of “post and pray” on USAJOBS. This plan can including tweeting about the announcement on social media and targeting a minimum of 3 private sector job boards.
 ---
 
 <p class="usa-intro">
   {{ page.intro }}
 </p>
 
-## Strategy
+<div class="chp-toolkit">
+  <h4 class="chp-toolkit__title">Toolkit</h4>
+  <ul class="chp-toolkit__list">
+    <li class="chp-toolkit__item">
+      <a href="{{ site.baseurl }}/hiring-phases/recruitment/technology-job-boards/" class="chp-toolkit__link">
+        Useful job boards for IT positions
+      </a>
+    </li>
+  </ul>
+</div>
 
-### Short-term
+## Planning Recruitment
 
-#### 1. Post to free and popular, targeted job boards, such as Code for America and Hacker News.
+Use and measure the results for these techniques from The U.S. Digital Service (USDS) and The Lab at OPM to develop your short-term and long-term recruiting strategies.
 
-Options are listed below. If you have access to paid job boards, then absolutely use those resources as well, but consider also finding job boards targeted to the audience you are trying to reach.
+### Developing a Talent Pipeline Strategy
 
-#### 2. Answer questions about the job posting via email or phone.
+To get the best people for your technical positions, develop a long-term talent pipeline strategy to tell prospective applicants about your agency and the types of work you typically do.
 
-Both USDS and The Lab have used a panel of people involved in the hiring action tasked with answering questions over a conference call. Include the time and phone number for that call into your job announcement and explain which kinds of questions will be answered. For example:
+1.  **Attend technology conferences.**
 
-> To address questions about the application process and requirements, [your office] will offer several optional "office hours" phone calls during the application period for this position. More details about the timing of those calls and how to participate can be found here: <https://www.eventbrite.com/o/[id]>"
+Both USDS and The Lab at OPM encourage staff to participate in tech events both in the DC area and across the country. In order for this to be successful, both groups do what they can to remove friction so that staff can talk about their government work as freely as possible. USDS uses consistent media outreach, blog posts, and social media activity to help raise their profile, and while this takes time and effort to establish, it has paid off.
 
-At the very least include a phone number or email address that would be staffed and answered on the day your job opens and ideally as long as the job remained open.
+2.  **Cultivate relationships with well connected individuals.**
 
-While this doesn’t help attract applicants it has helped narrow the pool and helped folks who were qualified get answers and thus stay in contention. It improves the applicant experience.
+The Lab maintains a list of both designers and people interested in civic tech with large networks and audiences. They routinely reach out to these people when there's a job posting to ask them to mention it on Twitter, their blog, LinkedIn page, or even an email to their network.
 
-#### 3. Referrals
+3.  **Engage with local professional affinity groups.**
 
-Definitely hit up your internal networks to reach out to their networks and encourage them to apply.
+If SMEs are members of local meet-ups or other communities, encourage them to share your job announcement there. For example, see these popular D.C. technology events and communities:
 
-#### 4. Resume mining
+-   [D.C. area Drupal meetup group Slack channel](https://www.meetup.com/drupal-dc/messages/archive/)
+-   [D.C. Tech (Rails and JS heavy)](https://www.meetup.com/DC-Tech-Meetup/discussions/)
+-   [D.C. Agile Software testing group](https://www.meetup.com/dcast-io/discussions/)
+-   [Code for D.C.](https://www.meetup.com/Code-for-DC/discussions/)
+-   [Refresh D.C.](https://refresh-dc.org/) - A community of web designers, developers, and other new media professionals working together to refresh the creative, technical, and professional aspects of their trades in the Washington, D.C. area.
 
-If you don't already have an account with the Agency Talent Portal from USAJOBS, which allows you to search over a million resumes, write to <a href="mailto:recruiter-help@usajobs.gov">recruiter-help@usajobs.gov</a> to request an account.
+## Recruiting For Your Current Roles
 
-### Long-term
+When you have positions ready to be announced, plan where you'll advertise the opportunities to attract the best talent based on your needs.
 
-#### 1. Attend Technology conferences
+1.  **Post to free and popular targeted job boards**
 
-What USDS and The Lab have found helpful is to encourage staff to participate in tech conferences and to help remove friction so that they can talk about their work. Staff members often attend or speak at events both in the DC area and across the country. USDS in particular has consistent PR, blog posts, etc. that help raise their profile. That’s what has worked. Clearly that takes time and effort to establish, but it does pay off.
+If you have access to paid job boards, then absolutely use those resources, but consider also finding popular job boards targeted to the audience you are trying to reach. See "[Popular Technology Job Boards](#popular-technology-job-boards)" for some ideas.
 
-#### 2. Cultivate relationships with well connected individuals
+2.  **Answer questions about your job posting via email or phone**
 
-The Lab has a list of designers and other individuals interested in the public sector who have big networks. We routinely reach out to them when we have a job posting and ask them to post it on their Twitter feed, blog, LinkedIn page, or just email their network.
+Both USDS and The Lab have tasked a panel of people involved in the hiring action with answering questions over a conference call. Include the time and phone number for the pre-scheduled call in your job announcement, along with an explanation of the types of questions you'll cover. For example:
 
-#### 3. Subject-matter-experts reach out to their local affinity groups
+> To address questions about the application process and requirements, `{YOUR OFFICE}` will offer several optional phone calls during the application period for this position. For details about the timing of those calls and how to participate, see <https://www.eventbrite.com/o/[id]>."
 
-If SMEs are members of local Meet-up or other groups they should be encouraged to post the announcement there. The list below is a start.
+While these calls don't help attract applicants, they improve the applicant experience by narrowing the pool to truly interested applicants who need specific answers to stay in contention. If scheduled calls are too much for your group, simply include a phone number or email address that would be staffed  as long as the job is posted, beginning the day your job opens.
 
-## Resources
+3.  **Personal and professional referrals**
 
-### Job boards
+Good old fashioned networking is still extremely effective. Mention positions to your internal networks and ask them to reach out to *their* networks to encourage people to apply.
 
-#### 1. Code for America job board
+4.  **Resume mining**
 
-<https://jobs.codeforamerica.org/job-postings/new>
-
-It’s free and it will hit an interested audience. The current job postings there are mostly design & software development. However, if that is not exactly what you are looking for it may in fact help your job stand out. Regardless, the number of jobs posted here at one one time is not overwhelming.
-
-#### 2. Hacker News
-
-<https://news.ycombinator.com/item?id=19543940>
-
-Hacker News is another great resource that has yielded results for USDS. They post “Who is hiring” on the 1st of each month, so if you can time your posting to be open on or right after the 1st of the month then great. Otherwise it is still worth doing but may have less of an impact.
-
-#### 3. OpenGov jobs
-
-<https://www.opengovjobs.org/>
-
-Announcements to this group are appropriate if you are supportive of openness (e.g. open data, open processes, etc.) and accountability. Which we hope you are.
-
-#### 4. Design Gigs for Good
-
-<https://designgigsforgood.squarespace.com/>
-
-Obviously this is specific to design, however it is a well curated list from former USDS members.
-
-#### 5. Women who code
-
-<https://www.womenwhocode.com/>
-
-Job postings are $200 but this reaches a specific, under represented, and valuable community.
-
-
-### Meet-ups
-
-Encouraging your SMEs to attend local meet-ups is an excellent way for them to connect with potential applicants. Here are some in the DMV area that we feel are worth considering, but there are many others worth looking into on [Meet-up.com](https://www.meetup.com/).
-
--   [DC area Drupal meetup group Slack channel](https://www.meetup.com/drupal-dc/messages/archive/)
--   [DC Tech (Rails and JS heavy)](https://www.meetup.com/DC-Tech-Meetup/discussions/)
--   [DC Agile Software testing group](https://www.meetup.com/dcast-io/discussions/)
--   [Code for DC](https://www.meetup.com/Code-for-DC/discussions/)
--   [Refresh DC](https://refresh-dc.org/) - A community of web designers, developers, and other new media professionals working together to refresh the creative, technical, and professional aspects of their trades in the Washington, DC, area.
+The Agency Talent Portal from USAJOBS allows you to search over a million resumes. To request an account, write to <a href="mailto:recruiter-help@usajobs.gov">recruiter-help@usajobs.gov</a>.

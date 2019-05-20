@@ -19,7 +19,7 @@ hiring-phases:
   - text: Overview
     href: /hiring-phases/
     phase: overview
-  - text: Job analysis
+  - text: Job analysis workshop
     href: /hiring-phases/job-analysis/
     phase: job-analysis
     subnav:
@@ -51,10 +51,10 @@ hiring-phases:
     href: "/hiring-phases/recruitment/"
     phase: recruitment
     subnav:
-    - text: Strategy
-      href: "/hiring-phases/recruitment/#strategy"
-    - text: Resources
-      href: "/hiring-phases/recruitment/#resources"
+    - text: Planning recruitment
+      href: "/hiring-phases/recruitment/#planning-recruitment"
+    - text: Recruiting for your current roles
+      href: "/hiring-phases/recruitment/#recruiting-for-your-current-roles"
   - text: Reviewing Resumes
     href: /hiring-phases/reviewing-resumes/
     phase: reviewing-resumes

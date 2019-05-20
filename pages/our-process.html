@@ -11,7 +11,7 @@ title: Our process
     <div class="grid-row grid-gap">
       <div class="usa-layout-docs__main desktop:grid-col-9 usa-prose">
         <p class="usa-intro">
-          In the current competitive hire process, agencies utilize HR resume review and occupational questionnaires to determine if a candidate is "minimally qualified", and applicants who pass this step are automatically "qualified" for categorization and preference application. The Competitive Hiring Pilot instead deploys the resume review step as a <strong>pre-qualification</strong> for an overall passing score assessment.
+          In the current competitive hire process, agencies utilize HR resume review and occupational questionnaires to determine if a candidate is "minimally qualified", and applicants who pass this step are automatically "qualified" for categorization and preference application. The Competitive Hiring Pilot instead deploys resume review and multiple interviews as a <strong>pre-qualification</strong> for an overall passing score assessment.
         </p>
         <h4>How our process is different</h4>
         <p>
@@ -27,11 +27,34 @@ title: Our process
   <img src="{{site.baseurl}}/assets/img/multi-hurdle-process-v3.4.png" alt="Our multi-hurdle process diagram">
 </a>
 
+  <div class="grid-container">
+    <div class="grid-row grid-gap">
+      <div class="usa-layout-docs__main desktop:grid-col-9 usa-prose">
+      <h2>How our process works</h2>
+{% assign hiring-phases = site.data.navigation['hiring-phases'] %}
+{% for hiring-phase in hiring-phases %}
+  {% assign _href = hiring-phase.href %}
+  {% assign phase-page = site.pages | where: "permalink", _href %}
+  {% if hiring-phase.text == 'Overview' %}
+    {% continue %}
+  {% else %}
+<dl class="chp-page-list">
+    {% for phase in phase-page %}
+  <dt class="chp-page-list__title"><a href="{{ site.baseurl }}{{ phase.permalink }}">{{ phase.title }}</a></dt>
+  <dd class="chp-page-list__desc">{{ phase.intro }}</dd>
+    {% endfor %}
+</dl>
+  {% endif %}
+{% endfor %}
+    </div>
+  </div>
+</div>
+
 <div class="process-steps">
   <div class="grid-container">
     <div class="grid-row grid-gap margin-y-3">
       <div class="grid-col-12">
-        <h2>Understanding our process</h2>
+        <h2>How our process is different</h2>
         <h3 data-step="1">Job Announcement Listing of Minimum Qualifications</h3>
       </div>
       <div class="tablet:grid-col padding-y-2">

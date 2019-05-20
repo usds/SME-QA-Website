@@ -4,14 +4,21 @@ permalink: /hiring-phases/job-announcement/
 section: hiring-phases
 title: Job announcement
 sidenav: hiring-phases
-intro: In this phase you will craft and post a job announcement. The job announcement allows the applicants to know what the job is about.
+intro: The job announcement must be an accurate representation of what the job is that is being hired for, and therefore agencies should not cut and paste language from the position description. Specialized experience will be listed under qualifications as technical competencies that are needed to do the job from day one and augment the qualifications described from OPM. The job announcement has all competencies listed together as part of the minimum qualifications to perform the job.
 roles: [Human Resources]
-duration: 6 hours
+duration: 3-4 hours
 ---
 
 <p class="usa-intro">
   {{ page.intro }}
 </p>
+
+### Sample job announcements
+
+These IT Specialist job announcements were posted by our agency pilot participants:
+
+* [National Park Service (Department of Interior)](https://www.usajobs.gov/GetJob/ViewDetails/532244000){_target:blank}
+* [Health and Human Services](https://www.usajobs.gov/GetJob/ViewDetails/529652500){_target:blank}
 
 <div class="chp-toolkit">
   <h4 class="chp-toolkit__title">Toolkit</h4>
@@ -27,10 +34,16 @@ duration: 6 hours
   </ul>
 </div>
 
+### Limiting the number of accepted applications
+
+To limit the applicants to 100, you must include this language in the job announcement:
+
+> The agency will only consider applications from the first 100 applicants who complete their submission.
+
 ## Focus on content
 
 <p>
-  Job announcements put too much focus on regulations and other legal content, instead of on what a job seeker needs to know. As a result, the job seeker doesn’t have enough information to make an informed decision and agencies are unable to attract qualified applicants.
+  Job announcements put too much focus on regulations and other legal content, instead of on what a job seeker needs to know. As a result, the job seeker doesn't have enough information to make an informed decision and agencies are unable to attract qualified applicants.
 </p>
 <h4>Why should we fix it?</h4>
 <p>

@@ -5,7 +5,7 @@ section: hiring-phases
 title: Getting started
 sidenav: hiring-phases
 phase: getting-started
-intro: Let's get started
+intro: Preparing to use our process includes identifying positions, preparing Subject-Matter-Experts, and preparing to recruit.
 ---
 
 <p class="usa-intro">

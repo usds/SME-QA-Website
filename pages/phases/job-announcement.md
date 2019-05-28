@@ -28,7 +28,7 @@ These IT Specialist job announcements were posted by our agency pilot participan
     </li>
     <li class="chp-toolkit__item">
       <a href="{{ site.baseurl }}/hiring-phases/recruitment/technology-job-boards/" class="chp-toolkit__link">
-        Useful job boards for IT positions
+        Useful job boards for technical positions
       </a>
     </li>
   </ul>

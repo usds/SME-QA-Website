@@ -14,15 +14,15 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Competitive Hiring Pilot
-email: your-email@example.com
+email: matthew.j.dingee@omb.eop.gov
 description: >- # this means to ignore newlines until "baseurl:"
   The United States Digital Service is transforming federal hiring. Our pilot process will help us learn how to make adjustments to the competitive hiring process so that it can uphold the merit systems princples.
 baseurl: "/competitive-hiring-pilot"
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-repository: usajobs/competitive-hiring-pilot
+repository: labopm/competitive-hiring-pilot
 
-github_url: https://github.com/usajobs
+github_url: https://github.com/labopm/competitive-hiring-pilot/
 
 # Build settings
 markdown: kramdown

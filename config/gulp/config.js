@@ -3,6 +3,7 @@
 var build = "_site";
 
 module.exports = {
+  browsers: ["> 2%", "Last 2 versions", "IE 11"],
   // BrowserSync
   browsersync: {
     development: {
@@ -24,6 +25,7 @@ module.exports = {
       "_sme-tasks/*.md",
       "_rating-guide/*.md",
       "_meetings/*.md",
+      "assets/img/*.{png,jpg,svg}",
       "_layouts/*.html",
       "pages/**/*.{html,markdown,md,yml,json,txt,xml}"
     ],

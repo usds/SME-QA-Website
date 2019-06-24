@@ -1,19 +1,17 @@
 primary:
-  - text: Overview
+  - text: About the pilot
     href: /
-    name: overview
-  - text: Get started
+    name: about
+  - text: Begin Your Hiring Action
     href: /hiring-phases/
     name: hiring-phases
   - text: Case Studies
     href: /case-studies/
     name: case-studies
 
-overview:
-  - text: About the pilot
-    href: /
+about:
   - text: Our process
-    href: /overview/our-process/
+    href: /about/our-process/
 
 hiring-phases:
   - text: Getting started

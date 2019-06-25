@@ -4,7 +4,7 @@ permalink: /hiring-phases/certificate/
 section: hiring-phases
 title: Certificate
 sidenav: hiring-phases
-intro: HR assigns applicants who achieved an overall passing score to a quality category using SME interview assessment scores and Veterans' Preference is applied. HR issues the certificate to the hiring manager for further interviews.
+intro: When SMEs complete the qualifying assessment interviews, you can adjudicate veterans’ preference and assign categories based on whether the applicant met or exceeded the requirements during the interviews. After you issue a hiring certificate to the hiring manager, they can either conduct additional interviews or make selections based on transcripts from the phone assessment interviews.
 roles: [Human Resources, Hiring Manager]
 ---
 

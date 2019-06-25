@@ -4,7 +4,7 @@ permalink: /hiring-phases/job-announcement/
 section: hiring-phases
 title: Job announcement
 sidenav: hiring-phases
-intro: The job announcement must be an accurate representation of what the job is that is being hired for, and therefore agencies should not cut and paste language from the position description. Specialized experience will be listed under qualifications as technical competencies that are needed to do the job from day one and augment the qualifications described from OPM. The job announcement has all competencies listed together as part of the minimum qualifications to perform the job.
+intro: To attract the most qualified applicants, your job announcement must be an accurate and compelling representation of the position, rather than language taken directly from the position description. The job announcement should list the core competencies and definitions that SMEs developed during job analysis as the required qualifications. The agency should limit the applicant submission count to 100 as to not overwhelm the SME process, but should have a recruitment strategy in place to make sure qualified applicants are ready to apply in advance.
 roles: [Human Resources]
 duration: 3-4 hours
 ---

@@ -1,0 +1,125 @@
+---
+layout: article
+permalink: /hiring-phases/phone-assessment-interviews/
+section: hiring-phases
+title: Phone Assessment Interviews
+sidenav: hiring-phases
+intro: SMEs will conduct up to two rounds of structured phone interviews to assess remaining applicants against the required competencies and proficiencies, with a single SME conducting each interview. Applicants who meet the basic required qualifications after that interview receive a second interview with a different SME. Those who receive an overall passing score during both phone assessment interviews are considered qualified for the position.
+roles: [Human Resources, Subject-Matter-Experts]
+---
+
+<p class="usa-intro">
+  {{ page.intro }}
+</p>
+
+<div class="chp-toolkit">
+  <h4 class="chp-toolkit__title">Toolkit</h4>
+  <ul class="chp-toolkit__list">
+    <li class="chp-toolkit__item">
+      <a class="chp-toolkit__link">
+        Training Agenda and PowerPoint
+      </a>
+    </li>
+    <li class="chp-toolkit__item">
+      <a href="{{site.baseurl}}/rating-guide/#interview-assessment-ratings" class="chp-toolkit__link">
+        First Interview Rating Guide
+      </a>
+    </li>
+    <li class="chp-toolkit__item">
+      <a href="{{site.baseurl}}/rating-guide/#interview-assessment-ratings" class="chp-toolkit__link">
+        Second Interview Rating Guide
+      </a>
+    </li>
+  </ul>
+</div>
+
+<h2 id="preparing-for-interview-one">
+  Preparing for Interview One
+</h2>
+<h3 id="hr-specialists-1">HR Specialists</h3>
+{% assign hr-tasks = site.hr-tasks | where: "phase","first-interview" | where: "sub-phase","preparing-for-interview-one" | where: "role","hr" %}
+<dl class="chp-page-list">
+  {% for task in hr-tasks %}
+  <dt class="chp-page-list__title"><a href="{{ site.baseurl }}{{ task.permalink }}">{{ task.title }}</a></dt>
+  <dd class="chp-page-list__desc">{{ task.description }}</dd>
+  {% endfor %}
+</dl>
+
+<h2 id="interviewing-applicants-for-technical-assessment-one">
+  Interviewing Applicants for Technical Assessment One
+</h2>
+<h3 id="smes">Subject Matter Experts</h3>
+{% assign sme-tasks = site.sme-tasks | where: "phase","first-interview" | where: "sub-phase","interviewing-applicants-for-technical-assessment-one" | where: "role","sme" %}
+<dl class="chp-page-list">
+  {% for task in sme-tasks %}
+  <dt class="chp-page-list__title"><a href="{{ site.baseurl }}{{ task.permalink }}">{{ task.title }}</a></dt>
+  <dd class="chp-page-list__desc">{{ task.description }}</dd>
+  {% endfor %}
+</dl>
+
+<h4>Rating Guide</h4>
+<dl class="chp-page-list">
+{% assign guides = site.rating-guide | where: "phases","first-interview" %}
+{% for guide in guides %}
+  <dt class="chp-page-list__title"><a href="{{ site.baseurl }}{{ guide.permalink }}">{{ guide.title }}</a></dt>
+  <dd class="chp-page-list__desc">{{ guide.description }}</dd>
+{% endfor %}
+</dl>
+
+<h2 id="reviewing-first-interview-documentation-and-ratings">
+  Reviewing First Interview Documentation and Ratings
+</h2>
+<h3 id="hr-specialists-2">HR Specialists</h3>
+{% assign hr-tasks = site.hr-tasks | where: "phase","first-interview" | where: "sub-phase","reviewing-first-interview-documentation-and-ratings" | where: "role","hr" %}
+<dl class="chp-page-list">
+  {% for task in hr-tasks %}
+  <dt class="chp-page-list__title"><a href="{{ site.baseurl }}{{ task.permalink }}">{{ task.title }}</a></dt>
+  <dd class="chp-page-list__desc">{{ task.description }}</dd>
+  {% endfor %}
+</dl>
+
+<h2 id="preparing-for-interview-two">
+  Preparing for Interview Two
+</h2>
+<h3 id="hr-specialists-1">HR Specialists</h3>
+{% assign hr-tasks = site.hr-tasks | where: "phase","second-interview" | where: "sub-phase","preparing-for-interview-two" | where: "role","hr" %}
+<dl class="chp-page-list">
+  {% for task in hr-tasks %}
+  <dt class="chp-page-list__title"><a href="{{ site.baseurl }}{{ task.permalink }}">{{ task.title }}</a></dt>
+  <dd class="chp-page-list__desc">{{ task.description }}</dd>
+  {% endfor %}
+</dl>
+
+
+<h2 id="interviewing-applicants-for-technical-assessment-two">
+  Interviewing Applicants for Technical Assessment Two
+</h2>
+<h3 id="smes">Subject Matter Experts</h3>
+{% assign sme-tasks = site.sme-tasks | where: "phase","second-interview" | where: "sub-phase","interviewing-applicants-for-technical-assessment-two" | where: "role","sme" %}
+<dl class="chp-page-list">
+  {% for task in sme-tasks %}
+  <dt class="chp-page-list__title"><a href="{{ site.baseurl }}{{ task.permalink }}">{{ task.title }}</a></dt>
+  <dd class="chp-page-list__desc">{{ task.description }}</dd>
+  {% endfor %}
+</dl>
+
+<h4>Rating Guide</h4>
+<dl class="chp-page-list">
+{% assign guides = site.rating-guide | where: "phases","second-interview" %}
+{% for guide in guides %}
+  <dt class="chp-page-list__title"><a href="{{ site.baseurl }}{{ guide.permalink }}">{{ guide.title }}</a></dt>
+  <dd class="chp-page-list__desc">{{ guide.description }}</dd>
+{% endfor %}
+</dl>
+
+<h2 id="reviewing-second-interview-documentation-and-ratings">
+  Reviewing Second Interview Documentation and Ratings
+</h2>
+<h3 id="hr-specialists-2">HR Specialists</h3>
+{% assign hr-tasks = site.hr-tasks | where: "phase","second-interview" | where: "sub-phase","reviewing-second-interview-documentation-and-ratings" | where: "role","hr" %}
+<dl class="chp-page-list">
+  {% for task in hr-tasks %}
+  <dt class="chp-page-list__title"><a href="{{ site.baseurl }}{{ task.permalink }}">{{ task.title }}</a></dt>
+  <dd class="chp-page-list__desc">{{ task.description }}</dd>
+  {% endfor %}
+</dl>

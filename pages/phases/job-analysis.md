@@ -4,7 +4,7 @@ permalink: /hiring-phases/job-analysis/
 section: hiring-phases
 title: Job analysis workshop
 sidenav: hiring-phases
-intro: This process uses job analysis to bridge what may be a standardized position description (PD) with the actual job being hired for at the agency. By completing this workshop, the agency will ensure they have an accurate job description that is not just cut and paste from a PD, and correct qualifications for the assessment process. A subset of SMEs representing the role being hired for should take part in a 2-day job analysis workshop in order to define the qualifications and proficiency requirements for the position being posted. As part of this workshop they should work with HR to write two sets of structured interview questions.
+intro: Conduct a two-day job analysis workshop with SMEs to professionally develop your assessments. During the workshop, you’ll help SMEs identify and define the required competencies and proficiency levels for the position, as well as write two sets of structured interview questions that can assess the required proficiency levels. SMEs will use these competencies, proficiency levels, and related questions during interview assessments to determine whether applicants meet the technical qualifications for the job before applicants are considered qualified and eligible for veterans’ preference. You’ll also be able to develop an accurate job description with the information from the job analysis workshop.
 roles: [Human Resources, Subject-Matter-Experts]
 duration: 2-day workshop with SMEs and HR participating
 ---

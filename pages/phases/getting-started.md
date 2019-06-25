@@ -5,18 +5,27 @@ section: hiring-phases
 title: Getting started
 sidenav: hiring-phases
 phase: getting-started
-intro: Preparing to use our process includes identifying positions, preparing Subject-Matter-Experts, and preparing to recruit.
+intro: In the typical competitive delegated examining hiring process, HR specialists review resumes and occupational questionnaires to determine that applicants are minimally qualified. Hiring managers often know that qualified people have applied for their open role, but receive delegated examining certificates without truly qualified applicants to select. The Competitive Hiring Pilot introduces subject matter experts (SMEs), in partnership with HR specialists as guides, to create and conduct interview assessments before an applicant is considered qualified. HR specialists protect merit principles and ensure that participants the documented assessment strategy is applied consistently.
 ---
 
 <p class="usa-intro">
   {{ page.intro }}
 </p>
 
+
+This process is recommended for GS 12+ technical positions (not limited to IT) with at least 5 vacancies for the same role and where applicant volume can be limited to around 100 applicants.
+
 ## Identify Positions and Billets
 
 ## Choosing Subject Matter Experts
 
+### Collecting Information About SMEs
+
+### Setting Time and Effort Expectations
+
 ## Training Subject Matter Experts
+
+### Acknowledging and Mitigating Bias
 
 ## Building a recruitment pipeline
 

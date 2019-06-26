@@ -1,0 +1,54 @@
+---
+layout: default
+section: about
+permalink: /about/our-process/
+title: Our process
+---
+
+{% include _banner-beta.html %}
+<main id="main-content" role="main" class="usa-layout-docs usa-section chp-article">
+  <div class="grid-container">
+    <div class="grid-row grid-gap">
+      <div class="usa-layout-docs__main desktop:grid-col-9 usa-prose">
+        <p class="usa-intro">
+          In the current competitive hire process, agencies utilize HR resume review and occupational questionnaires to determine if a candidate is "minimally qualified", and applicants who pass this step are automatically "qualified" for categorization and preference application. The Competitive Hiring Pilot instead deploys resume review and multiple interviews as a <strong>pre-qualification</strong> for an overall passing score assessment.
+        </p>
+        <h4>How our process is different</h4>
+        <p>
+          Applicants who receive a passing score after multiple professionally developed SME assessments are rated and placed on the certificate of eligibles (following current veterans' preference and category rating rules) by HR. While OPM encourages IO Psychologists to professionally develop assessments, this pilot will have SMEs, HR, and the Hiring Manager coming together to professionally develop the competencies, proficiency levels, and structured interview questions that will define the assessments. If the agency has available IO Psychologists, they should be encouraged to participate. </p>
+          <p>
+            <a href="{{ site.baseurl }}/about/differences/">Learn more about how our process differs from current practices</a>.
+          </p>
+      </div>
+    </div>
+  </div>
+</main>
+<div class="grid-container">
+  <div class="grid-row grid-gap">
+    <div class="desktop:grid-col-8 usa-prose">
+      <h2>How our process works</h2>
+      {% assign hiring-phases = site.data.navigation['hiring-phases'] %}
+      {% for hiring-phase in hiring-phases %}
+      {% assign _href = hiring-phase.href %}
+      {% assign phase-page = site.pages | where: "permalink", _href %}
+      {% if hiring-phase.text == 'Overview' %}
+        {% continue %}
+      {% else %}
+      <dl class="chp-page-list chp-page-list--process">
+        {% for phase in phase-page %}
+      <dt class="chp-page-list__title chp-page-list--process__title">
+        <a href="{{ site.baseurl }}{{ phase.permalink }}">{{ phase.title }}</a>
+      </dt>
+      <dd class="chp-page-list__desc">{{ phase.intro }}</dd>
+        {% endfor %}
+      </dl>
+      {% endif %}
+      {% endfor %}
+    </div>
+    <div class="desktop:grid-col-4 usa-prose">
+      <a href="{{site.baseurl}}/assets/img/process-diagram-vertical.png" target="_blank">
+        <img src="{{site.baseurl}}/assets/img/process-diagram-vertical.png" alt="Our multi-hurdle process diagram">
+      </a>
+    </div>
+  </div>
+</div>

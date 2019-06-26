@@ -277,6 +277,16 @@ blockquote {
   }
 }
 
+.chp-page-list--process {
+  &__title {
+    @include u-font-size('heading', 'lg');
+
+    a {
+      @include permaLink();
+    }
+  }
+}
+
 .chp-agenda {
   th {
     width: 15%;

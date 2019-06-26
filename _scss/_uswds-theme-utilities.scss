@@ -848,3 +848,13 @@ $width-manual-values: ();
 
 $z-index-palettes: ('palette-z-index-default');
 $z-index-manual-values: ();
+
+
+// ---------------------------------------------- ADDED MIXINS ---------------------------------
+@mixin permaLink($linkColor: color('primary')) {
+  color: $linkColor;
+
+  &:visited {
+    color: $linkColor;
+  }
+}

@@ -5,9 +5,13 @@ section: hiring-phases
 title: Sample Competencies and Proficiency Levels
 sidenav: hiring-phases
 phase: job-analysis
+sub-phase-order: 070
 intro: Use these examples to develop your own core competencies and proficiencies during a job analysis workshop.
-roles: [Human Resources, Subject-Matter-Experts]
 ---
+
+<p class="usa-intro">
+  {{ page.intro }}
+</p>
 
 Use these examples to develop your own core competencies and proficiencies during a job analysis workshop.
 

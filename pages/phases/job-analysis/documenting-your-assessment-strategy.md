@@ -9,5 +9,9 @@ sub-phase-order: 010
 intro: In addition to documenting job tasks, developing core competencies and proficiencies, and creating interview assessment questions, ask SMEs participating in your workshop to make these key decisions about the assessment strategy they'll use for your hiring action.
 ---
 
+<p class="usa-intro">
+  {{ page.intro }}
+</p>
+
 - Number of resume work experience pages SMEs will review
 - Tech recency requirements

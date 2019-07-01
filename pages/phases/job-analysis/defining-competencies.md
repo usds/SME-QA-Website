@@ -9,6 +9,10 @@ sub-phase-order: 040
 intro: Resume reviewers and interviewers must be able to clearly and objectively evaluate an applicant against competencies that you've defined before assessments begin. To define your competencies, document what it looks like when an applicant has that skill. You'll list these definitions in the job announcement as required qualifications.
 ---
 
+<p class="usa-intro">
+  {{ page.intro }}
+</p>
+
 In this example, the job tasks in a grouping resulted in a Customer Support core competency. The grouped job tasks were:
 
 - Resolve technical and customer reported issues pertaining to mail routing and connectivity issues.

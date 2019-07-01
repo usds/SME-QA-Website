@@ -9,6 +9,10 @@ sub-phase-order: 060
 intro: As a best practice, applicants should pass through multiple hurdles with multiple SMEs before an agency considers them qualified. Two rounds of structured phone interviews, each conducted by a single SME, assess the breadth and then the depth of applicants' knowledge about your required competencies. Any applicant who doesn't receive a high enough score during the first interview will not progress to the second.
 ---
 
+<p class="usa-intro">
+  {{ page.intro }}
+</p>
+
 Finish your workshop by breaking participants into groups to write questions for both the first and second phone assessment interviews. Use your defined competencies, proficiencies, and required experience to create two rounds of interview questions and good example responses.
 
 **Phone Assessment Interview 1** tests the applicant's *breadth of experience* by evaluating their basic knowledge across all required competencies. Write one question per competency and include follow-up questions to determine whether the applicant meets the required proficiency level. Breadth questions tend to take five to ten minutes to answer, including any follow-up questions.

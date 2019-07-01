@@ -9,6 +9,10 @@ sub-phase-order: 020
 intro: For your job analysis to be legally defensible, the required competencies you develop must be based on actual job tasks that you expect people in this role and level to perform starting on their first day. Work with SMEs to complete a job task exercise to identify your competencies.
 ---
 
+<p class="usa-intro">
+  {{ page.intro }}
+</p>
+
 Begin your job analysis workshop by asking SMEs to document typical job tasks for a given role based on their experience with, or knowledge of, the position. Job tasks should be detailed and begin with a verb, indicating that they’re an action a person in that position would actively take.
 
 To facilitate this 10-15 minute exercise, give each participant a stack of sticky notes and a permanent marker. Ask them to write down the typical tasks they have done, or would do, in the posted position, using one note per task and writing as many notes as possible.

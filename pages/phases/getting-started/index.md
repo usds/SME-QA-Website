@@ -21,6 +21,8 @@ This process is recommended for GS 12+ technical positions (not limited to IT) w
 
 ### Collecting Information About SMEs
 
+Read our [guide to selecting Subject-Matter-Experts](sme-criteria/)
+
 ### Setting Time and Effort Expectations
 
 ## Training Subject Matter Experts

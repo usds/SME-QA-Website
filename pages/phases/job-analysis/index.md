@@ -5,8 +5,14 @@ section: hiring-phases
 title: Job analysis workshop
 sidenav: hiring-phases
 intro: Conduct a two-day job analysis workshop with SMEs to professionally develop your assessments. During the workshop, you’ll help SMEs identify and define the required competencies and proficiency levels for the position, as well as write two sets of structured interview questions that can assess the required proficiency levels. SMEs will use these competencies, proficiency levels, and related questions during interview assessments to determine whether applicants meet the technical qualifications for the job before applicants are considered qualified and eligible for veterans’ preference. You’ll also be able to develop an accurate job description with the information from the job analysis workshop.
-roles: [Human Resources, Subject-Matter-Experts]
-duration: 2-day workshop with SMEs and HR participating
+roles: [Human Resources, Subject-Matter-Experts, Hiring Managers, IO Psychologist]
+duration: 2-days (16 hours)
+outputs:
+  - 4-6 core competencies and their definitions
+  - Proficiency descriptions for each competency, including the proficiency required for the hiring action
+  - First phone interview assessment questions (covering breadth of knowledge) and good sample responses
+  - Second phone interview assessment questions (covering depth of knowledge) and good sample responses
+  - Job analysis worksheet (for hiring action case file)
 ---
 
 <p class="usa-intro">
@@ -94,44 +100,6 @@ The situations you describe to define the proficiency levels should be consisten
 * **Scale of activity:** The applicant did something at a small organization _-vs-_ did something at a large organization.
 * **Seniority:** The applicant did something as part of a group _-vs-_ lead the group that did something.
 * **Level of detail:** The applicant can explain a general concept _-vs-_ can discuss the concept in detail.
-
-## Sample Competencies and Proficiency Levels
-
-Use these examples to develop your own core competencies and proficiencies. While the formats differ, you can see that the common aspects are:
--	A useful, brief description of the competency.
--	Four proficiency levels for “Unfamiliar,” “Familiar,” “Experienced,” and “Master”.
--	A clear description of the possible proficiency an applicant would demonstrate for the given competency.
-
-### Example Competency: Agency Hiring Staff for a Field Office
-
-After working with SMEs and HR, the hiring manager determines that in order to be successful in a position, it's critical that the applicant can work remotely. The agency develops this competency:
-
-| Proficiency Level | Description |
-| :---------- | :--------- |
-| **Unfamiliar** | Applicant is uncomfortable working remotely. Does not understand how to set up equipment correctly. Does not make use of group chat in a professional environment. |
-| **Familiar** | Applicant has worked remotely in the past and demonstrates comfort with group chat, virtual collaboration tools, and web conferencing |
-| **Experienced** | Applicant has worked remotely in the past, is comfortable with the tools described for a _Familiar_ proficiency, and can articulate barriers to productivity that are unique to remote work (ie - distractions in a home office, collaborating across timezones, isolation, etc.). |
-| **Master** | Applicant can articulate common problems with remote work and has strategies to mitigate those issues. Applicant has been involved in the selection of tools to facilitate remote work and can weigh the pros and cons of various approaches (Google Hangouts _-vs-_ Skype _-vs-_ Zoom). |
-
-### Example Competency: Engineering Considerations
-
-Works effectively with engineers as a true partner. Understands the technical stack of a product and how it can impact product design and project schedules. Considers the complexities involved in building technology at massive scale.
-
--	**Unfamiliar:** Has never worked with engineers, or has but not effectively/views them as a different group of people. Views technical matters as someone else's problem, and seems uninterested in learning more about a project's technical foundations. Unable to describe a project's technical stack.
--	**Familiar:** Has some experience working effectively with engineers. Displays a basic understanding that technical choices impact product design and project schedules. Shows an active interest in learning more about a project's technical foundations.
--	**Experienced:** Repeated track record of working as a true partner with engineers. Describes situations where they have engaged in technical decisions or shifted product or project plans due to technical issues. Understanding some of the complexities of building technology at massive scale.
--	**Master:** Functions as a true partner with engineers in all technical products and projects in which they are involved. Able to identify potential technical concerns with proposals before consulting engineers. Repeatedly engages in technical decisions and supports engineering needs.
-
-### Example Competency: Information Architecture
-
-Almost every design today involves organizing information, whether it's an online policies-and-procedures library, product information, or user-generated videos. Information architecture helps us organize that content in a way that makes it easy for users to hone in to the specific content they're seeking.
-
-Skills include understanding methods for organizing information, such as taxonomies, folksonomies, facets, and ontologies; techniques for deriving user hierarchies, such as card sorting; and creating design deliverables, such as site maps.
-
--	**Unfamiliar:** Understood value of well-organized content and navigation. Participated in information architecture projects as a collaborator, under someone else's direction. No evidence of making information architecture decisions in professional project work. Demonstrated solid organizational skills.
-- **Familiar:** Adeptly created intermediate deliverables, such as site maps and wireframes. Has driven both content and navigation architecture on small projects. Used large-scale content delivery classification systems. Used IA-based user research techniques (such as card sorting) to refine taxonomy and content inventories.
--	**Experienced:** Created navigation for a sophisticated application. Oversaw the construction of a large information repository. Worked on implementation of large, unfederated search, using advanced navigation techniques, such as best bets. Shipped multiple releases on a variety of platforms.
--	**Master:** Oversaw the information architecture strategy for very large repositories. Provided information architecture leadership for a team of designers. Worked on a variety of very different projects. Trained non-designer team members on the basics of information architecture, so they could produce reasonable initial work.
 
 ## Defining Minimum Qualifications From Competencies
 

@@ -21,24 +21,22 @@ hiring-phases:
     href: /hiring-phases/job-analysis/
     phase: job-analysis
     subnav:
-    - text: About Core Competencies
-      href: "/hiring-phases/job-analysis/#about-core-competencies"
-    - text: Conducting a Job Analysis Workshop
-      href: "/hiring-phases/job-analysis/#conducting-a-job-analysis-workshop"
-    - text: Write Down Job Tasks
-      href: "/hiring-phases/job-analysis/#write-down-job-tasks"
+    - text: Documenting Your Assessment Strategy
+      href: "/hiring-phases/job-analysis/documenting-your-assessment-strategy/"
+    - text: Documenting Job Tasks
+      href: "/hiring-phases/job-analysis/documenting-job-tasks/"
     - text: Converting Job Tasks to Competencies
-      href: "/hiring-phases/job-analysis/#converting-job-tasks-to-competencies"
-    - text: About Proficiency Levels
-      href: "/hiring-phases/job-analysis/#about-proficiency-levels"
+      href: "/hiring-phases/job-analysis/converting-job-tasks-to-competencies/"
+    - text: Defining Competencies
+      href: "/hiring-phases/job-analysis/defining-competencies/"
+    - text: Defining Proficiency Levels and Required Experience
+      href: "/hiring-phases/job-analysis/defining-proficiency-levels/"
+    - text: Creating a Structured Interview from Competencies
+      href: "/hiring-phases/job-analysis/creating-a-structured-interview-from-competencies"
     - text: Sample Competencies and Proficiency Levels
       href: "/hiring-phases/job-analysis/sample-competencies/"
     - text: Sample Interview Questions
       href: "/hiring-phases/job-analysis/sample-interview-questions/"
-    - text: Defining Minimum Qualifications from Competencies
-      href: "/hiring-phases/job-analysis/#defining-minimum-qualifications-from-competencies"
-    - text: Creating a Structured Interview from Competencies
-      href: "/hiring-phases/job-analysis/#creating-a-structured-interview-from-competencies"
   - text: Job announcement
     href: /hiring-phases/job-announcement/
     phase: job-announcement

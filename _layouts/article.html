@@ -14,7 +14,7 @@
         {% if sidenav %}
         <aside class="usa-layout-docs__sidenav desktop:grid-col-3 chp-article-sidenav">
           <div class="chp-article-sidenav__container">
-            {% include sidenav.html links=sidenav title=page.sidenav %}
+            {% include sidenav.html links=sidenav title="Begin Your Hiring Action"%}
 
             {% unless page.sidenav == 'hiring-roles' %}
               {% assign rolenav = site.data.navigation[page.rolenav] | default: page.rolenav %}
@@ -22,10 +22,6 @@
                 {% include rolenav.html links=rolenav %}
               {% endif %}
             {% endunless %}
-
-            {% if page.section == 'hiring-phases' %}
-              {% include phase-meta.html %}
-            {% endif %}
           </div>
         </aside>
         {% endif %}

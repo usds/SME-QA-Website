@@ -4,6 +4,7 @@ permalink: /hiring-phases/job-analysis/sample-interview-questions/
 section: hiring-phases
 title: Sample Interview Questions
 sidenav: hiring-phases
+phase: job-analysis
 intro: Use these example breadth and depth questions to understand how to format your first and second phone assessment interview questions for your role.
 roles: [Human Resources, Subject-Matter-Experts]
 ---

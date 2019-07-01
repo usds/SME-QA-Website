@@ -1,0 +1,74 @@
+---
+layout: article
+permalink: /hiring-phases/job-analysis/
+section: hiring-phases
+title: Job analysis workshop
+sidenav: hiring-phases
+intro: Conduct a two-day job analysis workshop with SMEs to professionally develop your assessments. During the workshop, you’ll help SMEs identify and define the required competencies and proficiency levels for the position, as well as write two sets of structured interview questions that can assess the required proficiency levels. SMEs will use these competencies, proficiency levels, and related questions during interview assessments to determine whether applicants meet the technical qualifications for the job before applicants are considered qualified and eligible for veterans’ preference. You’ll also be able to develop an accurate job description with the information from the job analysis workshop.
+roles: [Human Resources, Subject-Matter-Experts, Hiring Managers, IO Psychologist]
+duration: 2-days (16 hours)
+outputs:
+  - 4-6 core competencies and their definitions
+  - Proficiency descriptions for each competency, including the proficiency required for the hiring action
+  - First phone interview assessment questions (covering breadth of knowledge) and good sample responses
+  - Second phone interview assessment questions (covering depth of knowledge) and good sample responses
+  - Job analysis worksheet (for hiring action case file)
+---
+
+<p class="usa-intro">
+  {{ page.intro }}
+</p>
+
+{% include phase-meta.html %}
+
+<div class="chp-toolkit">
+  <h4 class="chp-toolkit__title">Toolkit</h4>
+  <ul class="chp-toolkit__list">
+    <li class="chp-toolkit__item">
+      <a href="{{ site.baseurl }}/templates/assessment-strategy/" class="chp-toolkit__link">
+        Assessment strategy template
+      </a>
+    </li>
+    <li class="chp-toolkit__item">
+      <a href="{{ site.baseurl }}/meetings/job-analysis/day-1/" class="chp-toolkit__link">
+        Agenda for Job Analysis Workshop - Day 1
+      </a>
+    </li>
+    <li class="chp-toolkit__item">
+      <a href="{{ site.baseurl }}/meetings/job-analysis/day-2/" class="chp-toolkit__link">
+        Agenda for Job Analysis Workshop - Day 2
+      </a>
+    </li>
+    <li class="chp-toolkit__item">
+      <a href="{{ site.baseurl }}/hiring-phases/job-analysis/example-interview-question/" class="chp-toolkit__link">
+        Example interview questions
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+<h3>About Core Competencies and Proficiencies</h3>
+
+<p>
+  <strong>Core competencies</strong> are the professional skills an applicant must possess from their first day in the position you're hiring for, while *proficiencies* gauge how skilled an applicant is with the given competency depending on years of experience, the scale of the organizations they've worked in, or the complexity of the projects they've participated in.
+</p>
+<p>
+  The job analysis workshop bridges what may be a standardized position description (PD) with the actual job your agency is hiring for. By defining your core competencies and proficiencies, your group will have a shared understanding of the core competencies and proficiencies an applicant needs to be successful in performing the duties for a given role. You'll also:
+</p>
+<ul class="usa-list">
+  <li>Decide how to accurately describe your role to applicants in your job announcement.</li>
+  <li>Determine the assessment criteria and qualifications for your role(s).</li>
+  <li>Develop structured interview questions.</li>
+</ul>
+
+
+{% assign sub-pages = site.pages | where: "phase","job-analysis" | sort: "sub-phase-order" %}
+{% for sub-page in sub-pages %}
+  <h3>
+    <a href="{{ site.baseurl }}{{ sub-page.permalink }}">{{ sub-page.title }}</a>
+  </h3>
+  <p>
+    {{ sub-page.intro }}
+  </p>
+{% endfor %}

@@ -12,9 +12,9 @@ intro: In the typical competitive delegated examining hiring process, HR special
   {{ page.intro }}
 </p>
 
-
 This process is recommended for GS 12+ technical positions (not limited to IT) with at least 5 vacancies for the same role and where applicant volume can be limited to around 100 applicants.
 
+<!--
 ## Identify Positions and Billets
 
 ## Choosing Subject Matter Experts
@@ -58,3 +58,4 @@ If SMEs are members of local meet-ups or other communities, encourage them to sh
 ## Creating a Case File
 
 ## Measuring a Hiring Action
+ -->

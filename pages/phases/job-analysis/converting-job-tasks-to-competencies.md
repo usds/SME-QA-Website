@@ -9,6 +9,10 @@ sub-phase-order: 030
 intro: Once SMEs have listed their common job tasks, group similar tasks to create your competencies.
 ---
 
+<p class="usa-intro">
+  {{ page.intro }}
+</p>
+
 When the job task writing exercise is complete and the notes are on a wall, ask all participants to stand up together and group similar tasks. When the groups of tasks are adequately organized, brainstorm a short, summarizing title for each grouping. These titles are the core competencies required for your position.
 
 Generally, you'll want to define four to six core competencies for your position. To pare down your competencies to this amount, give each participant three to four dot stickers to vote on the competencies they feel are the most important for this position from day one. The results of the dot voting, along with the frequency of the sticky notes per competency, determines which competencies are necessary to consider an applicant minimally qualified for your position.

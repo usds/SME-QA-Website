@@ -45,7 +45,9 @@ hiring-phases:
     - text: About Proficiency Levels
       href: "/hiring-phases/job-analysis/#about-proficiency-levels"
     - text: Sample Competencies and Proficiency Levels
-      href: "/hiring-phases/job-analysis/#sample-competencies-and-proficiency-levels"
+      href: "/hiring-phases/job-analysis/sample-competencies/"
+    - text: Sample Interview Questions
+      href: "/hiring-phases/job-analysis/sample-interview-questions/"
     - text: Defining Minimum Qualifications from Competencies
       href: "/hiring-phases/job-analysis/#defining-minimum-qualifications-from-competencies"
     - text: Creating a Structured Interview from Competencies

@@ -5,8 +5,11 @@ section: hiring-phases
 title: Job announcement
 sidenav: hiring-phases
 intro: To attract the most qualified applicants, your job announcement must be an accurate and compelling representation of the position, rather than language taken directly from the position description. The job announcement should list the core competencies and definitions that SMEs developed during job analysis as the required qualifications. The agency should limit the applicant submission count to 100 as to not overwhelm the SME process, but should have a recruitment strategy in place to make sure qualified applicants are ready to apply in advance.
-roles: [Human Resources]
+roles: [Human Resources, Hiring Managers]
 duration: 3-4 hours
+outputs:
+  - Job announcement content to publish on USA Jobs
+  - Recruitment strategy for your role(s)
 ---
 
 <p class="usa-intro">

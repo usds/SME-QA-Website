@@ -44,7 +44,7 @@
     "jquery": "^3.4.1",
     "normalize.css": "^8.0.1",
     "path": "^0.12.7",
-    "run-sequence": "^1.1.5",
+    "run-sequence": "^2.2.1",
     "tar": ">=4.4.10",
     "uswds": "2.0.3"
   }

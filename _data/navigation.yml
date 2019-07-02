@@ -12,6 +12,8 @@ primary:
 about:
   - text: Our process
     href: /about/our-process/
+  - text: How our process is different
+    href: /about/differences/
 
 hiring-phases:
   - text: Getting started
@@ -33,10 +35,6 @@ hiring-phases:
       href: "/hiring-phases/job-analysis/defining-proficiency-levels/"
     - text: Creating a Structured Interview from Competencies
       href: "/hiring-phases/job-analysis/creating-a-structured-interview-from-competencies"
-    - text: Sample Competencies and Proficiency Levels
-      href: "/hiring-phases/job-analysis/sample-competencies/"
-    - text: Sample Interview Questions
-      href: "/hiring-phases/job-analysis/sample-interview-questions/"
   - text: Job announcement
     href: /hiring-phases/job-announcement/
     phase: job-announcement

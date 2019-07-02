@@ -292,7 +292,9 @@ blockquote {
 
 .chp-page-list {
   &__title {
-    @include u-font-size('body', 'md');
+    @include u-font-size('body', 'lg');
+    font-weight: bold;
+    margin: units(3) 0 units(2) 0;
   }
 
   &__desc {

@@ -2,6 +2,7 @@
 layout: article
 permalink: /agendas/job-analysis/day-1/
 section: hiring-phases
+sidenav: hiring-phases
 phase: job-analysis
 role: all
 slug: agenda-for-job-analysis-workshop-day-1

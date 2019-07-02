@@ -1,0 +1,25 @@
+<div id="breadcrumbs" class="chp-breadcrumb">
+  <ul vocab="http://schema.org" typeof="BreadcrumbList" class="chp-breadcrumb__list">
+{% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
+    <li class="chp-breadcrumb__item" property="itemListElement" typeof="ListItem">
+      <a class="chp-breadcrumb__link" property="item" typeof="WebPage" href="/">
+        Home
+      </a>
+    </li>
+{% for crumb in crumbs offset: 1 %}
+  {% assign position = position  | plus: 1 %}
+  {% if forloop.last %}
+    / {{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}
+  {% else %}
+    <li class="chp-breadcrumb__item" property="itemListElement" typeof="ListItem">
+    / <a class="chp-breadcrumb__link" property="item" typeof="WebPage" href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' | replace:'without-plugin/','without-plugins/' }}{% endfor %}">
+        <span property="name" typeof="WebPage">
+          {{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}
+        </span>
+        <meta property="position" content="{{ position }}">
+      </a>
+    </li>
+  {% endif %}
+{% endfor %}
+  </ul>
+</div>

@@ -324,3 +324,27 @@ blockquote {
 .chp-nested-list ul {
   margin: .5em 0 1em 0;
 }
+
+.chp-breadcrumb {
+  border-bottom: 1px solid color('gray-cool-10');
+
+  .chp-breadcrumb &__list {
+    display: block;
+    list-style-type: none;
+    padding: 0 units(3);
+    width: 100%;
+    // max-width: 160rem;
+    margin: units(2) auto;
+  }
+
+  &__item {
+    display: inline-block;
+    @include u-font-size('body', '2xs');
+    margin: 0;
+  }
+
+  &__link {
+    @include permaLink();
+    text-decoration: none;
+  }
+}

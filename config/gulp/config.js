@@ -24,9 +24,10 @@ module.exports = {
       "_hr-tasks/*.md",
       "_sme-tasks/*.md",
       "_rating-guide/*.md",
-      "_meetings/*.md",
+      "_agendas/*.md",
       "assets/img/*.{png,jpg,svg}",
       "_layouts/*.html",
+      "toolkit/**/*.{html,markdown,md,yml,json,txt,pptx}",
       "pages/**/*.{html,markdown,md,yml,json,txt,xml}"
     ],
     styles: ["_scss/*.scss", "_scss/components/*.scss", "_scss/layouts/*.scss"]

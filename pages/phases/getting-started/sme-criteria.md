@@ -5,9 +5,8 @@ section: hiring-phases
 title: SME Criteria and Expectations
 sidenav: hiring-phases
 phase: getting-started
+intro: When you begin a hiring action, one of your first tasks is to select subject matter experts (SMEs) to participate in job analysis, review applicant resumes, and interview the applicants who move on from resume review. Work with hiring managers to select SMEs who excel in their position and are detail-oriented enough to assess an applicant's qualifications.
 ---
-
-When you begin a hiring action, one of your first tasks is to select subject matter experts (SMEs) to participate in job analysis, review applicant resumes, and interview the applicants who move on from resume review. Work with hiring managers to select SMEs who excel in their position and are detail-oriented enough to assess an applicant's qualifications.
 
 ## Choosing SMEs
 

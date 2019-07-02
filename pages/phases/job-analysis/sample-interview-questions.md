@@ -6,7 +6,6 @@ title: Sample Interview Questions
 sidenav: hiring-phases
 phase: job-analysis
 intro: Use these example *breadth* and *depth* questions to understand how to format your first and second phone assessment interview questions for your role.
-sub-phase-order: 100
 ---
 
 <p class="usa-intro">

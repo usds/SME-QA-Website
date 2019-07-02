@@ -328,6 +328,10 @@ blockquote {
 .chp-breadcrumb {
   border-bottom: 1px solid color('gray-cool-10');
 
+  &__body {
+    @include grid-container();
+  }
+
   .chp-breadcrumb &__list {
     display: block;
     list-style-type: none;
@@ -354,5 +358,11 @@ blockquote {
 
   li {
     margin: units(2) 0;
+  }
+}
+
+.chp-footer {
+  &__body {
+    @include grid-container();
   }
 }

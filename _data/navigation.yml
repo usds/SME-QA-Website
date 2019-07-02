@@ -63,14 +63,10 @@ hiring-phases:
     subnav:
     - text: Preparing for Interview One
       href: "/hiring-phases/first-interview/#preparing-for-interview-one"
-    - text: Interviewing Applicants for Technical Assessment One
-      href: "/hiring-phases/first-interview/#interviewing-applicants-for-technical-assessment-one"
     - text: Reviewing First Interview Documentation and Ratings
       href: "/hiring-phases/first-interview/#reviewing-first-interview-documentation-and-ratings"
     - text: Preparing for interview two
       href: "/hiring-phases/second-interview/#preparing-for-interview-two"
-    - text: Interviewing applicants for Technical Assessment Two
-      href: "/hiring-phases/second-interview/#interviewing-applicants-for-technical-assessment-two"
     - text: Reviewing Second Interview Documentation and Ratings
       href: "/hiring-phases/second-interview/#reviewing-second-interview-documentation-and-ratings"
   - text: Issuing a Certificate

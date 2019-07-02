@@ -36,22 +36,9 @@ roles: [Human Resources, Subject-Matter-Experts]
 <h2 id="preparing-for-interview-one">
   Preparing for Interview One
 </h2>
-<h3 id="hr-specialists-1">HR Specialists</h3>
 {% assign hr-tasks = site.hr-tasks | where: "phase","first-interview" | where: "sub-phase","preparing-for-interview-one" | where: "role","hr" %}
 <dl class="chp-page-list">
   {% for task in hr-tasks %}
-  <dt class="chp-page-list__title"><a href="{{ site.baseurl }}{{ task.permalink }}">{{ task.title }}</a></dt>
-  <dd class="chp-page-list__desc">{{ task.description }}</dd>
-  {% endfor %}
-</dl>
-
-<h2 id="interviewing-applicants-for-technical-assessment-one">
-  Interviewing Applicants for Technical Assessment One
-</h2>
-<h3 id="smes">Subject Matter Experts</h3>
-{% assign sme-tasks = site.sme-tasks | where: "phase","first-interview" | where: "sub-phase","interviewing-applicants-for-technical-assessment-one" | where: "role","sme" %}
-<dl class="chp-page-list">
-  {% for task in sme-tasks %}
   <dt class="chp-page-list__title"><a href="{{ site.baseurl }}{{ task.permalink }}">{{ task.title }}</a></dt>
   <dd class="chp-page-list__desc">{{ task.description }}</dd>
   {% endfor %}
@@ -69,7 +56,6 @@ roles: [Human Resources, Subject-Matter-Experts]
 <h2 id="reviewing-first-interview-documentation-and-ratings">
   Reviewing First Interview Documentation and Ratings
 </h2>
-<h3 id="hr-specialists-2">HR Specialists</h3>
 {% assign hr-tasks = site.hr-tasks | where: "phase","first-interview" | where: "sub-phase","reviewing-first-interview-documentation-and-ratings" | where: "role","hr" %}
 <dl class="chp-page-list">
   {% for task in hr-tasks %}
@@ -81,23 +67,9 @@ roles: [Human Resources, Subject-Matter-Experts]
 <h2 id="preparing-for-interview-two">
   Preparing for Interview Two
 </h2>
-<h3 id="hr-specialists-1">HR Specialists</h3>
 {% assign hr-tasks = site.hr-tasks | where: "phase","second-interview" | where: "sub-phase","preparing-for-interview-two" | where: "role","hr" %}
 <dl class="chp-page-list">
   {% for task in hr-tasks %}
-  <dt class="chp-page-list__title"><a href="{{ site.baseurl }}{{ task.permalink }}">{{ task.title }}</a></dt>
-  <dd class="chp-page-list__desc">{{ task.description }}</dd>
-  {% endfor %}
-</dl>
-
-
-<h2 id="interviewing-applicants-for-technical-assessment-two">
-  Interviewing Applicants for Technical Assessment Two
-</h2>
-<h3 id="smes">Subject Matter Experts</h3>
-{% assign sme-tasks = site.sme-tasks | where: "phase","second-interview" | where: "sub-phase","interviewing-applicants-for-technical-assessment-two" | where: "role","sme" %}
-<dl class="chp-page-list">
-  {% for task in sme-tasks %}
   <dt class="chp-page-list__title"><a href="{{ site.baseurl }}{{ task.permalink }}">{{ task.title }}</a></dt>
   <dd class="chp-page-list__desc">{{ task.description }}</dd>
   {% endfor %}
@@ -115,7 +87,6 @@ roles: [Human Resources, Subject-Matter-Experts]
 <h2 id="reviewing-second-interview-documentation-and-ratings">
   Reviewing Second Interview Documentation and Ratings
 </h2>
-<h3 id="hr-specialists-2">HR Specialists</h3>
 {% assign hr-tasks = site.hr-tasks | where: "phase","second-interview" | where: "sub-phase","reviewing-second-interview-documentation-and-ratings" | where: "role","hr" %}
 <dl class="chp-page-list">
   {% for task in hr-tasks %}

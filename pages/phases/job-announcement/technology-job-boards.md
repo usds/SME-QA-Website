@@ -2,9 +2,9 @@
 layout: article
 permalink: /hiring-phases/recruitment/technology-job-boards/
 section: hiring-phases
-phase: recruitment
-title: Popular Technology Job Boards
 sidenav: hiring-phases
+phase: job-announcement
+title: Popular Technology Job Boards
 ---
 
 These job boards are well known by technologists. Consider posting your job announcement on a few of them.

@@ -5,8 +5,16 @@
       <h5 class="chp-meta__title">Participants</h5>
       <ul class="chp-meta__list">
         {% for role in page.roles %}
+          {% assign hiring-role = site.data.navigation.hiring-roles | where: "role",role | first %}
         <li class="chp-meta__item">
-          {{ role }}
+          {% assign _link = hiring-role.href %}
+          {% if _link %}
+          <a href="{{ _link }}">
+            {{ hiring-role.text }}
+          </a>
+          {% else %}
+          {{ hiring-role.text }}
+          {% endif %}
         </li>
         {% endfor %}
       </ul>

@@ -333,7 +333,6 @@ blockquote {
     list-style-type: none;
     padding: 0 units(3);
     width: 100%;
-    // max-width: 160rem;
     margin: units(2) auto;
   }
 
@@ -346,5 +345,14 @@ blockquote {
   &__link {
     @include permaLink();
     text-decoration: none;
+  }
+}
+
+.chp-checklist,
+.usa-prose .chp-checklist {
+  list-style-image: url('../img/bullet-sq.svg');
+
+  li {
+    margin: units(2) 0;
   }
 }

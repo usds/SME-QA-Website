@@ -3,9 +3,12 @@ layout: article
 section: case-studies
 permalink: /case-studies/
 title: Case Studies
+intro: We're conducting our pilot with 3 agencies to test and improve our process.
 ---
 
-We have 3 pilots underway with the following agencies:
+<p class="usa-intro">
+  {{ page.intro }}
+</p>
 
 * [Health and Human Services](hhs/)
 * [Department of Interior](doi/)

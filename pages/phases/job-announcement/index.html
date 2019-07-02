@@ -1,0 +1,69 @@
+---
+layout: article
+permalink: /hiring-phases/job-announcement/
+section: hiring-phases
+title: Job announcement
+sidenav: hiring-phases
+intro: To attract the most qualified applicants, your job announcement must be an accurate and compelling representation of the position, rather than language taken directly from the position description. The job announcement should list the core competencies and definitions that SMEs developed during job analysis as the required qualifications. The agency should limit the applicant submission count to 100 as to not overwhelm the SME process, but should have a recruitment strategy in place to make sure qualified applicants are ready to apply in advance.
+roles: [hr, hiring-mgr]
+duration: 3-4 hours
+outputs:
+  - Job announcement content to publish on USAJOBS
+  - Recruitment strategy for your role(s)
+---
+
+<p class="usa-intro">
+  {{ page.intro }}
+</p>
+
+{% include phase-meta.html %}
+
+<div class="chp-toolkit">
+  <h4 class="chp-toolkit__title">Toolkit</h4>
+  <ul class="chp-toolkit__list">
+    <li class="chp-toolkit__item">
+      <a href="https://usajobs.github.io/ATP-Support/job-announcement-playbook/" target="_blank" class="chp-toolit__link">Job announcement playbook</a>
+    </li>
+    <li class="chp-toolkit__item">
+      <a href="{{ site.baseurl }}/hiring-phases/recruitment/technology-job-boards/" class="chp-toolkit__link">
+        Useful job boards for technical positions
+      </a>
+    </li>
+  </ul>
+</div>
+
+<div class="chp-highlight">
+  <h4 class="chp-highlight__title">
+    Sample job announcements
+  </h4>
+  <p>These IT Specialist job announcements were posted by our agency pilot participants:</p>
+  <ul class="chp-highlight__list">
+    <li class="chp-highlight__item">
+      <a href="https://www.usajobs.gov/GetJob/ViewDetails/532244000" target="_blank">
+        National Park Service
+      </a>
+    </li>
+    <li class="chp-highlight__item">
+      <a href="https://www.usajobs.gov/GetJob/ViewDetails/529652500" target="_blank">
+        Office of the Secretary of HHS
+      </a>
+    </li>
+  </ul>
+</div>
+
+{% assign page-list = '' | split: '' %}
+{% assign sub-pages = site.pages | where: "phase","job-announcement" | sort: "sub-phase-order" %}
+{% for sub-page in sub-pages %}
+  {% if sub-page.sub-phase-order %}
+    {% assign page-list = page-list | push: sub-page %}
+  {% endif %}
+{% endfor %}
+
+{% for sub-page in page-list %}
+  <h3>
+    <a href="{{ site.baseurl }}{{ sub-page.permalink }}">{{ sub-page.title }}</a>
+  </h3>
+  <p>
+    {{ sub-page.intro }}
+  </p>
+{% endfor %}

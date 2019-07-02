@@ -41,12 +41,12 @@ hiring-phases:
     href: /hiring-phases/job-announcement/
     phase: job-announcement
     subnav:
-    - text: Focus on content
-      href: "/hiring-phases/job-announcement/#focus-on-content"
-    - text: Creating the announcement
-      href: "/hiring-phases/job-announcement/#creating-the-announcement"
+    - text: Creating a job announcement on USAJOBS
+      href: "/hiring-phases/job-announcement/create-announcement-on-usajobs/"
     - text: Recruiting for your roles
-      href: "/hiring-phases/job-announcement/#recruiting-for-your-roles"
+      href: "/hiring-phases/job-announcement/recruiting/"
+    - text: Plain Language Guidelines
+      href: "/hiring-phases/job-announcement/plain-language-guidelines/"
   - text: Reviewing Resumes
     href: /hiring-phases/reviewing-resumes/
     phase: reviewing-resumes
@@ -81,12 +81,16 @@ hiring-phases:
       href: "/hiring-phases/certificate/#selections"
 
 hiring-roles:
-  - text: Human Resources
+  - text: HR Specialist
     href: /hiring-roles/hr/
     role: hr
   - text: Subject Matter Expert
     href: /hiring-roles/sme/
     role: sme
+  - text: Hiring Manager
+    role: hiring-mgr
+  - text: IO Psychologist
+    role: io-psych
 
 rating-guide:
   - text: Overview

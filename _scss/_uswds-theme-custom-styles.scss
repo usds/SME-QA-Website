@@ -173,9 +173,17 @@ i.e.
   }
 }
 
-.chp-article .chp-toolkit {
+.chp-article .chp-toolkit,
+.chp-article .chp-highlight {
   @include u-margin-y(6);
 
+  &__list {
+    column-count: 2;
+    column-gap: units(2);
+  }
+}
+
+.chp-article .chp-toolkit {
   &__title {
     position: relative;
     color: color('blue-cool-50v');
@@ -191,10 +199,18 @@ i.e.
       background-color: color('blue-cool-50v');
     }
   }
+}
 
-  &__list {
-    column-count: 2;
-    column-gap: units(2);
+.chp-article .chp-highlight {
+  @include u-padding(2);
+  background-color: color('blue-cool-40v');
+  border-radius: 3px;
+
+  &__title,
+  &__list,
+  p,
+  a {
+    color: color('white');
   }
 }
 

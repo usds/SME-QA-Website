@@ -21,3 +21,13 @@ NPS posted [a job announcement](https://www.usajobs.gov/GetJob/ViewDetails/53224
 * Sysadmin - Patch Management
 
 The announcement closed on Friday May 3rd after receiving 224 applications. NPS is wrapping up interviews and are nearly ready to [issue a certificate](../../hiring-phases/certificate/).
+
+### Current statistics
+
+* Vacancies: 7
+* Staff: 8 SMEs, 1 HR Specialist
+* Applicants: 224
+* Assessments:
+    * 78 pass resume review
+    * 40 pass the first interview
+    * 20 pass the second interview

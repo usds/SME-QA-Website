@@ -20,6 +20,16 @@ HHS posted [a job announcement](https://www.usajobs.gov/GetJob/ViewDetails/52965
 * IT Data Management Specialist
 * IT Policy and Planning Specialist
 
-The announcement closed on Saturday April 6th after receiving 167 applications. Each application was reviewed by two Subject-Matter-Experts (SMEs). Any disagreements were then reviewed by a third SME before moving forward.
+The announcement closed on Saturday April 6th after receiving 164 applications. Each application was reviewed by two Subject-Matter-Experts (SMEs). Any disagreements were then reviewed by a third SME before moving forward.
 
 The resume process is now complete for HHS and they are in the [interview phase](/hiring-phases/phone-assessment-interviews/).
+
+### Current statistics
+
+* Vacancies: 30
+* Staff: 9 SMEs, 1 HR Specialist
+* Applicants: 164
+* Assessments:
+    * 103 pass resume review
+    * 54 pass the first interview
+    * 35 pass the second interview

@@ -50,8 +50,6 @@ collections:
     output: true
   sme-tasks:
     output: true
-  rating-guide:
-    output: true
 
 # Exclude from processing.
 exclude:

@@ -1,8 +1,9 @@
 ---
 layout: article
-permalink: /rating-guide/resume-review-outcomes/
-section: rating-guide
-slug: resume-review-ratings
+permalink: /hiring-phases/reviewing-resumes/toolkit/resume-review-outcomes/
+section: hiring-phases
+sidenav: hiring-phases
+phase: reviewing-resumes
 title: Resume Review Outcomes
 description: Defines the outcomes for resume review based on SME ratings.
 ---

@@ -55,7 +55,7 @@ hiring-phases:
       href: "/hiring-phases/reviewing-resumes/sme-instructions/"
   - text: Phone Assessment Interviews
     href: /hiring-phases/phone-assessment-interviews/
-    phase: first-interview
+    phase: phone-assessment-interviews
     subnav:
     - text: Preparing for Interview One
       href: "/hiring-phases/first-interview/#preparing-for-interview-one"

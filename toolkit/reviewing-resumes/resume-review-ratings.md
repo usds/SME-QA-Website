@@ -1,8 +1,9 @@
 ---
 layout: article
-permalink: /rating-guide/resume-review-ratings/
-section: rating-guide
-slug: resume-review-ratings
+permalink: /hiring-phases/reviewing-resumes/toolkit/resume-review-ratings/
+section: hiring-phases
+sidenav: hiring-phases
+phase: reviewing-resumes
 title: Resume Review Ratings
 description: Defines the 2 ratings a resume can receive
 ---

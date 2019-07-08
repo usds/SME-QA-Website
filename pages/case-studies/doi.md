@@ -26,8 +26,8 @@ The announcement closed on Friday May 3rd after receiving 224 applications. NPS 
 
 * Vacancies: 7
 * Staff: 8 SMEs, 1 HR Specialist
-* Applicants: 224
+* Applicants: 220
 * Assessments:
     * 78 pass resume review
-    * 40 pass the first interview
-    * 20 pass the second interview
+    * 38 pass the first interview
+    * 25 pass the second interview

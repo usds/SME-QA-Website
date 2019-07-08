@@ -3,6 +3,7 @@ layout: article
 permalink: /hiring-phases/certificate/
 section: hiring-phases
 title: Certificate
+phase: certificate
 sidenav: hiring-phases
 intro: When SMEs complete the qualifying assessment interviews, you can adjudicate veterans' preference and assign categories based on whether the applicant met or exceeded the requirements during the interviews. After you issue a hiring certificate to the hiring manager, they can either conduct additional interviews or make selections based on transcripts from the phone assessment interviews.
 roles: [Human Resources, Hiring Manager]
@@ -16,7 +17,7 @@ roles: [Human Resources, Hiring Manager]
   <h4 class="chp-toolkit__title">Toolkit</h4>
   <ul class="chp-toolkit__list">
     <li class="chp-toolkit__item">
-      <a href="{{site.baseurl}}/rating-guide/" class="chp-toolkit__link">
+      <a href="{{site.baseurl}}/rating-guide/preference-adjudication-rating-guide/" class="chp-toolkit__link">
         Preference Adjudication Rating Guide
       </a>
     </li>

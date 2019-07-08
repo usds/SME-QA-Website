@@ -8,7 +8,6 @@ title: Interview Rating Guide
 description: To calibrate the first and second interview assessment phases of your hiring action, use these ratings and outcomes.
 ---
 
-
 ## Interview Assessment Ratings
 
 **2: Exceeds Requirements:** Give the applicant a "2" if the SME determined that the applicant’s answers met all required proficiency levels for required competencies AND exceeded at least one.
@@ -16,15 +15,6 @@ description: To calibrate the first and second interview assessment phases of yo
 **1: Meets Requirements:** Give the applicant a "1" if the SME determined that the applicant’s answers met the required proficiency levels for all required competencies.
 
 **0: Does Not Meet All Requirements:** Give the applicant a "0" if the SME determined that the applicant’s answers did not meet proficiency levels for some or all competencies.
-**5. Exceeded Requirements:** Applicant’s answers meet all required proficiency levels for required competencies AND exceed at least one.
-
-**4. Met Requirements:** Applicant’s answers meet the required proficiency levels for all required competencies.
-
-**3. Borderline:** Applicant’s answers meet or exceed proficiency levels for most competencies, but remaining competencies cannot be accurately assessed.
-
-**2. Does Not Meet All Requirements:** Applicant’s answers meet proficiency levels for some competencies but do not meet proficiency for the rest.
-
-**1. Does Not Meet Any Requirements:** Applicant’s answers do not meet proficiency levels for any competencies.
 
 ## Interview Results Key
 

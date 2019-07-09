@@ -2,7 +2,7 @@
 layout: article
 permalink: /hiring-phases/reviewing-resumes/sme-instructions/
 section: hiring-phases
-title: SME Instructions
+title: SME Resume Review Instructions
 sidenav: hiring-phases
 phase: reviewing-resumes
 sub-phase-order: 020

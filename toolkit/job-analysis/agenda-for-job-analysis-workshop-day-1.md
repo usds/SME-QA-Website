@@ -1,11 +1,10 @@
 ---
 layout: article
-permalink: /agendas/job-analysis/day-1/
+permalink: /toolkit/job-analysis/workshop-agenda-day-1/
 section: hiring-phases
 sidenav: hiring-phases
 phase: job-analysis
-role: all
-slug: agenda-for-job-analysis-workshop-day-1
+toolkit: true
 title: Agenda for Job Analysis Workshop - Day 1
 description: An agenda for the first of the 2 day job analysis activities.
 ---

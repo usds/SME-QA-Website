@@ -23,8 +23,6 @@ module.exports = {
       "_includes/*.html",
       "_hr-tasks/*.md",
       "_sme-tasks/*.md",
-      "_rating-guide/*.md",
-      "_agendas/*.md",
       "assets/img/*.{png,jpg,svg}",
       "_layouts/*.html",
       "toolkit/**/*.{html,markdown,md,yml,json,txt,pptx}",

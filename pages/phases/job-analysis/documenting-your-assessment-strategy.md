@@ -2,10 +2,10 @@
 layout: article
 permalink: /hiring-phases/job-analysis/documenting-your-assessment-strategy/
 section: hiring-phases
-title: Documenting Your Assessment Strategy
 sidenav: hiring-phases
 phase: job-analysis
 sub-phase-order: 010
+title: Documenting Your Assessment Strategy
 intro: In addition to documenting job tasks, developing core competencies and proficiencies, and creating interview assessment questions, ask SMEs participating in your workshop to make these key decisions about the assessment strategy they'll use for your hiring action.
 ---
 

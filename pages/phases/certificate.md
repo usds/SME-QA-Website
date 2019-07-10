@@ -17,8 +17,13 @@ roles: [Human Resources, Hiring Manager]
   <h4 class="chp-toolkit__title">Toolkit</h4>
   <ul class="chp-toolkit__list">
     <li class="chp-toolkit__item">
-      <a href="{{site.baseurl}}/rating-guide/preference-adjudication-rating-guide/" class="chp-toolkit__link">
+      <a href="{{site.baseurl}}/toolkit/certificate/preference-adjudication-rating-guide/" class="chp-toolkit__link">
         Preference Adjudication Rating Guide
+      </a>
+    </li>
+    <li class="chp-toolkit__item">
+      <a href="{{site.baseurl}}/toolkit/certificate/transmuting-ratings-into-scores/" class="chp-toolkit__link">
+        Transmuting Ratings into Scores
       </a>
     </li>
   </ul>

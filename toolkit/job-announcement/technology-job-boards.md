@@ -1,10 +1,10 @@
 ---
 layout: article
-permalink: /hiring-phases/recruitment/technology-job-boards/
+permalink: /toolkit/job-announcement/technology-job-boards/
 section: hiring-phases
 sidenav: hiring-phases
 phase: job-announcement
-title: Popular Technology Job Boards
+title: Useful job boards for technical positions
 ---
 
 These job boards are well known by technologists. Consider posting your job announcement on a few of them.

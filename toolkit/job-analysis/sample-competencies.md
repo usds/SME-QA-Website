@@ -1,10 +1,10 @@
 ---
 layout: article
-permalink: /hiring-phases/job-analysis/sample-competencies/
+permalink: /toolkit/job-analysis/sample-competencies/
 section: hiring-phases
-title: Sample Competencies and Proficiency Levels
 sidenav: hiring-phases
 phase: job-analysis
+title: Sample Competencies and Proficiency Levels
 intro: Use these examples to develop your own core competencies and proficiencies during a job analysis workshop.
 ---
 

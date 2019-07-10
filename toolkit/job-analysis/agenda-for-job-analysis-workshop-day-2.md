@@ -1,10 +1,10 @@
 ---
 layout: article
-permalink: /agendas/job-analysis/day-2/
+permalink: /toolkit/job-analysis/workshop-agenda-day-2/
 section: hiring-phases
+sidenav: hiring-phases
 phase: job-analysis
-role: all
-slug: agenda-for-job-analysis-workshop-day-2
+toolkit: true
 title: Agenda for Job Analysis Workshop - Day 2
 description: An agenda for the second of the 2 day job analysis activities.
 ---

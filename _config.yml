@@ -46,10 +46,11 @@ logo: /img/usds-logo-onwhite.png
 collections:
   hr-tasks:
     output: true
-  agendas:
-    output: true
   sme-tasks:
     output: true
+  toolkit:
+    output: true
+
 
 # Exclude from processing.
 exclude:

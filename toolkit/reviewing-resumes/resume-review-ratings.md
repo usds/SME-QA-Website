@@ -1,6 +1,6 @@
 ---
 layout: article
-permalink: /hiring-phases/reviewing-resumes/toolkit/resume-review-ratings/
+permalink: /toolkit/reviewing-resumes/resume-review-ratings/
 section: hiring-phases
 sidenav: hiring-phases
 phase: reviewing-resumes

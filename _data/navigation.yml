@@ -18,6 +18,11 @@ about:
 hiring-phases:
   - text: Getting started
     href: /hiring-phases/getting-started/
+    subnav:
+    - text: Building a recruitment pipeline
+      href: "/hiring-phases/getting-started/recruitment/"
+    - text: SME Criteria and Expectations
+      href: "/hiring-phases/getting-started/sme-criteria/"
     phase: getting-started
   - text: Job analysis workshop
     href: /hiring-phases/job-analysis/
@@ -51,7 +56,9 @@ hiring-phases:
     subnav:
     - text: Preparing for Resume Reviews
       href: "/hiring-phases/reviewing-resumes/prep/"
-    - text: SME Resume Review Instructions
+    - text: Set Up and Conduct Resume Review Training
+      href: "/hiring-phases/reviewing-resumes/training/"
+    - text: Conducting SME Resume Reviews
       href: "/hiring-phases/reviewing-resumes/sme-instructions/"
   - text: Phone Assessment Interviews
     href: /hiring-phases/phone-assessment-interviews/
@@ -68,13 +75,6 @@ hiring-phases:
   - text: Issuing a Certificate
     href: /hiring-phases/certificate/
     phase: certificate
-    subnav:
-    - text: HR Preference Adjudication
-      href: "/hiring-phases/certificate/#hr-preference-adjudication"
-    - text: Hiring manager interviews
-      href: "/hiring-phases/certificate/#hiring-manager-interviews"
-    - text: Selections
-      href: "/hiring-phases/certificate/#selections"
 
 hiring-roles:
   - text: HR Specialist

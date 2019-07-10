@@ -1,10 +1,10 @@
 ---
 layout: article
-permalink: /hiring-phases/job-analysis/sample-interview-questions/
+permalink: /toolkit/job-analysis/sample-interview-questions/
 section: hiring-phases
-title: Sample Interview Questions
 sidenav: hiring-phases
 phase: job-analysis
+title: Sample Interview Questions
 intro: Use these example *breadth* and *depth* questions to understand how to format your first and second phone assessment interview questions for your role.
 ---
 

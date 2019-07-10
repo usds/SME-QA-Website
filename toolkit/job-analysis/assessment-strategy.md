@@ -1,19 +1,11 @@
 ---
 layout: article
-permalink: /toolkit/job-analysis/assessment-strategy/
+permalink: /toolkit/assessment-strategy/template/
 section: hiring-phases
 sidenav: hiring-phases
-phase: job-analysis
+phase: assessment-strategy
 title: Assessment strategy template
 ---
-
-Appendix List:
-
-- Resume review instructions ("Reviewing Resumes")
-- Understanding the OPM Pilot Process
-- Developing Core Competencies
-- Rating Guide
-- Interview Rating Template
 
 ## Multiple-Hurdle Assessment Process
 

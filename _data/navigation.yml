@@ -24,12 +24,13 @@ hiring-phases:
     - text: SME Criteria and Expectations
       href: "/hiring-phases/getting-started/sme-criteria/"
     phase: getting-started
+  - text: Assessment Strategy
+    href: /hiring-phases/assessment-strategy/
+    phase: assessment-strategy
   - text: Job analysis workshop
     href: /hiring-phases/job-analysis/
     phase: job-analysis
     subnav:
-    - text: Documenting Your Assessment Strategy
-      href: "/hiring-phases/job-analysis/documenting-your-assessment-strategy/"
     - text: Documenting Job Tasks
       href: "/hiring-phases/job-analysis/documenting-job-tasks/"
     - text: Converting Job Tasks to Competencies

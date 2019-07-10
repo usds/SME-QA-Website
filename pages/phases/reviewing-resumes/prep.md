@@ -11,39 +11,17 @@ intro: Before you train subject matter experts on how to review resumes, prepare
 
 ### General Ineligibility Requirements
 
-Because applicants' qualifications are defined as specialized experience established during job analysis, there is no HR minimum qualification review. Instead, SMEs will check for technical proficiencies and a year of relevant experience during their resume review. There is no education substitution for positions using this hiring process.
+Before you send resumes to SMEs for review, mark applicants as ineligible if:
 
-Two SMEs will independently review each remaining applicant's resume to determine whether they adequately reflect the core competencies and proficiencies to warrant the first of two phone assessment interviews, with a third SME conducting tiebreaker reviews if necessary.
-
-Mark applicants as ineligible if:
 - They do not have a resume.
-- They do not meet the citizenship requirement, if not automatically filtered for your agency. Confirm whether this check is necessary and if so, how to correctly apply the filter in your TAS.
+- They do not meet the citizenship requirement, if not automatically filtered for your agency.
 
-### Create TAS Accounts and Create Applicant Lists
+Instead of reviewing resumes to determine minimum qualification, review the technical justification that SMEs provide to make sure their decision can be retraced later on. As HR specialist, you'll adjudicate veterans' preference after SMEs conduct phone assessment interviews.
 
-Once you have your final list of applicants who will be reviewed, create TAS accounts for each SME who will conduct resume reviews.
+### Create Applicant Lists for SME Reviews
 
-Divide applicants evenly among participating SMEs, assigning two SMEs to review each applicant's resume.
+Two SMEs will independently review each applicant's resume to determine whether they adequately reflect the required competencies and proficiencies, with a third SME conducting tiebreaker resume reviews if needed.
 
-1. Export the list of remaining applicants to a spreadsheet.
-2. In the spreadsheet, add columns for each available role or parenthetical available under your hiring action, if applicable. If applicants may only apply for a maximum number of roles, ensure that each applicant is considered for only that number.
-3. Divide the resume review assignments among the available SMEs. Two SMEs must review each resume. Do not include SMEs who will conduct tiebreaker reviews.
-
-## Set Up and Conduct Resume Review Training
-
-**Short Description:** Before providing SMEs with their resume review assignments, conduct a two-hour training on how to review resumes. Optionally, follow your training with a one-hour guided resume review session, where you'll provide SMEs with their assignments and review resumes as a group.
-
-### Setting Up Resume Review Training
-
-Send calendar invites to all SMEs who will review resumes for your hiring action, including those who will provide tiebreaker reviews.
-
-To prepare for your training:
-- Update the resume review training presentation template with your agency-specific information, including the final competencies and proficiencies from your job analysis workshop.
-- Prepare your handouts.
-- Gather sample resumes from the USAJOBS Agency Talent Portal. To request an account, write to <a href="mailto:recruiter-help@usajobs.gov">recruiter-help@usajobs.gov</a>. You'll need around five resumes that represent both public and private sector resumes for each role you're hiring for.
-
-## Providing SMEs With Assignments
-
-Once participating SMEs have been trained to review resumes, provide them with their assignments.
-
-Give the SMEs a 4-day deadline to complete their review. Depending on the number of SMEs and applicants, SMEs should save 5-10 hours for resume review over the 4-day period.
+1. Decide how SMEs will review resumes. Either SMEs can review resumes and provide ratings directly within your TAS, or you can download all resumes for SMEs to conduct reviews outside your TAS.
+2. Divide applicants evenly among participating SMEs, assigning two SMEs to review each applicant's resume. For example, if you have 100 applicants and 6 SMEs, create two lists of 50 applicants and assign two SMEs to review each list. The additional two SMEs will conduct tiebreaker reviews only. If SMEs will use your TAS, create separate stored lists for each group of SMEs. If you'll export the applicant list and resumes on behalf of the SMEs, use a tracking spreadsheet to assign two SMEs to review each applicant.
+3. If multiple roles or parentheticals are available for your hiring action, make sure the applicant's choices are clear to the SMEs before they begin resume review as there may be extra role-specific competencies for the SME to consider during their reviews.

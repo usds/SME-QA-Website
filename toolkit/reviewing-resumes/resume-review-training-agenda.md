@@ -1,13 +1,11 @@
 ---
 layout: article
-permalink: /agendas/resume-review-training/
+permalink: /toolkit/reviewing-resumes/resume-review-training-agenda/
 section: hiring-phases
-phase: job-analysis
-role: all
-title: Resume Review Training
+sidenav: hiring-phases
+phase: reviewing-resumes
+title: Resume Review Training Agenda
 ---
-
-# Agenda: Resume Review Training
 
 `{HOUR}` – `{HOUR}` `{TIME ZONE}`, `{LOCATION}`
 

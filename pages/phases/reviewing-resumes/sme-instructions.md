@@ -2,10 +2,10 @@
 layout: article
 permalink: /hiring-phases/reviewing-resumes/sme-instructions/
 section: hiring-phases
-title: SME Resume Review Instructions
+title: Conducting SME Resume Reviews
 sidenav: hiring-phases
 phase: reviewing-resumes
-sub-phase-order: 020
+sub-phase-order: 030
 intro: How to be successful at reviewing resumes as a subject matter expert.
 ---
 
@@ -16,7 +16,7 @@ To be successful as a subject matter expert reviewing resumes, you will:
 3. Write a 1-4 sentence note explaining whether applicants move forward or not. For example:
 > “Does Not Move Forward (`{ROLE}`): Kevin’s resume does not show the communications/collaboration competency at the level required for this position because it contains significant spelling and grammatical errors.”
 
-## Guidelines For Conducting Your Resume Reviews
+## Guidelines for Conducting SME Resume Reviews
 
 As you review resumes, keep these points in mind:
 

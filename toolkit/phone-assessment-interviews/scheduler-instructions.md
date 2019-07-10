@@ -1,6 +1,6 @@
 ---
 layout: article
-permalink: /hiring-phases/phone-assessment-interviews/interview-scheduling-instructions/
+permalink: /toolkit/phone-assessment-interviews/interview-scheduling-instructions/
 section: hiring-phases
 sidenav: hiring-phases
 phase: phone-assessment-interviews

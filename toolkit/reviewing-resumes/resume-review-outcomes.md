@@ -1,6 +1,6 @@
 ---
 layout: article
-permalink: /hiring-phases/reviewing-resumes/toolkit/resume-review-outcomes/
+permalink: /toolkit/reviewing-resumes/resume-review-outcomes/
 section: hiring-phases
 sidenav: hiring-phases
 phase: reviewing-resumes

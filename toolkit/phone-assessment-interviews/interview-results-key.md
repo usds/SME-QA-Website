@@ -1,6 +1,6 @@
 ---
 layout: article
-permalink: /hiring-phases/phone-assessment-interviews/interview-results-key/
+permalink: /toolkit/phone-assessment-interviews/interview-results-key/
 section: hiring-phases
 sidenav: hiring-phases
 phase: phone-assessment-interviews

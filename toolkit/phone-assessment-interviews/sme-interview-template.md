@@ -1,7 +1,9 @@
 ---
 layout: article
-permalink: /templates/sme-interview-rating-form/
-section: templates
+permalink: /toolkit/phone-assessment-interviews/sme-interview-rating-form/
+section: hiring-phases
+sidenav: hiring-phases
+phase: phone-assessment-interviews
 title: SME Interview Rating Form
 ---
 

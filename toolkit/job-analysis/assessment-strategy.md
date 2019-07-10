@@ -1,7 +1,9 @@
 ---
 layout: article
-permalink: /templates/assessment-strategy/
-section: templates
+permalink: /toolkit/job-analysis/assessment-strategy/
+section: hiring-phases
+sidenav: hiring-phases
+phase: job-analysis
 title: Assessment strategy template
 ---
 

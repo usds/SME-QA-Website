@@ -33,6 +33,8 @@ hiring-phases:
     href: /hiring-phases/job-analysis/
     phase: job-analysis
     subnav:
+    - text: Documenting Your Assessment Strategy
+      href: "/hiring-phases/job-analysis/documenting-assessment-strategy/"
     - text: Documenting Job Tasks
       href: "/hiring-phases/job-analysis/documenting-job-tasks/"
     - text: Converting Job Tasks to Competencies

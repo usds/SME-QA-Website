@@ -173,6 +173,12 @@ i.e.
   }
 }
 
+.chp-article.usa-section {
+  @include at-media('desktop') {
+    min-height: 70vh;
+  }
+}
+
 .chp-article .chp-toolkit,
 .chp-article .chp-highlight {
   @include u-margin-y(6);

@@ -20,7 +20,7 @@ module.exports = {
     jekyll: [
       "_config.yml",
       "_data/*.yml",
-      "_includes/*.html",
+      "_includes/**/*.html",
       "_hr-tasks/*.md",
       "_sme-tasks/*.md",
       "assets/img/*.{png,jpg,svg}",

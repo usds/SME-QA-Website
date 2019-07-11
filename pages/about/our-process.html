@@ -9,7 +9,7 @@ intro: In the typical competitive delegated examining hiring process, HR special
 {% include _banner-beta.html %}
 
 <main id="main-content" role="main" class="usa-layout-docs usa-section chp-article">
-  <div class="grid-container">
+  <div class="grid-container margin-bottom-4">
     <div class="grid-row grid-gap">
       <div class="usa-layout-docs__main desktop:grid-col-9 usa-prose">
         <h1>{{ page.title }}</h1>
@@ -19,29 +19,29 @@ intro: In the typical competitive delegated examining hiring process, HR special
       </div>
     </div>
   </div>
-</main>
-<div class="grid-container">
-  <div class="grid-row grid-gap">
-    <div class="desktop:grid-col-8 usa-prose">
-      <h2>How our process works</h2>
-      <dl class="chp-page-list chp-page-list--process">
-      {% assign hiring-phases = site.data.navigation['hiring-phases'] %}
-      {% for hiring-phase in hiring-phases %}
-      {% assign _href = hiring-phase.href %}
-      {% assign phase-page = site.pages | where: "permalink", _href %}
-        {% for phase in phase-page %}
-      <dt class="chp-page-list__title chp-page-list--process__title">
-        <a href="{{ site.baseurl }}{{ phase.permalink }}">{{ phase.title }}</a>
-      </dt>
-      <dd class="chp-page-list__desc">{{ phase.intro }}</dd>
+  <div class="grid-container">
+    <div class="grid-row grid-gap">
+      <div class="desktop:grid-col-8 usa-prose">
+        <h2>How our process works</h2>
+        <dl class="chp-page-list chp-page-list--process">
+        {% assign hiring-phases = site.data.navigation['hiring-phases'] %}
+        {% for hiring-phase in hiring-phases %}
+        {% assign _href = hiring-phase.href %}
+        {% assign phase-page = site.pages | where: "permalink", _href %}
+          {% for phase in phase-page %}
+        <dt class="chp-page-list__title chp-page-list--process__title">
+          <a href="{{ site.baseurl }}{{ phase.permalink }}">{{ phase.title }}</a>
+        </dt>
+        <dd class="chp-page-list__desc">{{ phase.intro }}</dd>
+          {% endfor %}
         {% endfor %}
-      {% endfor %}
-      </dl>
-    </div>
-    <div class="desktop:grid-col-4 usa-prose">
-      <a href="{{site.baseurl}}/assets/img/process-diagram-vertical.png" target="_blank">
-        <img src="{{site.baseurl}}/assets/img/process-diagram-vertical.png" alt="Our multi-hurdle process diagram">
-      </a>
+        </dl>
+      </div>
+      <div class="desktop:grid-col-4 usa-prose">
+        <a href="{{site.baseurl}}/assets/img/process-diagram-vertical.png" target="_blank">
+          <img src="{{site.baseurl}}/assets/img/process-diagram-vertical.png" alt="Our multi-hurdle process diagram">
+        </a>
+      </div>
     </div>
   </div>
-</div>
+</main>

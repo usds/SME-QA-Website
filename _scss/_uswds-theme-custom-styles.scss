@@ -206,11 +206,16 @@ i.e.
     padding-left: 0;
   }
 
+  &__item {
+    margin-bottom: units(1);
+  }
+
   &__link {
     svg {
       width: 22px;
-      padding: units(1) units(1) 0 0;
+      padding-right: units(1);
       fill: color('primary');
+      vertical-align: middle;
     }
   }
 }

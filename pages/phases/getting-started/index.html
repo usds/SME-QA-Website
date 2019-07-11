@@ -5,7 +5,7 @@ section: hiring-phases
 title: Getting started
 sidenav: hiring-phases
 phase: getting-started
-intro: For this process to be effective for your hiring action, determine whether qualified applicants apply for your typical competitive hire vacancies but don't make it onto hiring certificates. When hiring managers don't get access to truly qualified applicants, they cancel their certificates, creating talent gaps that affect an agency's ability to meet their goals.
+intro: When you've decided to find qualified applicants using this process, you can plan your hiring action.
 roles: [hr, hiring-mgr]
 duration: 1 day (8 hours)
 outputs:
@@ -20,6 +20,9 @@ outputs:
 <p class="usa-intro">
   {{ page.intro }}
 </p>
+<p>
+  For more information, see <a href="{{ site.baseurl }}/about/our-process/">About Our Process</a>.
+</p>
 
 {% include phase-meta.html %}
 
@@ -28,28 +31,19 @@ outputs:
   {% include toolkit/getting-started.html %}
 </div>
 
-<h2>Pilot Requirements</h2>
-<ul>
-  <li><strong>Position Description:</strong> The PD must be classified at the proper GS level and flexible enough for the JOA to be accurate and compelling. This may require the ability to create a new PD in a timely fashion. It is also should be a GS12+ technical position that requires specialized experience, such as IT Specialist or paralegal.</li>
-  <li><strong>Vacancy:</strong> The vacancy has approved headcount of five or more GS 12+ billets for the same technical role. Fewer billets may not provide the necessary return on SME time required for this process.</li>
-  <li><strong>Policy - SMEs:</strong> Agency policy that allows SMEs to determine applicant qualifications and to use simplified efforts (i.e. 1 SME per interview, competency checklist for resume review vs. writing multiple paragraphs).</li>
-  <li><strong>Policy - Resumes:</strong> Agency policy that allows the JOA to inform applicants that SMEs will only review the first 2-3 pages of the resume.</li>
-  <li><strong>Baseline data:</strong> Ability to pull baseline data for recent DE hiring actions to compare numbers of qualified and selected applicants with the results of this process.</li>
-  <li><strong>Accurate Job Announcement:</strong> The agency must conduct a job analysis workshop with SMEs to serve as the link between what could be a slightly dated position description and what needs to be an accurate job announcement.</li>
-</ul>
+{% assign page-list = '' | split: '' %}
+{% assign sub-pages = site.pages | where: "phase","getting-started" | sort: "sub-phase-order" %}
+{% for sub-page in sub-pages %}
+  {% if sub-page.sub-phase-order %}
+    {% assign page-list = page-list | push: sub-page %}
+  {% endif %}
+{% endfor %}
 
-<p>This process has been approved by OPM Policy and piloted with two agencies.</p>
-
-<h2>Checklist</h2>
-<p>
-  Use this checklist to get started:
-</p>
-<ul class="chp-checklist">
-  <li><strong>Collect baseline data:</strong> Collect data on recent DE hiring actions to see how many applicants were deemed qualified and the number of selections for comparison purposes.</li>
-  <li><strong>Identify Positions and Billets:</strong> Confirm you have a classified PD at the proper GS level and that you have multiple vacancies (5+) for the same position/role.</li>
-  <li><strong>Select staff:</strong> Select a full time HR specialist and a Project Manager to oversee the process, and establish a process to select your 8 SMEs.</li>
-  <li><strong>Select Subject Matter Experts (SMEs):</strong> Use our <a href="{{ site.baseurl }}/hiring-phases/getting-started/sme-criteria/">guide to selecting SMEs</a></li>
-  <li><strong>Setup job analysis workshop:</strong> Set up your 2-day <a href="{{ site.baseurl }}/hiring-phases/job-analysis/">job analysis workshop</a> with HR and a subset of your SMEs where you will define critical competencies, proficiency levels, and write two sets of structured interview questions.</li>
-  <li><strong>Finalize your assessment strategy documentation:</strong> Use our <a href="{{ site.baseurl }}/templates/assessment-strategy/">assessment strategy template</a>.</li>
-  <li><strong>Create job announcement</strong>: Craft and <a href="{{ site.baseurl }}/hiring-phases/job-announcement/">post the job announcement</a> that reflects the new assessment strategy. Once the JOA closes, you can proceed to SME resume review and structured interviews.</li>
-</ul>
+{% for sub-page in page-list %}
+  <h3>
+    <a href="{{ site.baseurl }}{{ sub-page.permalink }}">{{ sub-page.title }}</a>
+  </h3>
+  <p>
+    {{ sub-page.intro }}
+  </p>
+{% endfor %}

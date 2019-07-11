@@ -70,3 +70,11 @@ After each interview round (including tiebreaker), HR will review each SME's "No
 ### Certificate
 
 When the list of applicants who have achieved an overall passing score is complete, HR will assign those applicants to a quality category using SME interview assessment scores and apply veterans’ preference. HR will issue multiple certificates to the relevant hiring manager for each parenthetical for further interviews. Only applicants who chose that parenthetical will be included on that certificate.
+
+### Appendix
+
+* Resume review instructions ("Reviewing Resumes")
+* Understanding the OPM Pilot Process
+* Developing Core Competencies
+* Rating Guide
+* Interview Rating Template

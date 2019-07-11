@@ -20,46 +20,19 @@ roles: [hr, sme]
   {% include toolkit/phone-assessment-interviews.html %}
 </div>
 
-<h2 id="preparing-for-interview-one">
-  Preparing for Interview One
-</h2>
-{% assign hr-tasks = site.hr-tasks | where: "phase","first-interview" | where: "sub-phase","preparing-for-interview-one" | where: "role","hr" %}
-<dl class="chp-page-list">
-  {% for task in hr-tasks %}
-  <dt class="chp-page-list__title"><a href="{{ site.baseurl }}{{ task.permalink }}">{{ task.title }}</a></dt>
-  <dd class="chp-page-list__desc">{{ task.description }}</dd>
-  {% endfor %}
-</dl>
+{% assign page-list = '' | split: '' %}
+{% assign sub-pages = site.pages | where: "phase","phone-assessment-interviews" | sort: "sub-phase-order" %}
+{% for sub-page in sub-pages %}
+  {% if sub-page.sub-phase-order %}
+    {% assign page-list = page-list | push: sub-page %}
+  {% endif %}
+{% endfor %}
 
-<h2 id="reviewing-first-interview-documentation-and-ratings">
-  Reviewing First Interview Documentation and Ratings
-</h2>
-{% assign hr-tasks = site.hr-tasks | where: "phase","first-interview" | where: "sub-phase","reviewing-first-interview-documentation-and-ratings" | where: "role","hr" %}
-<dl class="chp-page-list">
-  {% for task in hr-tasks %}
-  <dt class="chp-page-list__title"><a href="{{ site.baseurl }}{{ task.permalink }}">{{ task.title }}</a></dt>
-  <dd class="chp-page-list__desc">{{ task.description }}</dd>
-  {% endfor %}
-</dl>
-
-<h2 id="preparing-for-interview-two">
-  Preparing for Interview Two
-</h2>
-{% assign hr-tasks = site.hr-tasks | where: "phase","second-interview" | where: "sub-phase","preparing-for-interview-two" | where: "role","hr" %}
-<dl class="chp-page-list">
-  {% for task in hr-tasks %}
-  <dt class="chp-page-list__title"><a href="{{ site.baseurl }}{{ task.permalink }}">{{ task.title }}</a></dt>
-  <dd class="chp-page-list__desc">{{ task.description }}</dd>
-  {% endfor %}
-</dl>
-
-<h2 id="reviewing-second-interview-documentation-and-ratings">
-  Reviewing Second Interview Documentation and Ratings
-</h2>
-{% assign hr-tasks = site.hr-tasks | where: "phase","second-interview" | where: "sub-phase","reviewing-second-interview-documentation-and-ratings" | where: "role","hr" %}
-<dl class="chp-page-list">
-  {% for task in hr-tasks %}
-  <dt class="chp-page-list__title"><a href="{{ site.baseurl }}{{ task.permalink }}">{{ task.title }}</a></dt>
-  <dd class="chp-page-list__desc">{{ task.description }}</dd>
-  {% endfor %}
-</dl>
+{% for sub-page in page-list %}
+  <h3>
+    <a href="{{ site.baseurl }}{{ sub-page.permalink }}">{{ sub-page.title }}</a>
+  </h3>
+  <p>
+    {{ sub-page.intro }}
+  </p>
+{% endfor %}

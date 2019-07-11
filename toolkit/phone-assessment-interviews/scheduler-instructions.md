@@ -8,7 +8,7 @@ title: Interview Scheduling Instructions
 slug: rating-guide-interview
 ---
 
-From `{DATE} to `{DATE}`, `{AGENCY}` is conducting two rounds of rolling, structured phone interviews for a `{GS LEVEL}` `{ROLE NAME}` role with `{NUMBER OF SMES}` subject matter experts (SMEs). You’ll first schedule applicants for Interview 1, and as SMEs submit their ratings, you can begin scheduling Interview 2 for applicants who receive a passing rating.
+From `{DATE}` to `{DATE}`, `{AGENCY}` is conducting two rounds of rolling, structured phone interviews for a `{GS LEVEL}` `{ROLE NAME}` role with `{NUMBER OF SMES}` subject matter experts (SMEs). You’ll first schedule applicants for Interview 1, and as SMEs submit their ratings, you can begin scheduling Interview 2 for applicants who receive a passing rating.
 
 ## Scheduling SME Interviews for the USDS Hiring Pilot
 

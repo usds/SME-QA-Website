@@ -11,7 +11,7 @@ intro: How to be successful at reviewing resumes as a subject matter expert.
 
 To be successful as a subject matter expert reviewing resumes, you will:
 
-1. Familiarize yourself with the core competencies and proficiency levels specified for this position during job analysis (see Competencies/Proficienies document).
+1. Familiarize yourself with the core competencies and proficiency levels specified for this position during job analysis (see Competencies/Proficiencies document).
 2. Review resumes for evidence of the `{NUMBER}` competencies and proficiencies specified for the position.
 3. Write a 1-4 sentence note explaining whether applicants move forward or not. For example:
 > “Does Not Move Forward (`{ROLE}`): Kevin’s resume does not show the communications/collaboration competency at the level required for this position because it contains significant spelling and grammatical errors.”

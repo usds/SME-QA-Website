@@ -205,6 +205,19 @@ i.e.
       background-color: color('blue-cool-50v');
     }
   }
+
+  &__list {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  &__link {
+    svg {
+      width: 22px;
+      padding: units(1) units(1) 0 0;
+      fill: color('primary');
+    }
+  }
 }
 
 .chp-article .chp-highlight {

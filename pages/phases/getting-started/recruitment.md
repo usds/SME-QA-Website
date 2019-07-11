@@ -1,10 +1,8 @@
 ---
 layout: article
-permalink: /hiring-phases/getting-started/recruitment/
-section: hiring-phases
+permalink: /about/recruitment-pipeline/
+section: about
 title: Building a recruitment pipeline
-sidenav: hiring-phases
-phase: getting-started
 intro: Use and measure the results for these techniques from The U.S. Digital Service (USDS) and The Lab at OPM to develop your short-term and long-term recruiting strategies.
 ---
 

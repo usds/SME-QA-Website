@@ -1,5 +1,5 @@
 primary:
-  - text: About the pilot
+  - text: About Our Process
     href: /
     name: about
   - text: Begin Your Hiring Action
@@ -19,10 +19,12 @@ hiring-phases:
   - text: Getting started
     href: /hiring-phases/getting-started/
     subnav:
-    - text: Building a recruitment pipeline
-      href: "/hiring-phases/getting-started/recruitment/"
-    - text: SME Criteria and Expectations
-      href: "/hiring-phases/getting-started/sme-criteria/"
+    - text: Identifying Appropriate Positions
+      href: /hiring-phases/getting-started/identifying-appropriate-positions/
+    - text: Selecting Subject Matter Experts
+      href: "/hiring-phases/getting-started/selecting-smes/"
+    - text: Gathering Baseline Data
+      href: "/hiring-phases/getting-started/gathering-baseline-data/"
     phase: getting-started
   - text: Assessment Strategy
     href: /hiring-phases/assessment-strategy/

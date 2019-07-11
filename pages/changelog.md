@@ -22,7 +22,7 @@ This version represents significant changes to hiring phases, including breaking
 * Created an overall toolkit index page.
 * Resume Review Instructions Document added to toolkit.
 * “Selecting SMEs” to Getting Started
-* Generic Interview Rating Template added to toolkit.
+* Phone Interview Template added to toolkit.
 
 ### Changed
 

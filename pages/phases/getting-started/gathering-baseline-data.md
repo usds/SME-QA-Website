@@ -9,6 +9,10 @@ sub-phase-order: 030
 intro: To gauge the success of your hiring action, collect baseline data about recent delegated examination (DE) hiring actions at your agency. You'll compare this information with the results you receive when your new hiring action is complete.
 ---
 
+<p class="usa-intro">
+  {{ page.intro }}
+</p>
+
 For one to two recent DE actions, gather:
 
 - How many applications were considered qualified by an HR specialist

@@ -34,11 +34,6 @@ i.e.
     @include u-padding-y(4);
   }
 
-  &__title,
-  &__desc {
-    // @include u-text('white');
-  }
-
   &__callout {
     @include u-margin-y(2);
     @include u-font-size('body', 'lg');

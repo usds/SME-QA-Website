@@ -43,6 +43,9 @@ plugins:
 # See https://github.com/jekyll/jekyll-seo-tag
 logo: /img/usds-logo-onwhite.png
 
+# Google Analytics - Gov wide account
+analytics_id: "UA-33523145-1"
+
 collections:
   hr-tasks:
     output: true
@@ -50,7 +53,6 @@ collections:
     output: true
   toolkit:
     output: true
-
 
 # Exclude from processing.
 exclude:

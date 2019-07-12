@@ -28,7 +28,7 @@ i.e.
 }
 
 .chp-home-hero {
-  @include u-bg('blue-cool-30');
+  @include u-bg($theme-color-chp-blue-light);
 
   &__body {
     @include u-padding-y(4);
@@ -79,7 +79,7 @@ i.e.
   right: 0;
   width: 100%;
   height: 100%;
-  opacity: 0.2;
+  opacity: 0.3;
 }
 
 .chp-home {
@@ -132,7 +132,7 @@ i.e.
 
     svg {
       width: 4rem;
-      fill: color('blue-cool-30');
+      fill: color($theme-color-chp-blue);
     }
   }
 
@@ -187,7 +187,7 @@ i.e.
 .chp-article .chp-toolkit {
   &__title {
     position: relative;
-    color: color('blue-cool-50v');
+    color: color($theme-color-chp-blue-dark);
     text-transform: uppercase;
 
     &::before {
@@ -197,7 +197,7 @@ i.e.
       top: -1rem;
       left: 0px;
       width: 100%;
-      background-color: color('blue-cool-50v');
+      background-color: color($theme-color-chp-blue-dark);
     }
   }
 
@@ -222,7 +222,7 @@ i.e.
 
 .chp-article .chp-highlight {
   @include u-padding(2);
-  background-color: color('blue-cool-40v');
+  background-color: color($theme-color-chp-blue-dark);
   border-radius: 3px;
 
   &__title,
@@ -242,7 +242,7 @@ i.e.
 
   &__title {
     margin-top: units(3);
-    color: color('blue-cool-50v');
+    color: color($theme-color-chp-blue-dark);
     text-transform: uppercase;
   }
 
@@ -250,7 +250,6 @@ i.e.
     margin-top: units(1);
   }
 }
-
 
 .process-steps h3 {
   position: relative;
@@ -269,7 +268,7 @@ i.e.
   text-align: center;
   font-family: "Source Sans Pro","Helvetica Neue","Helvetica","Roboto","Arial",sans-serif;
   font-size: 100%;
-  @include u-bg('orange-warm-50');
+  @include u-bg($theme-color-chp-green-dark);
   @include u-text('white');
 }
 
@@ -305,7 +304,7 @@ blockquote {
 .chp-rolenav {
   &__title {
     @include u-margin-y(1);
-    color: color('blue-cool-50v');
+    color: color($theme-color-chp-blue-dark);
   }
 }
 
@@ -390,7 +389,7 @@ blockquote {
 
 .chp-footer {
   margin: units(3) 0 0;
-  background-color: color('primary');
+  background-color: color($theme-color-chp-blue-dark);
 
   &__body {
     @include grid-container();

@@ -3,7 +3,7 @@
     <ul vocab="http://schema.org" typeof="BreadcrumbList" class="chp-breadcrumb__list">
   {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
       <li class="chp-breadcrumb__item" property="itemListElement" typeof="ListItem">
-        <a class="chp-breadcrumb__link" property="item" typeof="WebPage" href="/">
+        <a class="chp-breadcrumb__link" property="item" typeof="WebPage" href="{{ site.baseurl }}/">
           Home
         </a>
       </li>
@@ -13,7 +13,7 @@
       / {{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}
     {% else %}
       <li class="chp-breadcrumb__item" property="itemListElement" typeof="ListItem">
-      / <a class="chp-breadcrumb__link" property="item" typeof="WebPage" href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' | replace:'without-plugin/','without-plugins/' }}{% endfor %}">
+      / <a class="chp-breadcrumb__link" property="item" typeof="WebPage" href="{{ site.baseurl }}{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' | replace:'without-plugin/','without-plugins/' }}{% endfor %}">
           <span property="name" typeof="WebPage">
             {{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}
           </span>

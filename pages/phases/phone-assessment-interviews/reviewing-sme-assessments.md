@@ -16,6 +16,10 @@ Verify that every core competency has a rating of Does Not Meet, Meets, or Excee
 - Verify that the summary interview analysis is complete (with at least a few sentences).
 - Confirm the SME correctly addressed any initial issues you may have reported.
 
+### Calculating an Applicant's Final Assessment Rating
+
+After SMEs have addressed your feedback for their interview assessment forms, calculate the applicant's final assessment rating based on the SME's proficiency determination using the <a href="{{site.baseurl}}/toolkit/phone-assessment-interviews/interview-assessment-ratings/">Interview Assessment Rating Guide</a>.
+
 ### Conducting a Tiebreaker Discussion with SMEs
 
 When the first two phone interview ratings require a tiebreaker, facilitate a call between the two SMEs who conducted the phone interviews to discuss whether the applicant meets the required competencies to move forward to receive a passing score.

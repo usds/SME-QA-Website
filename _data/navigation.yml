@@ -71,6 +71,8 @@ hiring-phases:
     subnav:
     - text: Scheduling Interviews with Applicants
       href: "/hiring-phases/phone-assessment-interviews/scheduling/"
+    - text: Training SMEs to Conduct Interviews
+      href: "/hiring-phases/phone-assessment-interviews/training/"
     - text: Interviewing Applicants for Phone Interviews
       href: "/hiring-phases/phone-assessment-interviews/interviewing-applicants/"
     - text: Reviewing SME Assessments

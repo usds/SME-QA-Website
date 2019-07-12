@@ -9,15 +9,13 @@ title: Training SMEs to Conduct Interviews
 intro: While phone interviews are being scheduled with applicants, facilitate a mandatory two-hour interview training for all SMEs who will conduct the next round of interviews that explains how to conduct structured interviews and assess an applicant’s proficiency with the required competencies based on their responses.
 ---
 
-Before you schedule training for the first round of interviews, divide the SMEs into two groups based on which round of interviews they will conduct. Consider how many applicants passed resume review, as well as any scheduling conflicts you may be aware of at this time.
-
 ### Setting Up Phone Assessment Interview Training
 
-Send calendar invites to all SMEs who will conduct the next round of interviews for your hiring action. SMEs can participate in the phone interview training in person or remotely using a conference bridge line, depending on the means and norms at your agency.
+As soon as possible, send calendar invites to only the SMEs who will conduct the next round of interviews for your hiring action, as the training reviews the questions for that round in depth. In total, you'll conduct two interview trainings, one for each round of interviews. SMEs can participate in the phone interview training in person or remotely using a conference bridge line, depending on the means and norms at your agency.
 
 Attach these documents to the calendar invite you send to participating SMEs:
 - The <a href="{{site.baseurl}}/toolkit/phone-assessment-interviews/phone-interview-training-agenda/">Phone Interview Training Agenda</a>
-- The <a href="{{ site.baseurl }}/toolkit/assessment-strategy/phone-interview-template.docx">Interview Template</a>: This is the primary document you'll train to. Add the appropriate questions, competencies, and proficiency levels, adding the words "minimum qualification" next to the required proficiency level in the SME rating section according to the results of the job analysis workshop.
+- The <a href="{{ site.baseurl }}/toolkit/assessment-strategy/phone-interview-template.docx">Interview Template</a>: This is the primary document you'll use for training. Add the appropriate questions, competencies, and proficiency levels, adding the words "minimum qualification" next to the required proficiency level in the SME rating section according to the results of the job analysis workshop.
 
 ### Preparing Your Training Session
 

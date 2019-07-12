@@ -283,6 +283,14 @@ i.e.
   @include u-margin-y(2);
 }
 
+.chp-process {
+  &__diagram {
+    @include at-media('desktop') {
+      margin-top: 30rem; // roughly aligns the process diagram with the relevant text
+    }
+  }
+}
+
 blockquote {
   border-left: .25em solid #dfe2e5;
   color: #6a737d;

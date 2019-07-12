@@ -10,6 +10,21 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 <!-- and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html) -->
 
+## [2.1.0](https://github.com/labopm/competitive-hiring-pilot/releases) - 2019-07-12
+
+This version represents added and removed information about the Phone Assessment Interview phase.
+
+### Added
+
+* "Training SMEs to Conduct Interviews" page added to Phone Assessment Interview phase.
+* "Guidance on Personal Relationships with Applicants" added to toolkit.
+* "Calculating and Applicant's Final Assessment Rating" added to Reviewing SME Assessments page.
+* Guidance on determining interview groups added to "Scheduling Interviews with Applicants" page.
+
+### Removed
+
+* Removed information about interview tiebreakers throughout site.
+
 ## [2.0.0](https://github.com/labopm/competitive-hiring-pilot/releases) - 2019-07-12
 
 This version represents significant changes to hiring phases, including breaking out the Assessment Strategy into a distinct phase.

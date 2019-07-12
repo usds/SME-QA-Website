@@ -32,4 +32,3 @@ The resume process is now complete for HHS and they are in the [interview phase]
 * Assessments:
     * 103 pass resume review
     * 54 pass the first interview
-    * 35 pass the second interview

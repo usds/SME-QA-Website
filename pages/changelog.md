@@ -10,7 +10,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 <!-- and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html) -->
 
-<!--
 ## [2.0.0](https://github.com/labopm/competitive-hiring-pilot/releases) - 2019-07-12
 
 This version represents significant changes to hiring phases, including breaking out the Assessment Strategy into a distinct phase.
@@ -32,7 +31,6 @@ This version represents significant changes to hiring phases, including breaking
 * Moved toolkit content to a new path.
 * Rating Guide items updated then moved to belong to the appropriate hiring phase in the toolkit.
 * Moved all agendas and templates to toolkit.
--->
 
 ## [1.0.0](https://github.com/labopm/competitive-hiring-pilot/releases) - 2019-07-02
 ### Added

@@ -20,16 +20,16 @@ roles: [hr, hiring-mgr]
   {% include toolkit/certificate.html %}
 </div>
 
-## HR Preference Adjudication
+## Adjudicating Preference
 
-Veterans' Preference will be applied only to those who meet the overall passing score. Up until that point, any applicant can be removed from consideration if they are determined not to meet the required qualifications (competencies/proficiencies).
+Apply Veterans' preference only to applicants who achieve an overall passing score. Up until that point, any applicant can be removed from consideration if they are determined not to qualify based on the required competencies and proficiencies.
 
-## Hiring manager interviews
+## Post-Certificate Interviews
 
-The primary variable changed by this process is how you assess applicants to determine they meet the basic qualifications before applying rankings and preference. All steps after the certificate can be done the same as the agency currently does. If hiring managers want to have additional interviews with applicants from the certificate they can do so. However, to pass over a veteran, they need to abide by title 5 requirements and submit a pass over request.
+After the hiring certificate is issued, agencies can use the same procedures they always have. Hiring managers may conduct additional interviews with applicants from the certificate, or choose instead to rely on the interview transcript notes to determine whether they'll make offers to applicants on the certificate.
 
-Hiring managers may also choose not to conduct additional interviews and instead to rely on the interview transcript notes to determine if they want to make offers to applicants on the certificate.
+To pass over a veteran, hiring managers must meet the requirements of 5 U.S.C. § 3318 and submit a pass over request. For more information, see the "[Vet Guide for HR Professionals](https://www.opm.gov/policy-data-oversight/veterans-services/vet-guide-for-hr-professionals/)" on the *OPM Website*.
 
-## Selections
+## Selecting Qualified Applicants from a Certificate
 
-The goal from this process is that there are fewer applicants who make it through qualifications and onto the certificate; but that there are no delegated examining certificates that result in no selections. In fact, ideally many of the applicants on the certificate can be made offers for positions at the agency (or at other agencies through a shared certificate) considering the extraordinary SME review process that took place to qualify these applicants.
+When hiring with this process, there should be fewer applicants who make it through qualifications and onto the certificate, with more selections off of the delegated examining certificates. Ideally, the extraordinary SME review process that qualifies applicants will allow applicants on the certificate to receive offers for positions at an agency. If there are more qualified applicants on a certificate than available billets at an agency, that agency may choose to share the certificate with other groups or agencies.

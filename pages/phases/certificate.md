@@ -20,9 +20,24 @@ roles: [hr, hiring-mgr]
   {% include toolkit/certificate.html %}
 </div>
 
+`<TO BE MOVED TO 'HOW OUR PROCESS IS DIFFERENT'>`
+
+SMEs' use their expertise and technical ability to assess whether an applicant is truly qualified before being considered minimally qualified and eligible for veterans preference. When using this hiring process, HR is not required to conduct a separate minimum qualifications review. Instead, your role is to:
+
+- Guide SMEs in defining the assessment criteria
+- Train them how to review resumes and conduct interviews
+- Review their resume review and interview feedback to ensure they use the pre-determined assessment criteria
+- Ensure SMEs provide a technical reason they decline anyone determined not to be qualified
+
+`</TO BE MOVED TO 'HOW OUR PROCESS IS DIFFERENT'`
+
+**NOTE:** After SMEs have completed interviews and identified the applicants who are found to meet qualifications, do not conduct a separate minimum qualification review.  
+
 ## Adjudicating Preference
 
 Apply Veterans' preference only to applicants who achieve an overall passing score. Up until that point, any applicant can be removed from consideration if they are determined not to qualify based on the required competencies and proficiencies.
+
+OPM's MSAC ACE will review the final category assignments to ensure they're lawful. HR will then issue the certificate of eligibles of the "Best Qualified" category to the HM.
 
 ## Post-Certificate Interviews
 

@@ -24,7 +24,7 @@ roles: [hr, hiring-mgr]
   <div class="usa-alert__body">
     <h3 class="usa-alert__heading">Do not conduct a separate minimum qualification review</h3>
     <p class="usa-alert__text">
-      After SMEs have completed interviews and identified the applicants who are found to meet qualifications, do not conduct a separate minimum qualification review. For more information please read <a href="{{ site.baseurl }}/about/differences/#sme-assessment">how our process is different</a>.
+      After SMEs have completed interviews and identified the applicants who are found to meet qualifications, do not conduct a separate minimum qualification review. For more information, see "<a href="{{ site.baseurl }}/about/differences/#sme-assessment">How our process is different</a>."
     </p>
   </div>
 </div>

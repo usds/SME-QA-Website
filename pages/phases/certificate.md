@@ -20,18 +20,14 @@ roles: [hr, hiring-mgr]
   {% include toolkit/certificate.html %}
 </div>
 
-`<TO BE MOVED TO 'HOW OUR PROCESS IS DIFFERENT'>`
-
-SMEs' use their expertise and technical ability to assess whether an applicant is truly qualified before being considered minimally qualified and eligible for veterans preference. When using this hiring process, HR is not required to conduct a separate minimum qualifications review. Instead, your role is to:
-
-- Guide SMEs in defining the assessment criteria
-- Train them how to review resumes and conduct interviews
-- Review their resume review and interview feedback to ensure they use the pre-determined assessment criteria
-- Ensure SMEs provide a technical reason they decline anyone determined not to be qualified
-
-`</TO BE MOVED TO 'HOW OUR PROCESS IS DIFFERENT'`
-
-**NOTE:** After SMEs have completed interviews and identified the applicants who are found to meet qualifications, do not conduct a separate minimum qualification review.  
+<div class="usa-alert usa-alert--info" >
+  <div class="usa-alert__body">
+    <h3 class="usa-alert__heading">Do not conduct a separate minimum qualification review</h3>
+    <p class="usa-alert__text">
+      After SMEs have completed interviews and identified the applicants who are found to meet qualifications, do not conduct a separate minimum qualification review. For more information please read <a href="{{ site.baseurl }}/about/differences/#sme-assessment">how our process is different</a>.
+    </p>
+  </div>
+</div>
 
 ## Adjudicating Preference
 

@@ -25,7 +25,13 @@ repository: labopm/competitive-hiring-pilot
 github_url: https://github.com/labopm/competitive-hiring-pilot/
 
 # Build settings
-markdown: kramdown
+markdown: HTMLPipeline
+
+html_pipeline:
+  filters:
+    - "ExtendedMarkdownFilter"
+  context:
+    emf_use_blocks: true
 
 # Assets settings
 # sass:
@@ -38,6 +44,8 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-redirect-from
+  - jekyll-html-pipeline
+  - extended-markdown-filter
 
 # Jekyll SEO Tag
 # See https://github.com/jekyll/jekyll-seo-tag

@@ -31,3 +31,49 @@ The announcement closed on Friday May 3rd after receiving 224 applications. NPS 
     * 78 pass resume review
     * 38 pass the first interview
     * 25 pass the second interview
+
+
+``` command-line
+$ git remote add origin https://github.com/<em>user</em>/<em>repo</em>.git
+# Set a new remote
+> origin  https://github.com/user/repo.git
+```
+
+
+``` helper
+Example helper
+```
+
+{{#tip}}
+
+Here's a hot tip: **line one**
+Here's a hot tip: line two
+
+{{/tip}}
+
+{{#note}}
+
+You should probably know this! line one
+You should probably know this! line two
+
+{{/note}}
+
+{{#warning}}
+
+Yo, check this out: line one
+Yo, check this out: line two
+
+{{/warning}}
+
+{{#danger}}
+
+Sheeeeit, this is a problem: ~~line one~~
+Sheeeeit, this is a problem: line two
+
+{{/danger}}
+
+{{#intro}}
+
+[Gists](https://gist.github.com) are a great way to share your work. You can share single files, parts of files, or full applications.
+
+{{/intro}}

@@ -24,6 +24,7 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap'
   gem 'jekyll-redirect-from'
   gem 'jekyll-html-pipeline'
+  gem 'extended-markdown-filter'
   gem 'commonmarker', '~> 0.16'
   gem 'escape_utils', '~> 1.0'
 # gem 'RedCloth',           '~> 4.2.9', require: false

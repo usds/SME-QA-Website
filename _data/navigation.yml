@@ -88,7 +88,7 @@ hiring-roles:
     role: sme
   - text: Hiring Manager
     role: hiring-mgr
-  - text: IO Psychologist
+  - text: IO Psychologist (Optional)
     role: io-psych
 
 rating-guide:

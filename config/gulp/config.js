@@ -10,7 +10,7 @@ module.exports = {
       server: {
         baseDir: [build]
       },
-      port: 4000,
+      port: 8080,
       notify: false
     }
   },

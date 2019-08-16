@@ -9,29 +9,42 @@ title: Resume Review
 {% assign applicant = site.data.applicants.engineering | sample %}
 
 <main id="main-content" role="main" class="usa-layout-docs sme-rr__main">
-  <div class="grid-container">
-    <div class="grid-row">
-      <div class="grid-col-9">
-        <h1 class="sme-rr__applicant-name">
-          <span class="sme-rr__applicant-name-desc">Evaluating:</span>
-          {{ applicant.name }}
-        </h1>
-        <p class="sme-rr__applicant-email">{{ applicant.email }}</p>
-        <p class="sme-rr__missing-info-container">
-          <a href="mailto:hr@youragency.gov?cc=youremail@youragency.gov&subject=Missing%20information%20for%20applicant%20Douglass%20Creecy" class="sme-rr__missing-info">
-            Missing resume?
-          </a>
-        </p>
+  <form name="sme-rr" action="#" method="get" class="usa-form sme-rr-form" id="sme-rr-form" data-object="sme-rr">
+    <div class="grid-container">
+      <div class="grid-row">
+        <div class="grid-col-9">
+          <h1 class="sme-rr__applicant-name">
+            <span class="sme-rr__applicant-name-desc">Evaluating:</span>
+            {{ applicant.name }}
+          </h1>
+          <p class="sme-rr__applicant-email">{{ applicant.email }}</p>
+          <p class="sme-rr__missing-info-container">
+            <a href="mailto:hr@youragency.gov?cc=youremail@youragency.gov&subject=Missing%20information%20for%20applicant%20{{applicant.name}}" class="sme-rr__missing-info">
+              Missing resume?
+            </a>
+          </p>
+        </div>
+        <div class="grid-col-3">
+          <h3 id="status" class="sme-rr__status">Incomplete</h3>
+          <button class="usa-button usa-button--outline sme-rr__recuse" data-behavior="sme-rr.reload">
+            Recuse yourself
+          </button>
+        </div>
       </div>
-      <div class="grid-col-3">
-        <h3 id="status" class="sme-rr__status">Incomplete</h3>
-        <button class="usa-button usa-button--outline sme-rr__recuse">Recuse yourself</button>
+      <div class="usa-alert usa-alert--success sme-rr__confirmation" aria-hidden="true" id="confirmation">
+        <div class="usa-alert__body">
+          <h3 class="usa-alert__heading">Review saved</h3>
+          <p class="usa-alert__text">
+            Your review of {{applicant.name}} has been saved.
+          </p>
+          <button class="usa-button sme-rr__next-applicant" data-behavior="sme-rr.reload">
+            Review next applicant
+          </button>
+        </div>
       </div>
     </div>
-  </div>
 
-  <form name="sme-rr" action="{{ site.baseurl }}/research/phase-2/test-1/engineering/" method="get" class="usa-form sme-rr-form" id="sme-rr-form">
-    <div class="grid-container sme-rr-comps" data-object="sme-rr">
+    <div class="grid-container sme-rr-comps">
       <div class="grid-row">
         <div class="grid-col-9">
           <h4 class="sme-rr-comps__title">Competencies</h4>
@@ -131,7 +144,7 @@ title: Resume Review
                 <textarea class="usa-textarea" id="input-type-textarea" name="input-type-textarea"></textarea>
               </div>
 
-              <button class="usa-button sme-rr-scoring__save" id="sme-rr-does-not-meet-save">
+              <button class="usa-button sme-rr-scoring__save" id="sme-rr-does-not-meet-save" data-behavior="sme-rr.save" aria-controls="confirmation">
                 Save &amp; Continue
               </button>
             </div>
@@ -141,7 +154,7 @@ title: Resume Review
       {% endfor %}
       <div class="grid-row">
         <div class="grid-col">
-          <button class="usa-button sme-rr-scoring__save" id="sme-rr-final-save" disabled>
+          <button class="usa-button sme-rr-scoring__save" id="sme-rr-final-save" disabled data-behavior="sme-rr.save" aria-controls="confirmation">
             Save &amp; Continue
           </button>
         </div>

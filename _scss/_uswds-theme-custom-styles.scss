@@ -442,6 +442,20 @@ blockquote {
   &__missing-info {
     padding: units(0.5) 0;
   }
+
+  &__next-applicant {
+    float: right;
+  }
+
+  &__confirmation {
+    &[aria-hidden=true] {
+      display: none;
+    }
+    .usa-alert__body {
+      display: inline-block;
+      width: 100%;
+    }
+  }
 }
 
 .sme-rr-comps {

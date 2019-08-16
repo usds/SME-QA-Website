@@ -14,7 +14,7 @@ var $sme_rr = $('[data-object="sme-rr"]'),
     }
   };
 
-$sme_rr.on('click', '[data-behavior]', function () {
+$sme_rr.on('click', '[data-behavior]', function (event) {
   var $el = $(this),
     $object = $el.closest('[data-object="sme-rr"]'),
     behavior = $el.attr('data-behavior');
@@ -22,6 +22,10 @@ $sme_rr.on('click', '[data-behavior]', function () {
   // Each behavior attached to the element should be triggered
   $.each(behavior.split(' '), function (idx, action) {
     if (action.match(/^sme-rr/)) {
+      if (action === 'sme-rr.save') {
+        event.preventDefault();
+      }
+
       $el.trigger(action, { el: $el, object: $object });
     }
   });
@@ -46,12 +50,6 @@ $sme_rr.on('sme-rr.does-not-meet', function(event, opts) {
   var $target = opts.object.find('#' + opts.el.attr('aria-controls'));
 
   $target.attr('aria-hidden', 'false');
-
-  $target.slideDown(function () {
-    $('html, body').animate({
-      scrollTop: opts.object.offset().top
-    });
-  });
 });
 
 $sme_rr_select.on('change', function () {
@@ -68,4 +66,25 @@ $sme_rr_select.on('change', function () {
   } else {
     $input.attr('aria-hidden', true);
   }
+});
+
+$sme_rr.on('sme-rr.save', function(event, opts) {
+  // Reveal the confirmation message
+  // Hide exposed justification areas
+  // Scroll to top of the page
+  var $target = opts.object.find('#' + opts.el.attr('aria-controls')),
+    $container = opts.el.closest('.sme-rr-scoring-reason');
+
+  $target.attr('aria-hidden', 'false');
+  $container.attr('aria-hidden', 'true');
+
+  $target.slideDown(function () {
+    $('html, body').animate({
+      scrollTop: opts.object.offset().top
+    });
+  });
+});
+
+$sme_rr.on('sme-rr.reload', function(event, opts) {
+  location.reload();
 });

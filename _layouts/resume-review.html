@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include _head.html %}
+
+<body class="sme-rr">
+  <a class="usa-skipnav" href="#main-content">Skip to main content</a>
+  {% include _banner.html %}
+  {{ content }}
+
+  <script src="{{ site.baseurl }}/assets/js/uswds.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/sme-rr.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/shims/svg4everybody.js"></script>
+  <script>
+    svg4everybody();
+  </script>
+</body>
+
+</html>

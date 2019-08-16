@@ -28,7 +28,11 @@ module.exports = {
       "toolkit/**/*.{html,markdown,md,yml,json,txt,pptx}",
       "pages/**/*.{html,markdown,md,yml,json,txt,xml}"
     ],
-    styles: ["_scss/*.scss", "_scss/components/*.scss", "_scss/layouts/*.scss"]
+    styles: [
+      "_scss/*.scss", 
+      "_scss/components/*.scss",
+      "_scss/layouts/*.scss"
+    ]
   },
 
   jekyll: {

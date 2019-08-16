@@ -24,11 +24,16 @@ module.exports = {
       "_hr-tasks/*.md",
       "_sme-tasks/*.md",
       "assets/img/*.{png,jpg,svg}",
+      "assets/js/sme-rr.js",
       "_layouts/*.html",
       "toolkit/**/*.{html,markdown,md,yml,json,txt,pptx}",
       "pages/**/*.{html,markdown,md,yml,json,txt,xml}"
     ],
-    styles: ["_scss/*.scss", "_scss/components/*.scss", "_scss/layouts/*.scss"]
+    styles: [
+      "_scss/*.scss",
+      "_scss/components/*.scss",
+      "_scss/layouts/*.scss"
+    ]
   },
 
   jekyll: {

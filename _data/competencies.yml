@@ -1,0 +1,107 @@
+engineering:
+  - competency: Programming
+    definition:
+      - Code writing
+      - Code reading
+      - Polyglot skills (comparing languages)
+      - Testing strategies (TDD, BDD)
+      - Identifying edge cases
+      - Code organization
+      - Secure practices (ie escape your strings)
+      - Debugging
+      - Can communicate thought process
+    required: Experienced
+    levels:
+      - proficiency: Familiar
+        definition: Knows more than one programming language, and understands how to weigh the applicability of different languages to problem domains. Understands how to find, and use 3rd party tools and libraries to solve problems. Understands how source code control works. Understands how build tools work. Understands how to measure code performance. Can produce working code from specifications. Works well in a team environment.
+      - proficiency: Experienced
+        definition: Has maintained a large codebase. Knows how to conduct code reviews and apply code review results to codebase. Knows how to coordinate contributions in the face of scheduling and/or customer uncertainties. Understands how to use measurements and make a plan from those measurements to improve codebase. Can collaborate across teams/corporations.
+        required: true
+      - proficiency: Master
+        definition: Wrote an OS. Wrote a computer language. Has released product to large customer base. Has successfully refactored a large codebase and would be willing to do it again. Knows where the duct-tape is and knows when to use it.
+  - competency: Modern Architecture
+    definition:
+      - Stateless/Stateful
+      - Load balancing
+      - Caching
+      - Schemas and storage choices
+      - Cluster scheduling and orchestration
+      - Protocols (IP, HTTP, TCP, UDP)
+      - Sockets
+      - Levels of isolation (VMs -vs- containerization -vs- serverless / microservices -vs- monoliths)
+    required: Experienced
+    levels:
+      - proficiency: Familiar
+        definition: Has built and deployed a website made of multiple components including a webserver and a db server. This can include managing something like a django application or even wordpress. Their product may not have needed to scale but they understand how they'd increase capacity by adding db replicas and webservers. Related to this they should understand the difference between scaling reads vs writes. This should lead them to demonstrate an understanding of caching strategies including memcache. Furthermore they should understand what the failure modes of their system are. They should have experience deploying this sort of smaller implementation (may fit entirely on one machine) to the cloud. Some software they should have some experience with includes mysql/postgresql, nginx/lighttpd, and a scripting language like python/ruby/php.
+      - proficiency: Experienced
+        definition: Has experience building a site that needed to scale beyond multiple webservers and storage servers. This means they likely measured scale in queries per second. They built the site with the ability to failover to another datacenter. They've worked with systems like hadoop or spark that let them process data produced by their product. They use configuration management like puppet/chef to manage their systems and have dabbled in containerizing their application components using something like docker or at the very least understand the difference between a container and a VM.
+        required: true
+      - proficiency: Master
+        definition: Has built a system that migrated out of the cloud and onto their own infrastructure for very good reasons. They've implemented and contributed to modern cluster abstractions like mesos or kubernetes. They've written or contributed to a real distributed system, possibly using a modern language like go, scala, or rust. Understands how distributed consensus algorithms like paxos or raft work and have deployed applications that required something like zookeeper.
+  - competency: Project/Team Management
+    definition:
+      - Managing technical debt
+      - Technical/user fit (don't build this in Node if the devs all know Java)
+      - Modernizing strategies for large complex systems (COBOL!)
+      - Can get buy-in and work with stakeholders to introduce tools or processes (agile, version control, CI/CD, etc)
+      - Knows how to get a project off the ground from nothing
+      - Can lead a team of engineers, designers, and PMs
+      - Works well with others
+      - Can adapt to the needs of a project
+    required: Familiar
+    levels:
+      - proficiency: Familiar
+        definition: Has been a project/team lead; team members may or may not have been direct reports. Has had to execute a plan and live with the results.
+        required: true
+      - proficiency: Experienced
+        definition: Has been a first-level manager; has had to hire, fire, and develop direct reports. Responsible for ownership of an area, mapping out a strategic plan, and executing that plan within budget. Inspires others with description of path forward.
+      - proficiency: Master
+        definition: Manager of managers; can lead equally well through direct supervision or moral authority. Has broad influence across the organization. Understands what motivates people and inspires them to do their best. Their teams consistently achieve superior results without regretted attrition. People actively seek to join their teams. Grows leaders who go on to successful tenures inside and outside their organization.
+  - competency: Technical Communication
+    definition:
+      - Can translate technical topics to non-technical people
+      - Explaining things to technical people with different specializations
+      - Explaining things to people who think they are more technical than they actually are (EQ)
+      - Report writing (organizing documents for effective communication)
+    required: Familiar
+    levels:
+      - proficiency: Familiar
+        definition: Can get the point across even if not elegantly. Written documents are understandable by people familiar with the subject. Can present to small groups.
+        required: true
+      - proficiency: Experienced
+        definition: Writes and speaks well to a wide range of audiences. Written word is concise and correct. Can present to large and small groups competently. Communicates with customers and can synthesize their needs into products.
+      - proficiency: Master
+        definition: Able to communicate up and down the chain, from CEOs to hourly workers, with equal ease and clarity. Represents the needs and constraints of the team while working toward customer solutions. Can articulate technical tradeoffs to non-technical stakeholders.
+  - competency: Engineering Practices
+    definition:
+      - Strong opinions, loosely held
+      - Willingness to adapt to the needs of a project
+      - Can describe and justify ideal environments (version control, access control, deployment procedures, agile, ticket management, feature prioritization, code review, release cadences)
+      - Can evaluate and implement different engineering tools or processes
+      - Can build tools or introduce processes that outlive their roles
+    required: Experienced
+    levels:
+      - proficiency: Familiar
+        definition: Worked on a team project with a healthy developer environment allowing for deployment on at least a monthly basis. Direct experience with at least the most basic concepts like code reviews and testing. When presented with a severely disfunctional dev process, can identify at least the most egregiously broken pieces.
+      - proficiency: Experienced
+        definition: Deep experience on a project that regularly deploys at least once every two weeks. Has actively installed or improved key parts of the process. When presented with a severely disfunctional dev process, can identify what is wrong and fix specific components.
+        required: true
+      - proficiency: Master
+        definition: Rescued projects from the brink of developer doom. Has experience resetting cultural expectations for dev productivity, educating a team on the key practices, and working with them to transform the actual process. When presented with a severely disfunctional dev process, can make recommendations and execute on a plan to rehabilitate it.
+  - competency: Firefighting
+    definition:
+      - Methodical approach to identifying problems by developing hypotheses
+      - Monitoring and logging
+      - Troubleshooting commands like tcpdump, strace, netstat, etc.
+      - Blameless post-mortems
+      - Incident Response
+      - Risk based decisions
+    required: Experienced
+    levels:
+      - proficiency: Familiar
+        definition: Understands how to use tools like top, uptime, kill to navigate a system. Understands the risks of kill -9 versus kill. Understands how processes work, What the role of init is. Can deploy 'hello, world!' to the cloud. Understands the relative costs of context switching, processor cache writes, RAM writes, flash writes, disk writes.
+      - proficiency: Experienced
+        definition: Understands how to use tools like ldd, fdisk, mdadm, LVM, etc. Can make use of VMs. Has detailed understanding of system processes, including fork/exec, signal handling. Understands how virtual memory works and paging. Can describe what's in /proc.
+        required: true
+      - proficiency: Master
+        definition: Can effectively manage fleets of VMs. Understands how to perform tasks at scale (such as massive machine/VM upgrades). Can name some sysctl settings and when to change them. Can discuss containers and resource limits. Threads versus processes versus coroutines.

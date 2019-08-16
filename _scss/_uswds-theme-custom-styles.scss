@@ -402,3 +402,196 @@ blockquote {
     }
   }
 }
+
+
+// ----------------------------------------
+// SME-QA: Resume Review layout
+// WTF!? Importing a file here does not work.
+// The imported file cannot find the correct path to the utilities!?
+
+.sme-rr {
+  &__main {
+    margin-top: 0;
+    @include u-padding-y(4);
+  }
+
+  &__status {
+    text-transform: uppercase;
+    text-align: center;
+    color: color('gold-20v');
+  }
+
+  .sme-rr &__recuse {
+    width: 100%;
+  }
+
+  &__applicant-name-desc {
+    font-weight: normal;
+  }
+
+  &__applicant-email {
+    margin: 0;
+    padding: units(0.5) 0 0;
+  }
+
+  &__missing-info-container {
+    margin: 0;
+    padding: 0;
+  }
+
+  &__missing-info {
+    padding: units(0.5) 0;
+  }
+}
+
+.sme-rr-comps {
+  @include u-padding-y(4);
+
+  &__title {
+    margin-bottom: units(2.5);
+  }
+
+  &__title--prof {
+    text-align: center;
+  }
+}
+
+.sme-rr-comp {
+  &__required-prof-level {
+    margin-top: units(2);
+    font-weight: normal;
+  }
+
+  &__level {
+    margin-top: units(1);
+    max-width: inherit;
+  }
+}
+
+.sme-rr-form {
+  font-size: inherit;
+  line-height: inherit;
+
+  @include at-media('mobile-lg') {
+    max-width: inherit;
+  }
+}
+
+.sme-rr-scoring {
+  list-style-type: none;
+  margin-top: units(4);
+  text-align: center;
+
+  &.is-first {
+    margin-top: 0;
+  }
+
+  &__button {
+    position: relative;
+    display: list-item;
+    width: 50%;
+    float: left;
+
+    [type="radio"] + label {
+      max-width: inherit;
+      text-indent: inherit;
+      @include makeOutlineButton();
+
+      @include at-media('mobile-lg') {
+        width: 90%;
+      }
+    }
+
+    [type="radio"] + label::before {
+      display: none;
+    }
+
+    [type="radio"]:checked + label {
+      box-shadow: inset 0 0 0 2px color('green-cool-50v');
+      background-color: color('green-cool-5');
+    }
+
+    [type="radio"]:checked + label::before {
+      box-shadow: inherit;
+    }
+  }
+
+  &__button.is-no {
+    [type="radio"]:checked + label {
+      box-shadow: inset 0 0 0 2px color('red-50v');
+      background-color: color('red-cool-10v');
+    }
+
+  }
+}
+
+.sme-rr-scoring-reason {
+  &[aria-hidden=true] {
+    display: none;
+  }
+}
+
+
+.sme-rr-drawers .sme-rr-drawer {
+  margin-top: units(4);
+  margin-bottom: 0;
+
+  &.is-first {
+    margin-top: 0;
+  }
+}
+
+.sme-rr-drawers--no-faces .sme-rr-drawer--no-face {
+  margin-top: 0;
+}
+
+.sme-rr-drawer {
+  &__button {
+    background-color: color('white');
+    background-image: url("../img/drawer/minus-circle.svg");
+    background-position: 2px units(1.5);
+    background-size: units(2.5);
+    padding: units(1.5) units(1.5) units(0.5) units(4);
+    @include u-font-size('body', 'lg');
+    color: color('primary');
+
+    &[aria-expanded="false"] {
+      background-image: url("../img/drawer/plus-circle.svg");
+      background-size: units(2.5);
+    }
+
+    &:hover {
+      background-color: color('white');
+      color: color('primary-dark');
+    }
+  }
+}
+
+.sme-rr-drawer--no-face {
+  &__button {
+    background-color: color('white');
+    background-image: url("../img/drawer/minus.svg");
+    background-position: center left;
+    background-size: units(1.5);
+    padding: units(0.5) units(1) units(0.5) units(2);
+    @include u-font-size('body', 'sm');
+    font-weight: normal;
+    color: color('primary');
+
+    &[aria-expanded="false"] {
+      background-image: url("../img/drawer/plus.svg");
+      background-size: units(1.5);
+    }
+
+    &:hover {
+      background-color: color('white');
+      color: color('primary-dark');
+    }
+  }
+}
+
+.sme-rr-prof-level {
+  &__heading {
+    margin-top: units(1);
+  }
+}

@@ -523,12 +523,24 @@ blockquote {
     }
 
   }
+
+  &__save {
+    float: right;
+  }
 }
 
 .sme-rr-scoring-reason {
   &[aria-hidden=true] {
     display: none;
   }
+
+  &__justification,
+  &__justification-text {
+    &[aria-hidden=true] {
+      display: none;
+    }
+  }
+
 }
 
 
@@ -573,7 +585,7 @@ blockquote {
     background-image: url("../img/drawer/minus.svg");
     background-position: center left;
     background-size: units(1.5);
-    padding: units(0.5) units(1) units(0.5) units(2);
+    padding: units(0.5) units(1) units(0.5) units(2.5);
     @include u-font-size('body', 'sm');
     font-weight: normal;
     color: color('primary');
@@ -594,4 +606,9 @@ blockquote {
   &__heading {
     margin-top: units(1);
   }
+}
+
+.sme-rr-drawer__content .sme-rr-prof-level__definition {
+  margin: units(0.5) 0 0 0;
+  max-width: inherit;
 }

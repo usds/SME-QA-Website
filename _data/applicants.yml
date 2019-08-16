@@ -1,4 +1,13 @@
 engineering:
   - name: Douglass Creecy
-  - name: Neil Sharma
-  - name: Martha Wilkes
+    email: douglass.m.creecy@gmail.com
+  - name: Remus Lupin
+    email: remus.lupin@howlers.org
+  - name: Alastor Moody
+    email: noneofyourbusiness@secret.gov
+  - name: Molly Weasley
+    email: molly@phoenix.org
+  - name: Cho Chang
+    email: cho.change@hogwarts.school.org
+  - name: Fleur Delacour
+    email: fdelacour@beauxbatons.fr

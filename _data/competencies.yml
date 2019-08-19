@@ -106,7 +106,7 @@ engineering:
       - proficiency: Master
         definition: Able to communicate up and down the chain, from CEOs to hourly workers, with equal ease and clarity. Represents the needs and constraints of the team while working toward customer solutions. Can articulate technical tradeoffs to non-technical stakeholders.
 product:
-  - competency: Always. Be. Shipping
+  - competency: Always. Be. Shipping.
     definition: Regardless of environmental challenges, ships products and drives teams to deliver on key milestones. Gets Minimum Viable Products out the door without waiting for the perfect technical implementation or inclusion of every feature.
     required: Experienced
     levels:

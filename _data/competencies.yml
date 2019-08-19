@@ -86,7 +86,7 @@ engineering:
       - proficiency: Familiar
         definition: Has been a project/team lead; team members may or may not have been direct reports. Has had to execute a plan and live with the results.
         required: true
-      - proficiency: Experienced
+      - proficiency: Experiencedhttps://github.com/usds/usds/blob/master/communities/product-and-stratops/competency-revamp/new-competencies.md
         definition: Has been a first-level manager; has had to hire, fire, and develop direct reports. Responsible for ownership of an area, mapping out a strategic plan, and executing that plan within budget. Inspires others with description of path forward.
       - proficiency: Master
         definition: Manager of managers; can lead equally well through direct supervision or moral authority. Has broad influence across the organization. Understands what motivates people and inspires them to do their best. Their teams consistently achieve superior results without regretted attrition. People actively seek to join their teams. Grows leaders who go on to successful tenures inside and outside their organization.
@@ -105,3 +105,103 @@ engineering:
         definition: Writes and speaks well to a wide range of audiences. Written word is concise and correct. Can present to large and small groups competently. Communicates with customers and can synthesize their needs into products.
       - proficiency: Master
         definition: Able to communicate up and down the chain, from CEOs to hourly workers, with equal ease and clarity. Represents the needs and constraints of the team while working toward customer solutions. Can articulate technical tradeoffs to non-technical stakeholders.
+product:
+  - competency: Always. Be. Shipping
+    definition: Regardless of environmental challenges, ships products and drives teams to deliver on key milestones. Gets Minimum Viable Products out the door without waiting for the perfect technical implementation or inclusion of every feature.
+    required: Experienced
+    levels:
+      - proficiency: Familiar
+        definition: Has been part of teams that have shipped software products, but has never lead any teams. May have some experience as a data analyst in service or product delivery, or as an Agile Product Owner with limited or no experience scoping and making tradeoffs to hit deadlines.
+      - proficiency: Experienced
+        definition: Has a demonstrated track record of shipping software products and scoping to a Minimum Viable Product. Products may be on a small scale to only a few thousand users, but must have been broadly available. Has experience scoping and making tradeoffs to hit deadlines, and also working closely with engineers and designers in an iterative environment.
+        required: true
+      - proficiency: Master
+        definition: Has repeated experience shipping software products to hundreds of thousands of users. Has experience in all parts of a product lifecycle from initial launch to optimization to sun-setting. Effectively makes prioritization decisions and manages to deadlines, working closely with engineers and designers in an iterative environment.
+  - competency: Analytical Ability
+    definition: Approaches problems quantitatively and displays critical thinking and problem-solving abilities. Breaks down complex problems into component parts. Defines and tracks key metrics to make data-driven decisions.
+    required: Experienced
+    levels:
+      - proficiency: Familiar
+        definition: Displays some critical thinking and problem solving abilities. May start to break a problem down in component parts, but not completely. Able to identify basic product or project metrics (e.g. pageviews, uptime, cost savings) but does not connect these to business or user value.
+      - proficiency: Experienced
+        definition: Breaks problems down into component parts. Displays repeated experience in qualitative and quantitative analysis. Defines product or project metrics beyond the basics and ties these metrics to decisions.
+        required: true
+      - proficiency: Master
+        definition: Brings analytical thinking to everything they do, and has a range and depth of experience doing so. Anticipates the need for metrics and analysis early in the product and project discovery and design process, and carries metrics through iterations.
+  - competency: Engineering Considerations
+    definition: Works effectively with engineers as a true partner. Understands the technical stack of a product and how it can impact product design and project schedules. Considers the complexities involved in building technology at massive scale.
+    required: Experienced
+    levels:
+      - proficiency: Familiar
+        definition: Has some experience working effectively with engineers. Displays a basic understanding that technical choices impact product design and project schedules. Shows an active interest in learning more about a project's technical foundations.
+      - proficiency: Experienced
+        definition: Repeated track record of working as a true partner with engineers. Describes situations where they have engaged in technical decisions or shifted product or project plans due to technical issues. Understanding some of the complexities of building technology at massive scale.
+        required: true
+      - proficiency: Master
+        definition: Functions as a true partner with engineers in all technical products and projects in which they are involved. Able to identify potential technical concerns with proposals before consulting engineers. Repeatedly engages in technical decisions and supports engineering needs.
+  - competency: Managing Without Authority
+    definition: Builds influence in organizations without relying on formal titles or roles, and uses that influence to achieve project success. Gains commitments from leaders and team members without formal reporting structures in place. Shares credit, understands and empathizes with others, and recognizes how different people value different incentives.
+    required: Experienced
+    levels:
+      - proficiency: Familiar
+        definition: Familiar working with teams and influencing decisions others make, but does not have deep understanding of how to do this and does not think critically about it. Still relies on formal authority to accomplish tasks.
+      - proficiency: Experienced
+        definition: Builds influence in organizations without formal titles or roles; those organizations and projects might be small in scope. Understands various motivations and tailors actions to them. Uses examples from their own experience in a way that shows critical thinking and understanding of what works and what might not.
+        required: true
+      - proficiency: Master
+        definition: Clear and repeated evidence of influencing major decisions that change the trajectory of an organization. Clearly understands the pros and cons of formal authority, and leverages experience to build consensus and motivate rather than dictate.
+  - competency: Product Design
+    definition: Designs and launches software products and features focused on user needs, scoped to Minimum Viable Products, and with clear criteria for success. Understands and effectively critiques poor software product design.
+    required: Experienced
+    levels:
+      - proficiency: Familiar
+        definition: Identifies and explains good product design in the context of user needs, and is familiar with the product design process but may not execute all phases. May say "I would talk to users to identify requirements" and then lean on these statements to avoid making any design decisions. Does not naturally scope and prioritize to Minimum Viable Product, or use data to evaluate decisions.
+      - proficiency: Experienced
+        definition: Identifies user needs in coordination with designers and researchers, and quickly connects them to product requirements. Defines priorities and makes tradeoffs in the context of user needs, but may do so without full understanding of broader business goals.
+        required: true
+      - proficiency: Master
+        definition: Repeated examples of connecting product design to user needs, data-driven decisions, broader business goals, and technical requirements.
+  - competency: Stakeholder Engagement
+    definition: Cultivates relationships with key internal and external stakeholders. Has superior negotiation skills that enable successful communication and cooperation across all levels of an organization, including executive leadership.
+    required: Experienced
+    levels:
+      - proficiency: Familiar
+        definition: Understands that strategic stakeholder alliances and communication is important, but cannot provide an example of these actions from their career.
+      - proficiency: Experienced
+        definition: Provides examples and demonstrates the ability to identify a key stakeholder and a strategy for effective engagement.
+        required: true
+      - proficiency: Master
+        definition: Provides examples and demonstrates the ability to manage multiple key stakeholders with varying levels of influence during a project or across multiple projects.
+  - competency: Superior EQ
+    definition: Understands what motivates people, through keen observations of environment and context, and uses this knowledge to communicate and engage with partners and colleagues to identify obstacles and create appropriate mitigation strategies. Is a "fixer."
+    required: Experienced
+    levels:
+      - proficiency: Familiar
+        definition: Self-described ability to observe and understand people and complex environments, but cannot supply an example to illustrate this skill.
+      - proficiency: Experienced
+        definition: Demonstrated ability and willingness to observe, understand, and adapt to disparate audiences and organizational dynamics. Provides examples of working through a communications breakdown and effectively problem-solving in the workplace.
+        required: true
+      - proficiency: Master
+        definition: Demonstrates a superior ability to analyze situational dynamics in a politically-charged environment and to leverage this observational awareness to solve complex problems. Cites multiple different types of examples of effectively problem-solving in the workplace.
+  - competency: Team Building
+    definition: Identifies necessary roles and motivates individuals to form, storm, norm, and perform as a cohesive team. Effectively provides feedback to team members, and deals with low performers. Fosters latent qualities within team members.
+    required: Experienced
+    levels:
+      - proficiency: Familiar
+        definition: Has lead small teams that have been assembled by others. Has not managed through challenging situations, and does not view team development as a core responsibility.
+      - proficiency: Experienced
+        definition: Has both lead and built teams. Understands team members' strengths and weaknesses and balances skills effectively. Has experience dealing with low performers or other challenging management situations. Considers team development as a core responsibility if not a lower priority.
+        required: true
+      - proficiency: Master
+        definition: Has both lead and built teams multiple times and in diverse organizations. Always considers effective organizational structures, and thinks beyond the scope of their team or teams. Views developing people as well as dealing with low performers and challenging management situations as a core responsibility, and can communicate team needs and wins both up and down their chain of command.
+  - competency: Technical Communication
+    definition: Explains technical concepts to both technical and non-technical audiences. Able to frame technical choices to decision makers and justify engineering needs against business priorities.
+    required: Experienced
+    levels:
+      - proficiency: Familiar
+        definition: Can explain some technical concepts to a general audience, but struggles with complex issues, either because they do not grasp the concepts well enough, or know the topic too well and cannot explain clearly to a general audience. May start to answer but then defer to engineers.
+      - proficiency: Experienced
+        definition: Explains technical concepts effectively, but may not make these explanations relevant to the intended audience by framing technical choices and engineering needs in the context of broader business priorities.
+        required: true
+      - proficiency: Master
+        definition: Leaves audiences of all types feeling like they better understand issues and how they impact their needs. Brings clarity, not confusion, when justifying engineering needs against broader business priorities.

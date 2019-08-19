@@ -5,11 +5,18 @@ permalink: /research/phase-2/test-1/engineering/
 title: Resume Review
 ---
 
-{% assign comptencies = site.data.competencies.engineering %}
-{% assign applicant = site.data.applicants.engineering | sample %}
+{% assign comptencies = site.data.competencies.engineering %} {% assign
+applicant = site.data.applicants.engineering | sample %}
 
 <main id="main-content" role="main" class="usa-layout-docs sme-rr__main">
-  <form name="sme-rr" action="#" method="get" class="usa-form sme-rr-form" id="sme-rr-form" data-object="sme-rr">
+  <form
+    name="sme-rr"
+    action="#"
+    method="get"
+    class="usa-form sme-rr-form"
+    id="sme-rr-form"
+    data-object="sme-rr"
+  >
     <div class="grid-container">
       <div class="grid-row">
         <div class="grid-col-9">
@@ -19,25 +26,38 @@ title: Resume Review
           </h1>
           <p class="sme-rr__applicant-email">{{ applicant.email }}</p>
           <p class="sme-rr__missing-info-container">
-            <a href="mailto:hr@youragency.gov?cc=youremail@youragency.gov&subject=Missing%20information%20for%20applicant%20{{applicant.name}}" class="sme-rr__missing-info">
+            <a
+              href="mailto:hr@youragency.gov?cc=youremail@youragency.gov&subject=Missing%20information%20for%20applicant%20{{applicant.name}}"
+              class="sme-rr__missing-info"
+            >
               Missing resume?
             </a>
           </p>
         </div>
         <div class="grid-col-3">
           <h3 id="status" class="sme-rr__status">Incomplete</h3>
-          <button class="usa-button usa-button--outline sme-rr__recuse" data-behavior="sme-rr.reload">
+          <button
+            class="usa-button usa-button--outline sme-rr__recuse"
+            data-behavior="sme-rr.reload"
+          >
             Recuse yourself
           </button>
         </div>
       </div>
-      <div class="usa-alert usa-alert--success sme-rr__confirmation" aria-hidden="true" id="confirmation">
+      <div
+        class="usa-alert usa-alert--success sme-rr__confirmation"
+        aria-hidden="true"
+        id="confirmation"
+      >
         <div class="usa-alert__body">
           <h3 class="usa-alert__heading">Review saved</h3>
           <p class="usa-alert__text">
-            Your review of {{applicant.name}} has been saved.
+            Your review of {{ applicant.name }} has been saved.
           </p>
-          <button class="usa-button sme-rr__next-applicant" data-behavior="sme-rr.reload">
+          <button
+            class="usa-button sme-rr__next-applicant"
+            data-behavior="sme-rr.reload"
+          >
             Review next applicant
           </button>
         </div>
@@ -50,26 +70,37 @@ title: Resume Review
           <h4 class="sme-rr-comps__title">Competencies</h4>
         </div>
         <div class="grid-col-3">
-          <h4 class="sme-rr-comps__title sme-rr-comps__title--prof">Meets proficiency level?</h4>
+          <h4 class="sme-rr-comps__title sme-rr-comps__title--prof">
+            Meets proficiency level?
+          </h4>
         </div>
       </div>
-      {% for comp in comptencies %}
-        {% assign short-name = comp.competency | slugify: 'pretty' %}
-        {% assign num = forloop.index %}
+      {% for comp in comptencies %} {% assign short-name = comp.competency |
+      slugify: 'pretty' %} {% assign num = forloop.index %}
       <div class="grid-row">
         <div class="grid-col-9">
-          <div class="usa-accordion sme-rr-drawers sme-rr-comp" aria-multiselectable="false">
+          <div
+            class="usa-accordion sme-rr-drawers sme-rr-comp"
+            aria-multiselectable="false"
+          >
             <div class="sme-rr-drawer {% if num == 1 %}is-first{% endif %}">
               <h3 class="usa-accordion__heading">
-                <button class="usa-accordion__button sme-rr-drawer__button" aria-expanded="false" aria-controls="d-{{num}}">
+                <button
+                  class="usa-accordion__button sme-rr-drawer__button"
+                  aria-expanded="false"
+                  aria-controls="d-{{num}}"
+                >
                   {{ comp.competency }}
                 </button>
               </h3>
-              <div id="d-{{num}}" class="usa-accordion__content sme-rr-drawer__content">
+              <div
+                id="d-{{num}}"
+                class="usa-accordion__content sme-rr-drawer__content"
+              >
                 <ul>
-                {% for detail in comp.definition %}
+                  {% for detail in comp.definition %}
                   <li>{{ detail }}</li>
-                {% endfor %}
+                  {% endfor %}
                 </ul>
               </div>
             </div>
@@ -77,29 +108,31 @@ title: Resume Review
           <h5 class="sme-rr-comp__required-prof-level">
             Required proficiency level: <strong>{{ comp.required }}</strong>
           </h5>
-          {% assign required-level = comp.levels | where:"required", true %}
-          {% for level in required-level %}
-          <p class="sme-rr-comp__level">
-            {{ level.definition }}
-          </p>
+          {% assign required-level = comp.levels | where:"required", true %} {%
+          for level in required-level %}
+          <p class="sme-rr-comp__level">{{ level.definition }}</p>
           {% endfor %}
           <div class="usa-accordion sme-rr-drawers sme-rr-drawers--no-faces">
             <div class="sme-rr-drawer sme-rr-drawer--no-face">
               <h5 class="usa-accordion__heading sme-rr-prof-level__heading">
-                <button class="usa-accordion__button sme-rr-drawer__button sme-rr-drawer--no-face__button" aria-expanded="false" aria-controls="r-{{num}}">
+                <button
+                  class="usa-accordion__button sme-rr-drawer__button sme-rr-drawer--no-face__button"
+                  aria-expanded="false"
+                  aria-controls="r-{{num}}"
+                >
                   View all proficiency levels
                 </button>
               </h5>
-              <div id="r-{{num}}" class="usa-accordion__content usa-prose sme-rr-drawer__content">
+              <div
+                id="r-{{num}}"
+                class="usa-accordion__content usa-prose sme-rr-drawer__content"
+              >
                 {% for level in comp.levels %}
-                  <h5 class="sme-rr-prof-level__name">{{ level.proficiency }}</h5>
-                  <p class="sme-rr-prof-level__definition">
-                    {% if level.required %}
-                      See above.
-                    {% else %}
-                      {{ level.definition }}
-                    {% endif %}
-                  </p>
+                <h5 class="sme-rr-prof-level__name">{{ level.proficiency }}</h5>
+                <p class="sme-rr-prof-level__definition">
+                  {% if level.required %} See above. {% else %}
+                  {{ level.definition }} {% endif %}
+                </p>
                 {% endfor %}
               </div>
             </div>
@@ -108,14 +141,36 @@ title: Resume Review
         <div class="grid-col-3">
           <ul class="sme-rr-scoring {% if num == 1 %}is-first{% endif %}">
             <li class="sme-rr-button-radio sme-rr-scoring__button">
-              <input type="radio" value="meets" name="comp-{{short-name}}" id="comp-{{short-name}}-meets" class="usa-radio__input">
-              <label for="comp-{{short-name}}-meets" data-behavior="sme-rr.meets" aria-controls="comp-{{short-name}}-reason" class="usa-radio__label">
+              <input
+                type="radio"
+                value="meets"
+                name="comp-{{short-name}}"
+                id="comp-{{short-name}}-meets"
+                class="usa-radio__input"
+              />
+              <label
+                for="comp-{{short-name}}-meets"
+                data-behavior="sme-rr.meets"
+                aria-controls="comp-{{short-name}}-reason"
+                class="usa-radio__label"
+              >
                 Yes
               </label>
             </li>
             <li class="sme-rr-button-radio sme-rr-scoring__button is-no">
-              <input type="radio" value="does-not-meet" name="comp-{{short-name}}" id="comp-{{short-name}}-does-not-meet" class="usa-radio__input">
-              <label for="comp-{{short-name}}-does-not-meet" data-behavior="sme-rr.does-not-meet" aria-controls="comp-{{short-name}}-reason" class="usa-radio__label">
+              <input
+                type="radio"
+                value="does-not-meet"
+                name="comp-{{short-name}}"
+                id="comp-{{short-name}}-does-not-meet"
+                class="usa-radio__input"
+              />
+              <label
+                for="comp-{{short-name}}-does-not-meet"
+                data-behavior="sme-rr.does-not-meet"
+                aria-controls="comp-{{short-name}}-reason"
+                class="usa-radio__label"
+              >
                 No
               </label>
             </li>
@@ -124,27 +179,61 @@ title: Resume Review
       </div>
       <div class="grid-row">
         <div class="table:grid-col-9 grid-col-6">
-          <div id="comp-{{short-name}}-reason" class="sme-rr-scoring-reason" aria-hidden="true">
+          <div
+            id="comp-{{short-name}}-reason"
+            class="sme-rr-scoring-reason"
+            aria-hidden="true"
+          >
             <label class="usa-label" for="comp-{{short-name}}-reason">
               Reason
             </label>
-            <select class="usa-select sme-rr-scoring-reason__select" name="comp-{{short-name}}-reason" id="comp-{{short-name}}-reason" data-behavior="sme-rr.reason" aria-controls="comp-{{short-name}}-justification">
+            <select
+              class="usa-select sme-rr-scoring-reason__select"
+              name="comp-{{short-name}}-reason"
+              id="comp-{{short-name}}-reason"
+              data-behavior="sme-rr.reason"
+              aria-controls="comp-{{short-name}}-justification"
+            >
               <option value>Select a reason &hellip;</option>
-              <option value="no-evidence">No evidence of this competency in resume.</option>
-              <option value="does-not-meet">Applicant does not meet the proficency level required.</option>
-              <option value="fewer-than-52-weeks">Fewer than 52 weeks in this competency</option>
+              <option value="no-evidence"
+                >No evidence of this competency in resume.</option
+              >
+              <option value="does-not-meet"
+                >Applicant does not meet the proficency level required.</option
+              >
+              <!--
+                <option value="fewer-than-52-weeks"
+                  >Fewer than 52 weeks in this competency</option
+                >
+              -->
               <option value="other">Other</option>
             </select>
 
-            <div class="sme-rr-scoring-reason__justification" id="comp-{{short-name}}-justification" aria-hidden="true">
-              <div class="sme-rr-scoring-reason__justification-text" aria-hidden="true">
+            <div
+              class="sme-rr-scoring-reason__justification"
+              id="comp-{{short-name}}-justification"
+              aria-hidden="true"
+            >
+              <div
+                class="sme-rr-scoring-reason__justification-text"
+                aria-hidden="true"
+              >
                 <label class="usa-label" for="input-type-textarea">
                   Justification
                 </label>
-                <textarea class="usa-textarea" id="input-type-textarea" name="input-type-textarea"></textarea>
+                <textarea
+                  class="usa-textarea"
+                  id="input-type-textarea"
+                  name="input-type-textarea"
+                ></textarea>
               </div>
 
-              <button class="usa-button sme-rr-scoring__save" id="sme-rr-does-not-meet-save" data-behavior="sme-rr.save" aria-controls="confirmation">
+              <button
+                class="usa-button sme-rr-scoring__save"
+                id="sme-rr-does-not-meet-save"
+                data-behavior="sme-rr.save"
+                aria-controls="confirmation"
+              >
                 Save &amp; Continue
               </button>
             </div>
@@ -154,7 +243,13 @@ title: Resume Review
       {% endfor %}
       <div class="grid-row">
         <div class="grid-col">
-          <button class="usa-button sme-rr-scoring__save" id="sme-rr-final-save" disabled data-behavior="sme-rr.save" aria-controls="confirmation">
+          <button
+            class="usa-button sme-rr-scoring__save"
+            id="sme-rr-final-save"
+            disabled
+            data-behavior="sme-rr.save"
+            aria-controls="confirmation"
+          >
             Save &amp; Continue
           </button>
         </div>

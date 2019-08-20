@@ -1,5 +1,5 @@
 primary:
-  - text: About Our Process
+  - text: About SME-QA
     href: /
     name: about
   - text: Begin Your Hiring Action
@@ -10,13 +10,13 @@ primary:
     name: case-studies
 
 about:
-  - text: Our process
+  - text: The SME-QA Process
     href: /about/our-process/
-  - text: How our process is different
+  - text: How the SME-QA Process is Different
     href: /about/differences/
 
 hiring-phases:
-  - text: Getting started
+  - text: Getting Started
     href: /hiring-phases/getting-started/
     subnav:
     - text: Identifying Appropriate Positions
@@ -29,7 +29,7 @@ hiring-phases:
   - text: Assessment Strategy
     href: /hiring-phases/assessment-strategy/
     phase: assessment-strategy
-  - text: Job analysis workshop
+  - text: Job Analysis Workshop
     href: /hiring-phases/job-analysis/
     phase: job-analysis
     subnav:
@@ -45,7 +45,7 @@ hiring-phases:
       href: "/hiring-phases/job-analysis/defining-proficiency-levels/"
     - text: Creating a Structured Interview from Competencies
       href: "/hiring-phases/job-analysis/creating-a-structured-interview-from-competencies"
-  - text: Job announcement
+  - text: Job Announcement
     href: /hiring-phases/job-announcement/
     phase: job-announcement
     subnav:

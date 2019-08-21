@@ -13,7 +13,7 @@ intro: When the content of your well-written job announcement is complete, creat
   {{ page.intro }}
 </p>
 
-Agencies participating in this process can use a new, plain-language USAJOBS job announcement template created specifically for this assessment strategy. The template pre-populates many of the JOA posting requirements, including the required Legal and Regulatory Guidance section. To create your posting, complete only these sections.
+Agencies using the SME-QA process can use a special, plain-language USAJOBS job announcement template created for this assessment strategy. The template pre-populates many of the JOA posting requirements, including the required Legal and Regulatory Guidance section. To create your posting, complete only these sections.
 
 ### 1. Title
 

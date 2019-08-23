@@ -24,7 +24,7 @@ roles: [hr, hiring-mgr]
   <div class="usa-alert__body">
     <h3 class="usa-alert__heading">Do not conduct a separate minimum qualification review</h3>
     <p class="usa-alert__text">
-      After SMEs have completed interviews and identified the applicants who are found to meet qualifications, do not conduct a separate minimum qualification review. For the duration of the hiring action, SMEs have used their expertise and technical ability to assess whether an applicant is truly qualified before being considered minimally qualified and eligible for Veterans' Preference. As the HR specialist, you've reviewed every justification after each assessment to ensure it was rooted in one of the technical qualifications. No additional minimum qualification check is required. For more information, see "<a href="{{ site.baseurl }}/about/differences/#sme-assessment">How our process is different</a>."
+      SMEs have used their expertise and technical ability to assess whether an applicant is truly qualified before being considered minimally qualified and eligible for veterans' preference. As the HR specialist, you've reviewed every justification after each assessment to ensure it was rooted in one of the technical qualifications. For more information, see "<a href="{{ site.baseurl }}/about/differences/#sme-assessment">How SME-QA is Different</a>."
     </p>
   </div>
 </div>
@@ -41,7 +41,7 @@ To pass over a veteran, hiring managers must meet the requirements of 5 U.S.C. Â
 
 ## Selecting Qualified Applicants from a Certificate
 
-When hiring with this process, there should be *fewer* applicants who make it to onto the certificate based on their qualifications and *more* selections off of the delegated examining certificates. Ideally, the extraordinary SME review process that confirms that an applicant meets the required technical qualifications will allow qualified applicants to receive offers for positions at an agency. If there are more qualified applicants on a certificate than available billets at an agency, that agency may choose to share the certificate with other groups or agencies.
+When using the SME-QA process, there should be *fewer* applicants who make it to the certificate based on their qualifications, and hiring managers should be able to make *more* selections off of the certificates. Ideally, the extraordinary SME review process that confirms that an applicant meets the required technical qualifications will allow these applicants to receive offers for positions at an agency. If there are more qualified applicants on a certificate than vacancies at an agency, that agency may choose to share the certificate with other offices or agencies.
 
 ## Post-Selection
 

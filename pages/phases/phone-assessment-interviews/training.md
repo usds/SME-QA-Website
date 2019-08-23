@@ -9,6 +9,10 @@ title: Training SMEs to Conduct Interviews
 intro: While phone interviews are being scheduled with applicants, facilitate a mandatory two-hour interview training for all SMEs who will conduct the next round of interviews that explains how to conduct structured interviews and assess an applicant’s proficiency with the required competencies based on their responses.
 ---
 
+<p class="usa-intro">
+  {{ page.intro }}
+</p>
+
 ### Setting Up Phone Assessment Interview Training
 
 As soon as possible, send calendar invites to only the SMEs who will conduct the next round of interviews for your hiring action, as the training reviews the questions for that round in depth. In total, you'll conduct two interview trainings, one for each round of interviews. SMEs can participate in the phone interview training in person or remotely using a conference bridge line, depending on the means and norms at your agency.

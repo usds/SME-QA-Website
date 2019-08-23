@@ -10,6 +10,9 @@ intro: Before you train subject matter experts on how to review resumes, prepare
 ---
 
 ### General Ineligibility Requirements
+<p class="usa-intro">
+  {{ page.intro }}
+</p>
 
 Before you send resumes to SMEs for review, mark applicants as ineligible if:
 

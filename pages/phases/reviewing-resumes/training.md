@@ -9,6 +9,10 @@ sub-phase-order: 020
 intro: Before providing SMEs with their resume review assignments, conduct a two-hour training on how to review resumes. Optionally, follow your training with a one-hour guided resume review session, where you'll provide SMEs with their assignments and review resumes as a group.
 ---
 
+<p class="usa-intro">
+  {{ page.intro }}
+</p>
+
 ### Setting Up Resume Review Training
 
 Send calendar invites to all SMEs who will review resumes for your hiring action, including those who will provide tiebreaker reviews.

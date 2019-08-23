@@ -9,6 +9,10 @@ sub-phase-order: 030
 intro: How to be successful at reviewing resumes as a subject matter expert.
 ---
 
+<p class="usa-intro">
+  {{ page.intro }}
+</p>
+
 To be successful as a subject matter expert reviewing resumes, you will:
 
 1. Familiarize yourself with the core competencies and proficiency levels specified for this position during job analysis (see Competencies/Proficiencies document).

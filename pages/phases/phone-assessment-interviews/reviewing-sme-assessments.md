@@ -8,6 +8,11 @@ sub-phase-order: 030
 title: Reviewing SME Assessments
 intro: As SMEs submit their interview assessments, check their work and email them with any necessary feedback.
 ---
+
+<p class="usa-intro">
+  {{ page.intro }}
+</p>
+
 <div class="usa-alert usa-alert--info" >
   <div class="usa-alert__body">
     <h3 class="usa-alert__heading">Do not conduct a separate minimum qualification review</h3>

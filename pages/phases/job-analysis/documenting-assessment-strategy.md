@@ -24,7 +24,7 @@ intro: In addition to documenting job tasks, developing core competencies and pr
   Include the agreed-upon page limit in both your assessment strategy and your <a href="../job-announcement/">job announcement</a>
 </p>
 
-<h2>Tech recency requirements</h2>
+<h3>Tech recency requirements</h3>
 <p>
   Technology changes quickly, and depending on the needs of your agency, SMEs may determine that applicants should demonstrate knowledge of modern technical methods, platforms, and languages within a certain number of the most recent years. We recommend that this type of technical recency be documented at between three and five years.
 </p>

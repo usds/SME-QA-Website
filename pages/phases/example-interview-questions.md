@@ -17,7 +17,7 @@ sidenav: hiring-phases
 
 ### Example Depth Question
 
-**Question:** 	Imagine you will be attending a chief executive briefing along with a number of senior leaders from your organization. These senior leaders have more experience and tenure in the organization than you have. In addition, they hold a view that is in conflict with yours. You need the chief executive to adopt your view. How would you prepare for this meeting?
+**Question:** Imagine you will be attending a chief executive briefing along with a number of senior leaders from your organization. These senior leaders have more experience and tenure in the organization than you have. In addition, they hold a view that is in conflict with yours. You need the chief executive to adopt your view. How would you prepare for this meeting?
 
 **Required Follow Up Questions**
 

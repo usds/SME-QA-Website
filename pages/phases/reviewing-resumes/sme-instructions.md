@@ -6,8 +6,12 @@ title: Conducting SME Resume Reviews
 sidenav: hiring-phases
 phase: reviewing-resumes
 sub-phase-order: 030
-intro: How to be successful at reviewing resumes as a subject matter expert.
+intro: SMEs who review resumes should be familiar with the required competencies and proficiencies. They'll use these to assess resumes for the right experience, which determines whether the applicant will be further assessed in an interview.
 ---
+
+<p class="usa-intro">
+  {{ page.intro }}
+</p>
 
 To be successful as a subject matter expert reviewing resumes, you will:
 

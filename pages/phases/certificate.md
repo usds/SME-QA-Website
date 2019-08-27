@@ -22,7 +22,7 @@ roles: [hr, hiring-mgr]
 
 <div class="usa-alert usa-alert--info" >
   <div class="usa-alert__body">
-    <h3 class="usa-alert__heading">Do not conduct a separate minimum qualification review</h3>
+    <h3 class="usa-alert__heading">After SMEs identify the qualified applicants, do not conduct a separate minimum qualification review.</h3>
     <p class="usa-alert__text">
       SMEs have used their expertise and technical ability to assess whether an applicant is truly qualified before being considered minimally qualified and eligible for veterans' preference. As the HR specialist, you've reviewed every justification after each assessment to ensure it was rooted in one of the technical qualifications. For more information, see "<a href="{{ site.baseurl }}/about/differences/#sme-assessment">How SME-QA is Different</a>."
     </p>
@@ -31,7 +31,7 @@ roles: [hr, hiring-mgr]
 
 ## Adjudicating Preference
 
-During resume review and interview assessments, applicants can be removed from consideration if SMEs determine they're not qualified based on the required competencies and proficiencies. As HR, you should apply Veterans' preference only to applicants who achieve an overall passing score, then issue the certificate of eligibles of the "Best Qualified" category to the hiring manager.
+During resume review and interview assessments, applicants can be removed from consideration if SMEs determine they're not qualified based on the required competencies and proficiencies. As HR, you should apply veterans' preference only to applicants who achieve an overall passing score, then issue the certificate of applicants in the "Best Qualified" category to the hiring manager.
 
 ## Post-Certificate Interviews
 
@@ -50,4 +50,4 @@ To ensure that qualified applicants aren't lost to slower bureaucratic processes
 - Managing selections
 - Making tentative offers to applicants
 - Confirming pay settings, and
-- Coordinating applicants' security paperwork
+- Coordinating applicants' security paperwork.

@@ -21,11 +21,11 @@ Use a clear title that qualified applicants will recognize as encompassing their
 
 ### 2. Overview
 
-To ensure your hiring process will be manageable for participating SMEs, clearly state your limit on the number of applications that will be reviewed to 100. Consider the options in this table for limiting applications.
+To ensure your hiring process will be manageable for participating SMEs, clearly state your limit on the number of applications that will be reviewed, ideally limited to 100. Consider the options in this table for limiting applications.
 
 | Suggested Text | Benefits | Risks |
 |---|---|---|
-| “The agency will consider applications from the first 100 applicants who complete their submission.” | SMEs will only need to review 100 applications. | Due to applicant volume on USAJOBS, announcement may close very shortly after it's posted, possibly after a couple of hours.
+| “The agency will consider applications from the first 100 applicants who complete their submission.” | SMEs will only need to review 100 applications. | Due to applicant volume on USAJOBS, announcement may close very shortly after it's posted, possibly after a couple of hours. Depending on when the announcement is posted, this limited timeframe may occur outside business hours in other US time zones.
 | "This announcement will close at midnight on the day that 100 applications are received." | Your announcement will remain open through midnight on the day it's posted, allowing interested people to apply after regular work hours. | Your SMEs may be required to review more than 100 applications. |
 
 ### 3. Duties
@@ -48,15 +48,9 @@ To attract both public and private sector applicants, limit the number of pages 
 
 When posting your job to the public, select only *The public*, which encompasses veterans and other groups. This section isn't a recruitment advertisement, and selecting additional options makes it unclear to applicants who is eligible to apply.
 
-### 7. Limiting the number of accepted applications
+### 7. Assessment Strategy
 
-To limit the number of applicants to 100, you must include this language in the job announcement:
-
-> The agency will only consider applications from the first 100 applicants who complete their submission.
-
-### 8. Assessment Strategy
-
-Use the 'How You Will Be Evaluated' section to describe that applicants will be examined by subject matter experts using a structured interview process, then describe your phases. For example:
+Use the 'How You Will Be Evaluated' section to describe that applicants will be examined by subject matter experts using a structured interview process, then describe your phases. You should have established this information with SMEs during the job analysis workshop when you <a href="../job-analysis/documenting-assessment-strategy">documented your assessment strategy</a>. For example:
 
 > The technical qualifications for this position will be evaluated by subject matter experts. Apply only if you meet the qualifications. If you are not selected for this position you may be considered for similar positions at the agency within 90 days.
 

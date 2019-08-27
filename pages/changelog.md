@@ -10,6 +10,27 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 <!-- and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html) -->
 
+## [2.2.0](https://github.com/labopm/competitive-hiring-pilot/releases) - 2019-08-27)
+
+General Polish Release
+
+### Added
+
+- Rendered reusable short description text for each topic within the topic itself.
+- Included additional context around the downsides of limiting reviewed applications to 100 on the "Creating a Job Announcement on USAJOBS" page.
+
+### Removed
+
+- Removed the home page graphic that describes baseline data as a means of demonstrating the problem being solved. To be replaced with new information in a new design at a later time.
+- Removed a section on the "Understanding the Process" page about SME assessments that was repetitive of information that followed it.
+
+### Changed
+
+- Replaced the home page introduction with a new description of the hiring process.
+- Refined copy throughout the site for better readability.
+- Updated language on “Understanding the Process” page based on feedback from OPM.
+- Site navigation and copy updates to use the new OPM-approved Subject Matter Expert Qualification Assessment (SME-QA) process name.
+
 ## [2.1.0](https://github.com/labopm/competitive-hiring-pilot/releases) - 2019-07-12
 
 This version represents added and removed information about the Phone Assessment Interview phase.

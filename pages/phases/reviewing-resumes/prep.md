@@ -9,7 +9,6 @@ sub-phase-order: 010
 intro: Before you train subject matter experts to review resumes, prepare the applications that they'll review, as well as the talent acquisition system (TAS) accounts they'll need. This allows the SMEs to begin reviewing resumes immediately after they're trained.
 ---
 
-### General Ineligibility Requirements
 <p class="usa-intro">
   {{ page.intro }}
 </p>

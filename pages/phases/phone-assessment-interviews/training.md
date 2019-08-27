@@ -6,7 +6,7 @@ sidenav: hiring-phases
 phase: phone-assessment-interviews
 sub-phase-order: 015
 title: Training SMEs to Conduct Interviews
-intro: While phone interviews are being scheduled with applicants, facilitate a mandatory two-hour interview training for all SMEs who will conduct the next round of interviews that explains how to conduct structured interviews and assess an applicant’s proficiency with the required competencies based on their responses.
+intro: While phone interviews are being scheduled with applicants, facilitate a mandatory two-hour interview training for all SMEs who will conduct the next round of interviews. The training should explain how to conduct structured interviews, and then assess the applicant’s proficiency with the required competencies based on their interview responses.
 ---
 
 <p class="usa-intro">

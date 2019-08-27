@@ -18,4 +18,4 @@ Before you [schedule training](training.md) for the first round of interviews, d
 Complete and share the <a href="{{site.baseurl}}/toolkit/phone-assessment-interviews/interview-scheduling-instructions/">Scheduler Instructions</a> with the people who will schedule applicants. Keep these ideas in mind:
 
 - **If there are multiple schedulers:** You'll need a shared scheduling email inbox where all emails between schedulers and applicants can be managed.
-- **If second interviews will be scheduled as soon as applicants move forward from their first interview:** Alert schedulers with results of the first interview immediately so they can schedule the second interview. A cloud-based application like Google Docs or Microsoft Office 365 can make this coordination of scheduling tasks between schedulers much easier.
+- **If second interviews will be scheduled as soon as applicants move forward from their first interview:** Alert schedulers with results of the first interview immediately so they can schedule the second interview. A cloud-based application like Google Docs or Microsoft Office 365 can ease this coordination of scheduling tasks between schedulers.

@@ -6,7 +6,7 @@ title: Creating a Structured Interview from Competencies
 sidenav: hiring-phases
 phase: job-analysis
 sub-phase-order: 060
-intro: As a best practice, applicants should pass through multiple hurdles with multiple SMEs before an agency considers them qualified. Two rounds of structured phone interviews, each conducted by a single SME, assess the breadth and then the depth of applicants' knowledge about your required competencies. Any applicant who doesn't receive a high enough score during the first interview will not progress to the second.
+intro: Finish your workshop by breaking participants into groups to write questions for both the first and second phone assessment interviews. Use your defined competencies, proficiencies, and required experience to create two rounds of interview questions and good example responses.
 ---
 
 <p class="usa-intro">

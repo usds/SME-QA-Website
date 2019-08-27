@@ -6,7 +6,7 @@ title: Preparing for Resume Reviews
 sidenav: hiring-phases
 phase: reviewing-resumes
 sub-phase-order: 010
-intro: Before you train subject matter experts on how to review resumes, prepare the applications that they'll review, as well as the talent acquisition system (TAS) accounts they'll need. This allows the SMEs to begin reviewing resumes immediately after they're trained.
+intro: Before you train subject matter experts to review resumes, prepare the applications that they'll review, as well as the talent acquisition system (TAS) accounts they'll need. This allows the SMEs to begin reviewing resumes immediately after they're trained.
 ---
 
 ### General Ineligibility Requirements

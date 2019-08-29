@@ -28,20 +28,86 @@ i.e.
 }
 
 .chp-home-hero {
-  @include u-bg($theme-color-chp-blue-light);
+  $hero-min-height-sm: 400px;
+  $hero-min-height-lg: 500px;
+  background-color: #000;
+  background-repeat: no-repeat;
+  min-height: $hero-min-height-sm;
+  background-image: url(../img/hero--home-sm.png);
+
+  @include at-media(desktop) {
+    background-position: right;
+    background-image: url(../img/hero--home-lg.png);
+    min-height: $hero-min-height-lg;
+  }
+
+  &__mask {
+    width: 100%;
+    min-height: $hero-min-height-sm;
+    background: linear-gradient(to bottom, black, 60%, transparent);
+
+    @include at-media(desktop) {
+      min-height: $hero-min-height-lg;
+      background: linear-gradient(to right, black, 77%, transparent);
+    }
+  }
 
   &__body {
-    @include u-padding-y(4);
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 64rem;
   }
 
-  &__callout {
-    @include u-margin-y(2);
-    @include u-font-size('body', 'lg');
-  }
-
-  &__lead {
+  &__quote {
+    border: 0;
+    margin: 0;
+    padding: units(4);
+    color: color('white');
+    @include u-font-family('serif');
     @include u-font-size('body', 'md');
+
+    @include at-media(desktop) {
+      @include u-font-size('body', '3xl');
+      padding: units(7) 16rem units(4) units(4);
+    }
+  }
+
+  &__quote-attribution {
+    display: block;
+    margin-top: units(1);
+    font-style: italic;
+    @include u-font-family('serif');
+    @include u-font-size('body', 'md');
+
+    @include at-media(desktop) {
+      text-align: right;
+      padding-right: 5rem;
+    }
+  }
+
+  &__title {
+    color: color('white');
+    margin: 0;
+    padding: units(2);
+
+    @include at-media(desktop) {
+      padding: units(6) units(4);
+    }
+  }
+
+  &__caption {
+    width: 100%;
+    padding: units(1) 0;
     max-width: inherit;
+    background-color: color('white');
+    @include u-font-size('body', '2xs');
+  }
+}
+
+.chp-home {
+  &__lead {
+    @include u-font-family('serif');
+    @include u-font-size('body', 'md');
   }
 }
 
@@ -132,7 +198,11 @@ i.e.
 
     svg {
       width: 4rem;
-      fill: color($theme-color-chp-blue);
+      fill: color('primary');
+    }
+
+    &.is-astronaut svg {
+      height: 4rem;
     }
   }
 
@@ -144,7 +214,11 @@ i.e.
 }
 
 .chp-banner--beta {
-  background-color: color('gold-20v');
+  background-color: color($theme-color-chp-blue-light);
+
+  .usa-tag {
+    margin-right: units(1);
+  }
 
   &__body {
     @include grid-container;
@@ -389,7 +463,7 @@ blockquote {
 
 .chp-footer {
   margin: units(3) 0 0;
-  background-color: color($theme-color-chp-blue-dark);
+  background-color: color('primary-darker');
 
   &__body {
     @include grid-container();

@@ -28,6 +28,7 @@
   },
   "homepage": "https://github.com/usds/website-v2#readme",
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.10.2",
     "autoprefixer": "^9.6.0",
     "browser-sync": "^2.26.7",
     "chalk": "^2.0.1",

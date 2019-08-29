@@ -94,6 +94,14 @@ i.e.
       padding: units(6) units(4);
     }
   }
+
+  &__caption {
+    width: 100%;
+    padding: units(1) 0;
+    max-width: inherit;
+    background-color: color('white');
+    @include u-font-size('body', '2xs');
+  }
 }
 
 .chp-home {

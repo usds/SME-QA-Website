@@ -13,9 +13,18 @@
 
   <script src="{{ site.baseurl }}/assets/js/uswds.min.js"></script>
   <script src="{{ site.baseurl }}/assets/js/shims/svg4everybody.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/bs-auth.js"></script>
   <script>
     svg4everybody();
   </script>
+  <div id="cover" class="chp-site-cover"></div>
+  <div id="prompt-form" class="chp-prompt-form">
+    <form>
+      <h2>
+        This site is being reviewed by OPM and thus is no longer available without explicit permission.
+      </h2>
+      <input type="button" class="usa-button" value="Enter" onClick="protectSite()">
+    </form>
+  </div>
 </body>
-
 </html>

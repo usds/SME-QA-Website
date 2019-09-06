@@ -20,26 +20,120 @@ intro: The SME-QA process introduces subject matter experts (SMEs), in partnersh
     </div>
   </div>
   <div class="grid-container">
+    <div class="grid-row">
+      <a href="{{ site.baseurl }}/hiring-phases/getting-started/" class="chp-card chp-card--wide">
+        <div class="chp-card__figure">
+          {% include svg/rocket.svg %}
+        </div>
+        <div class="chp-card__body">
+          <h2 class="chp-card__header chp-card--wide__header">
+            1. Getting Started
+          </h2>
+          <p>
+            When you've decided to use the SME-QA process to find qualified applicants, you can plan your hiring action.
+          </p>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="grid-container">
     <div class="grid-row grid-gap">
-      <div class="desktop:grid-col-7 usa-prose">
-        <h2>How our process works</h2>
-        <dl class="chp-page-list chp-page-list--process">
-        {% assign hiring-phases = site.data.navigation['hiring-phases'] %}
-        {% for hiring-phase in hiring-phases %}
-        {% assign _href = hiring-phase.href %}
-        {% assign phase-page = site.pages | where: "permalink", _href %}
-          {% for phase in phase-page %}
-        <dt class="chp-page-list__title chp-page-list--process__title">
-          <a href="{{ site.baseurl }}{{ phase.permalink }}">{{ phase.title }}</a>
-        </dt>
-        <dd class="chp-page-list__desc">{{ phase.intro }}</dd>
-          {% endfor %}
-        {% endfor %}
-        </dl>
+      <div class="desktop:grid-col-6">
+        <a href="{{ site.baseurl }}/hiring-phases/assessment-strategy/" class="chp-card">
+          <div class="chp-card__figure">
+            {% include svg/chess.svg %}
+          </div>
+          <div class="chp-card__body">
+            <h2 class="chp-card__header">
+              2. Assessment Strategy
+            </h2>
+            <p>
+              Describe your intended process for each phase of your hiring action.
+            </p>
+          </div>
+        </a>
       </div>
-      <div class="desktop:grid-col-5 usa-prose chp-process__diagram">
-        <a href="{{site.baseurl}}/assets/img/process-diagram-vertical.png" target="_blank">
-          <img src="{{site.baseurl}}/assets/img/process-diagram-vertical.png" alt="Our multi-hurdle process diagram">
+      <div class="desktop:grid-col-6">
+        <a href="{{ site.baseurl }}/hiring-phases/job-analysis/" class="chp-card">
+          <div class="chp-card__figure">
+            <img src="{{ site.baseurl }}/assets/img/icon-job-analysis-workshop.png" alt="People sitting around a table" />
+          </div>
+          <div class="chp-card__body">
+            <h2 class="chp-card__header">
+              3. Job analysis workshop
+            </h2>
+            <p>
+              Conduct a two-day job analysis workshop with HR and SMEs to develop your assessments.
+            </p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="grid-container">
+    <div class="grid-row grid-gap">
+      <div class="desktop:grid-col-6">
+        <a href="{{ site.baseurl }}/hiring-phases/job-announcement/" class="chp-card">
+          <div class="chp-card__figure">
+            <img src="{{ site.baseurl }}/assets/img/icon-usajobs.png" alt="Depiction of a usajobs.gov job announcement" />
+          </div>
+          <div class="chp-card__body">
+            <h2 class="chp-card__header">
+              4. Job Announcement
+            </h2>
+            <p>
+              Post an accurate and compelling job announcement to attract the most qualified applicants.
+            </p>
+          </div>
+        </a>
+      </div>
+      <div class="desktop:grid-col-6">
+        <a href="{{ site.baseurl }}/hiring-phases/reviewing-resumes/" class="chp-card">
+          <div class="chp-card__figure">
+            <img src="{{ site.baseurl }}/assets/img/icon-resume-review.png" alt="People and a stack of resumes" />
+          </div>
+          <div class="chp-card__body">
+            <h2 class="chp-card__header">
+              5. Resume Review
+            </h2>
+            <p>
+              Two SMEs review each resume against the core competencies and proficiencies.
+            </p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="grid-container">
+    <div class="grid-row grid-gap">
+      <div class="desktop:grid-col-6">
+        <a href="{{ site.baseurl }}/hiring-phases/phone-assessment-interviews/" class="chp-card">
+          <div class="chp-card__figure">
+            <img src="{{ site.baseurl }}/assets/img/icon-phone-interviews.png" alt="Depiction of job applicants" />
+          </div>
+          <div class="chp-card__body">
+            <h2 class="chp-card__header">
+              6. Phone Interviews
+            </h2>
+            <p>
+              SMEs conduct up to two rounds of phone interviews to determine which applicants meet the minimum qualifications.
+            </p>
+          </div>
+        </a>
+      </div>
+      <div class="desktop:grid-col-6">
+        <a href="{{ site.baseurl }}/hiring-phases/certificate/" class="chp-card">
+          <div class="chp-card__figure">
+            <img src="{{ site.baseurl }}/assets/img/icon-issuing-certificate.png" alt="Depiction of candidates being ranked" />
+          </div>
+          <div class="chp-card__body">
+            <h2 class="chp-card__header">
+              7. Issuing certificate
+            </h2>
+            <p>
+              HR applies veterans' preference and applies category ratings.
+            </p>
+          </div>
         </a>
       </div>
     </div>

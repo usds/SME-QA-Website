@@ -35,8 +35,8 @@ markdown: kramdown
 # Plugins
 plugins:
   - jekyll-feed
+  - jekyll-last-modified-at
   - jekyll-seo-tag
-  - jekyll-sitemap
   - jekyll-redirect-from
 
 # Jekyll SEO Tag

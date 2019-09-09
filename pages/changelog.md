@@ -10,7 +10,17 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 <!-- and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html) -->
 
-## [2.2.0](https://github.com/labopm/competitive-hiring-pilot/releases) - 2019-08-27)
+## [2.3.0](https://github.com/labopm/competitive-hiring-pilot/releases) - 2019-09-09
+
+Assessment Strategy Toolkit Updates
+
+### Changed
+
+- Updated language in downloadable “Understanding the Process” PDF based on feedback from OPM.
+- Replaced mentions of "OPM Pilot" throughout the toolkit to use the new OPM-approved SME-QA process name.
+- Replaced image in downloadable "Assessment Strategy" document to match most current design.
+
+## [2.2.0](https://github.com/labopm/competitive-hiring-pilot/releases) - 2019-08-27
 
 General Polish Release
 

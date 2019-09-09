@@ -41,9 +41,11 @@
 
   <script src="{{ site.baseurl }}/assets/js/uswds.min.js"></script>
   <script src="{{ site.baseurl }}/assets/js/shims/svg4everybody.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/bs-auth.js" defer></script>
   <script>
     svg4everybody();
   </script>
+  {% include _auth.html %} <!-- use cookie! -->
 </body>
 
 </html>

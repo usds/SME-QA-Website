@@ -462,18 +462,9 @@ blockquote {
 }
 
 .chp-footer {
-  margin: units(3) 0 0;
-  background-color: color('primary-darker');
-
-  &__body {
-    @include grid-container();
-    padding-top: units(4);
-    padding-bottom: units(4);
-
-    a {
-      color: color('white');
-      @include permaLink(color('white'));
-    }
+  &__changelog-link {
+    display: block;
+    @include u-padding-y(2);
   }
 }
 

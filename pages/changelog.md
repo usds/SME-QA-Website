@@ -12,13 +12,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [2.3.0](https://github.com/labopm/competitive-hiring-pilot/releases) - 2019-09-09
 
-Assessment Strategy Toolkit Updates
+Assessment Strategy Toolkit and Proficiency Level Updates: This release updates the toolkit for the Assessment Strategy to make basic clarifications. It also updates guidance throughout the site about defining four different proficiency levels per competency to instead specify two proficiency levels intended to define whether an applicant meets or exceeds qualifications only.
 
 ### Changed
 
 - Updated language in downloadable “Understanding the Process” PDF based on feedback from OPM.
 - Replaced mentions of "OPM Pilot" throughout the toolkit to use the new OPM-approved SME-QA process name.
 - Replaced image in downloadable "Assessment Strategy" document to match most current design.
+- Changed interview template to specify two proficiency levels instead of four
+- Changed all guidance within "Job Analysis" and "Phone Assessment Interviews" to specify only two proficiency levels.
 
 ## [2.2.0](https://github.com/labopm/competitive-hiring-pilot/releases) - 2019-08-27
 

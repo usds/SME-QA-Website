@@ -163,6 +163,8 @@ i.e.
   }
 
   &__container {
+    @include u-margin-y(2);
+
     @include at-media('tablet') {
       @include grid-col(6);
     }
@@ -500,16 +502,62 @@ blockquote {
   }
 }
 
-.sr-only {
-  position: absolute;
-  left: -10000px;
-  top: auto;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  clip: rect(0,0,0,0);
-  border: 0;
-  padding: 0;
+.chp-card {
+  @include card();
+  display: flex;
+  width: 100%;
+  margin: 0 0 units(2) 0;
+  align-items: flex-start;
+  text-decoration: none;
+  @include u-radius('md');
+
+  @include at-media(tablet) {
+    margin: 0 0 units(2) 0;
+    min-height: 195px;
+  }
+
+  &:hover {
+    transform: translate3d(0px, -1px, 0px);
+    box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px, rgba(0, 0, 0, 0.18) 0px 4px 11px;
+  }
+
+  &__figure {
+    flex-shrink: 0;
+    align-items: center;
+    padding-right: units(3);
+  }
+
+  &__figure svg,
+  &__figure img {
+    width: 8rem;
+  }
+
+  &__figure svg {
+    fill: color('primary');
+  }
+
+  &__body {
+    flex: 1;
+    min-width: 0;
+
+    p {
+      color: color('ink');
+    }
+  }
+
+  &__header {
+    text-transform: uppercase;
+    color: color('base-darker');
+    @include u-font-size('body', 'md');
+  }
+}
+
+.chp-card--wide {
+  @include at-media(desktop) {
+    width: 100%;
+    margin: 0 0 units(2) 0;
+    min-height: inherit;
+  }
 }
 
 

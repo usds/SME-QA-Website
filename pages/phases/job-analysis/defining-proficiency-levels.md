@@ -6,14 +6,14 @@ title: Defining Proficiency Levels and Required Experience
 sidenav: hiring-phases
 phase: job-analysis
 sub-phase-order: 050
-intro: Once you've defined your competencies, define the proficiency levels you'll use to compare an applicant's experience against the competencies. Once these levels are defined, decide as a group which proficiency level is the minimum required for each core competency. This establishes the required experience for the position.
+intro: Once you've defined your competencies, define the proficiency levels you'll use to compare an applicant's experience against the competencies. This establishes the required experience for the position.
 ---
 
 <p class="usa-intro">
   {{ page.intro }}
 </p>
 
-We recommend using the levels *Unfamiliar*, *Familiar*, *Experienced*, and *Master* for each competency, along with a definition of what that level looks like. The scenarios you use to define the proficiency levels should be consistent, involving these types of differences:
+We recommend using the levels *Meets Qualifications* and *Exceeds Qualifications* for each competency, along with a definition of what that level looks like. The scenarios you use to define the proficiency levels should be consistent, involving these types of differences:
 
 - **Scale of activity:** The applicant did something at a small organization _-vs-_ did something at a large organization.
 - **Seniority:** The applicant did something as part of a group _-vs-_ lead the group that did something.

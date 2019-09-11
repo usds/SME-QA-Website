@@ -81,7 +81,7 @@ description: An agenda for the first of the 2 day job analysis activities.
     <tr>
       <th scope="row">3:30 pm</th>
       <td>
-        Discuss Proficiency Levels with Group and decide required level for position (45 min)
+        Discuss Proficiency Levels with Group (45 min)
       </td>
     </tr>
     <tr>

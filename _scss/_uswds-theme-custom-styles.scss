@@ -464,17 +464,44 @@ blockquote {
 }
 
 .chp-footer {
-  margin: units(3) 0 0;
-  background-color: color('primary-darker');
+  .usa-footer__primary-link {
+    @include permaLink();
+  }
 
-  &__body {
-    @include grid-container();
-    padding-top: units(4);
-    padding-bottom: units(4);
+  &__changelog-link {
+    display: block;
+    @include u-padding(2);
+  }
 
-    a {
-      color: color('white');
-      @include permaLink(color('white'));
+  &__sub-list {
+    list-style-type: none;
+    padding-left: 0;
+    width: 100%;
+
+    @include at-media('mobile-lg') {
+      @include grid-row;
+    }
+
+    li {
+      @include at-media('mobile-lg') {
+        @include grid-col(6);
+      }
+      @include at-media('tablet-lg') {
+        @include grid-col(auto);
+        max-width: inherit;
+      }
+    }
+
+    li a {
+      display: block;
+      @include u-padding-y(1);
+      @include u-font-size('body', '2xs');
+      text-decoration: none;
+
+      @include at-media('tablet-lg') {
+        @include u-padding(1);
+        margin-right: units(1);
+      }
     }
   }
 }
@@ -537,6 +564,17 @@ blockquote {
   }
 }
 
+.sr-only {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+  padding: 0;
+}
 
 // ----------------------------------------
 // SME-QA: Resume Review layout

@@ -464,6 +464,10 @@ blockquote {
 }
 
 .chp-footer {
+  .usa-footer__primary-link {
+    @include permaLink();
+  }
+
   &__changelog-link {
     display: block;
     @include u-padding(2);
@@ -560,6 +564,17 @@ blockquote {
   }
 }
 
+.sr-only {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+  padding: 0;
+}
 
 // ----------------------------------------
 // SME-QA: Resume Review layout

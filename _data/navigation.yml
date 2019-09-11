@@ -65,6 +65,8 @@ hiring-phases:
       href: "/hiring-phases/reviewing-resumes/training/"
     - text: Conducting SME Resume Reviews
       href: "/hiring-phases/reviewing-resumes/sme-instructions/"
+    - text: Sending Notifications post-Resume Review
+      href: "/hiring-phases/reviewing-resumes/notifications/"
   - text: Phone Interviews
     href: /hiring-phases/phone-assessment-interviews/
     phase: phone-assessment-interviews
@@ -77,6 +79,8 @@ hiring-phases:
       href: "/hiring-phases/phone-assessment-interviews/interviewing-applicants/"
     - text: Reviewing SME Assessments
       href: "/hiring-phases/phone-assessment-interviews/reviewing-sme-assessments/"
+    - text: Sending Notifications post-Phone Assessment Interview
+      href: /hiring-phases/phone-assessment-interviews/notifications/
   - text: Issuing a Certificate
     href: /hiring-phases/certificate/
     phase: certificate

@@ -576,6 +576,24 @@ blockquote {
   padding: 0;
 }
 
+.chp-about-logos {
+  clear: both;
+  margin: units(4) 0;
+  text-align: center;
+
+  img {
+    max-width: 200px;
+    float: left;
+    padding: units(2);
+
+    @include at-media(desktop) {
+      float: none;
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+}
+
 // ----------------------------------------
 // SME-QA: Resume Review layout
 // WTF!? Importing a file here does not work.

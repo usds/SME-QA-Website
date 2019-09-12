@@ -19,7 +19,8 @@ Traditional networking is extremely effective for finding great candidates. Ment
 
 ### Post to free and popular targeted job boards
 
-Consider finding popular job boards targeted to the audience you are trying to reach. See "[Popular Technology Job Boards](recruiting-toolkit/popular-technology-job-boards.md)" for some ideas. If you have access to paid job boards, then additionally use those resources.
+Consider finding popular job boards targeted to the audience you are trying to reach. See "[Popular Technology Job Boards](../../../toolkit/job-announcement/technology-job-boards/)" for some ideas. If you have access to paid job boards, then additionally use those resources.
+
 
 ### Mine resumes
 

@@ -6,7 +6,7 @@ title: Sending Notifications Post Phone Assessment Interview
 sidenav: hiring-phases
 phase: phone-assessment-interviews
 sub-phase-order: 040
-intro: It is appropriate to send notifications to all applicants at the end of each phase. Use the following NOR codes and notification messages to communicate with applicants.
+intro: As a best practice, you should send notifications to all applicants at the end of each phase. Use these NOR codes and notification messages to communicate with applicants.
 ---
 
 <p class="usa-intro">

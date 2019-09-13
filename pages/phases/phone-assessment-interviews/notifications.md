@@ -25,7 +25,7 @@ Subject matter experts have determined you do not meet the qualifications as des
 
 ### NOR Code
 
-IQFI: "You were not considered because you did not pass the interview required for this position."
+**IQFI**: "You were not considered because you did not pass the interview required for this position."
 
 ## Qualified but not yet referred
 

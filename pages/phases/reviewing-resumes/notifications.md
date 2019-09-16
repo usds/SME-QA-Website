@@ -2,7 +2,7 @@
 layout: article
 permalink: /hiring-phases/reviewing-resumes/notifications/
 section: hiring-phases
-title: Sending Notifications Post Resume Review
+title: Notifying Applicants After Resume Reviews
 sidenav: hiring-phases
 phase: reviewing-resumes
 sub-phase-order: 050

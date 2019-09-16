@@ -2,7 +2,7 @@
 layout: article
 permalink: /hiring-phases/phone-assessment-interviews/notifications/
 section: hiring-phases
-title: Sending Notifications Post Phone Assessment Interview
+title: Notifying Applicants After Interviews
 sidenav: hiring-phases
 phase: phone-assessment-interviews
 sub-phase-order: 040

@@ -13,7 +13,7 @@ intro: To schedule applicants, work with a team of schedulers or admins who can 
   {{ page.intro }}
 </p>
 
-Before you [schedule training](training.md) for the first round of interviews, divide the SMEs into two groups based on which round of interviews they will conduct. Consider how many applicants passed resume review, as well as any scheduling conflicts you may be aware of at this time. Send SMEs calendar invites for the days or weeks they'll be conducting interviews as soon as possible.
+Before you [schedule training](training.md) for the first round of interviews, divide the SMEs into two groups based on which round of interviews they will conduct. Consider how many applicants passed resume review, as well as any scheduling conflicts you may be aware of at this time. Send SMEs calendar invites for the days or weeks they'll be conducting interviews as soon as possible. These invites should just be a placeholder notification of when interviews will generally take place. To solicit the specific times that SMEs will make available for interviews during this period, send them the <a href="{{site.baseurl}}/toolkit/phone-assessment-interviews/email-template-sme-avialability/">SME Availability Email</a>.
 
 Complete and share the <a href="{{site.baseurl}}/toolkit/phone-assessment-interviews/interview-scheduling-instructions/">Scheduler Instructions</a> with the people who will schedule applicants. Keep these ideas in mind:
 

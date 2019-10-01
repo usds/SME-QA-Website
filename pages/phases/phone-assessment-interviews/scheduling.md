@@ -17,7 +17,7 @@ Before you [schedule training](training.md) for the first round of interviews, d
 
 Complete and share the <a href="{{site.baseurl}}/toolkit/phone-assessment-interviews/interview-scheduling-instructions/">Scheduler Instructions</a> with the people who will schedule applicants, and provide them with the <a href="{{site.baseurl}}/toolkit/phone-assessment-interviews/email-template-app-first-interview-sched/">Applicant Scheduling Request</a> and <a href="{{site.baseurl}}/toolkit/phone-assessment-interviews/email-template-app-first-interview-confirm/">Applicant Scheduling Confirmation</a> email templates.
 
-Schedulers may find the <a href="{{site.baseurl}}/toolkit/phone-assessment-interviews/example-sme-availability-worksheet/">SME Availability Worksheet</a> useful to track when SMEs are available to conduct interviews.
+Schedulers may find the <a href="{{site.baseurl}}/toolkit/phone-assessment-interviews/example-sme-availability-worksheet/">SME Availability Worksheet</a> useful to track when SMEs are available to conduct interviews, and the <a href="{{site.baseurl}}/toolkit/phone-assessment-interviews/example-applicant-scheduling-worksheet/">Applicant Scheduling Worksheet</a> for tracking which applicants have been scheduled for interviews.
 
 Keep these ideas in mind:
 

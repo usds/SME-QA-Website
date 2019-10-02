@@ -19,4 +19,6 @@ To facilitate this 10-15 minute exercise, give each participant a stack of stick
 
 To focus their thinking, suggest that participants consider the tasks they have completed in this position within the last month. Guide them to be specific, breaking broad tasks into more specific, detailed tasks that clearly explain the work. For example, a general task like "Manages stakeholders" would be broken up into more specific tasks like "Send emails updating stakeholders on a project to avoid miscommunication" and "Organize one-on-one meetings with senior stakeholders to ensure everyone is on the same page."
 
+Participants should also consider EQ qualities that are important to successfully completing their work. For example, "Demonstrate patience with less technical stakeholders" and "Show compassion for beneficiaries with health concerns by scheduling a home visit."
+
 When the note-writing exercise is complete, as each participant to stand up and read each note aloud to the group as they stick them to a large space on a wall or several easel boards.

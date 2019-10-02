@@ -10,6 +10,23 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 <!-- and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html) -->
 
+## [2.4.0](https://github.com/labopm/competitive-hiring-pilot/releases) - 2019-10-02
+
+Toolkit Updates for Job Analysis and Interview Assessments: This release adds materials to the toolkits for the Job Analysis and Interview Assessment phases.
+
+### Added
+
+- Toolkit items for the Job Analysis Workshop phase, including Day 1 and Day 2 presentation templates, as well as a Microsoft Word version of sample competencies, proficiencies, and interview questions to be handed out during the workshop as supporting material.
+- Toolkit items for the Phone Interview Assessment phase, including a training presentation template, template emails to be sent to solicit and confirm available interview times with SMEs and applicants, and worksheets for people scheduling interviews to aid them in the task.
+
+### Removed
+
+- HTML versions of the sample competencies, proficiencies, and interview questions (replaced with downloadable Microsoft Word versions).
+
+### Changed
+
+- Updated guidance for conducting a job analysis workshop and scheduling phone assessment interviews to include links to template items in the toolkit for that phase.
+
 ## [2.3.0](https://github.com/labopm/competitive-hiring-pilot/releases) - 2019-09-09
 
 Assessment Strategy Toolkit and Proficiency Level Updates: This release updates the toolkit for the Assessment Strategy to make basic clarifications. It also updates guidance throughout the site about defining four different proficiency levels per competency to instead specify two proficiency levels intended to define whether an applicant meets or exceeds qualifications only.

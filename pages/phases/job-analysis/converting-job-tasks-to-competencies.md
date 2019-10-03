@@ -15,7 +15,7 @@ intro: Once SMEs have listed their common job tasks, group similar tasks to crea
 
 When the job task writing exercise is complete and the notes are on a wall, ask all participants to stand up together and group similar tasks. When the groups of tasks are adequately organized, brainstorm a short, summarizing title for each grouping. These titles are the core competencies required for your position.
 
-Generally, you'll want to define four to six core competencies for your position. To pare down your competencies to this amount, give each participant three to four dot stickers to vote on the competencies they feel are the most important for this position from day one. The results of the dot voting, along with the frequency of the sticky notes per competency, determines which competencies are necessary to consider an applicant minimally qualified for your position.
+Generally, you'll want to define four to six core competencies for your position, which can include an EQ competency. To pare down your competencies to this amount, give each participant three to four dot stickers to vote on the competencies they feel are the most important for this position from day one. The results of the dot voting, along with the frequency of the sticky notes per competency, determines which competencies are necessary to consider an applicant minimally qualified for your position.
 
 While brainstorming the names of your competencies, you may find it helpful to refer to existing competency names like the OPM qualification standards for the series you're hiring for. However, if the output of the exercise results in a difference, use the required competencies SMEs identify as the qualifications for your position.
 

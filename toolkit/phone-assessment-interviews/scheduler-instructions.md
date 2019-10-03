@@ -16,7 +16,7 @@ Use these dates and instructions to complete the scheduling for your hiring acti
 
 `{APPLICANT ESTIMATE}` applicants will likely move from resume review to Interview 1. We estimate `{10% OF APPLICANT ESTIMATE}` applicants won’t respond to scheduling requests.
 
-- **`{DATE}` – Determine SMEs’ Personal Relationships with Applicants:** Email SMEs to confirm they don’t have a personal relationship with any applicants who are being interviewed. If they do have a conflict, they must respond to you by EOD `{DATE}`.
+- **`{DATE}` – Determine SMEs’ Personal Relationships with Applicants:** Using the SME Recusal Email Template, send SMEs an email to confirm they don’t have a personal relationship with any applicants who are being interviewed. If they do have a conflict, they must respond to you by EOD `{DATE}`.
 - **`{DATE}` – Receive Applicant List from HR:** HR will send you a list of applicant names, emails, phone, numbers, and the roles they’re currently being considered for.
 - **`{DATE}` – Send Interview 1 Scheduling Request to Applicants:** Using the scheduling email template from USDS, as well as the list of applicants from HR, send the initial scheduling notification to applicants.
 - **`{DATE}` – Begin Scheduling Interview 1 with Applicants and SMEs:** As applicants respond with their availability, use the SME availability list you received from USDS to schedule 60-minute interviews with one applicant per SME (see “SME Assignments for Interview 1” for more information). HR will have sent resumes to the SMEs by this time.

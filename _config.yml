@@ -20,9 +20,9 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "/competitive-hiring-pilot"
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-repository: labopm/competitive-hiring-pilot
+repository: davidholmesusds/competitive-hiring-pilot
 
-github_url: https://github.com/labopm/competitive-hiring-pilot/
+github_url: https://github.com/davidholmesusds/competitive-hiring-pilot/
 
 # Build settings
 markdown: kramdown

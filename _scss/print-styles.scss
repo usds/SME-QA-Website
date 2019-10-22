@@ -1,0 +1,160 @@
+// Print stylesheet
+
+@import 'uswds-theme-general';
+@import 'uswds-theme-typography';
+@import 'uswds-theme-spacing';
+@import 'uswds-theme-utilities';
+@import 'uswds';
+
+// Hide a bunch of global components
+.usa-banner,
+.usa-header,
+.chp-footer {
+  display: none;
+}
+
+// Hide home page components
+.chp-banner--beta,
+.chp-home-hero,
+.chp-home-hero__caption-container {
+  display: none;
+}
+
+// Hide About page components
+.chp-about-logos {
+  display: none;
+}
+
+// Hide Article page components {
+.chp-breadcrumb,
+.chp-article-sidenav {
+  display: none;
+}
+
+// Reset typography
+// Crank everything down 2 sizes
+.usa-prose {
+
+  > h1 {
+    @include u-font-size('body', $theme-h3-font-size);
+  }
+
+  > h1 + *,
+  > h2 + *,
+  > h3 + *,
+  > h4 + *,
+  > h5 + *,
+  > h6 + *,
+  h1+*, h2+*, h3+*, h4+*, h5+*, h6+* {
+    margin-top: .5rem;
+  }
+
+  .usa-intro {
+    @include u-font-size('body', $theme-h4-font-size);
+  }
+
+  > h2 {
+    @include u-font-size('body', $theme-h4-font-size);
+  }
+
+  > h3 {
+    @include u-font-size('body', $theme-h5-font-size);
+  }
+
+  > h4 {
+    @include u-font-size('body', $theme-h6-font-size);
+  }
+
+  p,
+  > ul li {
+    max-width: inherit;
+  }
+
+  > p + * {
+    margin-top: .5rem;
+  }
+}
+
+// Remove extra maring and padding
+.usa-section {
+  padding-bottom: 0;
+  padding-top: 0;
+
+  @include at-media(tablet) {
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+}
+
+.margin-bottom-7,
+.margin-bottom-9 {
+  margin-bottom: .5rem;
+}
+
+.chp-meta__title {
+  margin-top: .3rem;
+}
+
+.chp-article .chp-highlight,
+.chp-article .chp-toolkit {
+  margin: .3rem 0;
+}
+
+.chp-article .chp-toolkit__title:before {
+  display: none;
+}
+
+// Remove grid
+.grid-container {
+  max-width: inherit;
+  padding: 0;
+}
+
+.grid-row.grid-gap {
+  margin: 0;
+}
+
+.grid-row.grid-gap > * {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.tablet-lg\:grid-col-9,
+.tablet-lg\:grid-col-3 {
+  @include at-media(tablet-lg) {
+    width: 100%;
+  }
+}
+
+// Other random tidbits
+.chp-home-featured,
+.chp-card {
+  display: block;
+  box-shadow: inherit;
+  margin-bottom: 1rem;
+  padding: 0;
+
+  &__figure {
+    display: none;
+  }
+}
+
+.chp-meta__section {
+  @include grid-col(6);
+}
+
+.usa-alert {
+  padding: 0;
+
+  &:before {
+    width: 0;
+  }
+}
+
+.usa-alert--info {
+  background-image: none;
+}
+
+.usa-alert--info .usa-alert__body {
+  padding-left: 1rem;
+}

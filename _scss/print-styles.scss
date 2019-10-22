@@ -50,7 +50,7 @@
   }
 
   .usa-intro {
-    @include u-font-size('body', $theme-h4-font-size);
+    @include u-font('serif', 3);
   }
 
   > h2 {
@@ -67,12 +67,19 @@
 
   p,
   > ul li {
+    @include u-font('serif', 2);
     max-width: inherit;
   }
 
   > p + * {
     margin-top: .5rem;
   }
+}
+
+p,
+ul li {
+  @include u-font('serif', 2);
+  max-width: inherit;
 }
 
 // Remove extra maring and padding
@@ -157,4 +164,10 @@
 
 .usa-alert--info .usa-alert__body {
   padding-left: 1rem;
+}
+
+.process-steps {
+  .tablet\:grid-col {
+    flex: none;
+  }
 }

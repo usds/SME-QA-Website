@@ -1,4 +1,11 @@
-# SME Recusal Email Template
+---
+layout: article
+permalink: /toolkit/phone-assessment-interviews/email-template-sme-recusal/
+section: hiring-phases
+sidenav: hiring-phases
+phase: phone-assessment-interviews
+title: Template - Email to SMEs for recusal
+---
 
 Now that you've received the list of applicants you'll be interviewing, reply by `{DATE}` with any applicant who you have a personal relationship with and should not interview. You may interview people you know, supervise, and work with (contract professionals or feds), but must recuse yourself in these cases:
 

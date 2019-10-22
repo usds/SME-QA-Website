@@ -1,4 +1,11 @@
-# Template: Email to SMEs for Interview Availability
+---
+layout: article
+permalink: /toolkit/phone-assessment-interviews/email-template-sme-availability/
+section: hiring-phases
+sidenav: hiring-phases
+phase: phone-assessment-interviews
+title: Template - Email to SMEs for Interview Availability
+---
 
 Phone interviews with applicants who passed the resume review phase of the `{POSITION-NAME}` will take place between `{DATE}` and `{DATE}`. We expect to use up to `{HOURS-ESTIMATE}` hours of your time each week over this period, with approximately one morning and one afternoon interview daily.
 

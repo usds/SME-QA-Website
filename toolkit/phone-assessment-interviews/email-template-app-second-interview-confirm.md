@@ -1,4 +1,11 @@
-# Template: Email to Applicants Confirming Second Interview
+---
+layout: article
+permalink: /toolkit/phone-assessment-interviews/email-template-app-second-interview-confirm/
+section: hiring-phases
+sidenav: hiring-phases
+phase: phone-assessment-interviews
+title: Template - Email to Applicants Confirming Second Interview
+---
 
 Dear `{APPLICANT-NAME}`,
 

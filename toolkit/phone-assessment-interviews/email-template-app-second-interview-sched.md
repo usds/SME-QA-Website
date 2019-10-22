@@ -1,4 +1,11 @@
-# Template: Email to Applicants Requesting Second Interview
+---
+layout: article
+permalink: /toolkit/phone-assessment-interviews/email-template-app-second-interview-sched/
+section: hiring-phases
+sidenav: hiring-phases
+phase: phone-assessment-interviews
+title: Template - Email to Applicants Requesting Second Interview
+---
 
 Dear Applicant,
 

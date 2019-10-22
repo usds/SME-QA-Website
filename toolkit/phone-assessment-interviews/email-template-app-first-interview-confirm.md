@@ -1,4 +1,11 @@
-# Template: Email to Applicants Confirming First Interview
+---
+layout: article
+permalink: /toolkit/phone-assessment-interviews/email-template-app-first-interview-confirm/
+section: hiring-phases
+sidenav: hiring-phases
+phase: phone-assessment-interviews
+title: Template - Email to Applicants Confirming First Interview
+---
 
 Dear `{APPLICANT-NAME}`,
 

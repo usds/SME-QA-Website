@@ -9,7 +9,6 @@ const cssnano = require("cssnano");
 const gulp = require("gulp");
 const log = require("fancy-log");
 const mqpacker = require("css-mqpacker");
-const notify = require("gulp-notify");
 const postcss = require("gulp-postcss");
 const sass = require("gulp-sass");
 const sourcemaps = require("gulp-sourcemaps");
@@ -66,12 +65,7 @@ function css() {
     .pipe(postcss(processors))
     .pipe(sourcemaps.write("."))
     .pipe(gulp.dest("assets/stylesheets"))
-    .pipe(gulp.dest("_site/assets/stylesheets"))
-    .pipe(
-      notify({
-        sound: "Pop" // case sensitive
-      })
-    );
+    .pipe(gulp.dest("_site/assets/stylesheets"));
 }
 
 function jekyll(done) {

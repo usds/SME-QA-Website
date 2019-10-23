@@ -1,0 +1,247 @@
+// ----------------------------------------
+// SME-QA: Resume Review layout
+
+@import 'uswds-theme-general';
+@import 'uswds-theme-typography';
+@import 'uswds-theme-spacing';
+@import 'uswds-theme-color';
+@import 'uswds-theme-utilities';
+@import 'uswds';
+
+.sme-rr {
+  &__main {
+    margin-top: 0;
+    @include u-padding-y(4);
+  }
+
+  &__title,
+  &__status {
+    text-transform: uppercase;
+    color: color('gold-20v');
+  }
+
+  &__status {
+    text-align: center;
+  }
+
+  .sme-rr &__recuse.usa-button,
+  .sme-rr &__skip.usa-button {
+    width: 100%;
+    margin-top: units(2);
+  }
+
+  &__applicant-name {
+    margin-top: units(1);
+  }
+
+  &__applicant-name-desc {
+    font-weight: normal;
+  }
+
+  &__applicant-email {
+    margin: 0;
+    padding: units(0.5) 0 0;
+  }
+
+  &__missing-info-container {
+    margin: 0;
+    padding: 0;
+  }
+
+  &__missing-info {
+    padding: units(0.5) 0;
+  }
+
+  &__next-applicant {
+    float: right;
+  }
+
+  &__confirmation {
+    &[aria-hidden=true] {
+      display: none;
+    }
+    .usa-alert__body {
+      display: inline-block;
+      width: 100%;
+    }
+  }
+}
+
+.sme-rr-comps {
+  @include u-padding-y(4);
+
+  &__title {
+    margin-bottom: units(2.5);
+  }
+
+  &__title--prof {
+    text-align: center;
+  }
+}
+
+.sme-rr-comp {
+  margin-bottom: units(4);
+
+  &.does-not-meet {
+    background-color: color($theme-color-chp-red-lightest);
+  }
+
+  &__required-level {
+    margin-top: units(1);
+
+    & + p {
+      margin-top: units(1);
+    }
+  }
+
+  &__level {
+    margin-top: units(1);
+    max-width: inherit;
+  }
+}
+
+.sme-rr-form {
+  font-size: inherit;
+  line-height: inherit;
+
+  @include at-media('mobile-lg') {
+    max-width: inherit;
+  }
+}
+
+.sme-rr-scoring {
+  list-style-type: none;
+  margin-top: 0;
+  text-align: center;
+
+  &.is-first {
+    margin-top: 0;
+  }
+
+  &__radio-container,
+  &__button {
+    position: relative;
+    display: list-item;
+    width: 50%;
+    float: left;
+  }
+
+  &__button {
+    [type="radio"] + label {
+      max-width: inherit;
+      text-indent: inherit;
+      @include makeOutlineButton();
+
+      @include at-media('mobile-lg') {
+        width: 90%;
+      }
+    }
+
+    [type="radio"] + label::before {
+      display: none;
+    }
+
+    [type="radio"]:checked + label {
+      box-shadow: inset 0 0 0 2px color('green-cool-50v');
+      background-color: color('green-cool-5');
+    }
+
+    [type="radio"]:checked + label::before {
+      box-shadow: inherit;
+    }
+  }
+
+  &__button.is-no {
+    [type="radio"]:checked + label {
+      box-shadow: inset 0 0 0 2px color('red-50v');
+      background-color: color('red-cool-10v');
+    }
+
+  }
+}
+
+.sme-rr-scoring-reason {
+  &[aria-hidden=true] {
+    display: none;
+  }
+
+  &__label {
+    margin-bottom: units(2);
+  }
+
+  &__justification,
+  &__justification-text {
+    &[aria-hidden=true] {
+      display: none;
+    }
+  }
+}
+
+
+.sme-rr-drawers .sme-rr-drawer {
+  margin-top: units(4);
+  margin-bottom: 0;
+
+  &.is-first {
+    margin-top: 0;
+  }
+}
+
+.sme-rr-drawers--no-faces .sme-rr-drawer--no-face {
+  margin-top: 0;
+}
+
+.sme-rr-drawer {
+  &__button {
+    background-color: color('white');
+    background-image: url("../img/drawer/minus-circle.svg");
+    background-position: 2px units(1.5);
+    background-size: units(2.5);
+    padding: units(1.5) units(1.5) units(0.5) units(4);
+    @include u-font-size('body', 'lg');
+    color: color('primary');
+
+    &[aria-expanded="false"] {
+      background-image: url("../img/drawer/plus-circle.svg");
+      background-size: units(2.5);
+    }
+
+    &:hover {
+      background-color: color('white');
+      color: color('primary-dark');
+    }
+  }
+}
+
+.sme-rr-drawer--no-face {
+  &__button {
+    background-color: color('white');
+    background-image: url("../img/drawer/minus-circle.svg");
+    background-position: center left;
+    background-size: units(2);
+    padding: units(0.5) units(1) units(0.5) units(2.5);
+    @include u-font-size('body', '2xs');
+    color: color('primary');
+
+    &[aria-expanded="false"] {
+      background-image: url("../img/drawer/plus-circle.svg");
+      background-size: units(2);
+    }
+
+    &:hover {
+      background-color: color('white');
+      color: color('primary-dark');
+    }
+  }
+}
+
+.sme-rr-prof-level {
+  &__heading {
+    margin-top: units(1);
+  }
+}
+
+.sme-rr-drawer__content .sme-rr-prof-level__definition {
+  margin: units(0.5) 0 0 0;
+  max-width: inherit;
+}

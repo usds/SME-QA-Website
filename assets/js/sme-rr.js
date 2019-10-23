@@ -46,9 +46,11 @@ $sme_rr.on('sme-rr.meets', function(event, opts) {
 });
 
 $sme_rr.on('sme-rr.does-not-meet', function(event, opts) {
-  // Reveal the reason and justification for that competency
-  var $target = opts.object.find('#' + opts.el.attr('aria-controls'));
+  // Reveal the reason for that competency
+  var $target = opts.object.find('#' + opts.el.attr('aria-controls')),
+    $container = opts.object.find('#' + opts.el.attr('data-container'));
 
+  $container.addClass('does-not-meet');
   $target.attr('aria-hidden', 'false');
 });
 
@@ -87,4 +89,12 @@ $sme_rr.on('sme-rr.save', function(event, opts) {
 
 $sme_rr.on('sme-rr.reload', function(event, opts) {
   location.reload();
+});
+
+$(document).ready(function() {
+  getData();
+  storeUrlParams();
+  printData();
+  getData();
+  runPageFilters();
 });

@@ -5,8 +5,9 @@ permalink: /research/phase-2/test-2/nps/
 title: Resume Review - NPS
 ---
 
-{% assign comptencies = site.data.competencies.nps-it %} {% assign
-applicant = site.data.applicants.engineering | sample %}
+{% assign comptencies = site.data.competencies.nps-it %}
+{% assign experiences = site.data.experience-requirements.v1 %}
+{% assign applicant = site.data.applicants.engineering | sample %}
 
 <main id="main-content" role="main" class="usa-layout-docs sme-rr__main">
   <form
@@ -17,6 +18,26 @@ applicant = site.data.applicants.engineering | sample %}
     id="sme-rr-form"
     data-object="sme-rr">
     <div class="grid-container">
+      <div class="grid-row">
+        <div class="grid-col">
+          <div
+            class="usa-alert usa-alert--success sme-rr-alert"
+            aria-hidden="true"
+            id="confirmation">
+            <div class="usa-alert__body">
+              <h3 class="usa-alert__heading">Review saved</h3>
+              <p class="usa-alert__text">
+                Your review of {{ applicant.name }} has been saved.
+              </p>
+              <!-- button
+                class="usa-button sme-rr__next-applicant"
+                data-behavior="sme-rr.reload">
+                Review next applicant
+              </button -->
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="grid-row">
         <div class="grid-col-8">
           <h3 id="status" class="sme-rr__title">Resume Review</h3>
@@ -30,31 +51,33 @@ applicant = site.data.applicants.engineering | sample %}
           <button class="usa-button usa-button--outline sme-rr__skip" data-behavior="sme-rr.reload">Skip this applicant</button>
         </div>
       </div>
-      <div
-        class="usa-alert usa-alert--success sme-rr__confirmation"
-        aria-hidden="true"
-        id="confirmation">
-        <div class="usa-alert__body">
-          <h3 class="usa-alert__heading">Review saved</h3>
-          <p class="usa-alert__text">
-            Your review of {{ applicant.name }} has been saved.
-          </p>
-          <button
-            class="usa-button sme-rr__next-applicant"
-            data-behavior="sme-rr.reload">
-            Review next applicant
-          </button>
+      <div class="grid-row">
+        <div class="grid-col">
+          <div class="usa-accordion usa-accordion--bordered sme-rr-instructions">
+            <h2 class="usa-accordion__heading">
+              <button class="usa-accordion__button"
+                aria-expanded="false"
+                aria-controls="instructions">
+                Instructions
+              </button>
+            </h2>
+            <div id="instructions" class="usa-accordion__content usa-prose">
+              <p>
+                Instructions to follow.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
 
     <div class="grid-container sme-rr-comps">
-      <div class="grid-row">
+      <div class="grid-row sme-rr-row">
         <div class="grid-col-8">
           <h2 class="sme-rr-comps__title">Competencies</h2>
         </div>
         <div class="grid-col-4">
-          <h4 class="sme-rr-comps__title sme-rr-comps__title--prof">
+          <h4 class="sme-rr-comps__title--prof">
             Meets required level?
           </h4>
         </div>
@@ -102,6 +125,7 @@ applicant = site.data.applicants.engineering | sample %}
                 for="comp-{{short-name}}-meets"
                 data-behavior="sme-rr.meets"
                 aria-controls="comp-{{short-name}}-reason"
+                data-container="comp-{{short-name}}-container"
                 class="usa-radio__label">
                 Yes
               </label>
@@ -135,20 +159,20 @@ applicant = site.data.applicants.engineering | sample %}
                 Reason
               </label>
               <div class="usa-radio">
-                <input class="usa-radio__input" id="no-evidence" type="radio" checked name="failure-reason" value="no-evidence">
-                <label class="usa-radio__label" for="no-evidence">
+                <input class="usa-radio__input" id="no-evidence-{{short-name}}" type="radio" checked name="failure-reason" value="no-evidence">
+                <label class="usa-radio__label" for="no-evidence-{{short-name}}">
                   No evidence of this competency
                 </label>
               </div>
               <div class="usa-radio">
-                <input class="usa-radio__input" id="does-not-meet-level" type="radio" checked name="failure-reason" value="does-not-meet-level">
-                <label class="usa-radio__label" for="does-not-meet-level">
+                <input class="usa-radio__input" id="does-not-meet-level-{{short-name}}" type="radio" checked name="failure-reason" value="does-not-meet-level">
+                <label class="usa-radio__label" for="does-not-meet-level-{{short-name}}">
                   Doesn't meet the required proficency level
                 </label>
               </div>
               <button
                 class="usa-button sme-rr-scoring__save"
-                id="sme-rr-does-not-meet-save"
+                id="sme-rr-does-not-meet-save-{{short-name}}"
                 data-behavior="sme-rr.save"
                 aria-controls="confirmation">
                 Save &amp; Continue
@@ -158,10 +182,74 @@ applicant = site.data.applicants.engineering | sample %}
         </div>
       </div>
       {% endfor %}
-      <div class="grid-row">
+      <div class="grid-row sme-rr-row">
+        <div class="grid-col-8">
+          <h2 class="sme-rr-comps__title">Experience</h2>
+        </div>
+      </div>
+      {% for exp in experiences %}
+        {% assign short-name = exp.requirement | slugify: 'pretty' %}
+      <div class="grid-row sme-rr-exp" id="exp-{{ short-name }}-container">
+        <div class="grid-col-8">
+          <h3 class="sme-rr-comp__name">{{ exp.requirement }}</h3>
+          <p>{{ exp.desc }}</p>
+        </div>
+        <div class="grid-col-4">
+          <ul class="sme-rr-scoring">
+            <li class="sme-rr-button-radio sme-rr-scoring__radio-container">
+              <input
+                type="radio"
+                value="meets"
+                name="exp-{{short-name}}"
+                id="exp-{{short-name}}-meets"
+                class="usa-radio__input"/>
+              <label
+                for="exp-{{short-name}}-meets"
+                data-behavior="sme-rr.meets"
+                aria-controls="exp-{{short-name}}-reason"
+                data-container="exp-{{short-name}}-container"
+                class="usa-radio__label">
+                Yes
+              </label>
+            </li>
+            <li class="sme-rr-button-radio sme-rr-scoring__radio-container is-no">
+              <input
+                type="radio"
+                value="does-not-meet"
+                name="exp-{{short-name}}"
+                id="exp-{{short-name}}-does-not-meet"
+                class="usa-radio__input" />
+              <label
+                for="exp-{{short-name}}-does-not-meet"
+                data-behavior="sme-rr.does-not-meet"
+                aria-controls="exp-{{short-name}}-reason"
+                data-container="exp-{{short-name}}-container"
+                class="usa-radio__label">
+                No
+              </label>
+            </li>
+          </ul>
+        </div>
+        <div class="grid-row sme-rr-row__full-width">
+          <div class="grid-col sme-rr-col__full-width">
+            <fieldset
+              id="exp-{{short-name}}-reason"
+              class="usa-fieldset sme-rr-scoring-reason"
+              aria-hidden="true">
+              <legend class="usa-sr-only">Failure to meet {{ exp.requirement }} notes</legend>
+              <label class="usa-label sme-rr-scoring-reason__label" for="exp-{{short-name}}-notes">
+                Justification notes
+              </label>
+              <textarea class="usa-textarea sme-rr-scoring-reason__notes" id="exp-{{short-name}}-notes" name="exp-{{short-name}}-reason"></textarea>
+            </fieldset>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+      <div class="grid-row sme-rr-row">
         <div class="grid-col">
           <button
-            class="usa-button sme-rr-scoring__save"
+            class="usa-button sme-rr-scoring__save is-final"
             id="sme-rr-final-save"
             disabled
             data-behavior="sme-rr.save"

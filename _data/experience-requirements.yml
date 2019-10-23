@@ -1,0 +1,5 @@
+v1:
+  - requirement: 52 weeks requirement
+    desc: "Applicant has completed a minimum of 52 weeks in positions no more than one grade lower, or equivalent, than the position to be filled."
+  - requirement: Recency of experience
+    desc: "Applicant's technical experience must be within the last 3 years."

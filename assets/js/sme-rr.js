@@ -33,15 +33,19 @@ $sme_rr.on('click', '[data-behavior]', function (event) {
 
 $sme_rr.on('sme-rr.meets', function(event, opts) {
   var $target = opts.object.find('#' + opts.el.attr('aria-controls')),
+    $container = opts.object.find('#' + opts.el.attr('data-container'));
     meets = opts.object.find('input:radio:checked').length;
 
   // Find how many are selected and set the count accordingly
   revealSave(meets);
 
+  $container.removeClass('does-not-meet');
+
   // Close the reason and justification if they are present
   // TODO: Blank them out
   $target.slideUp(function () {
     $target.attr('aria-hidden', 'true');
+    $target.attr('style', '');
   });
 });
 
@@ -51,7 +55,13 @@ $sme_rr.on('sme-rr.does-not-meet', function(event, opts) {
     $container = opts.object.find('#' + opts.el.attr('data-container'));
 
   $container.addClass('does-not-meet');
-  $target.attr('aria-hidden', 'false');
+
+  $target.slideDown(function () {
+    $target.attr('aria-hidden', 'false');
+    $target.attr('style', '');
+  });
+
+  // TODO: Disable radio buttons further down the list
 });
 
 $sme_rr_select.on('change', function () {

@@ -27,7 +27,7 @@
   .sme-rr &__recuse.usa-button,
   .sme-rr &__skip.usa-button {
     width: 100%;
-    margin-top: units(2);
+    margin-top: units(1.5);
   }
 
   &__applicant-name {
@@ -56,31 +56,54 @@
     float: right;
   }
 
-  &__confirmation {
-    &[aria-hidden=true] {
-      display: none;
-    }
-    .usa-alert__body {
-      display: inline-block;
-      width: 100%;
-    }
+}
+
+.sme-rr-alert {
+  margin-bottom: units(1.5);
+  background-size: 3rem; // This is an odd bug that cropped up
+
+  &[aria-hidden=true] {
+    display: none;
+  }
+
+  .usa-alert__body {
+    display: inline-block;
+    width: 100%;
+  }
+}
+
+.sme-rr-instructions {
+  margin-top: units(1.5);
+}
+
+.sme-rr-row {
+  margin-top: units(2);
+  @include u-padding-x(2);
+
+  &__full-width {
+    width: 100%;
+  }
+}
+
+.sme-rr-col {
+  &__full-width {
+    width: 100%;
   }
 }
 
 .sme-rr-comps {
-  @include u-padding-y(4);
-
-  &__title {
-    margin-bottom: units(2.5);
-  }
+  padding-left: 0;
+  padding-right: 0;
 
   &__title--prof {
+    margin-top: units(2);
     text-align: center;
   }
 }
 
-.sme-rr-comp {
-  margin-bottom: units(4);
+.sme-rr-comp,
+.sme-rr-exp {
+  @include u-padding(2);
 
   &.does-not-meet {
     background-color: color($theme-color-chp-red-lightest);
@@ -156,7 +179,10 @@
       box-shadow: inset 0 0 0 2px color('red-50v');
       background-color: color('red-cool-10v');
     }
+  }
 
+  &__save.is-final {
+    float: right;
   }
 }
 
@@ -174,6 +200,10 @@
     &[aria-hidden=true] {
       display: none;
     }
+  }
+
+  &__notes {
+    height: 4rem;
   }
 }
 
@@ -215,7 +245,7 @@
 
 .sme-rr-drawer--no-face {
   &__button {
-    background-color: color('white');
+    background-color: transparent;
     background-image: url("../img/drawer/minus-circle.svg");
     background-position: center left;
     background-size: units(2);
@@ -229,7 +259,7 @@
     }
 
     &:hover {
-      background-color: color('white');
+      background-color: transparent;
       color: color('primary-dark');
     }
   }

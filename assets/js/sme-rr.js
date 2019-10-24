@@ -199,6 +199,7 @@ $sme_rr.on('sme-rr.save', function(event, opts) {
     setConfirmation();
     cleanUp();
     setupForm();
+    setTimeout(() => hideAlert($target), 30000);
   });
 });
 

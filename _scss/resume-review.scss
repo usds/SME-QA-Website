@@ -1,0 +1,391 @@
+// ----------------------------------------
+// SME-QA: Resume Review layout
+
+@import 'uswds-theme-general';
+@import 'uswds-theme-typography';
+@import 'uswds-theme-spacing';
+@import 'uswds-theme-color';
+@import 'uswds-theme-utilities';
+@import 'uswds';
+
+.sme-rr {
+  &__main {
+    margin-top: 0;
+    padding-bottom: units(4);
+  }
+
+  &__title,
+  &__status {
+    @include u-font-size('body', 'xs');
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    color: color('gold-20v');
+  }
+
+  .sme-rr &__joa-url {
+    display: block;
+    @include u-font-size('body', 'lg');
+    margin: 0 units(1) units(1.5) 0;
+    text-decoration: none;
+
+    &:hover,
+    &:focus,
+    &:visited {
+      color: color($theme-link-color);
+    }
+  }
+
+  &__status {
+    text-align: center;
+  }
+
+  .sme-rr &__recuse.usa-button,
+  .sme-rr &__skip.usa-button {
+    width: 100%;
+    margin-top: units(1.5);
+  }
+
+  &__applicant-name {
+    margin-top: 0;
+  }
+
+  &__applicant-name-desc {
+    font-weight: normal;
+  }
+
+  &__applicant-email {
+    margin: 0;
+    padding: units(0.5) 0 0;
+  }
+
+  &__missing-info-container {
+    margin: 0;
+    padding: 0;
+  }
+
+  &__missing-info {
+    padding: units(0.5) 0;
+  }
+
+  &__next-applicant {
+    float: right;
+  }
+
+}
+
+.sme-rr-alert {
+  margin-bottom: units(1.5);
+  background-size: 3rem; // This is an odd bug that cropped up
+
+  &[aria-hidden=true] {
+    display: none;
+  }
+
+  .usa-alert__body {
+    display: inline-block;
+    width: 100%;
+  }
+}
+
+.sme-rr-instructions {
+  margin-top: units(1.5);
+}
+
+.sme-rr-row {
+  margin-top: units(3);
+  @include u-padding-x(2);
+
+  &__full-width {
+    width: 100%;
+  }
+}
+
+.sme-rr-col {
+  &__full-width {
+    width: 100%;
+  }
+}
+
+.sme-rr-comps {
+  padding-left: 0;
+  padding-right: 0;
+
+  &__title--prof {
+    margin-top: units(2);
+    text-align: center;
+  }
+}
+
+.sme-rr-comp,
+.sme-rr-exp {
+  @include u-padding(2);
+
+  &.does-not-meet {
+    background-color: color($theme-color-chp-red-lightest);
+  }
+
+  &__required-level {
+    margin-top: units(1);
+
+    & + p {
+      margin-top: units(1);
+    }
+  }
+
+  &__level {
+    margin-top: units(1);
+    max-width: inherit;
+  }
+}
+
+.sme-rr-form {
+  font-size: inherit;
+  line-height: inherit;
+
+  @include at-media('mobile-lg') {
+    max-width: inherit;
+  }
+}
+
+.sme-rr-scoring {
+  list-style-type: none;
+  margin-top: 0;
+  text-align: center;
+
+  &.is-first {
+    margin-top: 0;
+  }
+
+  &__radio-container,
+  &__button {
+    position: relative;
+    display: list-item;
+    width: 50%;
+    float: left;
+  }
+
+  &__button {
+    [type="radio"] + label {
+      max-width: inherit;
+      text-indent: inherit;
+      @include makeOutlineButton();
+
+      @include at-media('mobile-lg') {
+        width: 90%;
+      }
+    }
+
+    [type="radio"] + label::before {
+      display: none;
+    }
+
+    [type="radio"]:checked + label {
+      box-shadow: inset 0 0 0 2px color('green-cool-50v');
+      background-color: color('green-cool-5');
+    }
+
+    [type="radio"]:checked + label::before {
+      box-shadow: inherit;
+    }
+  }
+
+  &__button.is-no {
+    [type="radio"]:checked + label {
+      box-shadow: inset 0 0 0 2px color('red-50v');
+      background-color: color('red-cool-10v');
+    }
+  }
+
+  &__save.is-final {
+    float: right;
+  }
+}
+
+.sme-rr-scoring-reason {
+  &[aria-hidden=true] {
+    display: none;
+  }
+
+  &__label {
+    margin-bottom: units(2);
+  }
+
+  &__justification,
+  &__justification-text {
+    &[aria-hidden=true] {
+      display: none;
+    }
+  }
+
+  &__notes {
+    height: 4rem;
+  }
+}
+
+
+.sme-rr-drawers .sme-rr-drawer {
+  margin-top: units(4);
+  margin-bottom: 0;
+
+  &.is-first {
+    margin-top: 0;
+  }
+}
+
+.sme-rr-drawers--no-faces .sme-rr-drawer--no-face {
+  margin-top: 0;
+}
+
+.sme-rr-drawer {
+  &__button {
+    background-color: color('white');
+    background-image: url("../img/drawer/minus-circle.svg");
+    background-position: 2px units(1.5);
+    background-size: units(2.5);
+    padding: units(1.5) units(1.5) units(0.5) units(4);
+    @include u-font-size('body', 'lg');
+    color: color('primary');
+
+    &[aria-expanded="false"] {
+      background-image: url("../img/drawer/plus-circle.svg");
+      background-size: units(2.5);
+    }
+
+    &:hover {
+      background-color: color('white');
+      color: color('primary-dark');
+    }
+  }
+
+  &__content {
+    background-color: transparent;
+  }
+}
+
+.sme-rr-drawer--no-face {
+  &__button {
+    background-color: transparent;
+    background-image: url("../img/drawer/minus-circle.svg");
+    background-position: center left;
+    background-size: units(2);
+    padding: units(0.5) units(1) units(0.5) units(2.5);
+    @include u-font-size('body', '2xs');
+    color: color('primary');
+
+    &[aria-expanded="false"] {
+      background-image: url("../img/drawer/plus-circle.svg");
+      background-size: units(2);
+    }
+
+    &:hover {
+      background-color: transparent;
+      color: color('primary-dark');
+    }
+  }
+}
+
+.sme-rr-prof-level {
+  &__heading {
+    margin-top: units(1);
+  }
+}
+
+.sme-rr-drawer__content .sme-rr-prof-level__definition {
+  margin: units(0.5) 0 0 0;
+  max-width: inherit;
+}
+
+.sme-rr-nav {
+  background-color: color($theme-color-primary-darker);
+
+  &__body {
+    padding: units(1) units(2);
+    text-align: center;
+  }
+
+  &__link {
+    color: #fff;
+
+    &:hover,
+    &:focus,
+    &:visited {
+      color: #fff;
+    }
+  }
+}
+
+.sme-rr-progress {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 0 units(4) 0;
+  // max-width: 700px;
+
+
+  &__bar {
+    align-self: flex-start;
+    width: 100%;
+    font-weight: 700;
+    display: block;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin-bottom: units(1);
+  }
+
+  &__detail {
+    margin: 0;
+    @include u-font-size('body', '2xs');
+  }
+
+  &__queue {
+    float: right;
+  }
+
+  .percentage {
+    font-size: .8em;
+    line-height: 1;
+    text-transform: uppercase;
+    width: 100%;
+    height: 25px;
+    background-color: color($theme-color-chp-gray-light);
+    /*
+    background: repeating-linear-gradient(
+    to right,
+    #ddd,
+    #ddd 1px,
+    #fff 1px,
+    #fff 5%
+  );
+  */
+
+    &:after {
+      content: "";
+      display: block;
+      background-color: color($theme-color-chp-green);
+      width: 50px;
+      height: 100%;
+      position: relative;
+      top: 0;
+      transform: translateY(-50%);
+      transition: background-color .3s ease;
+      cursor: pointer;
+    }
+    &:hover,
+    &:focus {
+      &:after {
+         background-color: #aaa;
+      }
+    }
+  }
+
+  @for $i from 1 through 100 {
+    .percentage-#{$i} {
+      &:after {
+        $value: ($i * 1%);
+        width: $value;
+      }
+    }
+  }
+}

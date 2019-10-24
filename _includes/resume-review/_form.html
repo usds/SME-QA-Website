@@ -1,0 +1,343 @@
+
+<main id="main-content" role="main" class="usa-layout-docs sme-rr__main">
+  <div class="sme-rr-nav">
+    <div class="sme-rr-nav__body">
+      <a href="#" class="sme-rr-nav__link">
+        Exit review
+      </a>
+    </div>
+  </div>
+  <form
+    name="sme-rr"
+    action="#"
+    method="get"
+    class="usa-form sme-rr-form"
+    id="sme-rr-form"
+    data-object="sme-rr"
+    novalidate>
+    <div class="grid-container">
+      <div class="grid-row">
+        <div class="grid-col">
+          <dl class="sme-rr-progress">
+            <dt class="sme-rr-progress__bar percentage" id="rr-progress-percentage">&nbsp;</dt>
+            <dd class="sme-rr-progress__detail">
+              Reviewing applicant <span id="rr-applicant-count">1</span>
+              <span class="sme-rr-progress__queue">
+                <span id="rr-queue-count">51</span> applicants in queue
+              </span>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="grid-container">
+      <div class="grid-row">
+        <div class="grid-col">
+          <div
+            class="usa-alert usa-alert--success sme-rr-alert"
+            aria-hidden="true"
+            id="confirmation">
+            <div class="usa-alert__body">
+              <h3 class="usa-alert__heading">
+                Your review of <span id="rr-confirmation-applicant-name">{{ applicant.name }}</span> has been saved.
+              </h3>
+              <p class="usa-alert__text">
+                You may <a href="#">edit your review</a> until the resume review period ends. The next applicant to be reviewed is below.
+              </p>
+              <!-- button
+                class="usa-button sme-rr__next-applicant"
+                data-behavior="sme-rr.reload">
+                Review next applicant
+              </button -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="grid-row">
+        <div class="grid-col">
+          <div
+            class="usa-alert usa-alert--success sme-rr-alert"
+            aria-hidden="true"
+            id="recuse-confirmation">
+            <div class="usa-alert__body">
+              <h3 class="usa-alert__heading">
+                You have been excused from reviewing this applicant.
+              </h3>
+              <p class="usa-alert__text">
+                HR will reassign that applicant to another Subject Matter Expert for review. The next applicant to be reviewed is below.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="grid-row">
+        <div class="grid-col">
+          <div
+            class="usa-alert usa-alert--info sme-rr-alert"
+            aria-hidden="true"
+            id="skip-confirmation">
+            <div class="usa-alert__body">
+              <h3 class="usa-alert__heading">
+                Applicant skipped.
+              </h3>
+              <p class="usa-alert__text">
+                HR will reassign that applicant to another Subject Matter Expert for review. The next applicant to be reviewed is below.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="grid-row">
+        <div class="grid-col-8">
+          <h4 id="status" class="sme-rr__title">Resume Review for</h4>
+          <a href="{{ joa_url }}" class="sme-rr__joa-url" target="_blank">
+            IT Specialist
+          </a>
+          <h1 class="sme-rr__applicant-name" id="rr-applicant-name">
+            {{ applicant.name }}
+          </h1>
+          <p class="sme-rr__applicant-email" id="rr-applicant-email">
+            {{ applicant.email }}
+          </p>
+        </div>
+        <div class="grid-col-4">
+          <button class="usa-button usa-button--outline sme-rr__recuse" data-behavior="sme-rr.reveal-alert" aria-controls="recuse-confirmation">Recuse yourself</button>
+          <button class="usa-button usa-button--outline sme-rr__skip" data-behavior="sme-rr.reveal-alert" aria-controls="skip-confirmation">Skip this applicant</button>
+        </div>
+      </div>
+      <div class="grid-row">
+        <div class="grid-col">
+          <div class="usa-accordion usa-accordion--bordered sme-rr-instructions">
+            <h2 class="usa-accordion__heading">
+              <button class="usa-accordion__button"
+                aria-expanded="false"
+                aria-controls="instructions">
+                Instructions
+              </button>
+            </h2>
+            <div id="instructions" class="usa-accordion__content usa-prose">
+              <p>
+                Completing a resume review involves the following steps:
+              </p>
+              <ol>
+                <li>
+                  Find this applicant's resume in the PDF shared with you by your HR Specialist.
+                </li>
+                <li>
+                  Align this browser window alongside the PDF of resumes so that you can see both at the same time.
+                </li>
+                <li>
+                  Review the applicant's resume for the competencies below.
+                  To move an applicant forward, look for evidence of each pre-defined competency and proficiency in their resume. Use the experience they describe in their resume along with your subject matter expertise rather than searching for keywords.
+                </li>
+                <li>
+                  Select "Yes" for a competency if the applicant meets the required proficiency level, which is displayed.
+                </li>
+                <li>
+                  If they do not meet the required proficiency level, select "No" then provide a reason. Clicking "Save &amp; Continue" will allow you to move to the next applicant. <strong>It is NOT necessary to review for all competencies.</strong>
+                </li>
+                <li>
+                  If the applicant meets all competencies you must also review their resume for experience requirements which follow the competencies below.
+                </li>
+                <li>
+                  Keep working through the applicants. You may exit the review using the navigation at the top of the page at any time.
+                </li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid-container sme-rr-comps">
+      <div class="grid-row sme-rr-row">
+        <div class="grid-col-8">
+          <h2 class="sme-rr-comps__title">Competencies</h2>
+        </div>
+        <div class="grid-col-4">
+          <h4 class="sme-rr-comps__title--prof">
+            Meets required level?
+          </h4>
+        </div>
+      </div>
+      {% for comp in comptencies %}
+        {% assign short-name = comp.competency | slugify: 'pretty' %}
+        {% assign num = forloop.index %}
+      <div class="grid-row sme-rr-comp" id="comp-{{short-name}}-container">
+        <div class="grid-col-8">
+          <h3 class="sme-rr-comp__name">{{ comp.competency }}</h3>
+          <h5 class="sme-rr-comp__required-level">Required level:</h5>
+          <p>
+            {{ comp.meets }}
+          </p>
+          <div class="usa-accordion sme-rr-drawers sme-rr-drawers--no-faces">
+            <div class="sme-rr-drawer sme-rr-drawer--no-face">
+              <h5 class="usa-accordion__heading sme-rr-prof-level__heading">
+                <button
+                  class="usa-accordion__button sme-rr-drawer__button sme-rr-drawer--no-face__button"
+                  aria-expanded="false"
+                  aria-controls="r-{{num}}">
+                  {{ comp.competency }} definition
+                </button>
+              </h5>
+              <div
+                id="r-{{num}}"
+                class="usa-accordion__content usa-prose sme-rr-drawer__content">
+                <p class="sme-rr-prof-level__definition">
+                  {{ comp.definition }}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="grid-col-4">
+          <ul class="sme-rr-scoring">
+            <li class="sme-rr-button-radio sme-rr-scoring__radio-container">
+              <input
+                type="radio"
+                value="meets"
+                name="comp-{{short-name}}"
+                id="comp-{{short-name}}-meets"
+                class="usa-radio__input" />
+              <label
+                for="comp-{{short-name}}-meets"
+                data-behavior="sme-rr.meets"
+                aria-controls="comp-{{short-name}}-reason"
+                data-container="comp-{{short-name}}-container"
+                class="usa-radio__label">
+                Yes
+              </label>
+            </li>
+            <li class="sme-rr-button-radio sme-rr-scoring__radio-container is-no">
+              <input
+                type="radio"
+                value="does-not-meet"
+                name="comp-{{short-name}}"
+                id="comp-{{short-name}}-does-not-meet"
+                class="usa-radio__input" />
+              <label
+                for="comp-{{short-name}}-does-not-meet"
+                data-behavior="sme-rr.does-not-meet"
+                aria-controls="comp-{{short-name}}-reason"
+                data-container="comp-{{short-name}}-container"
+                class="usa-radio__label">
+                No
+              </label>
+            </li>
+          </ul>
+        </div>
+        <div class="grid-row">
+          <div class="grid-col">
+            <fieldset
+              id="comp-{{short-name}}-reason"
+              class="usa-fieldset sme-rr-scoring-reason"
+              aria-hidden="true">
+              <legend class="usa-sr-only">Failure to meet required level reasons</legend>
+              <label class="usa-label sme-rr-scoring-reason__label" for="comp-{{short-name}}-reason">
+                Reason
+              </label>
+              <div class="usa-radio">
+                <input class="usa-radio__input" id="no-evidence-{{short-name}}" type="radio" checked name="failure-reason" value="no-evidence" required />
+                <label class="usa-radio__label" for="no-evidence-{{short-name}}">
+                  No evidence of this competency
+                </label>
+              </div>
+              <div class="usa-radio">
+                <input class="usa-radio__input" id="does-not-meet-level-{{short-name}}" type="radio" checked name="failure-reason" value="does-not-meet-level" required />
+                <label class="usa-radio__label" for="does-not-meet-level-{{short-name}}">
+                  Doesn't meet the required proficency level
+                </label>
+              </div>
+              <button
+                type="submit"
+                class="usa-button sme-rr-scoring__save"
+                id="sme-rr-does-not-meet-save-{{short-name}}"
+                data-behavior="sme-rr.validate sme-rr.save"
+                aria-controls="confirmation">
+                Save &amp; Continue
+              </button>
+            </fieldset>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+      <div class="grid-row sme-rr-row">
+        <div class="grid-col-8">
+          <h2 class="sme-rr-comps__title">Experience</h2>
+        </div>
+      </div>
+      {% for exp in experiences %}
+        {% assign short-name = exp.requirement | slugify: 'pretty' %}
+      <div class="grid-row sme-rr-exp" id="exp-{{ short-name }}-container">
+        <div class="grid-col-8">
+          <h3 class="sme-rr-comp__name">{{ exp.requirement }}</h3>
+          <p>{{ exp.desc }}</p>
+        </div>
+        <div class="grid-col-4">
+          <ul class="sme-rr-scoring">
+            <li class="sme-rr-button-radio sme-rr-scoring__radio-container">
+              <input
+                type="radio"
+                value="meets"
+                name="exp-{{short-name}}"
+                id="exp-{{short-name}}-meets"
+                class="usa-radio__input"/>
+              <label
+                for="exp-{{short-name}}-meets"
+                data-behavior="sme-rr.meets"
+                aria-controls="exp-{{short-name}}-reason"
+                data-container="exp-{{short-name}}-container"
+                class="usa-radio__label">
+                Yes
+              </label>
+            </li>
+            <li class="sme-rr-button-radio sme-rr-scoring__radio-container is-no">
+              <input
+                type="radio"
+                value="does-not-meet"
+                name="exp-{{short-name}}"
+                id="exp-{{short-name}}-does-not-meet"
+                class="usa-radio__input" />
+              <label
+                for="exp-{{short-name}}-does-not-meet"
+                data-behavior="sme-rr.does-not-meet"
+                aria-controls="exp-{{short-name}}-reason"
+                data-container="exp-{{short-name}}-container"
+                class="usa-radio__label">
+                No
+              </label>
+            </li>
+          </ul>
+        </div>
+        <div class="grid-row sme-rr-row__full-width">
+          <div class="grid-col sme-rr-col__full-width">
+            <fieldset
+              id="exp-{{short-name}}-reason"
+              class="usa-fieldset sme-rr-scoring-reason"
+              aria-hidden="true">
+              <legend class="usa-sr-only">Failure to meet {{ exp.requirement }} notes</legend>
+              <label class="usa-label sme-rr-scoring-reason__label" for="exp-{{short-name}}-notes">
+                Justification notes
+              </label>
+              <textarea class="usa-textarea sme-rr-scoring-reason__notes" id="exp-{{short-name}}-notes" name="exp-{{short-name}}-reason"></textarea>
+            </fieldset>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+      <div class="grid-row sme-rr-row">
+        <div class="grid-col">
+          <button
+            type="submit"
+            class="usa-button sme-rr-scoring__save is-final"
+            id="sme-rr-final-save"
+            disabled
+            data-behavior="sme-rr.save"
+            aria-controls="confirmation">
+            Save &amp; Continue
+          </button>
+        </div>
+      </div>
+    </div>
+  </form>
+</main>

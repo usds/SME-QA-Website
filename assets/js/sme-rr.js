@@ -2,7 +2,7 @@
 
 var $sme_rr = $('[data-object="sme-rr"]'),
   $sme_rr_select = $('.sme-rr-scoring-reason__select'),
-  comps_count = 8,
+  comps_count = $sme_rr.find('.sme-rr-comp').length + $sme_rr.find('.sme-rr-exp').length,
   current_applicant = 0,
   applicants = [
     {
@@ -63,7 +63,7 @@ var $sme_rr = $('[data-object="sme-rr"]'),
   revealSave = function (meets_count) {
     var $final_save = $sme_rr.find('#sme-rr-final-save');
 
-    if ((meets_count + 1) == comps_count) {
+    if (meets_count == comps_count) {
       $final_save.removeAttr('disabled');
     } else {
       if (!$final_save.attr('disabled')) {
@@ -124,6 +124,7 @@ $sme_rr.on('sme-rr.does-not-meet', function(event, opts) {
   });
 
   // TODO: Disable radio buttons further down the list
+  // How to find :not(:checked) in a pair of radios?
 });
 
 $sme_rr_select.on('change', function () {

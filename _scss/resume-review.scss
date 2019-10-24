@@ -16,8 +16,23 @@
 
   &__title,
   &__status {
+    @include u-font-size('body', 'xs');
     text-transform: uppercase;
+    letter-spacing: .05em;
     color: color('gold-20v');
+  }
+
+  .sme-rr &__joa-url {
+    display: block;
+    @include u-font-size('body', 'lg');
+    margin: 0 units(1) units(1.5) 0;
+    text-decoration: none;
+
+    &:hover,
+    &:focus,
+    &:visited {
+      color: color($theme-link-color);
+    }
   }
 
   &__status {
@@ -31,7 +46,7 @@
   }
 
   &__applicant-name {
-    margin-top: units(1);
+    margin-top: 0;
   }
 
   &__applicant-name-desc {
@@ -77,7 +92,7 @@
 }
 
 .sme-rr-row {
-  margin-top: units(2);
+  margin-top: units(3);
   @include u-padding-x(2);
 
   &__full-width {
@@ -241,6 +256,10 @@
       color: color('primary-dark');
     }
   }
+
+  &__content {
+    background-color: transparent;
+  }
 }
 
 .sme-rr-drawer--no-face {
@@ -317,6 +336,7 @@
 
   &__detail {
     margin: 0;
+    @include u-font-size('body', '2xs');
   }
 
   &__queue {

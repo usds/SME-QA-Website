@@ -13,7 +13,8 @@
     method="get"
     class="usa-form sme-rr-form"
     id="sme-rr-form"
-    data-object="sme-rr">
+    data-object="sme-rr"
+    novalidate>
     <div class="grid-container">
       <div class="grid-row">
         <div class="grid-col">
@@ -53,8 +54,45 @@
         </div>
       </div>
       <div class="grid-row">
+        <div class="grid-col">
+          <div
+            class="usa-alert usa-alert--success sme-rr-alert"
+            aria-hidden="true"
+            id="recuse-confirmation">
+            <div class="usa-alert__body">
+              <h3 class="usa-alert__heading">
+                You have been excused from reviewing this applicant.
+              </h3>
+              <p class="usa-alert__text">
+                HR will reassign that applicant to another Subject Matter Expert for review. The next applicant to be reviewed is below.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="grid-row">
+        <div class="grid-col">
+          <div
+            class="usa-alert usa-alert--info sme-rr-alert"
+            aria-hidden="true"
+            id="skip-confirmation">
+            <div class="usa-alert__body">
+              <h3 class="usa-alert__heading">
+                Applicant skipped.
+              </h3>
+              <p class="usa-alert__text">
+                HR will reassign that applicant to another Subject Matter Expert for review. The next applicant to be reviewed is below.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="grid-row">
         <div class="grid-col-8">
-          <h3 id="status" class="sme-rr__title">Resume Review</h3>
+          <h4 id="status" class="sme-rr__title">Resume Review for</h4>
+          <a href="{{ joa_url }}" class="sme-rr__joa-url" target="_blank">
+            IT Specialist
+          </a>
           <h1 class="sme-rr__applicant-name" id="rr-applicant-name">
             {{ applicant.name }}
           </h1>
@@ -63,8 +101,8 @@
           </p>
         </div>
         <div class="grid-col-4">
-          <button class="usa-button usa-button--outline sme-rr__recuse" data-behavior="sme-rr.reload">Recuse yourself</button>
-          <button class="usa-button usa-button--outline sme-rr__skip" data-behavior="sme-rr.reload">Skip this applicant</button>
+          <button class="usa-button usa-button--outline sme-rr__recuse" data-behavior="sme-rr.reveal-alert" aria-controls="recuse-confirmation">Recuse yourself</button>
+          <button class="usa-button usa-button--outline sme-rr__skip" data-behavior="sme-rr.reveal-alert" aria-controls="skip-confirmation">Skip this applicant</button>
         </div>
       </div>
       <div class="grid-row">
@@ -86,10 +124,17 @@
                   Find this applicant's resume in the PDF shared with you by your HR Specialist.
                 </li>
                 <li>
-                  Review the applicant's resume for the competencies below. Select "Yes" for each competency if the applicant meets the required proficiency level, which is displayed.
+                  Align this browser window alongside the PDF of resumes so that you can see both at the same time.
                 </li>
                 <li>
-                  If they do not meet the required proficiency level, select "No" then provide a reason. Clicking "Save &amp; Continue" will allow you to move to the next applicant. It is NOT necessary to review for all competencies.
+                  Review the applicant's resume for the competencies below.
+                  To move an applicant forward, look for evidence of each pre-defined competency and proficiency in their resume. Use the experience they describe in their resume along with your subject matter expertise rather than searching for keywords.
+                </li>
+                <li>
+                  Select "Yes" for a competency if the applicant meets the required proficiency level, which is displayed.
+                </li>
+                <li>
+                  If they do not meet the required proficiency level, select "No" then provide a reason. Clicking "Save &amp; Continue" will allow you to move to the next applicant. <strong>It is NOT necessary to review for all competencies.</strong>
                 </li>
                 <li>
                   If the applicant meets all competencies you must also review their resume for experience requirements which follow the competencies below.
@@ -153,7 +198,7 @@
                 value="meets"
                 name="comp-{{short-name}}"
                 id="comp-{{short-name}}-meets"
-                class="usa-radio__input"/>
+                class="usa-radio__input" />
               <label
                 for="comp-{{short-name}}-meets"
                 data-behavior="sme-rr.meets"
@@ -192,21 +237,22 @@
                 Reason
               </label>
               <div class="usa-radio">
-                <input class="usa-radio__input" id="no-evidence-{{short-name}}" type="radio" checked name="failure-reason" value="no-evidence">
+                <input class="usa-radio__input" id="no-evidence-{{short-name}}" type="radio" checked name="failure-reason" value="no-evidence" required />
                 <label class="usa-radio__label" for="no-evidence-{{short-name}}">
                   No evidence of this competency
                 </label>
               </div>
               <div class="usa-radio">
-                <input class="usa-radio__input" id="does-not-meet-level-{{short-name}}" type="radio" checked name="failure-reason" value="does-not-meet-level">
+                <input class="usa-radio__input" id="does-not-meet-level-{{short-name}}" type="radio" checked name="failure-reason" value="does-not-meet-level" required />
                 <label class="usa-radio__label" for="does-not-meet-level-{{short-name}}">
                   Doesn't meet the required proficency level
                 </label>
               </div>
               <button
+                type="submit"
                 class="usa-button sme-rr-scoring__save"
                 id="sme-rr-does-not-meet-save-{{short-name}}"
-                data-behavior="sme-rr.save"
+                data-behavior="sme-rr.validate sme-rr.save"
                 aria-controls="confirmation">
                 Save &amp; Continue
               </button>
@@ -282,6 +328,7 @@
       <div class="grid-row sme-rr-row">
         <div class="grid-col">
           <button
+            type="submit"
             class="usa-button sme-rr-scoring__save is-final"
             id="sme-rr-final-save"
             disabled

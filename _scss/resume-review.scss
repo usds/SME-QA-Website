@@ -11,7 +11,7 @@
 .sme-rr {
   &__main {
     margin-top: 0;
-    @include u-padding-y(4);
+    padding-bottom: units(4);
   }
 
   &__title,
@@ -274,4 +274,98 @@
 .sme-rr-drawer__content .sme-rr-prof-level__definition {
   margin: units(0.5) 0 0 0;
   max-width: inherit;
+}
+
+.sme-rr-nav {
+  background-color: color($theme-color-primary-darker);
+
+  &__body {
+    padding: units(1) units(2);
+    text-align: center;
+  }
+
+  &__link {
+    color: #fff;
+
+    &:hover,
+    &:focus,
+    &:visited {
+      color: #fff;
+    }
+  }
+}
+
+.sme-rr-progress {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 0 units(4) 0;
+  // max-width: 700px;
+
+
+  &__bar {
+    align-self: flex-start;
+    width: 100%;
+    font-weight: 700;
+    display: block;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin-bottom: units(1);
+  }
+
+  &__detail {
+    margin: 0;
+  }
+
+  &__queue {
+    float: right;
+  }
+
+  .percentage {
+    font-size: .8em;
+    line-height: 1;
+    text-transform: uppercase;
+    width: 100%;
+    height: 25px;
+    background-color: color($theme-color-chp-gray-light);
+    /*
+    background: repeating-linear-gradient(
+    to right,
+    #ddd,
+    #ddd 1px,
+    #fff 1px,
+    #fff 5%
+  );
+  */
+
+    &:after {
+      content: "";
+      display: block;
+      background-color: color($theme-color-chp-green);
+      width: 50px;
+      height: 100%;
+      position: relative;
+      top: 0;
+      transform: translateY(-50%);
+      transition: background-color .3s ease;
+      cursor: pointer;
+    }
+    &:hover,
+    &:focus {
+      &:after {
+         background-color: #aaa;
+      }
+    }
+  }
+
+  @for $i from 1 through 100 {
+    .percentage-#{$i} {
+      &:after {
+        $value: ($i * 1%);
+        width: $value;
+      }
+    }
+  }
 }

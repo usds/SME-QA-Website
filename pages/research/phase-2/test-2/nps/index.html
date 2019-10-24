@@ -10,6 +10,13 @@ title: Resume Review - NPS
 {% assign applicant = site.data.applicants.engineering | sample %}
 
 <main id="main-content" role="main" class="usa-layout-docs sme-rr__main">
+  <div class="sme-rr-nav">
+    <div class="sme-rr-nav__body">
+      <a href="#" class="sme-rr-nav__link">
+        Exit review
+      </a>
+    </div>
+  </div>
   <form
     name="sme-rr"
     action="#"
@@ -20,14 +27,31 @@ title: Resume Review - NPS
     <div class="grid-container">
       <div class="grid-row">
         <div class="grid-col">
+          <dl class="sme-rr-progress">
+            <dt class="sme-rr-progress__bar percentage percentage-2">&nbsp;</dt>
+            <dd class="sme-rr-progress__detail">
+              Reviewing applicant <span id="applicant-count">1</a>
+              <span class="sme-rr-progress__queue">
+                <span id="queue-count">50</span> applicants in queue
+              </span>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="grid-container">
+      <div class="grid-row">
+        <div class="grid-col">
           <div
             class="usa-alert usa-alert--success sme-rr-alert"
             aria-hidden="true"
             id="confirmation">
             <div class="usa-alert__body">
-              <h3 class="usa-alert__heading">Review saved</h3>
+              <h3 class="usa-alert__heading">
+                Your review of <span id="rr-confirmation-applicant-name">{{ applicant.name }}</span> has been saved.
+              </h3>
               <p class="usa-alert__text">
-                Your review of {{ applicant.name }} has been saved.
+                You may <a href="#">edit your review</a> until the resume review period ends. The next applicant to be reviewed is below.
               </p>
               <!-- button
                 class="usa-button sme-rr__next-applicant"
@@ -41,10 +65,12 @@ title: Resume Review - NPS
       <div class="grid-row">
         <div class="grid-col-8">
           <h3 id="status" class="sme-rr__title">Resume Review</h3>
-          <h1 class="sme-rr__applicant-name">
+          <h1 class="sme-rr__applicant-name" id="rr-applicant-name">
             {{ applicant.name }}
           </h1>
-          <p class="sme-rr__applicant-email">{{ applicant.email }}</p>
+          <p class="sme-rr__applicant-email" id="rr-applicant-email">
+            {{ applicant.email }}
+          </p>
         </div>
         <div class="grid-col-4">
           <button class="usa-button usa-button--outline sme-rr__recuse" data-behavior="sme-rr.reload">Recuse yourself</button>

@@ -3,8 +3,51 @@
 var $sme_rr = $('[data-object="sme-rr"]'),
   $sme_rr_select = $('.sme-rr-scoring-reason__select'),
   comps_count = 6,
+  current_applicant = 0,
+  applicants = [
+    {
+      "name": "Remus Lupin",
+      "email": "remus.lupin@howlers.org"
+    },
+    {
+      "name": "Alastor Moody",
+      "email": "noneofyourbusiness@secret.gov"
+    },
+    {
+      "name": "Molly Weasley",
+      "email": "molly@phoenix.org"
+    },
+    {
+      "name": "Cho Chang",
+      "email": "cho.chang@hogwarts.school.org"
+    },
+    {
+      "name": "Fleur Delacour",
+      "email": "fdelacour@beauxbatons.fr"
+    }
+  ],
+  setConfirmation = function () {
+    var $name = $sme_rr.find('#rr-applicant-name'),
+      $msg_name = $sme_rr.find('#rr-confirmation-applicant-name');
+
+    $msg_name.text($name.text());
+  },
+  setupForm = function () {
+    var applicant = applicants[current_applicant],
+      $name = $sme_rr.find('#rr-applicant-name'),
+      $email = $sme_rr.find('#rr-applicant-email');
+
+    $name.text(applicant.name);
+    $email.text(applicant.email);
+
+    current_applicant = current_applicant + 1;
+  },
   cleanUp = function () {
-    // Cleans up the count, button states, reason, justification
+    var form = document.getElementById('sme-rr-form'),
+      $does_not_meet = $sme_rr.find('.does-not-meet');
+
+    form.reset();
+    $does_not_meet.removeClass('does-not-meet');
   },
   revealSave = function (meets_count) {
     var $final_save = $sme_rr.find('#sme-rr-final-save');
@@ -94,6 +137,9 @@ $sme_rr.on('sme-rr.save', function(event, opts) {
     $('html, body').animate({
       scrollTop: opts.object.offset().top
     });
+    setConfirmation();
+    cleanUp();
+    setupForm();
   });
 });
 
@@ -102,9 +148,12 @@ $sme_rr.on('sme-rr.reload', function(event, opts) {
 });
 
 $(document).ready(function() {
+  setupForm();
+  /*
   getData();
   storeUrlParams();
   printData();
   getData();
   runPageFilters();
+  */
 });

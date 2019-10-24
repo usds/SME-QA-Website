@@ -4,36 +4,65 @@ var $sme_rr = $('[data-object="sme-rr"]'),
   $sme_rr_select = $('.sme-rr-scoring-reason__select'),
   comps_count = $sme_rr.find('.sme-rr-comp').length + $sme_rr.find('.sme-rr-exp').length,
   current_applicant = 0,
-  applicants = [
-    {
-      "name": "Remus Lupin",
-      "email": "remus.lupin@howlers.org"
-    },
-    {
-      "name": "Alastor Moody",
-      "email": "noneofyourbusiness@secret.gov"
-    },
-    {
-      "name": "Molly Weasley",
-      "email": "molly@phoenix.org"
-    },
-    {
-      "name": "Cho Chang",
-      "email": "cho.chang@hogwarts.school.org"
-    },
-    {
-      "name": "Fleur Delacour",
-      "email": "fdelacour@beauxbatons.fr"
-    }
-  ],
+  applicants = {
+    "hhs": [
+      {
+        "name": "Richard Prefatch",
+        "email": "rpn2211@gmail.com"
+      },
+      {
+        "name": "Jose Lomba",
+        "email": "jose.lomba@gmail.com"
+      },
+      {
+        "name": "Matthew Detzel",
+        "email": "mdetzel@hotmail.com"
+      },
+      {
+        "name": "Michael Lawrence",
+        "email": "michaell@huntgrp.com"
+      },
+      {
+        "name": "Borhan Syriani",
+        "email": "borhan21@hotmail.com"
+      }
+    ],
+    "nps": [
+      {
+        "name": "Remus Lupin",
+        "email": "remus.lupin@howlers.org"
+      },
+      {
+        "name": "Alastor Moody",
+        "email": "noneofyourbusiness@secret.gov"
+      },
+      {
+        "name": "Molly Weasley",
+        "email": "molly@phoenix.org"
+      },
+      {
+        "name": "Cho Chang",
+        "email": "cho.chang@hogwarts.school.org"
+      },
+      {
+        "name": "Fleur Delacour",
+        "email": "fdelacour@beauxbatons.fr"
+      }
+    ]
+  },
   setConfirmation = function () {
     var $name = $sme_rr.find('#rr-applicant-name'),
       $msg_name = $sme_rr.find('#rr-confirmation-applicant-name');
 
     $msg_name.text($name.text());
   },
+  getCurrentApplicant = function () {
+    var current_applicants = applicants["hhs"];
+
+    return current_applicants[current_applicant];
+  },
   setupForm = function () {
-    var applicant = applicants[current_applicant],
+    var applicant = getCurrentApplicant(),
       $name = $sme_rr.find('#rr-applicant-name'),
       $email = $sme_rr.find('#rr-applicant-email'),
       $count = $sme_rr.find('#rr-applicant-count'),
@@ -70,6 +99,9 @@ var $sme_rr = $('[data-object="sme-rr"]'),
         $final_save.attr('disabled', true);
       }
     }
+  },
+  hideAlert = function ($alert) {
+    $alert.attr('aria-hidden', 'true');
   };
 
 $sme_rr.on('click', '[data-behavior]', function (event) {
@@ -80,7 +112,7 @@ $sme_rr.on('click', '[data-behavior]', function (event) {
   // Each behavior attached to the element should be triggered
   $.each(behavior.split(' '), function (idx, action) {
     if (action.match(/^sme-rr/)) {
-      if (action === 'sme-rr.save') {
+      if (action === 'sme-rr.save' || action === 'sme-rr.reveal-alert') {
         event.preventDefault();
       }
 
@@ -111,9 +143,13 @@ $sme_rr.on('sme-rr.does-not-meet', function(event, opts) {
   // Reveal the reason for that competency
   var $target = opts.object.find('#' + opts.el.attr('aria-controls')),
     $container = opts.object.find('#' + opts.el.attr('data-container')),
-    $final_save = $sme_rr.find('#sme-rr-final-save');
+    $final_save = $sme_rr.find('#sme-rr-final-save'),
+    $radios = opts.object.find('.sme-rr-scoring-reason').find('input:radio');
 
   $container.addClass('does-not-meet');
+
+  // Make the Reason radios required
+  $radios.prop("required", true);
 
   $target.slideDown(function () {
     $target.attr('aria-hidden', 'false');
@@ -122,9 +158,6 @@ $sme_rr.on('sme-rr.does-not-meet', function(event, opts) {
     // Enable the bottom save & continue button
     $final_save.removeAttr('disabled');
   });
-
-  // TODO: Disable radio buttons further down the list
-  // How to find :not(:checked) in a pair of radios?
 });
 
 $sme_rr_select.on('change', function () {
@@ -141,6 +174,12 @@ $sme_rr_select.on('change', function () {
   } else {
     $input.attr('aria-hidden', true);
   }
+});
+
+$sme_rr.on('sme-rr.validate', function(event, opts) {
+  var $radios = opts.el.parent().find('input:radio');
+
+  // Check each radio, if all are required but not selected then throw an error
 });
 
 $sme_rr.on('sme-rr.save', function(event, opts) {
@@ -161,6 +200,16 @@ $sme_rr.on('sme-rr.save', function(event, opts) {
     cleanUp();
     setupForm();
   });
+});
+
+$sme_rr.on('sme-rr.reveal-alert', function(event, opts) {
+  var $target = opts.object.find('#' + opts.el.attr('aria-controls'));
+
+  $target.attr('aria-hidden', 'false');
+  cleanUp();
+  setupForm();
+
+  setTimeout(() => hideAlert($target), 30000);
 });
 
 $sme_rr.on('sme-rr.reload', function(event, opts) {

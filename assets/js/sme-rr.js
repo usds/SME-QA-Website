@@ -2,7 +2,7 @@
 
 var $sme_rr = $('[data-object="sme-rr"]'),
   $sme_rr_select = $('.sme-rr-scoring-reason__select'),
-  comps_count = 6,
+  comps_count = 8,
   current_applicant = 0,
   applicants = [
     {
@@ -35,12 +35,23 @@ var $sme_rr = $('[data-object="sme-rr"]'),
   setupForm = function () {
     var applicant = applicants[current_applicant],
       $name = $sme_rr.find('#rr-applicant-name'),
-      $email = $sme_rr.find('#rr-applicant-email');
+      $email = $sme_rr.find('#rr-applicant-email'),
+      $count = $sme_rr.find('#rr-applicant-count'),
+      $queue = $sme_rr.find('#rr-queue-count'),
+      $progress = $sme_rr.find('#rr-progress-percentage'),
+      queue_count = parseInt($queue.text() - 1),
+      percentage_completed = 0;
 
     $name.text(applicant.name);
     $email.text(applicant.email);
 
     current_applicant = current_applicant + 1;
+    percentage_completed = parseInt((current_applicant / queue_count) * 100);
+
+    // Update progress bar
+    $count.text(current_applicant);
+    $queue.text(queue_count);
+    $progress.addClass('percentage-' + percentage_completed);
   },
   cleanUp = function () {
     var form = document.getElementById('sme-rr-form'),
@@ -54,6 +65,10 @@ var $sme_rr = $('[data-object="sme-rr"]'),
 
     if ((meets_count + 1) == comps_count) {
       $final_save.removeAttr('disabled');
+    } else {
+      if (!$final_save.attr('disabled')) {
+        $final_save.attr('disabled', true);
+      }
     }
   };
 
@@ -95,13 +110,17 @@ $sme_rr.on('sme-rr.meets', function(event, opts) {
 $sme_rr.on('sme-rr.does-not-meet', function(event, opts) {
   // Reveal the reason for that competency
   var $target = opts.object.find('#' + opts.el.attr('aria-controls')),
-    $container = opts.object.find('#' + opts.el.attr('data-container'));
+    $container = opts.object.find('#' + opts.el.attr('data-container')),
+    $final_save = $sme_rr.find('#sme-rr-final-save');
 
   $container.addClass('does-not-meet');
 
   $target.slideDown(function () {
     $target.attr('aria-hidden', 'false');
     $target.attr('style', '');
+
+    // Enable the bottom save & continue button
+    $final_save.removeAttr('disabled');
   });
 
   // TODO: Disable radio buttons further down the list

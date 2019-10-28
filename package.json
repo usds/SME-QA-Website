@@ -1,7 +1,7 @@
 {
-  "name": "competitive-hiring-pilot-website",
-  "version": "1.0.0",
-  "description": "",
+  "name": "SME-QA-Website",
+  "version": "2.3.0",
+  "description": "Subject Matter Expert Qualification Assessment lessons learned.",
   "main": "index.html",
   "scripts": {
     "axe": "node config/run-axe.js",
@@ -19,14 +19,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/usajobs/competitive-hiring-pilot.git"
+    "url": "git+https://github.com/usds/SME-QA-Website.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/usds/website-v2/issues"
+    "url": "https://github.com/usds/SME-QA-Website/issues"
   },
-  "homepage": "https://github.com/usds/website-v2#readme",
+  "homepage": "https://smeqa.usds.gov/",
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.10.2",
     "autoprefixer": "^9.6.5",

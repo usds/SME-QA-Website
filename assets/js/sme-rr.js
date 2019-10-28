@@ -5,28 +5,6 @@ var $sme_rr = $('[data-object="sme-rr"]'),
   comps_count = $sme_rr.find('.sme-rr-comp').length + $sme_rr.find('.sme-rr-exp').length,
   current_applicant = 0,
   applicants = {
-    "hhs": [
-      {
-        "name": "Richard Prefatch",
-        "email": "rpn2211@gmail.com"
-      },
-      {
-        "name": "Jose Lomba",
-        "email": "jose.lomba@gmail.com"
-      },
-      {
-        "name": "Matthew Detzel",
-        "email": "mdetzel@hotmail.com"
-      },
-      {
-        "name": "Michael Lawrence",
-        "email": "michaell@huntgrp.com"
-      },
-      {
-        "name": "Borhan Syriani",
-        "email": "borhan21@hotmail.com"
-      }
-    ],
     "nps": [
       {
         "name": "Remus Lupin",
@@ -57,7 +35,7 @@ var $sme_rr = $('[data-object="sme-rr"]'),
     $msg_name.text($name.text());
   },
   getCurrentApplicant = function () {
-    var current_applicants = applicants["hhs"];
+    var current_applicants = applicants["nps"];
 
     return current_applicants[current_applicant];
   },

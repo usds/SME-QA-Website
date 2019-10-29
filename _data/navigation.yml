@@ -6,8 +6,8 @@ primary:
     href: /hiring-phases/
     name: hiring-phases
   - text: Lessons Learned
-    href: /case-studies/
-    name: case-studies
+    href: /lessons-learned/
+    name: lessons-learned
 
 about:
   - text: The SME-QA Process
@@ -119,10 +119,8 @@ templates:
   - text: SME Criteria and Expectations
     href: "/templates/sme-criteria-and-expectations/"
 
-case-studies:
+lessons-learned:
   - text: Health and Human Services
-    href: "/case-studies/hhs/"
+    href: "/lessons-learned/hhs/"
   - text: Department of Interior
-    href: "/case-studies/doi/"
-  - text: General Services Administration
-    href: "/case-studies/gsa/"
+    href: "/lessons-learned/doi/"

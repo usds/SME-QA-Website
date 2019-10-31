@@ -17,7 +17,7 @@ sub-phase-order: 030
 For one to two recent DE actions for a similar GS level and series to the position you plan to fill, gather:
 
 1. **Current qualified rate**: How many applications were considered qualified by an HR specialist.
-2. **Current selection rate**: The number of selections made off of the resulting certificate, represented numerically and as a percentage of qualified applications.
+2. **Current selection rate**: The number of selections made off of the resulting certificates, represented numerically and as a percentage of qualified applications.
 
 ## Measuring your process
 

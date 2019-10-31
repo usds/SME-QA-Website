@@ -14,7 +14,7 @@ sub-phase-order: 030
   To gauge the success of your hiring action, collect baseline data about recent delegated examination (DE) hiring actions at your agency. You'll compare this information with the results you receive when your new hiring action is complete.
 </p>
 
-For one to two recent DE actions, gather:
+For one to two recent DE actions for a similar GS level and series to the position you plan to fill, gather:
 
 1. **Current qualified rate**: How many applications were considered qualified by an HR specialist.
 2. **Current selection rate**: The number of selections made off of the resulting certificate, represented numerically and as a percentage of qualified applications.
@@ -25,8 +25,9 @@ For one to two recent DE actions, gather:
   To gauge the success of the hiring process, measure applicant flow through the process and confidence in the process.
 </p>
 
-1. **Hiring funnel**: How many applicants progress through each phase: Resume review, interview 1, and interview 2.
+1. **Hiring funnel**: How many applicants progress through each phase.
 2. **Level of burden**: Have internal resources track their time: SMEs, HR, hiring manager, schedulers, project managers.
+3. **Elapsed phase time**: Track the start and end time for each phase.
 
 ## Measuring your results
 

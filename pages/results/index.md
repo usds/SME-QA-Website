@@ -1,8 +1,8 @@
 ---
 layout: article
-section: lessons-learned
-permalink: /lessons-learned/
-title: Lessons Learned
+section: results
+permalink: /results/
+title: Results
 intro: In Spring 2019, USDS and OPM partnered to run identical hiring pilots at both Health and Human Services (HHS) and Department of Interior (DOI). The pilots, named the Subject Matter Expert Qualification Assessment (SME-QA) Process, tested whether SME qualification determinations improve hiring outcomes within the competitive service.
 ---
 

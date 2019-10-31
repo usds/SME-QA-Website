@@ -1,8 +1,8 @@
 ---
 layout: article
-section: lessons-learned
-permalink: /lessons-learned/hhs/
-title: Lessons Learned - Health and Human Services
+section: results
+permalink: /results/hhs/
+title: Results - Health and Human Services
 ---
 
 ## Hiring action

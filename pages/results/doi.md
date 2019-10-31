@@ -1,8 +1,8 @@
 ---
 layout: article
-section: lessons-learned
-permalink: /lessons-learned/doi/
-title: Lessons Learned - Department of Interior
+section: results
+permalink: /results/doi/
+title: Results - Department of Interior
 ---
 
 ## Hiring action

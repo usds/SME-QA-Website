@@ -5,9 +5,9 @@ primary:
   - text: Begin Your Hiring Action
     href: /hiring-phases/
     name: hiring-phases
-  - text: Lessons Learned
-    href: /case-studies/
-    name: case-studies
+  - text: Results
+    href: /results/
+    name: results
 
 about:
   - text: The SME-QA Process
@@ -119,10 +119,10 @@ templates:
   - text: SME Criteria and Expectations
     href: "/templates/sme-criteria-and-expectations/"
 
-case-studies:
+results:
+  - text: Overview
+    href: "/results/"
   - text: Health and Human Services
-    href: "/case-studies/hhs/"
+    href: "/results/hhs/"
   - text: Department of Interior
-    href: "/case-studies/doi/"
-  - text: General Services Administration
-    href: "/case-studies/gsa/"
+    href: "/results/doi/"

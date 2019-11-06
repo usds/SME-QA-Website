@@ -1,6 +1,7 @@
 ---
 layout: article
 section: changelog
+title: Change log
 permalink: /changelog/
 ---
 
@@ -10,7 +11,20 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 <!-- and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html) -->
 
-## [2.4.0](https://github.com/labopm/competitive-hiring-pilot/releases) - 2019-10-04
+## [2.4.1](https://github.com/usds/SME-QA-Website/releases) - 2019-11-06
+
+This release updates the Case Studies section to Results and updates the result metrics.
+
+### Removed
+
+- GSA from case studies. We'll re-add GSA once their hiring action is complete.
+
+### Changed
+
+- Updated stats in the results section for HHS and DOI now that additional selections have been made.
+
+
+## [2.4.0](https://github.com/usds/SME-QA-Website/releases) - 2019-10-04
 
 This release adds materials to the toolkits for the Job Analysis and Interview Assessment phases. It also adds small clarifications to the Job Analysis and Job Announcement phases.
 
@@ -29,7 +43,7 @@ This release adds materials to the toolkits for the Job Analysis and Interview A
 
 - Updated guidance for conducting a job analysis workshop and scheduling phone assessment interviews to include links to template items in the toolkit for that phase.
 
-## [2.3.0](https://github.com/labopm/competitive-hiring-pilot/releases) - 2019-09-09
+## [2.3.0](https://github.com/usds/SME-QA-Website/releases) - 2019-09-09
 
 Assessment Strategy Toolkit and Proficiency Level Updates: This release updates the toolkit for the Assessment Strategy to make basic clarifications. It also updates guidance throughout the site about defining four different proficiency levels per competency to instead specify two proficiency levels intended to define whether an applicant meets or exceeds qualifications only.
 
@@ -41,7 +55,7 @@ Assessment Strategy Toolkit and Proficiency Level Updates: This release updates 
 - Changed interview template to specify two proficiency levels instead of four
 - Changed all guidance within "Job Analysis" and "Phone Assessment Interviews" to specify only two proficiency levels.
 
-## [2.2.0](https://github.com/labopm/competitive-hiring-pilot/releases) - 2019-08-27
+## [2.2.0](https://github.com/usds/SME-QA-Website/releases) - 2019-08-27
 
 General Polish Release
 
@@ -62,7 +76,7 @@ General Polish Release
 - Updated language on “Understanding the Process” page based on feedback from OPM.
 - Site navigation and copy updates to use the new OPM-approved Subject Matter Expert Qualification Assessment (SME-QA) process name.
 
-## [2.1.0](https://github.com/labopm/competitive-hiring-pilot/releases) - 2019-07-12
+## [2.1.0](https://github.com/usds/SME-QA-Website/releases) - 2019-07-12
 
 This version represents added and removed information about the Phone Assessment Interview phase.
 
@@ -77,7 +91,7 @@ This version represents added and removed information about the Phone Assessment
 
 * Removed information about interview tiebreakers throughout site.
 
-## [2.0.0](https://github.com/labopm/competitive-hiring-pilot/releases) - 2019-07-12
+## [2.0.0](https://github.com/usds/SME-QA-Website/releases) - 2019-07-12
 
 This version represents significant changes to hiring phases, including breaking out the Assessment Strategy into a distinct phase.
 
@@ -99,7 +113,7 @@ This version represents significant changes to hiring phases, including breaking
 * Rating Guide items updated then moved to belong to the appropriate hiring phase in the toolkit.
 * Moved all agendas and templates to toolkit.
 
-## [1.0.0](https://github.com/labopm/competitive-hiring-pilot/releases) - 2019-07-02
+## [1.0.0](https://github.com/usds/SME-QA-Website/releases) - 2019-07-02
 ### Added
 - This changelog!
 - Breadcrumbs on hiring phase pages.

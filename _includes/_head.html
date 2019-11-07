@@ -10,6 +10,11 @@
   <title>{{ site.title }}</title>
 
   <meta name="description" content="{{ page_description }}" />
+  <!-- Block www search engines until site is cleared -->
+  <!-- doing this here instead of robots.txt so search.gov can still index the site -->
+  <meta name="googlebot" content="noindex" />
+  <meta name="bingbot" content="noindex" />
+
   <link rel="canonical" href="{{ url_path }}" />
   <meta property="og:title" content="{{ page_title }}" />
   <meta property="og:title" content="{{ page_title }}" />

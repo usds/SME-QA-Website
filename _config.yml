@@ -13,16 +13,17 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Competitive Hiring Pilot
+title: Subject Matter Expert Qualification Assessments
 email: matthew.j.dingee@omb.eop.gov
 description: >- # this means to ignore newlines until "baseurl:"
-  The United States Digital Service is transforming federal hiring. Our pilot process will help us learn how to make adjustments to the competitive hiring process so that it can uphold the merit systems princples.
+  The United States Digital Service is transforming federal hiring. Our SME-QA process helps agencies improve their assessment of job candidates within the competitive hiring process and upholds the merit systems princples.
 baseurl: "/"
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://smeqa.usds.gov" # the base hostname & protocol for your site, e.g. http://example.com
+author: U.S. Digital Service
 
-repository: usds/competitive-hiring-pilot
+repository: usds/SME-QA-Website
 
-github_url: https://github.com/usds/competitive-hiring-pilot/
+github_url: https://github.com/usds/SME-QA-Website/
 
 # Build settings
 markdown: kramdown

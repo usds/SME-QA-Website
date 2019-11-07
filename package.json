@@ -28,8 +28,8 @@
   },
   "homepage": "https://smeqa.usds.gov/",
   "devDependencies": {
-    "@fortawesome/fontawesome-free": "^5.10.2",
-    "autoprefixer": "^9.6.5",
+    "@fortawesome/fontawesome-free": "^5.11.2",
+    "autoprefixer": "^9.7.1",
     "browser-sync": "^2.26.7",
     "chalk": "^2.0.1",
     "css-mqpacker": "^7.0.0",

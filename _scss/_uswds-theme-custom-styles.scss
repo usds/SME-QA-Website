@@ -257,6 +257,7 @@ i.e.
   &__list {
     column-count: 2;
     column-gap: units(2);
+    break-inside: avoid;
   }
 }
 

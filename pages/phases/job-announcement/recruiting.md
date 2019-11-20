@@ -24,7 +24,7 @@ Consider finding popular job boards targeted to the audience you are trying to r
 
 ### Mine resumes
 
-The USAJOBS Agency Talent Portal allows you to search over a million resumes. To request an account, write to <a href="mailto:recruiter-help@usajobs.gov">recruiter-help@usajobs.gov</a>.
+The USAJOBS Agency Talent Portal allows you to search over a million resumes so you can encourage someone to apply. (Applicaions must be submitted by the applicant). To request an account, write to <a href="mailto:recruiter-help@usajobs.gov">recruiter-help@usajobs.gov</a>.
 
 ### Answer questions about your job posting via email or phone
 

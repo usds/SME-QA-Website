@@ -594,3 +594,35 @@ blockquote {
     }
   }
 }
+
+.chp-card-container {
+  padding: 0;
+
+  @include at-media(desktop) {
+    padding: 0;
+  }
+}
+
+.chp-overview {
+  &__title {
+    margin: units(4) 0 units(2);
+  }
+
+  &__diagram {
+  }
+}
+
+.chp-time-commitment {
+  &__hours {
+    font-weight: bold;
+  }
+
+  &__phase {
+    margin-left: 0;
+    margin-bottom: units(2);
+  }
+
+  &__paren {
+    @include u-font-size('body', '2xs');
+  }
+}

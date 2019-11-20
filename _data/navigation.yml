@@ -23,6 +23,8 @@ hiring-phases:
       href: /hiring-phases/getting-started/identifying-appropriate-positions/
     - text: Selecting Subject Matter Experts
       href: "/hiring-phases/getting-started/selecting-smes/"
+    - text: Time Commitment
+      href: "/hiring-phases/getting-started/time-commitment/"
     - text: Collecting Data
       href: "/hiring-phases/getting-started/collecting-data/"
     phase: getting-started
@@ -65,6 +67,8 @@ hiring-phases:
       href: "/hiring-phases/reviewing-resumes/training/"
     - text: Conducting SME Resume Reviews
       href: "/hiring-phases/reviewing-resumes/sme-instructions/"
+    - text: Reviewing SME Resume Review Notes
+      href: "/hiring-phases/reviewing-resumes/reviewing-sme-notes/"
     - text: Notifying Applicants After Resume Reviews
       href: "/hiring-phases/reviewing-resumes/notifications/"
   - text: Phone Interviews

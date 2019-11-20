@@ -5,13 +5,14 @@ section: hiring-phases
 title: Collecting data
 sidenav: hiring-phases
 phase: getting-started
+intro: To gauge the success of your hiring action, collect baseline data about recent delegated examination (DE) hiring actions at your agency. You'll compare this information with the results you receive when your new hiring action is complete. If you share this data with us we can help you analyze the data and evaluate your results.
 sub-phase-order: 040
 ---
 
 ## Collecting baseline data
 
 <p class="usa-intro">
-  To gauge the success of your hiring action, collect baseline data about recent delegated examination (DE) hiring actions at your agency. You'll compare this information with the results you receive when your new hiring action is complete. If you share this data with us we can help you analyze the data and evaluate your results.
+  {{ page.intro }}
 </p>
 
 For one to two recent DE actions for a similar GS level and series to the position you plan to fill, gather:

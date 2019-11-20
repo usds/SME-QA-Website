@@ -16,6 +16,8 @@ about:
     href: /about/differences/
 
 hiring-phases:
+  - text: Overview of SME-QA Phases
+    href: /hiring-phases/
   - text: Getting Started
     href: /hiring-phases/getting-started/
     subnav:

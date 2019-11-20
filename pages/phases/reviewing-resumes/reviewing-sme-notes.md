@@ -5,7 +5,7 @@ section: hiring-phases
 sidenav: hiring-phases
 phase: reviewing-resumes
 sub-phase-order: 040
-title: Reviewing SME Resume Review Notes
+title: Reviewing SME Resume Review
 intro: As SMEs submit their resume review notes, check their work and email them with any necessary feedback.
 ---
 
@@ -24,4 +24,4 @@ intro: As SMEs submit their resume review notes, check their work and email them
 
 -	Read the reviews for any notes that do not mention a specific missing competency or proficiency level as the basis for not moving an applicant forward.  Any notes that do not follow this requirement should be sent back to the SME.
 -	HR is not second guessing the judgment of the Subject Matter Expert through their own review but is rather ensuring the validity of the justification reason listed.
--	Ensure that any time two SMEs disagree on the resume review outcome, a third SME is invited to break the tie. 
+-	Ensure that any time two SMEs disagree on the resume review outcome, a third SME is invited to break the tie.

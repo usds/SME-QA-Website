@@ -603,6 +603,15 @@ blockquote {
   }
 }
 
+.chp-overview {
+  &__title {
+    margin: units(4) 0 units(2);
+  }
+
+  &__diagram {
+  }
+}
+
 .chp-time-commitment {
   &__hours {
     font-weight: bold;

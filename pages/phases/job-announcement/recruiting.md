@@ -13,6 +13,7 @@ intro: High applicant volume from USAJOBS often convinces agencies that they don
   {{ page.intro }}
 </p>
 
+
 ### Use personal and professional referrals
 
 Traditional networking is extremely effective for finding great candidates. Mention positions to your internal networks, and ask them to reach out to *their* networks to encourage people to apply.
@@ -21,10 +22,9 @@ Traditional networking is extremely effective for finding great candidates. Ment
 
 Consider finding popular job boards targeted to the audience you are trying to reach. See "[Popular Technology Job Boards](../../../toolkit/job-announcement/technology-job-boards/)" for some ideas. If you have access to paid job boards, then additionally use those resources.
 
-
 ### Mine resumes
 
-The USAJOBS Agency Talent Portal allows you to search over a million resumes. To request an account, write to <a href="mailto:recruiter-help@usajobs.gov">recruiter-help@usajobs.gov</a>.
+The USAJOBS Agency Talent Portal allows you to search over a million resumes so you can encourage someone to apply (Applications must be submitted by the applicant).You should engage in focused recruiting so that good prospects from a variety of sources are encouraged to apply, and you can more effectively fill your positions, preferably with highly qualified applicants who are well-matched to your open position. To request an account, write to <a href="mailto:recruiter-help@usajobs.gov">recruiter-help@usajobs.gov</a>.
 
 ### Answer questions about your job posting via email or phone
 

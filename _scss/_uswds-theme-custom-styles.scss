@@ -299,15 +299,8 @@ i.e.
 
 .chp-article .chp-highlight {
   @include u-padding(2);
-  background-color: color($theme-color-chp-blue-dark);
+  background-color: color($theme-color-chp-blue-lightest);
   border-radius: 3px;
-
-  &__title,
-  &__list,
-  p,
-  a {
-    color: color('white');
-  }
 }
 
 .chp-meta {
@@ -325,6 +318,11 @@ i.e.
 
   &__desc {
     margin-top: units(1);
+  }
+
+  &__item-checklist {
+    padding-left: units(1);
+    list-style-image: url(../img/correct9.svg);
   }
 }
 

@@ -15,3 +15,5 @@ For applicants who proceed through both interviews (breadth and depth), HR shoul
 - Any applicant with two 2s should get 100 points (category: best qualified).
 
 Applicants who do not receive a combination of 1s and 2s would not be placed in a category as they did not achieve an overall passing score.
+
+{% include _results-key.md %}

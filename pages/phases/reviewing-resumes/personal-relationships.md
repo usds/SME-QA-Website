@@ -1,12 +1,17 @@
 ---
 layout: article
-permalink: /toolkit/phone-assessment-interviews/personal-relationships/
+permalink: /hiring-phases/reviewing-resumes/personal-relationships/
 section: hiring-phases
 sidenav: hiring-phases
-phase: phone-assessment-interviews
+phase: reviewing-resumes
+sub-phase-order: 025
 title: Guidance on Personal Relationships with Applicants
-description: Use this guidance to know whether the SME should recuse themselves from assessing an applicant.
+intro: Use this guidance to know whether the SME should recuse themselves from assessing an applicant.
 ---
+
+<p class="usa-intro">
+  {{ page.intro }}
+</p>
 
 It's common for SMEs participating in a hiring action to know applicants. SMEs may interview people they know, supervise, and work with, such as contract professionals or fellow public servants, except in these cases:
 

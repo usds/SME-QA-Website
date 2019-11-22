@@ -35,7 +35,7 @@ During resume review and interview assessments, applicants can be removed from c
 
 ### Time in Grade Verification
 
-In addition, at this stage you should verify the Time in Grade requirements for those applicants who will be on the certificate. However, there is no need to double check an applicant that a SME has determined does not meet the time in grade requirement. 
+In addition, at this stage you may verify the Time in Grade requirements for those applicants who will be on the certificate.
 
 ## Post-Certificate Interviews
 

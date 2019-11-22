@@ -17,7 +17,7 @@ intro: To meet the goals of your hiring action, gather information to drive your
 
 Your position description (PD) should be classified as a GS-12+ technical position that requires specialized experience, such as IT Specialist or Biologist, and should be flexible enough for your posted job opportunity announcement (JOA) to be accurate and compelling. If you can't find a PD that meets your needs, you may need to create a new one in a timely fashion.
 
-For simplicity, we recommend hiring only for one role at a single grade level, in one location.
+For simplicity, we recommend limiting your hiring action to one or two grades and limited locations to mitigate volume and complexity.
 
 ### Identify Billets
 

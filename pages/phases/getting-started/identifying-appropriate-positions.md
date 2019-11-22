@@ -13,12 +13,6 @@ intro: To meet the goals of your hiring action, gather information to drive your
   {{ page.intro }}
 </p>
 
-Your agency policy should also allow:
-
-- SMEs to determine and document applicant qualifications
-- A JOA that informs applicants that SMEs will only review the first 2-3 pages of their resume
-- Simplified assessment efforts, such as one SME per interview and a simple competency checklist for reviewing resumes
-
 ### Identifying a Classified Position Description
 
 Your position description (PD) should be classified as a GS-12+ technical position that requires specialized experience, such as IT Specialist or Biologist, and should be flexible enough for your posted job opportunity announcement (JOA) to be accurate and compelling. If you can't find a PD that meets your needs, you may need to create a new one in a timely fashion.

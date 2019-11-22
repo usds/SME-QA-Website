@@ -1,9 +1,9 @@
 ---
 layout: article
-permalink: /toolkit/phone-assessment-interviews/email-template-sme-recusal/
+permalink: /toolkit/reviewing-resumes/email-template-sme-recusal/
 section: hiring-phases
 sidenav: hiring-phases
-phase: phone-assessment-interviews
+phase: reviewing-resumes
 title: Template - Email to SMEs for recusal
 ---
 

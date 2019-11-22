@@ -33,6 +33,10 @@ roles: [hr, hiring-mgr]
 
 During resume review and interview assessments, applicants can be removed from consideration if SMEs determine they're not qualified based on the required competencies and proficiencies. As HR, you should apply veterans' preference only to applicants who achieve an overall passing score, then issue the certificate of applicants in the "Best Qualified" category to the hiring manager.
 
+### Time in Grade Verification
+
+In addition, at this stage you may verify the Time in Grade requirements for those applicants who will be on the certificate.
+
 ## Post-Certificate Interviews
 
 Hiring managers may conduct additional interviews with applicants from the certificate, or choose instead to rely on the interview transcript notes to determine whether they'll make selections from the certificate.

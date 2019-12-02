@@ -14,7 +14,7 @@
     "lint": "gulp eslint scss-lint",
     "init": "gulp init",
     "start": "npm run dev",
-    "test": "npm run axe && npm run crawl && bundle exec rspec && npm run lint",
+    "test": "NODE_ENV=dev rake test && npm run axe",
     "watch": "gulp watch"
   },
   "repository": {
@@ -29,11 +29,15 @@
   "homepage": "https://smeqa.usds.gov/",
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.11.2",
-    "autoprefixer": "^9.7.1",
+    "autoprefixer": "^9.7.3",
+    "axe-core": "^3.4.0",
     "browser-sync": "^2.26.7",
-    "chalk": "^2.0.1",
+    "chalk": "^3.0.0",
+    "chrome-launcher": "^0.12.0",
+    "chrome-remote-interface": "^0.28.0",
     "css-mqpacker": "^7.0.0",
     "cssnano": "^4.1.4",
+    "express": "^4.17.1",
     "gulp": "^4.0.2",
     "gulp-postcss": "^8.0.0",
     "gulp-rename": "^1.4.0",

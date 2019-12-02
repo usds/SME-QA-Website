@@ -20,7 +20,7 @@ Complete and share the <a href="{{site.baseurl}}/toolkit/phone-assessment-interv
 - <a href="{{site.baseurl}}/toolkit/phone-assessment-interviews/email-template-app-first-interview-sched/">Applicant First Interview Scheduling Request</a>, <a href="{{site.baseurl}}/toolkit/phone-assessment-interviews/email-template-app-first-interview-confirm/">Applicant First Interview Scheduling Confirmation</a>, <a href="{{site.baseurl}}/toolkit/phone-assessment-interviews/email-template-app-second-interview-sched/">Applicant Second Interview Scheduling Request</a>, and <a href="{{site.baseurl}}/toolkit/phone-assessment-interviews/email-template-app-second-interview-confirm/">Applicant Second Interview Scheduling Confirmation</a> email templates
 - <a href="{{site.baseurl}}/toolkit/phone-assessment-interviews/email-template-sme-recusal/">SME Recusal Email Template</a>
 
-Schedulers may find the <a href="{{site.baseurl}}/toolkit/phone-assessment-interviews/example-sme-availability-worksheet/">SME Availability Worksheet</a> useful to track when SMEs are available to conduct interviews, and the <a href="{{site.baseurl}}/toolkit/phone-assessment-interviews/example-applicant-scheduling-worksheet/">Applicant Scheduling Worksheet</a> for tracking which applicants have been scheduled for interviews.
+Schedulers may find the <a href="{{site.baseurl}}/toolkit/phone-assessment-interviews/example-sme-availability-worksheet.xlsx">SME Availability Worksheet</a> useful to track when SMEs are available to conduct interviews, and the <a href="{{site.baseurl}}/toolkit/phone-assessment-interviews/example-applicant-scheduling-worksheet.xlsx">Applicant Scheduling Worksheet</a> for tracking which applicants have been scheduled for interviews.
 
 Keep these ideas in mind:
 

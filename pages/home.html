@@ -2,12 +2,13 @@
 layout: default
 description: During a typical competitive delegated examining hiring process, human resource (HR) specialists review resumes and occupational questionnaires to determine whether applicants are minimally qualified for a role. Agencies often conduct outreach and recruitment for technical positions and are concerned when they receive certificates without truly qualified applicants to select from.
 section: home
+img_description: 1,300 typists take civil service examinations at McKinley High School in Washington, DC on July 9, 1936. Such examinations continued until 1981.
 permalink: /
 ---
 
 {% include _banner-beta.html %}
 
-<div class="chp-home-hero" role="img" aria-label="">
+<div class="chp-home-hero" role="img" aria-label="{{ page.img_description }}" alt="{{ page.img_description }}">
   <div class="chp-home-hero__mask">
     <div class="chp-home-hero__body">
       <blockquote class="chp-home-hero__quote">
@@ -26,7 +27,7 @@ permalink: /
   <div class="grid-row">
     <div class="grid-cell">
       <p class="chp-home-hero__caption">
-        1,300 typists take civil service examinations at McKinley High School in Washington, DC on July 9, 1936. Such examinations continued until 1981.
+        {{ page.img_description }}
       </p>
     </div>
   </div>

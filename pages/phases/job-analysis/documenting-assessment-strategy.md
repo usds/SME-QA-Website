@@ -13,7 +13,7 @@ intro: In addition to documenting job tasks, developing core competencies and pr
   {{ page.intro }}
 </p>
 <p>
-  Include the specifics of these decisions in both your assessment strategy document and your <a href="../job-announcement/">job announcement</a>.
+  Include the specifics of these decisions in both your assessment strategy document and your <a href="../../job-announcement/">job announcement</a>.
 </p>
 
 <h3 id="resume-review-page-count">Number of reviewed resume work experience pages</h3>

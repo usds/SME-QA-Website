@@ -17,7 +17,7 @@ intro: As SMEs submit their interview assessments, check their work and email th
   <div class="usa-alert__body">
     <h3 class="usa-alert__heading">Do not conduct a separate minimum qualification review</h3>
     <p class="usa-alert__text">
-      After SMEs have completed interviews, do not conduct a separate minimum qualification review. For more information, see "<a href="{{ site.baseurl }}/about/differences/#sme-assessment">How our process is different</a>."
+      After SMEs have completed interviews, do not conduct a separate minimum qualification review. For more information, see "<a href="{{ site.baseurl }}/about/differences/">How our process is different</a>."
     </p>
   </div>
 </div>

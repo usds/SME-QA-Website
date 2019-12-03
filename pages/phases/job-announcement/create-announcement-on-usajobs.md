@@ -52,7 +52,7 @@ When posting your job to the public, select only *The public*, which encompasses
 
 ### 7. Assessment Strategy
 
-Use the 'How You Will Be Evaluated' section to describe that applicants will be examined by subject matter experts using a structured interview process, then describe your phases. You should have established this information with SMEs during the job analysis workshop when you <a href="../job-analysis/documenting-assessment-strategy">documented your assessment strategy</a>. For example:
+Use the 'How You Will Be Evaluated' section to describe that applicants will be examined by subject matter experts using a structured interview process, then describe your phases. You should have established this information with SMEs during the job analysis workshop when you <a href="../../job-analysis/documenting-assessment-strategy">documented your assessment strategy</a>. For example:
 
 > The technical qualifications for this position will be evaluated by subject matter experts. Apply only if you meet the qualifications. If you are not selected for this position you may be considered for similar positions at the agency within 90 days.
 

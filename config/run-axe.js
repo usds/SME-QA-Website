@@ -11,8 +11,8 @@ const REMOTE_CHROME_URL = process.env['REMOTE_CHROME_URL'];
 const AXE_JS = fs.readFileSync(__dirname + '/../node_modules/axe-core/axe.js');
 const PAGES = [
   '/',
-  '/page-templates/landing/',
-  '/page-templates/docs/',
+  '/about/',
+  '/hiring-phases/'
 ];
 
 function launchChromeLocally(headless=true) {

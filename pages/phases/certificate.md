@@ -24,7 +24,7 @@ roles: [hr, hiring-mgr]
   <div class="usa-alert__body">
     <h3 class="usa-alert__heading">After SMEs identify the qualified applicants, do not conduct a separate minimum qualification review.</h3>
     <p class="usa-alert__text">
-      SMEs have used their expertise and technical ability to assess whether an applicant is truly qualified before being considered minimally qualified and eligible for veterans' preference. As the HR specialist, you've reviewed every justification after each assessment to ensure it was rooted in one of the technical qualifications. For more information, see "<a href="{{ site.baseurl }}/about/differences/#sme-assessment">How SME-QA is Different</a>."
+      SMEs have used their expertise and technical ability to assess whether an applicant is truly qualified before being considered minimally qualified and eligible for veterans' preference. As the HR specialist, you've reviewed every justification after each assessment to ensure it was rooted in one of the technical qualifications. For more information, see "<a href="{{ site.baseurl }}/about/differences/">How SME-QA is Different</a>."
     </p>
   </div>
 </div>

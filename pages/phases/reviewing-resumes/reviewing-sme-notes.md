@@ -17,7 +17,7 @@ intro: As SMEs submit their resume review notes, check their work and email them
   <div class="usa-alert__body">
     <h3 class="usa-alert__heading">Do not conduct a separate minimum qualification review</h3>
     <p class="usa-alert__text">
-      After SMEs have completed resume reviews, do not conduct a separate minimum qualification review. For more information, see "<a href="{{ site.baseurl }}/about/differences/#sme-assessment">How our process is different</a>."
+      After SMEs have completed resume reviews, do not conduct a separate minimum qualification review. For more information, see "<a href="{{ site.baseurl }}/about/differences/">How our process is different</a>."
     </p>
   </div>
 </div>

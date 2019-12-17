@@ -21,6 +21,8 @@ hiring-phases:
   - text: Getting Started
     href: /hiring-phases/getting-started/
     subnav:
+    - text: Committing to SME-QA
+      href: /hiring-phases/getting-started/committing-to-smeqa/
     - text: Identifying Appropriate Positions
       href: /hiring-phases/getting-started/identifying-appropriate-positions/
     - text: Selecting Subject Matter Experts

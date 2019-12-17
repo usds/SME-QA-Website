@@ -46,6 +46,10 @@ To attract both public and private sector applicants, limit the number of pages 
 
 > While the format (including length) of a résumé cannot be restricted, you may place a reasonable limit on the number of pages of a résumé that will be reviewed as part of your initial qualification determination. This limit must be clearly explained in the job opportunity announcement. You may not automatically screen-out applicants who submit résumés of longer lengths. For example, you may state in your job opportunity announcement, “Please limit your résumé to 5 pages. If more than 5 pages are submitted, only the first 5 pages will be reviewed to determine your eligibility/qualifications.
 
+#### Requesting documents from federal employees
+
+The job announcement template created for this assessment strategy requests an SF-50 from current or former federal employees in order to assist HR in confirming the applicant's grade before the certificate is issued. However, failure to include the document would not prevent an applicant from moving forward. If necessary, an SF-50 can be obtained from the applicant's agency before the certificate is issued.
+
 ### 6. This Job Is Open To
 
 When posting your job to the public, select only *The public*, which encompasses veterans and other groups. This section isn't a recruitment advertisement, and selecting additional options makes it unclear to applicants who is eligible to apply.
@@ -58,93 +62,62 @@ Use the 'How You Will Be Evaluated' section to describe that applicants will be 
 
 > 1. Resume review
 Subject matter experts will review the first three pages of your resume to determine your technical qualifications for your chosen role(s) based on the required competencies.
-
 > 2. Qualifying phone interviews
 If the subject matter experts determine that your resume reflects the required competencies, you will have at least one phone interview to further assess whether your experience meets the required competencies for your chosen role(s). You may meet with more than one subject matter expert for a determination to be made.
-
 > 3. Ranking and preference
 Preference will be applied to applicants who move forward after the qualifying phone interviews.
 
-<!-- div class="grid-container">
-  <div class="grid-row grid-gap-3 margin-bottom-4">
-    <div class="tablet:grid-col-8">
-      <img src="{{site.baseurl}}/assets/img/usas/announcement-text-p1.png" alt="USA Staffing announcement text screenshot of page one">
-    </div>
-    <div class="tablet:grid-col">
-      <h3>Overview and locations</h3>
 
-      <h4>1. Overview</h4>
+## Creating a job announcement using USA Staffing
 
-      <p>No changes.</p>
+<h3>Overview and locations</h3>
+<h4>1. Overview</h4>
+<p>No changes.</p>
 
-      <h4>2. Locations</h4>
+<h4>2. Locations</h4>
+<p>No changes.</p>
+<img src="{{site.baseurl}}/assets/img/usas/announcement-text-p1.png" alt="USA Staffing announcement text screenshot of page one">
 
-      <p>No changes.</p>
-    </div>
-  </div>
-  <div class="grid-row grid-gap-3 margin-bottom-4">
-    <div class="tablet:grid-col-8">
-      <img src="{{site.baseurl}}/assets/img/usas/announcement-text-p2.png" alt="USA Staffing announcement text screenshot of page two">
-    </div>
-    <div class="tablet:grid-col">
-      <h3>Agency Marketing</h3>
+<h3>Agency Marketing</h3>
+<h4>3. Marketing message</h4>
+<p><strong>What:</strong> Text detailing the office/unit/ group the individual will belong to.</p>
+<p><strong>Where:</strong> This text will appear in two places:</p>
+<ol>
+  <li>The Agency pop-up window which appears when a user clicks on the agency name link in the header of the announcement.</li>
+  <li>How you’ll work with - First paragraph.</li>
+</ol>
 
-      <h4>3. Marketing message</h4>
+<h4>4. Marketing link</h4>
+<p><strong>What:</strong> A link to the office/unit/group the applicant would belong to.</p>
+<p><strong>Where:</strong> This text will appear in two places:</p>
+<ol>
+  <li>The Agency pop-up window which appears when a user clicks on the agency name link in the header of the announcement.</li>
+  <li>Where you’ll work - Below the first paragraph.</li>
+</ol>
 
-      <p><strong>What:</strong> Text detailing the office/unit/ group the individual will belong to.</p>
-      <p><strong>Where:</strong> This text will appear in two places:</p>
-      <ol>
-        <li>The Agency pop-up window which appears when a user clicks on the agency name link in the header of the announcement.</li>
-        <li>Where you’ll work - First paragraph.</li>
-      </ol>
+<h4>5. Benefits link</h4>
+<p>This link appears in the Benefits section as it does in the current announcement.</p>
 
-      <h4>4. Marketing link</h4>
-      <p><strong>What:</strong> A link to the office/unit/group the applicant would belong to.</p>
-      <p><strong>Where:</strong> This text will appear in two places:</p>
-      <ol>
-        <li>The Agency pop-up window which appears when a user clicks on the agency name link in the header of the announcement.</li>
-        <li>Where you’ll work - Below the first paragraph.</li>
-      </ol>
+<img src="{{site.baseurl}}/assets/img/usas/announcement-text-p2.png" alt="USA Staffing announcement text screenshot of page two">
 
-      <h4>5. Benefits link</h4>
-      <p>This link appears in the Benefits section as it does in the current announcement.</p>
-    </div>
-  </div>
-  <div class="grid-row grid-gap-3 margin-bottom-4">
-    <div class="tablet:grid-col-8">
-      <img src="{{site.baseurl}}/assets/img/usas/announcement-text-duties.png" alt="USA Staffing announcement text screenshot of duties">
-    </div>
-    <div class="tablet:grid-col">
-      <h3>Duties</h3>
+<h3>Duties</h3>
 
-      <h4>6. Summary</h4>
-      <p><strong>What:</strong> Job summary</p>
-      <p><strong>Where:</strong> Appears under the header “Summary” at the top of the job announcement.</p>
-    </div>
-  </div>
-  <div class="grid-row grid-gap-3 margin-bottom-4">
-    <div class="tablet:grid-col-8">
-      <img src="{{site.baseurl}}/assets/img/usas/announcement-text-p3.png" alt="USA Staffing announcement text screenshot of page three">
-    </div>
-    <div class="tablet:grid-col">
-      <h3>Position Requirements</h3>
-      <h4>7. Qualifications</h4>
-      <p><strong>What:</strong> The first paragraph of the qualifications and the list of competencies.</p>
-      <p><strong>Where:</strong> Appears under the header “Qualifications”.</p>
-      <p><strong>Format:</strong> Use a bulleted list with competency name in bold.</p>
-    </div>
-  </div>
-  <div class="grid-row grid-gap-3 margin-bottom-4">
-    <div class="tablet:grid-col-8">
-      <img src="{{site.baseurl}}/assets/img/usas/announcement-text-p4.png" alt="USA Staffing announcement text screenshot of page four">
-    </div>
-    <div class="tablet:grid-col">
-      <h3>Application Requirements</h3>
-      <h4>8. How you will be evaluated</h4>
-      <p>This text is a part of the JOA pilot layout and cannot be changed.</p>
+<h4>6. Summary</h4>
+<p><strong>What:</strong> Job summary</p>
+<p><strong>Where:</strong> Appears under the header “Summary” at the top of the job announcement.</p>
+<img src="{{site.baseurl}}/assets/img/usas/announcement-text-duties.png" alt="USA Staffing announcement text screenshot of duties">
 
-      <h4>9. Required Documents</h4>
-      <p>This text is a part of the JOA pilot layout and cannot be changed.</p>
-    </div>
-  </div>
-</div -->
+<h3>Position Requirements</h3>
+<h4>7. Qualifications</h4>
+<p><strong>What:</strong> The first paragraph of the qualifications and the list of competencies.</p>
+<p><strong>Where:</strong> Appears under the header “Qualifications”.</p>
+<p><strong>Format:</strong> Use a bulleted list with competency name in bold.</p>
+<img src="{{site.baseurl}}/assets/img/usas/announcement-text-p3.png" alt="USA Staffing announcement text screenshot of page three">
+
+<h3>Application Requirements</h3>
+<h4>8. How you will be evaluated</h4>
+<p>This text is a part of the JOA pilot layout and cannot be changed.</p>
+
+<h4>9. Required Documents</h4>
+<p>This text is a part of the JOA pilot layout and cannot be changed.</p>
+<img src="{{site.baseurl}}/assets/img/usas/announcement-text-p4.png" alt="USA Staffing announcement text screenshot of page four">

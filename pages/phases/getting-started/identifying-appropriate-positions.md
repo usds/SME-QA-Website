@@ -15,9 +15,10 @@ intro: To meet the goals of your hiring action, gather information to drive your
 
 ### Identifying a Classified Position Description
 
-Your position description (PD) should be classified as a GS-12+ technical position that requires specialized experience, such as IT Specialist or Biologist, and should be flexible enough for your posted job opportunity announcement (JOA) to be accurate and compelling. If you can't find a PD that meets your needs, you may need to create a new one in a timely fashion.
+Your position description (PD) should reflect adequate specialized experience to require the time and effort of SMEs. Rather than classifying a new PD, using a standardized PD is encouraged since you will be doing an in-depth job analysis workshop to link the PD to an accurate job announcement. The competencies identified through the job analysis workshop simply need to be rooted in the PD. <a href="https://www.opm.gov/policy-data-oversight/hiring-information/competitive-hiring/deo_handbook.pdf">Page 3-12 of the updated DE Handbook clarifies</a>:
 
-For simplicity, we recommend limiting your hiring action to one or two grades and limited locations to mitigate volume and complexity.
+<blockquote>"Conditions of employment should be supported in the position description and/or by job analysis."</blockquote>
+
 
 ### Identify Billets
 

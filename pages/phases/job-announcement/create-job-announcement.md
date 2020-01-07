@@ -1,8 +1,8 @@
 ---
 layout: article
-permalink: /hiring-phases/job-announcement/create-announcement-on-usajobs/
+permalink: /hiring-phases/job-announcement/creating-job-announcement/
 section: hiring-phases
-title: Creating a job announcement on USAJOBS
+title: Creating a SME-QA job announcement
 sidenav: hiring-phases
 phase: job-announcement
 sub-phase-order: 010
@@ -38,7 +38,7 @@ Duties should be informed by the job tasks you documented during job analysis. P
 
 List all competencies you developed during job analysis together to describe the minimum qualifications for the position. If required for the position, you can describe specific recency requirements when skills obtained many years ago would not be relevant to the work being performed. For example, a technical position may require experience with modern cloud technologies within the last three years.
 
-Include only the competencies SMEs developed during job analysis as the qualifications for your position. You're not required to list the OPM qualification standards in your job announcement.
+Include only the competencies SMEs developed during job analysis as the qualifications for your position. You should not be cutting and pasting the OPM Qualification Standards nor from the <a href="{{ site.baseurl }}/hiring-phases/getting-started/identifying-appropriate-positions/">Position Description</a>. As per OPM guidance, you are required to do the work of job analysis to define the specialized experience required, which in our pilots was in the form of competencies and proficiency levels.
 
 ### 5. Required Documents
 
@@ -52,7 +52,7 @@ The job announcement template created for this assessment strategy requests an S
 
 ### 6. This Job Is Open To
 
-When posting your job to the public, select only *The public*, which encompasses veterans and other groups. This section isn't a recruitment advertisement, and selecting additional options makes it unclear to applicants who is eligible to apply.
+When posting your job to the public, select only *The public*, which encompasses veterans and other groups. This section isn't a recruitment advertisement, and selecting additional options makes it unclear to applicants who is eligible to apply. However, if your agency policy dictates other selections then follow that guidance.
 
 ### 7. Assessment Strategy
 
@@ -68,7 +68,11 @@ If the subject matter experts determine that your resume reflects the required c
 Preference will be applied to applicants who move forward after the qualifying phone interviews.
 
 
-## Creating a job announcement using USA Staffing
+## Where to input information in USA Staffing
+
+<p>
+  To use the SME-QA template you'll need to enter data into different fields than you may be accustomed to within USA Staffing. Below are details on where to input information into USA Staffing in order to have it appear in the correct place in the SME-QA job announcement template.
+</p>
 
 <h3>Overview and locations</h3>
 <h4>1. Overview</h4>

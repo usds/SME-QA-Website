@@ -35,4 +35,4 @@ After SMEs have addressed your feedback for their interview assessment forms, ca
 
 1. Review the proficiency ratings the SME gave for each question.
 2. In the table at the bottom of the interview assessment, mark whether the applicant does not meet, meets, or exceeds the minimum required proficiency levels.
-3. Using the <a href="{{site.baseurl}}/toolkit/phone-assessment-interviews/interview-assessment-ratings/">Interview Assessment Rating Guide</a>, give the applicant an overall assessment score.
+3. Using the <a href="{{site.baseurl}}/toolkit/phone-assessment-interviews/interview-ratings-and-outcomes/">Interview Assessment Rating Guide</a>, give the applicant an overall assessment score.

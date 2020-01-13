@@ -56,17 +56,30 @@ When posting your job to the public, select only *The public*, which encompasses
 
 ### 7. Assessment Strategy
 
-Use the 'How You Will Be Evaluated' section to describe that applicants will be examined by subject matter experts using a structured interview process, then describe your phases. You should have established this information with SMEs during the job analysis workshop when you <a href="../../job-analysis/documenting-assessment-strategy">documented your assessment strategy</a>. For example:
+Use the "How You Will Be Evaluated" section to describe that applicants will be examined by subject matter experts using a structured interview process, then describe your phases. You should have established this information with SMEs during the job analysis workshop when you <a href="../../job-analysis/documenting-assessment-strategy">documented your assessment strategy</a>.
 
-> The technical qualifications for this position will be evaluated by subject matter experts. Apply only if you meet the qualifications. If you are not selected for this position you may be considered for similar positions at the agency within 90 days.
-
-> 1. Resume review
-Subject matter experts will review the first three pages of your resume to determine your technical qualifications for your chosen role(s) based on the required competencies.
-> 2. Qualifying phone interviews
-If the subject matter experts determine that your resume reflects the required competencies, you will have at least one phone interview to further assess whether your experience meets the required competencies for your chosen role(s). You may meet with more than one subject matter expert for a determination to be made.
-> 3. Ranking and preference
-Preference will be applied to applicants who move forward after the qualifying phone interviews.
-
+<h4 id="example-how-you-will-be-evaluated">Example "How You Will Be Evaluated" section</h4>
+<blockquote>
+  <p>
+    The technical qualifications for this position will be evaluated by subject matter experts. Apply only if you meet the qualifications.
+  </p>
+  <h4>Resume review</h4>
+  <p>
+    Subject matter experts will review the first three pages of your resume to determine your technical qualifications for your chosen role(s) based on the required competencies.
+  </p>
+  <h4>Qualifying phone interviews</h4>
+  <p>
+    If the subject matter experts determine that your resume reflects the required competencies, you will have at least one phone interview to further assess whether your experience meets the required competencies for your chosen role(s). You may meet with more than one subject matter expert for a determination to be made.
+  </p>
+  <h4>Ranking and preference</h4>
+  <p>
+    Preference will be applied to applicants who move forward after the qualifying phone interviews.
+  </p>
+  <h4>Future consideration</h4>
+  <p>
+    If you are not selected for this position you may be considered for similar positions at the agency for up to one year from the date the certificates are issued.
+  </p>
+</blockquote>
 
 ## Where to input information in USA Staffing
 

@@ -46,7 +46,7 @@ plugins:
 logo: /img/usds-logo-onwhite.png
 
 # Google Analytics - Gov wide account
-analytics_id: "UA-33523145-1"
+analytics_id: "UA-132706295-1"
 
 collections:
   hr-tasks:

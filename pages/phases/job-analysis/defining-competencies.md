@@ -24,3 +24,7 @@ The competency definition should be 1-3 sentences long and avoid a laundry list 
 > *Customer Support: Works with external and/or internal customers in a large, geographically dispersed organization to assess needs, provide information or assistance, and resolve their problems. Knows how to best utilize ticketing systems. Is committed to providing quality products and services.*
 
 When defining your competencies, you may find it helpful to refer to existing competency definitions like the OPM qualification standards for the series you're hiring for. Edit those definitions to match the requirements your workshop group has determined are necessary for your posted position.
+
+#### Weighting competencies
+
+In the first round of SME-QA pilots, all competencies were equally weighted. If the SMEs felt one competency mattered less than the others, then a lower lower proficiency level was required. If the SMEs felt a competency was not required at all, they removed it from the qualifications.

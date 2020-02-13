@@ -624,3 +624,28 @@ blockquote {
     @include u-font-size('body', '2xs');
   }
 }
+
+.smeqa-timeline {
+  width: 100%;
+
+  .smeqa-timeline &__header {
+    background-color: color($theme-color-chp-red-warm);
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-color: #fff;
+    min-width: 100px;
+  }
+
+  .smeqa-timeline &__data {
+    border-color: color($theme-color-chp-gray-light);
+
+    ul {
+      margin-top: 0;
+    }
+  }
+
+  .smeqa-timeline &__data.is-alt {
+    // background-color: color($theme-color-chp-gray-lightest);
+  }
+}

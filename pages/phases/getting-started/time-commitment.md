@@ -30,7 +30,7 @@ intro: The SME-QA process requires time commitments from subject matter experts,
           <dd class="chp-time-commitment__phase">Resume review training (3 hours) and interview training (2 hours)</dd>
           <dt class="chp-time-commitment__hours">5 hours (over 1 week)</dt>
           <dd class="chp-time-commitment__phase">Resume review</dd>
-          <dt class="chp-time-commitment__hours">20 hours split over four weeks</dt>
+          <dt class="chp-time-commitment__hours">20 hours split over three weeks</dt>
           <dd class="chp-time-commitment__phase">
             Phone interviews with applicants
             <div class="chp-time-commitment__paren">

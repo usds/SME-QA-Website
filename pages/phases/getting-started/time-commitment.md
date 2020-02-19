@@ -6,7 +6,7 @@ title: Time Commitment
 sidenav: hiring-phases
 phase: getting-started
 sub-phase-order: 030
-intro: The SME-QA process requires time commitments from Subject Matter Experts and hiring managers/selection officials as well as HR Specialists.
+intro: The SME-QA process requires time commitments from subject matter experts, hiring managers/selection officials, and HR specialists.
 ---
 
 <p class="usa-intro">
@@ -24,17 +24,17 @@ intro: The SME-QA process requires time commitments from Subject Matter Experts 
           Subject Matter Experts
         </h2>
         <dl class="chp-time-commitment">
-          <dt class="chp-time-commitment__hours">2 days</dt>
-          <dd class="chp-time-commitment__phase">Job Analysis Workshop</dd>
+          <dt class="chp-time-commitment__hours">16 hours</dt>
+          <dd class="chp-time-commitment__phase">Job analysis workshop</dd>
           <dt class="chp-time-commitment__hours">5 hours</dt>
-          <dd class="chp-time-commitment__phase">Resume review training (3 hours) and Interview training (2 hours)</dd>
-          <dt class="chp-time-commitment__hours">8 hours (over 1 week)</dt>
-          <dd class="chp-time-commitment__phase">Resume Review</dd>
-          <dt class="chp-time-commitment__hours">Up to 40 hours (over 3 weeks)</dt>
+          <dd class="chp-time-commitment__phase">Resume review training (3 hours) and interview training (2 hours)</dd>
+          <dt class="chp-time-commitment__hours">5 hours (over 1 week)</dt>
+          <dd class="chp-time-commitment__phase">Resume review</dd>
+          <dt class="chp-time-commitment__hours">20 hours split over four weeks</dt>
           <dd class="chp-time-commitment__phase">
-            Interviews with applicants
+            Phone interviews with applicants
             <div class="chp-time-commitment__paren">
-              (assumes 100-200 applicants/8 SMEs conducting 2 rounds of 1 on 1 interviews)
+              (assumes 150 applicants and 8 SMEs conducting 2 rounds of 1 on 1 interviews)
             </div>
           </dd>
         </dl>
@@ -51,11 +51,11 @@ intro: The SME-QA process requires time commitments from Subject Matter Experts 
           Hiring Managers/Selecting Officials
         </h2>
         <dl class="chp-time-commitment">
-          <dt class="chp-time-commitment__hours">2 days</dt>
-          <dd class="chp-time-commitment__phase">Job Analysis Workshop</dd>
+          <dt class="chp-time-commitment__hours">16 hours</dt>
+          <dd class="chp-time-commitment__phase">Job analysis workshop</dd>
           <dt class="chp-time-commitment__hours">10 hours</dt>
           <dd class="chp-time-commitment__phase">
-            Once the Certificate is issued, commit to any additional interviews and selections within two weeks
+            Doing fit interviews and making selections within two weeks of certificate issuance
           </dd>
         </dl>
       </div>

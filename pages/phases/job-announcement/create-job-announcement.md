@@ -13,7 +13,7 @@ intro: When the content of your well-written job announcement is complete, creat
   {{ page.intro }}
 </p>
 
-Agencies using the SME-QA process can use a special, plain-language USAJOBS job announcement template created for this assessment strategy. The template pre-populates many of the JOA posting requirements, including the required Legal and Regulatory Guidance section. To create your posting, complete only these sections.
+Agencies using the SME-QA process can use a special, plain-language USAJOBS job announcement template created for this assessment strategy. The template pre-populates many of the Job Opportunity Announcement posting requirements, including the required Legal and Regulatory Guidance section. To create your posting, complete only these sections.
 
 While you'll continue to use the occupational questionnaire to gather general biographical information about the applicant, you won't use the self-rated assessment portion of the questionnaire. Instead, the structured assessment interviews you've documented in your assessment strategy serve as the examination.
 
@@ -133,8 +133,8 @@ Use the "How You Will Be Evaluated" section to describe that applicants will be 
 
 <h3>Application Requirements</h3>
 <h4>8. How you will be evaluated</h4>
-<p>This text is a part of the JOA pilot layout and cannot be changed.</p>
+<p>This text is a part of the Job Opportunity Announcement pilot layout and cannot be changed.</p>
 
 <h4>9. Required Documents</h4>
-<p>This text is a part of the JOA pilot layout and cannot be changed.</p>
+<p>This text is a part of the Job Opportunity Announcement pilot layout and cannot be changed.</p>
 <img src="{{site.baseurl}}/assets/img/usas/announcement-text-p4.png" alt="USA Staffing announcement text screenshot of page four">

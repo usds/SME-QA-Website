@@ -3,7 +3,7 @@ _site
 .jekyll-metadata
 /node_modules
 .DS_Store
-
+.vscode
 
 # ignore gulp-generated vendor files
 scss/lib

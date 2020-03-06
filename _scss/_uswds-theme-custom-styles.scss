@@ -244,7 +244,7 @@ i.e.
   }
 }
 
-.chp-article.usa-section {
+.chp-article {
   @include at-media('desktop') {
     min-height: 70vh;
   }
@@ -644,8 +644,29 @@ blockquote {
       margin-top: 0;
     }
   }
+}
 
-  .smeqa-timeline &__data.is-alt {
-    // background-color: color($theme-color-chp-gray-lightest);
+.smeqa-sme-selection-checklist {
+  &__list {
+    @include add-list-reset();
+  }
+
+  &__item {
+    @include clearfix();
+    margin: 0;
+  }
+
+  &__container {
+    margin-left: units(1);
+  }
+
+  &__label {
+    display: block;
+    float: left;
+    margin: .5rem 0 .5rem 1.5rem;
+
+    input[type="checkbox"] {
+      margin-left: -1.5rem;
+    }
   }
 }

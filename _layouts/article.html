@@ -10,15 +10,14 @@
   {% if page.sidenav == 'hiring-phases' %}
     {% include _breadcrumbs.html %}
   {% endif %}
-  <main id="main-content" role="main" class="usa-layout-docs usa-section margin-bottom-9 chp-article">
+  <div class="usa-section">
     <div class="grid-container">
       <div class="grid-row grid-gap">
-        {% assign sidenav = site.data.navigation[page.sidenav] | default: page.sidenav %}
-        {% if sidenav %}
-        <aside class="usa-layout-docs__sidenav desktop:grid-col-3 chp-article-sidenav">
+      {% assign sidenav = site.data.navigation[page.sidenav] | default: page.sidenav %}
+      {% if sidenav %}
+        <div class="usa-layout-docs__sidenav desktop:grid-col-3 chp-article-sidenav">
           <div class="chp-article-sidenav__container">
             {% include sidenav.html links=sidenav title="Begin Your Hiring Action"%}
-
             {% unless page.sidenav == 'hiring-roles' %}
               {% assign rolenav = site.data.navigation[page.rolenav] | default: page.rolenav %}
               {% if rolenav %}
@@ -26,17 +25,17 @@
               {% endif %}
             {% endunless %}
           </div>
-        </aside>
-        {% endif %}
-        <div class="usa-layout-docs__main desktop:grid-col-9 usa-prose">
+        </div>
+      {% endif %}
+        <main id="main-content" role="main" class="usa-layout-docs__main desktop:grid-col-9 margin-bottom-9 chp-article">
           {% if page.title %}
           <h1>{{ page.title }}</h1>
           {% endif %}
           {{ content }}
-        </div>
+        </main>
       </div>
     </div>
-  </main>
+  </div>
   {% include _footer.html %}
 
   <script src="{{ site.baseurl }}/assets/js/vendor/uswds.min.js"></script>

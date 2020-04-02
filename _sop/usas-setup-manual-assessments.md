@@ -1,7 +1,7 @@
 # Setting Up Manual Assessments in USA Staffing
 
-In order for the SME-QA process to work, manual assessments must be set
-up as part of the vacancy.
+In order to faciliate the SME-QA process in USA Staffing, use manual assessments when the vacancy is set
+up.
 
 > If the Manual Assessments option isn't available to you, contact your USA Staffing Office Administrator.
 
@@ -33,7 +33,7 @@ The SME-QA process assumes that there is:
     * Maximum score of 2
     * Any applicant who does not meet the requirements will receive an ineligible NOR code and _no score_
 
-Scores will then be transmuted as follows:
+Scores will then be transmuted automatically by USA Staffing as follows:
 
 * Any applicant with two 1s receives 70 points.
 * Any applicant with one 1 and one 2 receives 85 points.
@@ -52,7 +52,13 @@ This assumes the standard SME-QA set up, using one *Resume Review* step and two 
         - **Maximum Raw Score**: 1
         - **Scoring**: Do not standardize scores
         ![Creating a manual assessment for Resume Review](./tmp/assessment-create-resume-review.png)
-    2. *Interview 1* and *Interview 2*:
+    2. *Interview 1*
+        - **Assessment Type**: Manual
+        - **Minimum Raw Score**: 1
+        - **Maximum Raw Score**: 2
+        - **Scoring**: Do not standardize scores
+        ![Creating manual assessments for interviews](./tmp/assessment-create-interview.png)
+        2. *Interview 2*:
         - **Assessment Type**: Manual
         - **Minimum Raw Score**: 1
         - **Maximum Raw Score**: 2
@@ -66,8 +72,8 @@ This assumes the standard SME-QA set up, using one *Resume Review* step and two 
     - *Well Qualified*: **Final Rating Cutpoint**: 85
     - *Qualified*: **Final Rating Cutpoint**: 70
     ![Category Ratings for SME-QA](./tmp/assessment-categories.png)
-4. Create the remainder of the vacancy as usual, excluding an occupational questionnaire.
-5. For each participating SME, create a USA Staffing account.
+4. Create the remainder of the vacancy as usual, excluding an occupational questionnaire, which is not used in the traditional SME-QA process.
+5. Unless you plan on sending each participating SME a batch download of all resumes submitted and having them conduct their review in an external tool (excel or the Resume Review Tool), create a USA Staffing account for each SME.
 
 > While the **Resume Review** will not have any scores, the USA Staffing system currently requires that you allow for a score of **0** or **1**.
 

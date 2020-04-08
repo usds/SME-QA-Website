@@ -47,7 +47,7 @@
     "gulp-sourcemaps": "^2.6.4",
     "gulp-util": "^3.0.7",
     "jquery": "^3.4.1",
-    "minimist": ">=1.2.2",
+    "minimist": ">=1.2.3",
     "normalize.css": "^8.0.1",
     "path": "^0.12.7",
     "run-sequence": "^2.2.1",

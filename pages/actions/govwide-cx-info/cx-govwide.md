@@ -1,7 +1,7 @@
 ---
 layout: article
 section: actions
-permalink: /info/cx-govwide
+permalink: /info/cx-govwide/
 title: Information page for the CX govwide posting
 ---
 

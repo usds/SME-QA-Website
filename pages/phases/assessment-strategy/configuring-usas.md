@@ -57,7 +57,7 @@ Confirm which NOR message codes you will use for this process. We suggest the fo
 ### SME-QA Standard Example
 This assumes the standard SME-QA set up, using one *Resume Review* step and two *Interview* steps:
 1. In the Vacancy's **Assessment Package** page, go to the **Assessment Plan** tab then create and name assessments of type **manual** for each stage:
-    ![Vacancy Assessment Package Assessment Plan section](./assets/img/usas/assessment-package-new-assessment.png)
+    ![Vacancy Assessment Package Assessment Plan section](/assets/img/usas/assessment-package-new-assessment.png)
     ![Creating an assessment of type manual](./tmp/assessment-creation-manual.png)
     The specifics are as follows:
     1. *Resume Review*:

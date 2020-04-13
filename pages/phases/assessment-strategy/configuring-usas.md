@@ -45,7 +45,6 @@ Scores will then be transmuted automatically by USA Staffing as follows:
 
 
 ### NOR Codes
-
 Confirm which NOR message codes you will use for this process. We suggest the following (you may have to contact your TAS operator to add/enable these):
 
 * **IQSM - IN:** You are ineligible for this position because subject matter experts have determined you do not meet the required qualifications as described in the job announcement.
@@ -58,6 +57,7 @@ Confirm which NOR message codes you will use for this process. We suggest the fo
 This assumes the standard SME-QA set up, using one *Resume Review* step and two *Interview* steps:
 1. In the Vacancy's **Assessment Package** page, go to the **Assessment Plan** tab and click the **New Assessment** button.
     ![USA Staffing create a new assessment](/assets/img/usas/assessment-package-new-assessment.png)
+    
 2. In the newly created **Assessment** tab, create and name assessments of type **manual** for each stage:
     ![USA Staffing create a manual assessmnent](/assets/img/usas/assessment-creation-manual.png)
     The specifics are as follows:
@@ -73,20 +73,24 @@ This assumes the standard SME-QA set up, using one *Resume Review* step and two 
         - **Maximum Raw Score**: 2
         - **Scoring**: Do not standardize scores
         ![USA Staffing create a manual assessment for interview 1](/assets/img/usas/assessment-create-interview1.png)
-        2. *Interview 2*:
+    3. *Interview 2*:
         - **Assessment Type**: Manual
         - **Minimum Raw Score**: 1
         - **Maximum Raw Score**: 2
         - **Scoring**: Do not standardize scores
         ![USA Staffing create a manual assessment for interview 2](/assets/img/usas/assessment-create-interview2.png)
+        
 3. In the **Assessment Plan** tab, un-check the **Rating** column from the **Resume Review** assessment.
     ![USA Staffing unchecked resume review assessment rating](/assets/img/usas/assessment-set-up-complete.png)
+    
 4. In the **Categories** tab, ensure you have the following categories:
     - *Best Qualified*: **Final Rating Cutpoint**: 100
     - *Well Qualified*: **Final Rating Cutpoint**: 85
     - *Qualified*: **Final Rating Cutpoint**: 70
     ![USA Staffing Category Ratings for SME-QA](/assets/img/usas/assessment-categories.png)
+
 5. Create the remainder of the vacancy as usual, excluding an occupational questionnaire, which is not used in the traditional SME-QA process.
+
 6. Unless you plan on sending each participating SME a batch download of all resumes submitted and having them conduct their review in an external tool (excel or the Resume Review Tool), create a USA Staffing account for each SME.
 
 > While the **Resume Review** will not have any scores, the USA Staffing system currently requires that you allow for a score of **0** or **1**.

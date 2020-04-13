@@ -1,7 +1,8 @@
 ---
-layout: article
+layout: micro
 section: actions
 permalink: /info/cx-govwide/
+header: Customer Experience Hiring
 title: Information page for the CX govwide posting
 ---
 

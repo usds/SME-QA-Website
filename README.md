@@ -3,37 +3,46 @@ This is the repo for the SME-QA website which can be found at smeqa.usds.gov.
 
 ## Local Development Instructions
 
-### references
+### References
 https://brew.sh/  
 https://jekyllrb.com/docs/installation/macos/
 
-### make sure you have ruby installed
+#### WHIT Macs
+If you have a WHIT Mac, [follow these instructions](https://tools.usds.gov/handbook/how-to/whit-mac.md) on installing Xcode, Homebrew, NPM, and Ruby.
+
+### Make sure you have ruby installed
 ```
 xcode-select --install
 brew install ruby
 echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >> ~/.bash_profile
 ```
 
-### check if ruby has been installed
+### Check if ruby has been installed
 ```
 which ruby
 ruby -v
 ````
 
-### do this once per ruby version
+### Do this once per ruby version
 ```
 gem install bundler
 gem install jekyll
 ```
 
-### do this occasionally when the project updates
+### Do this occasionally when the project updates
 ```
 bundle install
 ```
 
-### do this to build the website
+### Do this to start development
 ```
-bundle exec jekyll serve --config _config-dev.yml
+npm start
 ```
 
-the website will start at http://127.0.0.1:4000
+### Do this to perform a clean build for deployment
+```
+npm build
+```
+NOTE: This isn't necessary as github pages will perform this step automatically.
+
+The website will start at http://localhost:4000

@@ -34,7 +34,7 @@
     "axe-core": "^3.5.2",
     "browser-sync": "^2.26.7",
     "chalk": "^3.0.0",
-    "chrome-launcher": "^0.12.0",
+    "chrome-launcher": "^0.13.1",
     "chrome-remote-interface": "^0.28.1",
     "css-mqpacker": "^7.0.0",
     "cssnano": "^4.1.4",

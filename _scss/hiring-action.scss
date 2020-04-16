@@ -1,0 +1,72 @@
+// ----------------------------------------
+// SME-QA: Resume Review layout
+
+@import 'uswds-theme-general';
+@import 'uswds-theme-typography';
+@import 'uswds-theme-spacing';
+@import 'uswds-theme-color';
+@import 'uswds-theme-utilities';
+@import 'uswds';
+
+.smeqa-cx {
+  &__hero {
+    background-image: transparent;
+    background-color: color($theme-color-chp-blue-darkest);
+  }
+}
+
+.smeqa-cx-agency {
+  @include at-media('tablet') {
+  }
+  @include at-media('tablet') {
+    padding: 0;
+  }
+
+  &__name {
+    padding: 3rem 0 .5rem;
+    color: color($theme-color-chp-blue-darkest);
+    border-bottom: 2px solid #112e51;
+  }
+
+  &__header {
+    display: block;
+    color: color($theme-color-chp-blue-darkest);
+  }
+
+  &__overview {
+    @include at-media('tablet') {
+      @include grid-row;
+      @include grid-gap;
+    }
+  }
+
+  &__locations,
+  &__details {
+    @include at-media('tablet') {
+      @include grid-col(6);
+    }
+  }
+}
+
+.smeqa-cx-agency-position {
+  &__list {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  &__header {
+    margin-bottom: .5rem;
+    margin-top: 1rem;
+  }
+
+  &__item {
+    display: block;
+  }
+
+  &__value {
+    margin-top: 0;
+    margin-bottom: .5rem;
+  }
+}

@@ -1,0 +1,134 @@
+---
+layout: hiring-action
+section: actions
+permalink: /info/cx-govwide/
+header: Customer Experience Positions
+title: Customer Experience Strategist positions open across the federal government
+---
+
+<section class="usa-hero smeqa-cx__hero" aria-label="Introduction">
+  <div class="grid-container">
+    <h1>
+      We’re Hiring! Join the pioneers transforming the way government serves the public
+    </h1>
+    <p>
+      Customer Experience Strategist positions currently open across the federal government.
+    </p>
+  </div>
+</section>
+<div class="grid-container">
+  <div class="grid-row grid-gap">
+    <main id="main-content" role="main" class="margin-bottom-9 padding-y-3 padding-x-2">
+      <h4>Helpful terms to know when reading the position descriptions below</h4>
+      <p class="smeqa-cx-agency__note">
+        GS is an abbreviation for General Schedule, a pay scale that agencies use to set pay bands. The number following GS is a grade and refers to the pay scale which sets the pay level and qualifications for the job. These positions may be open at the agencies listed at grades 13, 14, and/or 15.
+      </p>
+
+
+      {% assign agencies = site.data.hiring-actions.cx %}
+      {% for org in agencies %}
+        {% assign short-name = org.agency | slugify: 'pretty' %}
+        {% assign num = forloop.index %}
+      <div class="smeqa-cx-agency">
+        <h2 class="smeqa-cx-agency__name" id="{{ short-name }}">
+          {{ org.agency }}
+        </h2>
+        <h4 class="smeqa-cx-agency__po">{{ org.program-office }}</h4>
+
+        {{ org.role-summary }}
+
+        <div class="smeqa-cx-agency__overview">
+          <div class="smeqa-cx-agency__details">
+            <h3 class="smeqa-cx-agency__header">
+              Overview
+            </h3>
+            <div class="smeqa-cx-agency-position">
+              <ul class="smeqa-cx-agency-position__list">
+                <li class="smeqa-cx-agency-position__item">
+                  <h5 class="smeqa-cx-agency-position-oveview__header">
+                    Open positions
+                  </h5>
+                  <ul class="smeqa-cx-agency__grades">
+                    {% for grade in org.open-positions %}
+                    <li><strong>GS-{{ grade.level }}</strong>: {{grade.open }}</li>
+                    {% endfor %}
+                  </ul>
+                </li>
+                <li class="smeqa-cx-agency-position__item">
+                  <h5 class="smeqa-cx-agency-position__header">
+                    Promotion potential
+                  </h5>
+                  <p class="smeqa-cx-agency-position__value">
+                    {{ org.promotion-potential }}
+                  </p>
+                </li>
+              </ul>
+              <ul class="smeqa-cx-agency-position__list">
+                <li class="smeqa-cx-agency-position__item">
+                  <h5 class="smeqa-cx-agency-position__header">
+                    Position sensitivity &amp; risk / Security clearance
+                  </h5>
+                  <p class="smeqa-cx-agency-position__value">
+                    {{ org.sensitivity-and-risk }}
+                  </p>
+                </li>
+                <li class="smeqa-cx-agency-position__item">
+                  <h5 class="smeqa-cx-agency-position__header">
+                    Drug test required
+                  </h5>
+                  <p class="smeqa-cx-agency-position__value">
+                    {{ org.drug-test }}
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="smeqa-cx-agency__locations">
+            <h3 class="smeqa-cx-agency__header">
+              Locations
+            </h3>
+            <ul class="smeqa-cx-agency-position__list">
+            {% for location in org.locations %}
+              <li class="smeqa-cx-agency-position__item">
+                <p class="smeqa-cx-agency-position__value">
+                  {{ location.name }}
+                </p>
+              </li>
+            {% endfor %}
+              <li class="smeqa-cx-agency-position__item">
+                <h5 class="smeqa-cx-agency-position__header">
+                  Relocation paid
+                </h5>
+                <p class="smeqa-cx-agency-position__value">
+                  {{ org.relocation }}
+                </p>
+              </li>
+              <li class="smeqa-cx-agency-position__item">
+                <h5 class="smeqa-cx-agency-position__header">
+                  Telework eligible
+                </h5>
+                <p class="smeqa-cx-agency-position__value">
+                  {{ org.telework }}
+                </p>
+              </li>
+              <li class="smeqa-cx-agency-position__item">
+                <h5 class="smeqa-cx-agency-position__header">
+                  Travel required
+                </h5>
+                <p class="smeqa-cx-agency-position__value">
+                  {% if org.travel-occassional %}
+                  Occasional travel - You may be expected to travel for this position.
+                  {% else %}
+                    {{ org.travel-percentage }} of the time
+                  {% endif %}
+                </p>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+      {% endfor %}
+    </main>
+  </div>
+</div>

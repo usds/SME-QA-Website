@@ -75,8 +75,7 @@ applicant = site.data.applicants.engineering | sample %}
           </h4>
         </div>
       </div>
-      {% for comp in comptencies %} {% assign short-name = comp.competency |
-      slugify: 'pretty' %} {% assign num = forloop.index %}
+      {% for comp in comptencies %} {% assign short-name = comp.competency | slugify: 'pretty' %} {% assign num = forloop.index %}
       <div class="grid-row">
         <div class="grid-col-9">
           <div

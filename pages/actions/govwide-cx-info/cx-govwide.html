@@ -73,14 +73,21 @@ joa-url: https://www.uat.usajobs.gov/GetJob/ViewDetails/3263817700
             <div class="smeqa-cx-agency-position">
               <ul class="smeqa-cx-agency-position__list">
                 <li class="smeqa-cx-agency-position__item">
-                  <h5 class="smeqa-cx-agency-position-oveview__header">
+                  <h5 class="smeqa-cx-agency-position__header">
                     Open positions at grade level
                   </h5>
+                  {% if org.open-positions.size > 1 %}
                   <ul class="smeqa-cx-agency__grades">
                     {% for grade in org.open-positions %}
                     <li><strong>GS-{{ grade.level }}</strong>: {{grade.open }}</li>
                     {% endfor %}
                   </ul>
+                  {% else %}
+                    <p class="smeqa-cx-agency-position__value">
+                    {% assign grade = org.open-positions.first %}
+                      <strong>GS-{{ grade.level }}</strong>: {{grade.open }}
+                    </p>
+                  {% endif %}
                 </li>
                 <li class="smeqa-cx-agency-position__item">
                   <h5 class="smeqa-cx-agency-position__header">

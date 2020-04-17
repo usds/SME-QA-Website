@@ -10,18 +10,12 @@
 
 .smeqa-cx {
   &__hero {
-    background-image: transparent;
+    background-image: none;
     background-color: color($theme-color-chp-blue-darkest);
   }
 }
 
 .smeqa-cx-agency {
-  @include at-media('tablet') {
-  }
-  @include at-media('tablet') {
-    padding: 0;
-  }
-
   &__name {
     padding: 3rem 0 .5rem;
     color: color($theme-color-chp-blue-darkest);
@@ -59,6 +53,10 @@
   &__header {
     margin-bottom: .5rem;
     margin-top: 1rem;
+  }
+
+  &__location {
+    margin: .5rem 0;
   }
 
   &__item {

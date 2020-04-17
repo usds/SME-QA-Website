@@ -1,6 +1,7 @@
 cx:
-  - agency: Consumer Financial Protection Bureau
-    program-office: Office of Chief Experience Officer
+  - agency: Consumer Financial Protection Bureau (CFPB)
+    program-office: Office of Chief Experience Officer (OCXO)
+    program-office-link: "https://www.consumerfinance.gov/about-us/the-bureau/"
     main-point-of-contact:
       - name: Lindsay Bacon
         email: lindsay.bacon@cfpb.gov
@@ -21,9 +22,10 @@ cx:
     travel-occassional: true
     sensitivity-and-risk: "Tier 2 (non-sensitive, moderate risk, public trust)"
     drug-test: "No"
-    role-summary: "<p>The Office of the Chief Experience Officer (OCXO) is seeking entrepreneurial experience strategists interested in shaping a new team at a young agency while solving some of the Bureau’s most pressing workforce challenges. The OCXO, recently formed within the Operations Division, is tasked with supporting, building, and scaling products and services that enhance the experience of Bureau staff both at headquarters and in the field. This role is unique because in addition to client service, you’ll have the opportunity to put your imprint on a new government experience team as a founding member. Candidates with experience in service design, user research, product development and management, CX maturity modeling, project management, and a drive to collaboratively “get stuff done” will thrive in this role.</p>"
+    role-summary: "<p>CFPB aims to make consumer financial markets work for consumers, responsible providers, and the economy as a whole. We protect consumers from unfair, deceptive, or abusive practices and take action against companies that break the law. We arm people with the information, steps, and tools that they need to make smart financial decisions. OCXO is seeking entrepreneurial experience strategists interested in shaping a new team at a young agency while solving some of the Bureau’s most pressing workforce challenges. OCXO is tasked with supporting, building, and scaling products and services that enhance the experience of Bureau staff both at headquarters and in the field. This role is unique because in addition to client service, you’ll have the opportunity to put your imprint on a new government experience team as a founding member. Candidates with experience in service design, user research, product development and management, CX maturity modeling, project management, and a drive to collaboratively \"get stuff done\" will thrive in this role.</p>"
   - agency: Department of Education
-    program-office: Federal Student Aid
+    program-office: Federal Student Aid (FSA)
+    program-office-link: "https://studentaid.gov/"
     main-point-of-contact:
       - name: Abraham Marinez
         email: Abraham.Marinez@ed.gov
@@ -45,9 +47,10 @@ cx:
     travel-percentage: "5-10%"
     sensitivity-and-risk: "Tier 2 (non-sensitive, moderate risk, public trust)"
     drug-test: "No"
-    role-summary: "<p>FSA is currently seeking a full-time Management and Program Analyst (UX Product Designer). The User Experience Designer  will support user experience (UX) and user interface (UI) work as part of an effort to consolidate all of FSA’s customer-facing websites into a single mobile-first digital platform, including the content and functionality of StudentAid.ed.gov, StudentLoans.gov, MyEdDebt.gov, NSLDS.gov, FAFSA.gov, and third-party loan servicer websites. The new digital platform will provide customers with a personalized, self-service experience across multiple channels, robust self-service options, and seamless escalation to additional support when needed.</p>"
+    role-summary: "<p>FSA serves more than 42 million customers and has one of the largest consumer loan portfolios in the country (over $1.3 trillion). FSA is currently  driving the Next Gen Federal Student Aid (Next Gen FSA) initiative, which takes big steps toward improving the way students, parents, and borrowers interact with and access the benefits of the programs administered by FSA. In this role, you will join a team consolidating all of our customer-facing websites into a single mobile-first digital platform, including the content and functionality of StudentAid.ed.gov, StudentLoans.gov, MyEdDebt.gov, NSLDS.gov, FAFSA.gov, and third-party loan servicer websites. We need experienced designers that can help to shape our digital platform that will provide customers with a personalized, self-service experience across multiple channels, robust self-service options, and seamless additional support when needed.</p>"
   - agency: General Services Administration
-    program-office: Office of Customer Experience
+    program-office: Office of Customer Experience (OCE)
+    program-office-link: "https://federalnewsnetwork.com/commentary/2018/10/why-the-customers-experience-is-important-to-gsa-government/"
     main-point-of-contact:
       - name: Matt Ford
         email: matthew.ford@gsa.gov
@@ -65,9 +68,10 @@ cx:
     travel-occassional: true
     sensitivity-and-risk: "Tier 2 (non-sensitive, moderate risk, public trust)"
     drug-test: "No"
-    role-summary: "<p></p>"
+    role-summary: "<p>GSA aims to deliver value and savings in real estate, acquisition, technology, and other mission-support services - empowering government to achieve a diverse set of critical missions more effectively and efficiently. One of the leading customer experience offices in all of Federal government, OCE elevates customer voices and values to ultimately improve the end-to-end experience of GSA customers by aligning operations to customer needs. OCE is looking for talented individuals to help in the following areas: (1) Research: OCE collaborates with teams to frame, study, and understand GSA customer needs through qualitative and quantitative research; (2) Strategy: OCE works across GSA to develop strategies and action plans to achieve customer-centric goals based on customer research data; (3) Pilots: OCE partners with GSA teams to prototype service, product, and process innovations to improve customer experiences; and (4) Capacity Building: OCE helps teams and individuals across GSA to better understand customer experiences and adapt to shifting needs and preferences.</p>"
   - agency: Department of Health and Human Services
-    program-office: CMS Office of Communications
+    program-office: Centers for Medicare & Medicaid Services (CMS)
+    program-office-link: "https://www.cms.gov/About-CMS/Agency-Information/CMSLeadership/Office_OC"
     main-point-of-contact:
     - name: Michele Broccolino
       email: michele.broccolino@cms.hhs.gov
@@ -90,9 +94,10 @@ cx:
     travel-occassional: true
     sensitivity-and-risk: "Tier 1 (non-sensitive, low risk)"
     drug-test: "No"
-    role-summary: "<p>This position is located in the Division of Web Experience, Web & Emerging Technologies Group, Office of Communications at the Centers for Medicare & Medicaid Services in Baltimore, MD.</p><p>The incumbent in this position is a user experience specialist. This individual supports the online customer experience for several of the largest Federal programs, including the Medicare and Health Insurance Marketplace programs.</p><p>On a day-to-day basis, this individual:</p><ul><li>Integrates user-centered and user experience (UX) design principles with agile development methodologies;</li></li>Implements and evaluates new methods and approaches to UX design; and</li><li>Employs design thinking across all major development efforts including ideation workshops, facilitation of discovery, and solution conceptualization.</li></ul>"
+    role-summary: "<p>CMS operates two of the nation's largest and highest-impact Federal services: Medicare and the Health Insurance Exchanges (Marketplace). More than 60 million individuals receive health coverage through Medicare, and the Marketplace enables more than 10 million people annually to find health coverage. From the call center to our websites, our integrated Office of Communications is the front door connecting the public with critical information about both of these services and ensures we constantly understand our customer to better design for and with them. You will join an impressive team in our Division of Web Experience, Web & Emerging Technologies Group working to constantly rethink our online customer experience by integrating user-centered design principles with agile development methodologies, test and evaluate new methods and approaches to our experience design, and employ design thinking across all of our major product development efforts.</p>"
   - agency: Department of State
-    program-office: Bureau of Conflict and Stabilization Operations (Executive Office)
+    program-office: Bureau of Conflict and Stabilization Operations, Executive Office (CSO)
+    program-office-link: "https://www.state.gov/bureaus-offices/under-secretary-for-civilian-security-democracy-and-human-rights/bureau-of-conflict-and-stabilization-operations/"
     main-point-of-contact:
     - name: Kisha Newman
       email: NewmanKD@state.gov
@@ -109,11 +114,12 @@ cx:
     telework: "Yes"
     travel-occassional: false
     travel-percentage: "10%"
-    sensitivity-and-risk: "Secret"
+    security-clerance: "Secret"
     drug-test: "Yes"
-    role-summary: "<p>You can make a difference in the world with a career at the Department of State! We are hiring experienced professionals in the Bureau of Conflict and Stabilization Operations – the organization responsible for anticipating, preventing, and responding to conflict that undermines U.S. national interests.  To fulfill our mission, we collaborate internally and with DOD and USAID and detail stabilization advisors to posts and Geographic Combatant Commands.  In this position, you will serve as a Senior Advisor and Consultant reporting to the Executive Director who is responsible for providing internal bureau support services (budget, HR, travel, etc.) and will serve on special assignments across the Bureau in order to improve the services provided by our dedicated CSO staff across around the world, including the Asian and African regions.  Don’t miss out on this exciting opportunity to join our team! <a href=\"https://www.state.gov/bureaus-offices/under-secretary-for-civilian-security-democracy-and-human-rights/bureau-of-conflict-and-stabilization-operations/\" target=\"_blank\">Learn more about the Bureau of Conflict and Stabilization Operations</a>.</p>"
+    role-summary: "<p>CSO is responsible for anticipating, preventing, and responding to conflict that undermines U.S. national interests. To fulfill our mission, we collaborate with the Department of Defense and U.S. Agency for International Development, providing these agencies with stabilization advisors to posts and Geographic Combatant Commands. We're seeking someone to join our team to apply a customer experience lens to our work, serving as a Senior Advisor and Consultant reporting to the Executive Director who is responsible for providing internal bureau support services (budget, HR, travel, etc.), and complete special assignments across the Bureau in order to improve the services provided by our dedicated CSO staff across around the world, including the Asian and African regions.</p>"
   - agency: Department of State
-    program-office: Bureau of Global Public Affairs, Executive Office
+    program-office: Bureau of Global Public Affairs, Executive Office (GPA)
+    program-office-link: "https://www.state.gov/bureaus-offices/under-secretary-for-public-diplomacy-and-public-affairs/bureau-of-global-public-affairs/"
     main-point-of-contact:
     - name: Hattie Jones
       email: JonesHO2@state.gov
@@ -121,18 +127,19 @@ cx:
     open-positions:
       - level: 15
         open: 1
-    promotion-potential: "GS-15"
+    promotion-potential: "No"
     locations:
       - name: "Washington, DC"
     relocation: "No"
     telework: "Yes"
     travel-occassional: false
     travel-percentage: "10%"
-    sensitivity-and-risk: "Secret"
+    security-clerance: "Secret"
     drug-test: "Yes"
-    role-summary: "<p>You can make a difference in the world with a career at the Department of State! Consider a career in the Bureau of Global Public Affairs (GPA) – we are an integrated, agile, fast-moving, data-centric communications team that executes creative and strategic global campaigns to advance American foreign policy and values. GPA is dedicated to analytics and research, creative content, integrated media, and client and resource management.​  You will serve as a Senior Advisor and Consultant reporting to the Executive Director who is responsible for providing internal bureau support services (budget, HR, travel, etc.) and will serve on special assignments across the Bureau to improve the customer experiences provided by our staff in Miami, New York and our four international centers.  Don’t miss out! <a href=\"https://www.state.gov/bureaus-offices/under-secretary-for-public-diplomacy-and-public-affairs/bureau-of-global-public-affairs/\" target=\"_blank\">Learn more about the Bureau of Global Public Affairs</a></p>"
+    role-summary: "<p>GPA serves the American people by effectively communicating U.S. foreign policy priorities and the importance of diplomacy to American audiences, and engaging foreign publics to enhance their understanding of and support for the values and policies of the United States. We are an integrated, agile, fast-moving, data-centric communications team that executes creative and strategic global campaigns to advance American foreign policy and values. GPA is dedicated to analytics and research, creative content, integrated media, and client and resource management.​ You will serve as a Senior Advisor and Consultant reporting to the Executive Director who is responsible for providing internal bureau support services (budget, HR, travel, etc.) and will serve on special assignments across the Bureau to improve the customer experiences provided by our staff in Miami, New York and our four international centers.</p>"
   - agency: Department of State
-    program-office: Bureau of Global Talent Management
+    program-office: Bureau of Global Talent Management (GTM)
+    program-office-link: "https://www.state.gov/about-us-bureau-of-global-talent-management/"
     main-point-of-contact:
     - name: Michael Phillips
       email: PhillipsMB@state.gov
@@ -149,11 +156,12 @@ cx:
     telework: "Yes"
     travel-occassional: false
     travel-percentage: "10%"
-    sensitivity-and-risk: "Top Secret"
+    security-clerance: "Top Secret"
     drug-test: "Yes"
-    role-summary: "<p>You can make a difference in the world with a career at the Department of State!  The Bureau of Global Talent Management (GTM) strives to recruit, retain, and sustain a diverse, talented, and inclusive workforce that is fully prepared to advance U.S. national security interests and American values in every corner of the world.  We are hiring senior advisors to serve as customer experience consultants for our GTM Senior HR Office Directors who are responsible for managing key human resources (HR) functions and services provided to our Civil and Foreign Service and/or Locally Employed workforces, including recruitment, career development, employee relations, and HR innovation.  Spark positive change in HR! <a href=\"https://www.state.gov/about-us-bureau-of-global-talent-management/\" target=\"_blank\">Learn more about the Bureau of Global Talent Management</a></p>"
+    role-summary: "<p>GTM strives to recruit, retain, and sustain a diverse, talented, and inclusive workforce that is fully prepared to advance U.S. national security interests and American values in every corner of the world. This is the office that manages the outstanding workforce of the State Department, which includes the Foreign Service (FS), Civil Service (CS), and Locally Employed Staff (LE) who contribute their passion and skills to finding solutions to America’s greatest foreign policy challenges. In this role, you will serve as a Senior Advisor to consult our senior leaders responsible for managing the human capital lifecycle for our people, applying a customer experience lens to recruitment, career development, employee relations, retirement, and innovating the entire HR system.</p>"
   - agency: Department of State
-    program-office: Bureau of Global Talent Management, Office of Talent Services
+    program-office: Bureau of Global Talent Management, Office of Talent Services (OTS)
+    program-office-link: "https://www.state.gov/about-us-bureau-of-global-talent-management/"
     main-point-of-contact:
     - name: Cyndi Mays
       email: MaysCL@state.gov
@@ -161,7 +169,7 @@ cx:
     open-positions:
       - level: 15
         open: 1
-    promotion-potential: "GS-15"
+    promotion-potential: "No"
     locations:
       - name: "Charleston, SC"
     relocation: "Yes"
@@ -170,9 +178,10 @@ cx:
     travel-percentage: "10%"
     sensitivity-and-risk: "Secret"
     drug-test: "Yes"
-    role-summary: "<p>You can make a difference in the world with a career at the Department of State!  Consider a Federal career in sunny and warm Charleston, South Carolina at our HR Service Center – the Department’s main talent acquisition and benefit operations center for our Foreign Service and Civil Service workforce and annuitants.  Reporting directly to the Director, you will serve as an autonomous and independent customer service advocate.  Join our dynamic team as we expand and transform our HR services and become the leading HR Service Provider.  Be our customer experience champion! <a href=\"https://www.state.gov/about-us-bureau-of-global-talent-management/\" target=\"_blank\">Learn more about the Bureau of Global Talent Management</a></p>"
-  - agency: U.S. Department of Agriculture
-    program-office: Farm Production and Conservation Customer Experience Division
+    role-summary: "<p>In this exciting new role, you will serve as a customer experience champion helping to transform the way we work, reporting directly to the Director in beautiful, sunny Charleston, South Carolina! The OTS Service Center here is the agency's main talent acquisition and benefit operations center for our Foreign Service and Civil Service workforce and annuitants. We're looking for an entrepreneurial individual that can work autonomously and independently to help us expand our dynamic team and transform the way we deliver our human capital supporting services, enabling the critical workforce that achieves the mission of the United States State Department.</p>"
+  - agency: Department of Agriculture
+    program-office: "Farm Production and Conservation Customer Experience Division (FPAC)"
+    program-office-link: "https://www.farmers.gov/"
     main-point-of-contact:
     - name: Abena Apau
       email: abena.apau@usda.gov
@@ -185,15 +194,15 @@ cx:
     promotion-potential: "GS-15"
     locations:
       - name: "Washington, DC"
-      - name: "Virtual (any U.S. location)"
     relocation: "Yes"
     telework: "Yes"
     travel-occassional: true
     sensitivity-and-risk: "Tier 1 (non-sensitive, low risk)"
     drug-test: "No"
-    role-summary: "<p></p>"
+    role-summary: "<p>In his final message to Congress, President Lincoln called USDA \"The People's Department.\" More than 150 years later, Secretary Perdue continues this vision, driving USDA \"to be the most customer-focused department in the federal government.\" As part of this, we've integrated our services for the nation’s farmers, ranchers and other stewards of private agricultural lands and non-industrial forests. We are transforming our delivery models and  working across our more than 2,000 \"front doors\" in counties across the country. This position will serves as a Customer Experience Specialist to help build out an emerging customer experience capacity within the department, deploying onto diverse projects and working directly with programs to apply a customer lens, assessing the effectiveness and efficiency of our hundreds of services that support those that feed the nation and world.</p>"
   - agency: "U.S. Patent and Trademark Office"
-    program-office: Trademarks
+    program-office: Trademarks, Office of the Commissioner for Trademarks
+    program-office-link: "https://www.uspto.gov/trademark"
     main-point-of-contact:
     - name: Chelsea D'Angona
       email: chelsea.dangona@uspto.gov
@@ -215,9 +224,10 @@ cx:
     travel-percentage: "Less than 25%"
     sensitivity-and-risk: "Tier 2 (non-sensitive, moderate risk, public trust)"
     drug-test: "No"
-    role-summary: "<p>The Office of Trademarks is seeking a Trademarks Customer Experience Officer (CXO) to transform our internal and external customer experiences to create a best in class customer experience (CX) organization. The position will report directly to the Commissioner of Trademarks and will coordinate across our various business units and supporting functions.</p><p>The CXO will be responsible for developing and executing a Trademark-wide customer experience strategic plan, and will be the key representative for larger USPTO CX efforts. The CXO will engage the organization in improving understanding of customer needs to drive business decisions that will better support the design of programs and services and facilitate working together across organizational silos, to create a system of shared values and behaviors, for delivering a great customer experience. The ideal candidate will have a blended skill base that includes customer experience operations, business analytics, and performance and measurement expertise. Demonstrated ability in creating collaborative opportunities is a must, and strong facilitation skills are strongly desired. Some experience in User Experience or Human Centered Design is also highly desired.</p>"
+    role-summary: "<p>Our vision of leading the nation and the world in intellectual property begins by achieving world-class patent and trademark systems to serve our country and the global economy. Nearly 700,000 Trademarks were filed in 2019, and the Office of Trademarks is seeking a Customer Experience Officer (CXO) to transform our internal and external customer experiences to create a best in class CX organization for these filers. The position will report directly to the Commissioner of Trademarks and will coordinate across our various business units and supporting functions. The CXO will be responsible for developing and executing a Trademark-wide customer experience strategic plan, and will be the key representative for larger USPTO CX efforts. The CXO will engage the organization in improving understanding of customer needs to drive business decisions that will better support the design of programs and services and facilitate working together across organizational silos, to create a system of shared values and behaviors, and ultimately deliver a seamless customer experience.</p>"
   - agency: Veterans Affairs
-    program-office: Veterans Experience Office
+    program-office: Veterans Experience Office (VEO)
+    program-office-link: "https://www.va.gov/ve/"
     main-point-of-contact:
     - name: Airis Gill
       email: airis.gill@va.gov
@@ -241,9 +251,10 @@ cx:
     travel-percentage: "5-10%"
     sensitivity-and-risk: "Tier 1 (non-sensitive, low risk)"
     drug-test: "No"
-    role-summary: "<p>The Veterans Experience Office (VEO) supports VA as the Secretary of Veterans Affairs’ CX insight engine and a shared service to partner with, support, and enable the VA to provide the highest quality CX in the delivery of care, benefits, and memorial services to Servicemembers, Veterans, their families, caregivers, and survivors. Modeling after the private sector, VEO is implementing CX with 4 core capabilities (data, tools, technology, and engagement) which enables the VA to be the leading CX organization in government. The position will work directly with VEO leadership in support of the Secretary’s top priority of CX and include work with VA’s Customer Experience Institute (CXi). CXi enables the practical application of CX capabilities in VA and across government and is envisioned as a center of excellence for CX.</p>"
+    role-summary: "<p>One of the most robust and highest-capacity CX offices in government, VEO is the department's customer insight engine and a shared service to partner with, support, and enable the VA to provide the highest quality CX in the delivery of care, benefits, and memorial services to Service members, Veterans, their families, caregivers, and survivors. Modeling after the private sector, VEO implements its work through four core capabilities (data, tools, technology, and engagement) to support the Secretary's top priority of continually improving the experience of interacting with VA. The team has designed and delivered impressive initiatives that matter to our customers, all while measuring the degree to which we move the needle: after instituting a number of patient-experience focused initiatives like \"Red Coat\" navigators at hospitals, the we measured an increase in trust in 92% of all VA medical centers, and over 85% of outpatient customers saying they trust the VA to fulfill the country's commitment to Veterans. This role will focus on working with VEO leadership to stand-up VA's Customer Experience Institute (CXi), envisioned as a center of excellence that scales the practical application of CX capabilities in VA and across government.</p>"
   - agency: Veterans Affairs
-    program-office: Veterans Health Administration
+    program-office: Veterans Health Administration (VHA)
+    program-office-link: "https://www.va.gov/health/"
     main-point-of-contact:
     - name: Tracey Therit
       email: tracey.therit@va.gov
@@ -261,11 +272,10 @@ cx:
     promotion-potential: "No"
     locations:
       - name: "Washington, DC"
-      - name: "Virtual (any U.S. location)"
     relocation: "No"
     telework: "Yes"
     travel-occassional: true
     travel-percentage: "Less than 50%"
     sensitivity-and-risk: "Tier 2 (non-sensitive, moderate risk, public trust)"
     drug-test: "Yes"
-    role-summary: "<p>VHA is undergoing the largest transformation in its' history. We are reshaping the delivery of healthcare to our Veterans. this role is responsible for serving as a persuasive and inspiring thought leader bringing teams and clients together to tackle business challenges. This position requires a unique mix of critical thinking, creative problem-solving, teaching, scoping, and activating. A resourceful leader who can rely on his/her unique experiences to create innovative and practical solutions, often from scratch. This position will collaborate with clients to understand their business challenges and opportunities and to help identify and prioritize their near- and long-term goals. Lead projects that enhance employees understanding of our customers. Translate customer needs into business requirements to help drive improvement in processes and systems. Create effective communications across multiple customer bases to increase the ability to change the customer experience. Design business models that enhance and extend consumer experiences.</p>"
+    role-summary: "<p>VHA is America's largest integrated health care system, serving more than 9 million enrolled Veterans. VHA aims to honor America’s Veterans by providing exceptional health care that improves their health and well-being, and we are undergoing the largest transformation in our history. We are reshaping the delivery of healthcare, and need individuals that can serve as a persuasive and inspiring thought leaders to bring teams and clients together to tackle business challenges. This position requires a unique mix of critical thinking, creative problem-solving, teaching, scoping, and activating to embed a customer lens and improve CX capacity working with 170 VA Medical Centers and 1,063 outpatient clinics. We need resourceful leaders who can create and co-develop innovative and practical solutions, often from scratch. This position will collaborate with VHA clients to understand their business challenges and opportunities and to help identify and prioritize their near- and long-term goals, leading projects that enhance employees understanding of our customers and translating customer needs into business requirements to help drive improvement in processes and systems.</p>"

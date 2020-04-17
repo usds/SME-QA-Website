@@ -4,26 +4,31 @@ section: actions
 permalink: /info/cx-govwide/
 header: Customer Experience Positions
 title: Customer Experience Strategist positions open across the federal government
+joa-url: https://www.uat.usajobs.gov/GetJob/ViewDetails/3263817700
 ---
 
 <section class="usa-hero smeqa-cx__hero" aria-label="Introduction">
   <div class="grid-container">
     <h1>
-      We’re Hiring! Join the pioneers transforming the way government serves the public
+      Join the pioneers transforming the way government serves the public
     </h1>
-    <p>
-      Customer Experience Strategist positions currently open across the federal government.
-    </p>
+    <h4>
+      Customer Experience Strategist positions currently being filled through a single application form on usajobs.gov.
+    </h4>
+    <a href="{{ page.joa-url }}" class="usa-button usa-button--secondary">Apply now</a>
   </div>
 </section>
 <div class="grid-container">
   <div class="grid-row grid-gap">
     <main id="main-content" role="main" class="margin-bottom-9 padding-y-3 padding-x-2">
-      <h4>Helpful terms to know when reading the position descriptions below</h4>
-      <p class="smeqa-cx-agency__note">
-        GS is an abbreviation for General Schedule, a pay scale that agencies use to set pay bands. The number following GS is a grade and refers to the pay scale which sets the pay level and qualifications for the job. These positions may be open at the agencies listed at grades 13, 14, and/or 15.
-      </p>
-
+      <h4>What to know as you read the positions below</h4>
+      <ul>
+        <li>Each of these unique roles requires the competencies and experience described in the <a href="{{ page.joa-url }}">Customer Experience Strategist posting</a>.</li>
+        <li>GS is an abbreviation for "General Schedule", a federal government pay scale that agencies use to set pay bands. The number following GS is <a href="https://www.usajobs.gov/Help/faq/pay/series-and-grade/" target="_blank">a grade and sets the pay level</a> and qualifications for the job.</li>
+        <li>Customer Experience Strategist positions below may be at the GS 13, 14, or 15 level. The number following is the number of positions this agency is seeking to fill at this level.</li>
+        <li>To apply to any of the positions below, <a href="{{ page.joa-url }}" target="_blank">apply to this job announcement</a>. During the application process you will be asked which of the following positions you are interested in being considered for and at which GS level(s) and location(s).</li>
+        <li>A panel of subject matter experts will determine if you are qualified at the GS 13, 14, or 15 level. You may accept a position for a level that is below the one you are qualified for.</li>
+      </ul>
 
       {% assign agencies = site.data.hiring-actions.cx %}
       {% for org in agencies %}
@@ -33,7 +38,11 @@ title: Customer Experience Strategist positions open across the federal governme
         <h2 class="smeqa-cx-agency__name" id="{{ short-name }}">
           {{ org.agency }}
         </h2>
-        <h4 class="smeqa-cx-agency__po">{{ org.program-office }}</h4>
+        <h4 class="smeqa-cx-agency__po">
+          <a href="{{ org.program-office-link }}" target="_blank">
+            {{ org.program-office }}
+          </a>
+        </h4>
 
         {{ org.role-summary }}
 
@@ -46,7 +55,7 @@ title: Customer Experience Strategist positions open across the federal governme
               <ul class="smeqa-cx-agency-position__list">
                 <li class="smeqa-cx-agency-position__item">
                   <h5 class="smeqa-cx-agency-position-oveview__header">
-                    Open positions
+                    Open positions at grade level
                   </h5>
                   <ul class="smeqa-cx-agency__grades">
                     {% for grade in org.open-positions %}
@@ -66,10 +75,18 @@ title: Customer Experience Strategist positions open across the federal governme
               <ul class="smeqa-cx-agency-position__list">
                 <li class="smeqa-cx-agency-position__item">
                   <h5 class="smeqa-cx-agency-position__header">
-                    Position sensitivity &amp; risk / Security clearance
+                  {% if org.security-clerance %}
+                  Security clearance
+                  {% else %}
+                    Position sensitivity &amp; risk
+                  {% endif %}
                   </h5>
                   <p class="smeqa-cx-agency-position__value">
+                  {% if org.security-clerance %}
+                    {{ org.security-clerance }}
+                  {% else %}
                     {{ org.sensitivity-and-risk }}
+                  {% endif %}
                   </p>
                 </li>
                 <li class="smeqa-cx-agency-position__item">
@@ -90,7 +107,7 @@ title: Customer Experience Strategist positions open across the federal governme
             <ul class="smeqa-cx-agency-position__list">
             {% for location in org.locations %}
               <li class="smeqa-cx-agency-position__item">
-                <p class="smeqa-cx-agency-position__value">
+                <p class="smeqa-cx-agency-position__location">
                   {{ location.name }}
                 </p>
               </li>

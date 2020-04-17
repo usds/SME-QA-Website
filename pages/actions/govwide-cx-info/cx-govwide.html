@@ -7,6 +7,8 @@ title: Customer Experience Strategist positions open across the federal governme
 joa-url: https://www.uat.usajobs.gov/GetJob/ViewDetails/3263817700
 ---
 
+{% assign agencies = site.data.hiring-actions.cx %}
+
 <section class="usa-hero smeqa-cx__hero" aria-label="Introduction">
   <div class="grid-container">
     <h1>
@@ -15,37 +17,54 @@ joa-url: https://www.uat.usajobs.gov/GetJob/ViewDetails/3263817700
     <h4>
       Customer Experience Strategist positions currently being filled through a single application form on usajobs.gov.
     </h4>
-    <a href="{{ page.joa-url }}" class="usa-button usa-button--secondary">Apply now</a>
+    <a href="{{ page.joa-url }}" class="usa-button usa-button--secondary" target="_blank">Apply now</a>
   </div>
 </section>
 <div class="grid-container">
   <div class="grid-row grid-gap">
     <main id="main-content" role="main" class="margin-bottom-9 padding-y-3 padding-x-2">
-      <h4>What to know as you read the positions below</h4>
-      <ul>
-        <li>Each of these unique roles requires the competencies and experience described in the <a href="{{ page.joa-url }}">Customer Experience Strategist posting</a>.</li>
-        <li>GS is an abbreviation for "General Schedule", a federal government pay scale that agencies use to set pay bands. The number following GS is <a href="https://www.usajobs.gov/Help/faq/pay/series-and-grade/" target="_blank">a grade and sets the pay level</a> and qualifications for the job.</li>
-        <li>Customer Experience Strategist positions below may be at the GS 13, 14, or 15 level. The number following is the number of positions this agency is seeking to fill at this level.</li>
-        <li>To apply to any of the positions below, <a href="{{ page.joa-url }}" target="_blank">apply to this job announcement</a>. During the application process you will be asked which of the following positions you are interested in being considered for and at which GS level(s) and location(s).</li>
-        <li>A panel of subject matter experts will determine if you are qualified at the GS 13, 14, or 15 level. You may accept a position for a level that is below the one you are qualified for.</li>
-      </ul>
+      <div class="grid-row grid-gap">
+        <div class="tablet:grid-col">
+          <h4>What to know as you read the positions below</h4>
+          <ul>
+            <li>Each of these unique roles requires the competencies and experience described in the <a href="{{ page.joa-url }}" target="_blank">Customer Experience Strategist posting</a>.</li>
+            <li>GS is an abbreviation for "General Schedule", a federal government pay scale that agencies use to set pay bands. The number following GS is <a href="https://www.usajobs.gov/Help/faq/pay/series-and-grade/" target="_blank">a grade and sets the pay level</a> and qualifications for the job.</li>
+            <li>Customer Experience Strategist positions below may be at the GS 13, 14, or 15 level. The number following is the number of positions this agency is seeking to fill at this level.</li>
+            <li>To apply to any of the positions below, <a href="{{ page.joa-url }}" target="_blank">apply to this job announcement</a>. During the application process you will be asked which of the following positions you are interested in being considered for and at which GS level(s) and location(s).</li>
+            <li>A panel of subject matter experts will determine if you are qualified at the GS 13, 14, or 15 level. You may accept a position for a level that is below the one you are qualified for.</li>
+          </ul>
+        </div>
+        <div class="tablet:grid-col">
+          <aside class="sidenav">
+            <h4 class="smeqa-cx__agencies">High-Impact Service Providers who are hiring</h4>
+            <ul class="site-sidenav usa-sidenav">
+              {% for org in agencies %}
+                {% assign num = forloop.index %}
+              <li class="usa-sidenav__item is-current">
+                <a href="#{{ org.agency-abbrev }}-{{ num }}">
+                  {{ org.program-office }} at {{ org.agency-abbrev }}
+                </a>
+              </li>
+              {% endfor %}
+            </ul>
+          </aside>
+        </div>
+      </div>
 
-      {% assign agencies = site.data.hiring-actions.cx %}
       {% for org in agencies %}
-        {% assign short-name = org.agency | slugify: 'pretty' %}
         {% assign num = forloop.index %}
       <div class="smeqa-cx-agency">
-        <h2 class="smeqa-cx-agency__name" id="{{ short-name }}">
+        <h3 class="smeqa-cx-agency__name" id="{{ org.agency-abbrev }}-{{ num }}">
           {{ org.agency }}
-        </h2>
-        <h4 class="smeqa-cx-agency__po">
+        </h3>
+        <h2 class="smeqa-cx-agency__po">
           <a href="{{ org.program-office-link }}" target="_blank">
             {{ org.program-office }}
           </a>
-        </h4>
-
-        {{ org.role-summary }}
-
+        </h2>
+        <p class="smeqa-cx-agency__summary">
+          {{ org.role-summary }}
+        <p>
         <div class="smeqa-cx-agency__overview">
           <div class="smeqa-cx-agency__details">
             <h3 class="smeqa-cx-agency__header">
@@ -54,14 +73,21 @@ joa-url: https://www.uat.usajobs.gov/GetJob/ViewDetails/3263817700
             <div class="smeqa-cx-agency-position">
               <ul class="smeqa-cx-agency-position__list">
                 <li class="smeqa-cx-agency-position__item">
-                  <h5 class="smeqa-cx-agency-position-oveview__header">
+                  <h5 class="smeqa-cx-agency-position__header">
                     Open positions at grade level
                   </h5>
+                  {% if org.open-positions.size > 1 %}
                   <ul class="smeqa-cx-agency__grades">
                     {% for grade in org.open-positions %}
                     <li><strong>GS-{{ grade.level }}</strong>: {{grade.open }}</li>
                     {% endfor %}
                   </ul>
+                  {% else %}
+                    <p class="smeqa-cx-agency-position__value">
+                    {% assign grade = org.open-positions.first %}
+                      <strong>GS-{{ grade.level }}</strong>: {{grade.open }}
+                    </p>
+                  {% endif %}
                 </li>
                 <li class="smeqa-cx-agency-position__item">
                   <h5 class="smeqa-cx-agency-position__header">

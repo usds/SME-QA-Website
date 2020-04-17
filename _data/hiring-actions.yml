@@ -235,9 +235,7 @@ cx:
     open-positions:
       - level: 14
         open: 1
-      - level: 15
-        open: 1
-    promotion-potential: "GS-15"
+    promotion-potential: "No"
     locations:
       - name: "Washington, DC"
     relocation: "No"

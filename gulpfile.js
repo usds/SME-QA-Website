@@ -4,8 +4,9 @@
 const autoprefixer = require("autoprefixer");
 const browsersync = require("browser-sync");
 const cp = require("child_process");
-const del = require("del");
 const cssnano = require("cssnano");
+const del = require("del");
+const discardComments = require("postcss-discard-comments");
 const Fiber = require("fibers");
 const gulp = require("gulp");
 const log = require("fancy-log");
@@ -49,6 +50,7 @@ function css() {
   const processors = [
     // Autoprefix
     autoprefixer(autoprefixerOptions),
+    discardComments(),
     // Pack media queries
     mqpacker({ sort: true }),
     // Minify

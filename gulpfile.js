@@ -4,14 +4,13 @@
 const autoprefixer = require("autoprefixer");
 const browsersync = require("browser-sync");
 const cp = require("child_process");
-const cssnano = require("cssnano");
+const csso = require("postcss-csso");
 const del = require("del");
 const discardComments = require("postcss-discard-comments");
-const Fiber = require("fibers");
 const gulp = require("gulp");
 const log = require("fancy-log");
-const mqpacker = require("css-mqpacker");
 const postcss = require("gulp-postcss");
+const rename = require("gulp-rename");
 const sass = require("gulp-sass");
 const sourcemaps = require("gulp-sourcemaps");
 
@@ -47,33 +46,40 @@ function clean() {
 }
 
 function css() {
-  const processors = [
+  const pluginsProcess = [
     // Autoprefix
     autoprefixer(autoprefixerOptions),
-    discardComments(),
-    // Pack media queries
-    mqpacker({ sort: true }),
-    // Minify
-    cssnano({ autoprefixer: { browsers: autoprefixerOptions } })
+    discardComments()
   ];
+  const pluginsMinify = [csso({ forceMediaMerge: false })];
+
   return gulp
     .src("_scss/**/*.scss")
     .pipe(sourcemaps.init({ largeFile: true }))
     .pipe(
-      sass({
-        fiber: Fiber,
+      sass
+      .sync({
         includePaths: [
           "node_modules/uswds/dist/scss",
           "node_modules/uswds/dist/scss/packages",
           "_scss"
         ],
         outputStyle: "expanded"
-      }).on("error", sass.logError)
+      })
+      .on("error", sass.logError)
     )
-    .pipe(postcss(processors))
-    .pipe(sourcemaps.write("."))
+    .pipe(postcss(pluginsProcess))
     .pipe(gulp.dest("assets/stylesheets"))
-    .pipe(gulp.dest("_site/assets/stylesheets"));
+    .pipe(gulp.dest("_site/assets/stylesheets"))
+    .pipe(postcss(pluginsMinify))
+      .pipe(
+        rename({
+          suffix: ".min"
+        })
+      )
+      .pipe(sourcemaps.write("."))
+      .pipe(gulp.dest("assets/stylesheets"))
+      .pipe(gulp.dest("_site/assets/stylesheets"));
 }
 
 function jekyll(done) {

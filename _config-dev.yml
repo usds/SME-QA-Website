@@ -1,1 +1,3 @@
 baseurl: ""
+styles: styles.css
+print-styles: print-styles.css

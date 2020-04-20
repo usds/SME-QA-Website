@@ -67,7 +67,7 @@ cx:
     locations:
       - name: "Washington, DC"
     relocation: "No"
-    telework: "No"
+    telework: "Yes"
     travel-occassional: true
     sensitivity-and-risk: "Tier 2 (non-sensitive, moderate risk, public trust)"
     drug-test: "No"

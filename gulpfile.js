@@ -6,6 +6,7 @@ const browsersync = require("browser-sync");
 const cp = require("child_process");
 const del = require("del");
 const cssnano = require("cssnano");
+const Fiber = require("fibers");
 const gulp = require("gulp");
 const log = require("fancy-log");
 const mqpacker = require("css-mqpacker");
@@ -15,9 +16,13 @@ const sourcemaps = require("gulp-sourcemaps");
 
 const env = process.env.NODE_ENV || "prod";
 const config = require("./config/gulp/config");
+
 const autoprefixerOptions = config.browsers;
 const browserSyncConfig = config.browsersync.development;
+const task = "sass";
 const watchConfig = config.watch;
+
+sass.compiler = require("sass");
 
 function browserSync(done) {
   browsersync.init(browserSyncConfig);
@@ -54,6 +59,7 @@ function css() {
     .pipe(sourcemaps.init({ largeFile: true }))
     .pipe(
       sass({
+        fiber: Fiber,
         includePaths: [
           "node_modules/uswds/dist/scss",
           "node_modules/uswds/dist/scss/packages",

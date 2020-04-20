@@ -125,7 +125,7 @@ cx:
       phone: "202-472-8511"
     open-positions:
       - level: "13, 14, or 15"
-        open: 1
+        open: 2
     promotion-potential: "Hires at the GS-13 level can be promoted to GS-14. GS-14 & 15 have no promotion potential."
     locations:
       - name: "Washington, DC"
@@ -146,7 +146,7 @@ cx:
       phone: "202-736-4451"
     open-positions:
       - level: "13, 14, or 15"
-        open: 1
+        open: 2
     promotion-potential: "Hires at the GS-13 level can be promoted to GS-14. GS-14 & 15 have no promotion potential."
     locations:
       - name: "Washington, DC"

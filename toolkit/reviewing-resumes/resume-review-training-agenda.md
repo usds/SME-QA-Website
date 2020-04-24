@@ -1,15 +1,15 @@
 ---
 layout: article
-permalink: /toolkit/reviewing-resumes/resume-review-training-agenda/
+permalink:/toolkit/reviewing-resumes/resume-review-training-agenda/
 section: hiring-phases
-sidenav: hiring-phases
+sidenav: hiri ng-phases
 phase: reviewing-resumes
 title: Resume Review Training Agenda
 ---
 
 __Update and paste into the meeting invitation for your resume review training. All times are examples.__
 
-`1:00 PM` – `4:00 PM`  `<INSERT TIME ZONE>`, `<INSERT LOCATION>`
+`1:00 PM` – `4:00 PM` `<INSERT TIME ZONE>`, `<INSERT LOCATION>`, 
 
 ---
 
@@ -27,7 +27,7 @@ __Update and paste into the meeting invitation for your resume review training. 
 
 ---
 
-`1:50 PM` Learn how to write justification statements and about prohibited practices. (20 minutes)
+`1:50 PM` Learn how to write justification statements and about prohibited practices (20 min)
 
 ---
 

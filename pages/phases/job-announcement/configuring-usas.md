@@ -1,10 +1,10 @@
 ---
 layout: article
-permalink: /hiring-phases/assessment-strategy/configuring-usas/
+permalink: /hiring-phases/job-announcement/configuring-usas/
 section: hiring-phases
 title: Configuring USA Staffing for the SME-QA Process
 sidenav: hiring-phases
-phase: assessment-strategy
+phase: job-announcement
 sub-phase-order: 010
 intro: Set up USA Staffing to facilitate and support the SME-QA process.
 ---
@@ -57,7 +57,7 @@ Confirm which NOR message codes you will use for this process. We suggest the fo
 This assumes the standard SME-QA set up, using one *Resume Review* step and two *Interview* steps:
 1. In the Vacancy's **Assessment Package** page, go to the **Assessment Plan** tab and click the **New Assessment** button.
     ![USA Staffing create a new assessment](/assets/img/usas/assessment-package-new-assessment.png)
-    
+
 2. In the newly created **Assessment** tab, create and name assessments of type **manual** for each stage:
     ![USA Staffing create a manual assessmnent](/assets/img/usas/assessment-creation-manual.png)
     The specifics are as follows:
@@ -79,10 +79,10 @@ This assumes the standard SME-QA set up, using one *Resume Review* step and two 
         - **Maximum Raw Score**: 2
         - **Scoring**: Do not standardize scores
         ![USA Staffing create a manual assessment for interview 2](/assets/img/usas/assessment-create-interview2.png)
-        
+
 3. In the **Assessment Plan** tab, un-check the **Rating** column from the **Resume Review** assessment.
     ![USA Staffing unchecked resume review assessment rating](/assets/img/usas/assessment-set-up-complete.png)
-    
+
 4. In the **Categories** tab, ensure you have the following categories:
     - *Best Qualified*: **Final Rating Cutpoint**: 100
     - *Well Qualified*: **Final Rating Cutpoint**: 85

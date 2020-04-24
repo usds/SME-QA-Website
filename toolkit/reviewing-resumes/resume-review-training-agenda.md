@@ -9,7 +9,7 @@ title: Resume Review Training Agenda
 
 __Update and paste into the meeting invitation for your resume review training. All times are examples.__
 
-`1:00 PM` – `4:00 PM` `<INSERT TIME ZONE>`, `<INSERT LOCATION>`
+`1:00 PM` – `4:00 PM`  `<INSERT TIME ZONE>`, `<INSERT LOCATION>`
 
 ---
 

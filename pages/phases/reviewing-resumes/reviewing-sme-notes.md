@@ -4,7 +4,7 @@ permalink: /hiring-phases/reviewing-resumes/reviewing-sme-notes/
 section: hiring-phases
 sidenav: hiring-phases
 phase: reviewing-resumes
-sub-phase-order: 040
+sub-phase-order: 060
 title: Reviewing SME Resume Review
 intro: As SMEs submit their resume review notes, check their work and email them with any necessary feedback.
 ---

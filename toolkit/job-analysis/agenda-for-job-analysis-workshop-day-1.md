@@ -86,9 +86,91 @@ This agenda will take more than one day to accomplish. Edit it and insert breaks
       </td>
     </tr>
     <tr>
-      <th scope="row">4:15 pm</th>
+      <th scope="row">15 minutes</th>
       <td>
-        Wrap Up and Planning for Tomorrow
+        Confidentiality agreements
+        <ul>
+          <li>SMEs sign privacy agreement on testing materialsw</li>
+            <ul>
+              <li>HR should talk about importance of confidentiality test materials</li>
+              <li>Use this time to ensure everyone knows who is saving/storing the test materials</li>
+            </ul>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">30 min</th>
+      <td>
+        Review job tasks against competencies
+          <ul>
+            <li>Only needed if you are on day 2 of the workshop at this point and need to refresh SMEs</li>
+          </ul>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">1 hour 30 minutes</th>
+      <td>
+        Resume review exercise and competency/proficiency refinement
+        <ul>
+          <li>This is the most important exercise so far - the group will check its work to date</li>
+          <li>Hand SMEs sample resumes (ideally, difficult resumes) and have them review against the current drafts</li>
+          <li>Privately record SME responses, then show results</li>
+          <li>Group should go over results and iterate on materials to achieve:</li>
+          <ul>
+            <li>Clarity on if any competancies have more weight than others</li>
+            <li>Clarify on recency relevance for any competencies</li>
+            <li>Clarity on number of resumes pages to review (2-5)</li>
+          </ul>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">15 minutes</th>
+      <td>
+        Overview of assessments and tentative selections of assessment types
+        <ul>
+          <li>USDS suggests a first-round written assessment and second round oral interview</li>
+          <li>You can also use two interviews: one on breadth, one on depth</li>
+          <li>USDS is experimenting with other assessment methods</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">1 hour</th>
+      <td>
+        Create questions for first assessment
+        <ul>
+          <li>Break out into different groups to brainstorm question options</li>
+          <li>Bring group back together to choose specific questions</li>
+          <li>Split up against to draft attributes of answers at different proficiency levels</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">1 hour 15 min</th>
+      <td>
+        Create questions for second assessment
+        <ul>
+          <li>Follow similar process as before to create a mote intensive assessment</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">2:00 pm</th>
+      <td>
+        Group present breadth and depth questions and answers for feedback (1 hour)
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">3:00 pm</th>
+      <td>
+        Job Announcement: Summary and Responsibilities (1 hour)
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">4:00 pm</th>
+      <td>
+        Wrap up and Next Steps (timeline moving forward)
       </td>
     </tr>
   </tbody>

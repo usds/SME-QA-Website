@@ -5,83 +5,84 @@ section: hiring-phases
 sidenav: hiring-phases
 phase: job-analysis
 toolkit: true
-title: Agenda for Job Analysis Workshop - Day 1
-description: An agenda for the first of the 2 day job analysis activities.
+title: Agenda for Job Analysis Workshop
+description: A full job analysis agenda.
 ---
 
 ## Competencies/Proficiencies
 
+This agenda will take more than one day to accomplish. Edit it and insert breaks as needed depending on your start and ending times each day.
+
 <table class="usa-table usa-table--borderless chp-agenda">
   <thead>
     <tr>
-      <th scope="col">Time</th>
+      <th scope="col">Length</th>
       <th scope="col">Activity</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th scope="row">9:30 am</th>
+      <th scope="row">15 minutes</th>
       <td>Welcome, Introductions and Overview of the Day</td>
     </tr>
     <tr>
-      <th scope="row">9:45 am</th>
+      <th scope="row">1 hour</th>
       <td>
-        Job Task Exercise (1 hour)
+        Job task exercise
         <ul>
-          <li>Explain Exercise and Example Tasks (5 min)</li>
-          <li>Post it Exercise (10 min)</li>
-          <li>Put Post Its on Wall (15 min)</li>
-          <li>Group Post Its and Identify Competencies (30 min)</li>
+          <li>Explain exercise and example tasks (5 min)</li>
+          <li>Post-it exercise (10 min)</li>
+          <li>Put Post-its on wall (15 min)</li>
+          <li>Group Post-its and identify competencies (30 min)</li>
         </ul>
       </td>
     </tr>
     <tr>
-      <th scope="row">10:45 am</th>
+      <th scope="row">1 hour</th>
       <td>
-        Dot Voting and discussion of most critical competencies (1 hour)
-      </td>
-    </tr>
-    <tr>
-      <th scope="row">11:45 am</th>
-      <td>
-        Lunch (1 hour)
-      </td>
-    </tr>
-    <tr>
-      <th scope="row">12:45 pm</th>
-      <td>
-        Define Competencies (1 hour 15 min)
+        Dot voting and discussion of most critical competencies (1 hour)
         <ul>
-          <li>Use examples if needed from DOI and USDS</li>
-          <li>Definition should be 1-3 sentences, not a list of job tasks</li>
+          <li>Time required will depend on SME alignment</li>
         </ul>
       </td>
     </tr>
     <tr>
-      <th scope="row">2:00 pm</th>
+      <th scope="row">1 hour 15 min</th>
       <td>
-        Understanding Proficiency Levels (5 min)
-      </td>
-    </tr>
-    <tr>
-      <th scope="row">2:05 pm</th>
-      <td>
-        Create proficiency levels for each competency (1 hour 15 min)
+        Define Competencies
         <ul>
-          <li>Break into 2 groups and divide competencies between groups</li>
+          <li>Break into small groups to create drafts</li>
+            <ul>
+              <li>Leverage example competancies</li>
+              <li>Definition should be 1-3 sentences, not a list of job tasks</li>
+            </ul>
+          <li>Come back together as a group to validate drafts</li>
         </ul>
       </td>
     </tr>
     <tr>
-      <th scope="row">3:20 pm</th>
+      <th scope="row">5 min</th>
       <td>
-        Break
+        Explain Proficiency Levels
       </td>
     </tr>
     <tr>
-      <th scope="row">3:30 pm</th>
+      <th scope="row">1 hour 15 min</th>
       <td>
-        Discuss Proficiency Levels with Group (45 min)
+        Create proficiency levels for each competency
+        <ul>
+          <li>Break into groups as before and divide competencies between groups</li>
+          <li>Reference examples and have proficiencies build on each other</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">45 min</th>
+      <td>
+        Discuss and finalize proficiency levels with group
+        <ul>
+          <li>Time required will depend on SME alignment</li>
+        </ul>
       </td>
     </tr>
     <tr>

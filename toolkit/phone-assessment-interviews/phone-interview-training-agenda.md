@@ -13,22 +13,26 @@ description: An agenda for phone interview training
 
 ---
 
-`{HOUR}`	Where we are in the process (10 min)
+`{HOUR}`	Introductions (5 min)
 
 ---
 
-`{HOUR}`	Review interview template (45 min)
+`{HOUR}`	Overview (20 min)
+* Where we are in the process
+* Interviewing logistics
 
 ---
 
-`{HOUR}`	Demo of a structured phone interview (40 min)
+`{HOUR}`	Review interview template (75 min)
+* How the template works
+* Practice transcripts and determining scores
 
 ---
 
-`{HOUR}`	Practice determining scores from competencies (5 min)
+`{HOUR}`	Wrap up / discuss logistics and calendar (20 min)
 
 ---
 
-`{HOUR}`	Wrap up/discuss logistics and calendar (15 min)
+`{HOUR}`	End of training
 
 ---

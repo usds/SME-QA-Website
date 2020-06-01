@@ -20,7 +20,9 @@ For one to two recent DE actions for a similar GS level and series to the positi
 1. **Current qualified rate**: How many applications were considered qualified by an HR specialist.
 2. **Current selection rate**: The number of selections made off of the resulting certificates, represented numerically and as a percentage of qualified applications.
 
-Use our <a href="{{site.baseline}}/toolkit/getting-started/baseline-data-to-collect.xlsx">baseline data spreadsheet</a> in order to request data from your Talent Acquisition System.
+Use our <a href="{{site.baseline}}/toolkit/getting-started/baseline-data-to-collect.xlsx">baseline data spreadsheet</a> in order to request data from your Talent Acquisition System. 
+
+For USA Staffing customers, you can pull your baseline data by exporting the “Certificate Selection by Assessment Category” report in Cognos. It is located in the Team Content > USA Staffing Packages and Folders > Staffing Reports > Staffing > Certificate folder.
 
 ## Measuring your process
 

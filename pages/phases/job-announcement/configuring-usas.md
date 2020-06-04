@@ -6,13 +6,12 @@ title: Configuring USA Staffing for the SME-QA Process
 sidenav: hiring-phases
 phase: job-announcement
 sub-phase-order: 010
-intro: Set up USA Staffing to facilitate and support the SME-QA process.
+intro: Set up USA Staffing to facilitate and support the SME-QA process.<p><em>If you're a Monster customer, contact us at <a href="mailto:usds@omb.eop.gov">usds@omb.eop.gov</a> and we can share more information on how to make this process work within Monster for SME resume reviews.</em>
 ---
 
 <p class="usa-intro">
   {{ page.intro }}
 </p>
-
 In order to use USA Staffing in the SME-QA process, you will need to set up Manual Assessments. If the Manual Assessments option isn't available to you, contact your USA Staffing Office Administrator.
 
 ## Creating Manual Assessments

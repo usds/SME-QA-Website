@@ -5,7 +5,7 @@ section: hiring-phases
 title: Recruiting For Your Roles
 sidenav: hiring-phases
 phase: job-announcement
-sub-phase-order: 020
+sub-phase-order: 030
 intro: High applicant volume from USAJOBS often convinces agencies that they don't need to recruit for their positions. To attract highly qualified applicants who don't typically search USAJOBS, plan where you'll advertise your announcement before the job is posted using these common private sector recruitment methods.
 ---
 

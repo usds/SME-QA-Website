@@ -5,7 +5,7 @@ section: hiring-phases
 title: Plain Language Guidelines for Writing Your Job Announcement
 sidenav: hiring-phases
 phase: job-announcement
-sub-phase-order: 030
+sub-phase-order: 040
 intro: Ensure that each piece of information in your job announcement helps the job seeker to understand the work they'll do and how they'll be assessed. Review your job announcement before you publish it to ensure the best experience for applicants.
 ---
 

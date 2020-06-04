@@ -5,7 +5,7 @@ section: hiring-phases
 title: Creating a SME-QA job announcement
 sidenav: hiring-phases
 phase: job-announcement
-sub-phase-order: 010
+sub-phase-order: 020
 intro: When the content of your well-written job announcement is complete, create a draft announcement on USAJOBS.
 ---
 

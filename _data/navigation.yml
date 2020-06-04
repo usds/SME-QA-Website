@@ -57,6 +57,8 @@ hiring-phases:
     href: /hiring-phases/job-announcement/
     phase: job-announcement
     subnav:
+    - text: Configuring USA Staffing
+      href: "/hiring-phases/job-announcement/configuring-usas/"
     - text: Creating a SME-QA job announcement
       href: "/hiring-phases/job-announcement/creating-job-announcement/"
     - text: Recruiting for your roles
@@ -71,6 +73,8 @@ hiring-phases:
       href: "/hiring-phases/reviewing-resumes/prep/"
     - text: Set Up and Conduct Resume Review Training
       href: "/hiring-phases/reviewing-resumes/training/"
+    - text: Using USA Staffing for Resume Review
+      href: "/hiring-phases/reviewing-resumes/usas-for-rr/"
     - text: Guidance on Personal Relationships with Applicants
       href: "/hiring-phases/reviewing-resumes/personal-relationships/"
     - text: Conducting SME Resume Reviews

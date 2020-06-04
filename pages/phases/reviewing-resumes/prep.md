@@ -22,7 +22,7 @@ Instead of reviewing resumes to determine minimum qualification, review the tech
 
 ### Create Applicant Lists for SME Reviews
 
-Two SMEs will independently review each applicant's resume to determine whether they adequately reflect the required competencies and proficiencies, with a third SME conducting tiebreaker resume reviews if needed.
+In previous SME-QA pilots, two SMEs independently reviewed each applicant’s resume to determine whether they adequately reflect the required competencies and proficiencies, with a third SME conducting tiebreaker resume reviews if needed. If an agency wants to tweak this process, they should do so during their job analysis workshop.
 
 1. Decide how SMEs will review resumes. Either SMEs can review resumes and provide ratings directly within your TAS, or you can download all resumes for SMEs to conduct reviews outside your TAS.
 2. Divide applicants evenly among participating SMEs, assigning two SMEs to review each applicant's resume. For example, if you have 100 applicants and 6 SMEs, create two lists of 50 applicants and assign two SMEs to review each list. The additional two SMEs will conduct tiebreaker reviews only. If SMEs will use your TAS, create separate stored lists for each group of SMEs. If you'll export the applicant list and resumes on behalf of the SMEs, use a tracking spreadsheet to assign two SMEs to review each applicant.

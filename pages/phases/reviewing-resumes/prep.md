@@ -6,7 +6,7 @@ title: Preparing for Resume Reviews
 sidenav: hiring-phases
 phase: reviewing-resumes
 sub-phase-order: 010
-intro: Before you train subject matter experts to review resumes, prepare the applications that they'll review, as well as the talent acquisition system (TAS) accounts they'll need. This allows the SMEs to begin reviewing resumes immediately after they're trained.
+intro: Prior to training subject matter experts to review resumes, prepare the applications that they'll review, select the tools you will use to have the SMEs conduct review review, and decide if you will have 2 SMEs review each resume plus a tiebreaker or pursue a different approach. 
 ---
 
 <p class="usa-intro">
@@ -20,10 +20,20 @@ Before you send resumes to SMEs for review, mark applicants as ineligible if:
 
 Instead of reviewing resumes to determine minimum qualification, review the technical justification that SMEs provide to make sure their decision can be retraced later on. As HR specialist, you'll adjudicate veterans' preference after SMEs conduct phone assessment interviews.
 
-### Create Applicant Lists for SME Reviews
+### Decide on a Resume Review Platform for your SMEs
 
-In previous SME-QA pilots, two SMEs independently reviewed each applicant’s resume to determine whether they adequately reflect the required competencies and proficiencies, with a third SME conducting tiebreaker resume reviews if needed. If an agency wants to tweak this process, they should do so during their job analysis workshop.
+1. Create accounts for your SMEs to log onto your talent aquisition system to conduct their review. Monster customers who piloted SME-QA have used the Collaborate add-on to have SMEs review resumes and leave notes for HR to review. We have instructions manuals available upon request. USA Staffing customers can create "hiring manger" roles for the SMEs and assign stored lists for a pair of SMEs to review.  SMEs can leave their feedback in the "notes" field and HR can create a third stored list for the tiebreaker. In this process, SMEs have to reference the required competencies/proficiencies in a separate file. 
 
-1. Decide how SMEs will review resumes. Either SMEs can review resumes and provide ratings directly within your TAS, or you can download all resumes for SMEs to conduct reviews outside your TAS.
-2. Divide applicants evenly among participating SMEs, assigning two SMEs to review each applicant's resume. For example, if you have 100 applicants and 6 SMEs, create two lists of 50 applicants and assign two SMEs to review each list. The additional two SMEs will conduct tiebreaker reviews only. If SMEs will use your TAS, create separate stored lists for each group of SMEs. If you'll export the applicant list and resumes on behalf of the SMEs, use a tracking spreadsheet to assign two SMEs to review each applicant.
-3. If multiple roles or parentheticals are available for your hiring action, make sure the applicant's choices are clear to the SMEs before they begin resume review as there may be extra role-specific competencies for the SME to consider during their reviews.
+*Lessons learned from our pilots*: SMEs conducting resume review in USA Staffing found the 15-minute time outs after inactivity to be a significant challenge to completing this work.  They also struggled with remembering every requirement they had to review since their feedback was in a free-form notes field. HR had to send a lot of reviews back to SMEs to redo and clarify. Using USA Staffing for the resume review phase took took 19 and 12 days to complete in our first two pilots.
+
+2.  Batch download applicant resumes and send SMEs an excel chart with their assignments. There, SMEs can detail which competencies/proficiencies are met and can send the excel chart back to HR. If your agency is having two SMEs plus a tiebreaker review each resume, HR will want to merge the excel files and send a new assignment list to a third SME with any disagreements.  A sample excel chart for this purpose can be found in the Resume Review Toolkit.
+
+*Lessons learned from our pilots*:  In our third, the agency that used this approach was able to make resume review even more fair to applicants by manually blacking out the names of every applicant before sharing the batch download to the SMEs. In the excel tool, each applicant was assigned an identifying number. Having a dedicated HR project manager who could quickly merge and send out new lists helped the agency complete this step in only 5 days.
+
+3. USDS has partnered with OPM to build and test a resume review tool to expediate the resume review stage and ensure objectivity from SMEs. View the demo of this tool here: https://smeqa-demo.app.cloud.gov/login. Resumes must be separately batch downloaded and emailed to the participating SMEs. This tool automates the process of every resume needing two reviews and a tiebreaker if necessary. It also ensures SMEs can not see each others' decision. It allows HR to approve or reject the justification statements written by SMEs and provide them with feedback on their review. Finally, it gives HR metrics in real time regarding how many reviews are remaining.  This tool uses OPM's cloud.gov account and OPM's login.gov instance. It has an interium authority to operate and is available for testing in a limited number of pilots. In FY21 OPM plans to integrate these features direclty into USA Staffing.
+
+*Lessons learned from our pilots*: Two agencies recently piloted the Resume Review Tool and both were able to complete the resume review step in under a week.  Both agencies had 10-15 SMEs participating in resume review and this tool helped ensure the SMEs were remembering to only evaluate the applicants against the pre-defined proficiencies plus any additional requirements (52 weeks in grade, recency requirements, etc). This tool greatly reduced the work required by HR in setting up any lists and merging any lists. However, SMEs complained that the resumes were not integrated directly into the tool. 
+
+
+
+

@@ -6,7 +6,7 @@ title: Preparing for Resume Reviews
 sidenav: hiring-phases
 phase: reviewing-resumes
 sub-phase-order: 010
-intro: Before you train subject matter experts to review resumes, prepare the applications that they'll review, as well as the talent acquisition system (TAS) accounts they'll need. This allows the SMEs to begin reviewing resumes immediately after they're trained.
+intro: To prepare for resume review, you will set up your training materials, identify practice resumes, select the tooling you and SMEs will use to track results, and decide your review method (2 SMEs plus a tiebreaker or a different approach). 
 ---
 
 <p class="usa-intro">
@@ -20,10 +20,23 @@ Before you send resumes to SMEs for review, mark applicants as ineligible if:
 
 Instead of reviewing resumes to determine minimum qualification, review the technical justification that SMEs provide to make sure their decision can be retraced later on. As HR specialist, you'll adjudicate veterans' preference after SMEs conduct phone assessment interviews.
 
-### Create Applicant Lists for SME Reviews
+### Decide on a Resume Review Platform for your SMEs
 
-In previous SME-QA pilots, two SMEs independently reviewed each applicant’s resume to determine whether they adequately reflect the required competencies and proficiencies, with a third SME conducting tiebreaker resume reviews if needed. If an agency wants to tweak this process, they should do so during their job analysis workshop.
+#### Option 1: SMEs review within your talent acquisition system.
+You will create talent acquisition system accounts for your SMEs to access resumes and/or conduct reviews. SMEs will log in to review resumes and record their findings.
+  - Monster customers who piloted SME-QA used the Collaborate add-on to have SMEs review resumes and leave notes for HR to review. We have instructions manuals available upon request. 
+  - USA Staffing customers can create "hiring manger" roles for the SMEs and assign stored lists for a pair of SMEs to review.  SMEs can leave their feedback in the "notes" field and HR can create a third stored list for the tiebreaker. In this process, SMEs have to reference the required competencies/proficiencies in a separate file. 
 
-1. Decide how SMEs will review resumes. Either SMEs can review resumes and provide ratings directly within your TAS, or you can download all resumes for SMEs to conduct reviews outside your TAS.
-2. Divide applicants evenly among participating SMEs, assigning two SMEs to review each applicant's resume. For example, if you have 100 applicants and 6 SMEs, create two lists of 50 applicants and assign two SMEs to review each list. The additional two SMEs will conduct tiebreaker reviews only. If SMEs will use your TAS, create separate stored lists for each group of SMEs. If you'll export the applicant list and resumes on behalf of the SMEs, use a tracking spreadsheet to assign two SMEs to review each applicant.
-3. If multiple roles or parentheticals are available for your hiring action, make sure the applicant's choices are clear to the SMEs before they begin resume review as there may be extra role-specific competencies for the SME to consider during their reviews.
+*Lessons learned from our pilots*: SMEs struggled with USA Staffing timing them out after 15 minutes of inactivity.  They also struggled to remember every requirement for their review, since their feedback was in a free-form notes field. HR had to send a lot of reviews back to SMEs to redo and clarify. Using USA Staffing for the resume review phase took took 19 and 12 days to complete in our first two pilots.
+
+#### Option 2 - SMEs work using standard office tooling.
+ - HR will batch download applicant resumes to distribute to SMEs and send their assignments in a chart (excel or equivalent).
+- SMEs will detail which competencies/proficiencies are met and can send the excel chart back to you. 
+- If using two SMEs plus a tiebreaker, HR will merge the excel files and send a new assignment list to a third SME with any disagreements.  A sample excel chart for this purpose can be found in the Resume Review Toolkit.
+
+*Lessons learned from our pilots*:  In our third pilot, the agency using this approach made resume review more fair to applicants by manually blacking out the names of every applicant before sharing the batch download to the SMEs. In the excel tool, each applicant was assigned an identifying number. Having a dedicated HR project manager to quickly manage review lists helped the agency complete this step in only 5 days.
+
+#### Option 3 - use the cloud-hosted resume review tool
+USDS has partnered with OPM to build and test a resume review tool to expedite the resume review stage and ensure objectivity from SMEs. View the demo of this tool here: https://smeqa-demo.app.cloud.gov/login. Resumes must be separately batch downloaded and emailed to the participating SMEs. This tool automates the process of every resume needing two reviews and a tiebreaker if necessary. It also ensures SMEs can not see each others' decision. It allows HR to approve or reject the justification statements written by SMEs and provide them with feedback on their review. Finally, it gives HR metrics in real time regarding how many reviews are remaining.  This tool uses OPM's cloud.gov account and OPM's login.gov instance. It has an interium authority to operate and is available for testing in a limited number of pilots. In FY21 OPM plans to integrate these features direclty into USA Staffing.
+
+*Lessons learned from our pilots*: Two agencies recently piloted the Resume Review Tool and both were able to complete the resume review step in under a week.  Both agencies had 10-15 SMEs participating in resume review and this tool helped ensure the SMEs only evaluated the applicants against the pre-defined proficiencies and any additional requirements (52 weeks in grade, recency requirements, etc). This tool greatly reduced the work required by HR in setting up any lists and merging any lists. However, SMEs complained about the friction of finding resumes in the batch download and asked for them to integrated into the tool. 

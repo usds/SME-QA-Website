@@ -20,6 +20,7 @@ Before you send resumes to SMEs for review, mark applicants as ineligible if:
 
 Instead of reviewing resumes to determine minimum qualification, review the technical justification that SMEs provide to make sure their decision can be retraced later on. As HR specialist, you'll adjudicate veterans' preference after SMEs conduct phone assessment interviews.
 
+
 ### Decide on a Resume Review Platform for your SMEs
 
 #### Option 1 - SMEs review within your talent acquisition system.
@@ -40,3 +41,8 @@ You will create talent acquisition system accounts for your SMEs to access resum
 USDS has partnered with OPM to build and test a resume review tool to expedite the resume review stage and ensure objectivity from SMEs. View the demo of this tool here: https://smeqa-demo.app.cloud.gov/login. Resumes must be separately batch downloaded and emailed to the participating SMEs. This tool automates the process of every resume needing two reviews and a tiebreaker if necessary. It also ensures SMEs can not see each others' decision. It allows HR to approve or reject the justification statements written by SMEs and provide them with feedback on their review. Finally, it gives HR metrics in real time regarding how many reviews are remaining.  This tool uses OPM's cloud.gov account and OPM's login.gov instance. It has an interim authority to operate and is available for testing in a limited number of pilots. In FY21 OPM plans to integrate these features directly into USA Staffing.
 
 *Lessons learned from our pilots*: Two agencies recently piloted the Resume Review Tool and both were able to complete the resume review step in under a week.  Both agencies had 10-15 SMEs participating in resume review and this tool helped ensure the SMEs only evaluated the applicants against the pre-defined proficiencies and any additional requirements (52 weeks in grade, recency requirements, etc). This tool greatly reduced the work required by HR in setting up any lists and merging any lists. However, SMEs complained about the friction of finding resumes in the batch download and asked for them to integrated into the tool. 
+
+
+### Using an "exceeds" score in resume review
+
+If you are hiring for only 1-3 openings and still using this process, you may want to use three levels in resume review: does not meet, meets, and exceeds. Make sure SMES can see the different proficiencies for “meets” and “exceeds” during resume review. Resume review becomes both a pass/fail against the minimal qualifications bar as well as a rating process. You can then pull a "ranking list" of the "exceeds" applicants and CPS veterans who "meet" so that you only need to assess that smaller group in the next assessment round (e.g. structured interviews or written prompt)."

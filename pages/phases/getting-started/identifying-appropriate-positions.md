@@ -22,6 +22,10 @@ Your position description (PD) should reflect adequate specialized experience to
 
 ### Identify Billets
 
-To be efficient with SME time, we recommend having at least three and ideally five or more opening/billets to fill in your hiring action. That said, your agency may have single role openings that justify investing the time to run a SME-QA qualification process.  SME-QA also includes mechanisms to reduce required effort that might be useful when doing few selections, such as [using an exceeds score in resume review](/hiring-phases/reviewing-resumes/prep/#using-an-exceeds-score-in-resume-review).
+To be efficient with SME time, we recommend having at least three and ideally five or more opening/billets to fill in your hiring action. 
 
-To make the effort more worthwhile, you can share your certificate with another office or agency with vacancies for the same position. If doing this, consider bringing on SMEs from that office to help minimize individual burden. You can also combine billets in one hiring actions with multiple parenthetical roles that require slightly different competancies.
+That said, your agency may have single role openings that justify investing the time to run a SME-QA qualification process.  SME-QA also includes mechanisms to reduce required effort that might be useful when doing few selections, such as [using an exceeds score in resume review](/hiring-phases/reviewing-resumes/prep/#using-an-exceeds-score-in-resume-review). However, if you have multiple openings, you will likely bring in a diverse group of hires and reach more applicants on your cert. 
+
+To make the effort more worthwhile, you can share your certificate with another office or agency with vacancies for the same position. If doing this, consider bringing on SMEs from that office to help minimize individual burden. 
+
+You can also combine billets in one hiring actions with multiple parenthetical roles that require slightly different competancies and plan to leave the cert open for a year to maximize the impact of your SMEQ-QA hiring action.

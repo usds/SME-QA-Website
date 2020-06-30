@@ -22,8 +22,6 @@ Your position description (PD) should reflect adequate specialized experience to
 
 ### Identify Billets
 
-Our research suggests that the typical cost to hire a new full time employee in industry is $4000-$5000. One pilot agency spent ~$13000 (in personnel costs) on their hiring action, which onboard four people, suggesting a cost per hire of $3250. Other pilots have spent between $2500 and $6900 per hire on their SMEQA pilots.
+To be efficient with SME time, we recommend having at least three and ideally five or more opening/billets to fill in your hiring action. That said, your agency may have single role openings that justify investing the time to run a SME-QA qualification process.  SME-QA also includes mechanisms to reduce required effort that might be useful when doing few selections, such as [using an exceeds score in resume review](/hiring-phases/reviewing-resumes/prep/#using-an-exceeds-score-in-resume-review).
 
-In order to be cost efficient, you should have approved headcount of three or more GS-12+ billets for the same technical role; however, five or more is recommended to achieve cost efficiency. Fewer billets presents a higher risk of spending above the industry average, though your agency may accept that cost for certain roles.
-
-To make the effort more worthwhile, you can share your certificate with another office or agency with vacancies for the same position. If doing this, consider bringing on SMEs from that office to help minimize individual burden.
+To make the effort more worthwhile, you can share your certificate with another office or agency with vacancies for the same position. If doing this, consider bringing on SMEs from that office to help minimize individual burden. You can also combine billets in one hiring actions with multiple parenthetical roles that require slightly different competancies.

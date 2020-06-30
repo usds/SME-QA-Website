@@ -9,9 +9,12 @@ title: Template - Email to Applicants Requesting First Interview
 
 Hello,
 
-Thank you for your interest in the `{POSITION-NAME}` position. You have moved forward from the {PRIOR PHASE}. You’re now invited to a phone interview with a subject matter expert to further assess your qualifications. 
+Thank you for your interest in the `{POSITION-NAME}` position. You have moved forward from the {PRIOR PHASE} and I'm happy to  invite you to a phone interview with a subject matter expert to further assess your qualifications. 
 
-This interview will take about {TIME OF INTERVIEW} to complete, and to ensure fairness, you will be asked the same questions as all other applicants. Your interviewer will not be able to answer questions about the hiring process or the job you're applying for.  Please direct questions about the hiring process to me and questions about the position to hiring managers after you have qualified for the position.
+This interview will take about {TIME OF INTERVIEW} to complete, and to ensure fairness, you will be asked the same questions as all other applicants. Your interviewer will not be able to answer questions about the hiring process or the job you're applying for. Please direct questions about the hiring process to me and hold questions about the position until after you qualify.
+
+{IF THIS IS ONE OF TWO INTERVIEWS}: If you move forward from this interview, you will have one additional subject matter expert qualifications interview.
+{IF ONLY DOING ONE INTERVIEW}: If you move forward and are deemed qualified, you will be informed and then, likely invited to an additional interview with a hiring manager (also called a selecting official). If multiple offices are hiring, you may be invited to multiple interviews.
 
 Please refer to the job announcement for details about the position you’ve applied for: {link to job announcement}
 
@@ -26,9 +29,6 @@ Please refer to the job announcement for details about the position you’ve app
 {FOR MANUAL SCHEDULING}: To schedule your interview, reply to this email within two (2) business days with three (3) available blocks of time (from 8AM to 5PM `{TIME ZONE}`) you're available between `{DATE}` and `{DATE}` for a phone interview. If we don't receive your availability by `{DATE}`, we'll assume you are no longer interested and remove you from consideration.( We don't want this to happen, but we need to give you notice to ensure fairness).
 
 If you have extenuating circumstances that prevent you from being available within the specified time frames, contact {person's name} at {contact e-mail} by {DATE}.
-
-{IF THIS IS ONE OF TWO INTERVIEWS}: If you move forward from this interview, you will have one additional subject matter expert qualifications interview.
-{IF ONLY DOING ONE INTERVIEW}: If deemed qualified, you will likely be invited to an additional interview with a hiring manager (also called a selecting official). If multiple offices are hiring, you may be invited to multiple interviews.
 
 Thank you,
 

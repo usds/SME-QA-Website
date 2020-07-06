@@ -23,5 +23,5 @@ Participants should also consider EQ qualities that are important to successfull
 
 When the note-writing exercise is complete, as each participant to stand up and read each note aloud to the group as they stick them to a large space on a wall or several easel boards.
 
-<img src="{{site.baseurl}}/assets/img/job-analysis/cx-workshop.jpg" alt="The SME-QA workshop for the Customer Experience posting" />
+<img src="{{site.baseurl}}/assets/img/workshops/cx-workshop.jpg" alt="The SME-QA workshop for the Customer Experience posting" />
 

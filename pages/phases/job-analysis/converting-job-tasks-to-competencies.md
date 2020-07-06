@@ -19,7 +19,7 @@ Generally, you'll want to define four to six core competencies for your position
 
 While brainstorming the names of your competencies, you may find it helpful to refer to existing competency names like the OPM qualification standards for the series you're hiring for. However, if the output of the exercise results in a difference, use the required competencies SMEs identify as the qualifications for your position.
 
-<img src="{{site.baseurl}}/assets/img/job-analysis/cms-workshop.jpg" alt="The SME-QA workshop for the CMS Product Manager posting" />
+<img src="{{site.baseurl}}/assets/img/workshops/cms-workshop.jpg" alt="The SME-QA workshop for the CMS Product Manager posting" />
 
 ### Competencies for Specialized Roles or Parentheticals
 

@@ -22,3 +22,6 @@ To focus their thinking, suggest that participants consider the tasks they have 
 Participants should also consider EQ qualities that are important to successfully completing their work. For example, "Demonstrate patience with less technical stakeholders" and "Show compassion for beneficiaries with health concerns by scheduling a home visit."
 
 When the note-writing exercise is complete, as each participant to stand up and read each note aloud to the group as they stick them to a large space on a wall or several easel boards.
+
+<img src="{{site.baseurl}}/assets/img/job-analysis/cx-workshop.jpg" alt="The SME-QA workshop for the Customer Experience posting" />
+

@@ -25,6 +25,6 @@ Attach these documents to the calendar invite you send to participating SMEs:
 
 After SMEs have been invited, prepare to conduct the interview training.
 
-- Provide the SMEs with the names of the applicants for that round of interviews. SMEs must inform you of any personal relationships they have with the applicants as they may not interview such applicants. For more information, see <a href="{{site.baseurl}}/hiring-phases/reviewing-resumes/personal-relationships/">Guidance on Personal Relationships with Applicants</a>.
+- Provide the SMEs with the names of the applicants for that round of interviews. SMEs must inform you of any personal relationships they have with the applicants as they may not interview such applicants. For more information, see <a href="{{site.baseurl}}/hiring-phases/resume-review/personal-relationships/">Guidance on Personal Relationships with Applicants</a>.
 - Finalize the dates during which SMEs will conduct interviews, along with the approximate number of interviews they will conduct.
 - Update the <a href="{{site.baseurl}}/toolkit/assessments/phone-interview-training-presentation.pptx">Phone Interview Training Presentation</a> with your agency-specific information, including both the questions for that interview round and final competencies and proficiencies from your job analysis workshop.

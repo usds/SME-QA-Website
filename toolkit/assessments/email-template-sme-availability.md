@@ -1,9 +1,9 @@
 ---
 layout: article
-permalink: /toolkit/phone-assessment-interviews/email-template-sme-availability/
+permalink: /toolkit/assessments/email-template-sme-availability/
 section: hiring-phases
 sidenav: hiring-phases
-phase: phone-assessment-interviews
+phase: assessments
 title: Template - Email to SMEs for Interview Availability
 ---
 

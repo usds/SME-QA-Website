@@ -1,9 +1,9 @@
 ---
 layout: article
-permalink: /toolkit/phone-assessment-interviews/email-template-app-first-interview-confirm/
+permalink: /toolkit/assessments/email-template-app-first-interview-confirm/
 section: hiring-phases
 sidenav: hiring-phases
-phase: phone-assessment-interviews
+phase: assessments
 title: Template - Email to Applicants Confirming First Interview
 ---
 

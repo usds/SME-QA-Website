@@ -1,9 +1,9 @@
 ---
 layout: article
-permalink: /toolkit/phone-assessment-interviews/phone-interview-training-agenda/
+permalink: /toolkit/assessments/phone-interview-training-agenda/
 section: hiring-phases
 sidenav: hiring-phases
-phase: phone-assessment-interviews
+phase: assessments
 title: Phone Interview Training
 description: An agenda for phone interview training
 ---

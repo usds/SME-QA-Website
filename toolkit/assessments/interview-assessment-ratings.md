@@ -1,9 +1,9 @@
 ---
 layout: article
-permalink: /toolkit/phone-assessment-interviews/interview-ratings-and-outcomes/
+permalink: /toolkit/assessments/interview-ratings-and-outcomes/
 section: hiring-phases
 sidenav: hiring-phases
-phase: phone-assessment-interviews
+phase: assessments
 title: Interview Ratings and Outcomes
 description: Defines the 3 ratings an interview can receive and a key to understand how to provide a final interview outcome assessment.
 ---

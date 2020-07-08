@@ -1,9 +1,9 @@
 ---
 layout: article
-permalink: /toolkit/phone-assessment-interviews/email-template-app-first-interview-sched/
+permalink: /toolkit/assessments/email-template-app-first-interview-sched/
 section: hiring-phases
 sidenav: hiring-phases
-phase: phone-assessment-interviews
+phase: assessments
 title: Template - Email to Applicants Requesting First Interview
 ---
 

@@ -1,9 +1,9 @@
 ---
 layout: article
-permalink: /toolkit/reviewing-resumes/resume-review-ratings-and-outcomes/
+permalink: /toolkit/resume-review/resume-review-ratings-and-outcomes/
 section: hiring-phases
 sidenav: hiring-phases
-phase: reviewing-resumes
+phase: resume-review
 title: Resume Review Ratings and Outcomes
 description: Defines the 2 ratings a resume can receive and the outcomes for resume review based on SME ratings.
 ---

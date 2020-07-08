@@ -1,9 +1,9 @@
 ---
 layout: article
-permalink: /toolkit/reviewing-resumes/resume-review-training-agenda/
+permalink: /toolkit/resume-review/resume-review-training-agenda/
 section: hiring-phases
 sidenav: hiring-phases
-phase: reviewing-resumes
+phase: resume-review
 title: Resume Review Training Agenda
 ---
 

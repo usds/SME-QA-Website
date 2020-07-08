@@ -1,9 +1,9 @@
 ---
 layout: article
-permalink: /toolkit/phone-assessment-interviews/interview-scheduling-instructions/
+permalink: /toolkit/assessments/interview-scheduling-instructions/
 section: hiring-phases
 sidenav: hiring-phases
-phase: phone-assessment-interviews
+phase: assessments
 title: Interview Scheduling Instructions
 slug: rating-guide-interview
 ---

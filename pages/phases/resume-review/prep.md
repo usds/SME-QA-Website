@@ -1,10 +1,10 @@
 ---
 layout: article
-permalink: /hiring-phases/reviewing-resumes/prep/
+permalink: /hiring-phases/resume-review/prep/
 section: hiring-phases
 title: Preparing for Resume Reviews
 sidenav: hiring-phases
-phase: reviewing-resumes
+phase: resume-review
 sub-phase-order: 010
 intro: To prepare for resume review, you will set up your training materials, identify practice resumes, select the tooling you and SMEs will use to track results, and decide your review method (2 SMEs plus a tiebreaker or a different approach). 
 ---

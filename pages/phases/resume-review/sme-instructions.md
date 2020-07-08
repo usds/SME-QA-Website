@@ -1,10 +1,10 @@
 ---
 layout: article
-permalink: /hiring-phases/reviewing-resumes/sme-instructions/
+permalink: /hiring-phases/resume-review/sme-instructions/
 section: hiring-phases
 title: Conducting SME Resume Reviews
 sidenav: hiring-phases
-phase: reviewing-resumes
+phase: resume-review
 sub-phase-order: 050
 intro: SMEs who review resumes should be familiar with the required competencies and proficiencies. They'll use these to assess resumes for the right experience, which determines whether the applicant will be further assessed in an interview.
 ---

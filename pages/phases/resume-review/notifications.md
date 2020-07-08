@@ -1,10 +1,10 @@
 ---
 layout: article
-permalink: /hiring-phases/reviewing-resumes/notifications/
+permalink: /hiring-phases/resume-review/notifications/
 section: hiring-phases
 title: Notifying Applicants After Resume Reviews
 sidenav: hiring-phases
-phase: reviewing-resumes
+phase: resume-review
 sub-phase-order: 070
 intro: After SMEs have completed resume reviews, you should send notifications to all applicants indicating their status. Use these NOR codes and notification messages to communicate with applicants.
 ---

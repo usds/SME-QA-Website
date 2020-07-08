@@ -1,10 +1,10 @@
 ---
 layout: article
-permalink: /hiring-phases/phone-assessment-interviews/notifications/
+permalink: /hiring-phases/assessments/notifications/
 section: hiring-phases
 title: Notifying Applicants After Interviews
 sidenav: hiring-phases
-phase: phone-assessment-interviews
+phase: assessments
 sub-phase-order: 040
 intro: After SMEs have completed interviews, you should send notifications to all applicants indicating their status. Use these NOR codes and notification messages to communicate with applicants.
 ---

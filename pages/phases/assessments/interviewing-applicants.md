@@ -1,12 +1,12 @@
 ---
 layout: article
-permalink: /hiring-phases/phone-assessment-interviews/interviewing-applicants/
+permalink: /hiring-phases/assessments/interviewing-applicants/
 section: hiring-phases
 sidenav: hiring-phases
-phase: phone-assessment-interviews
+phase: assessments
 sub-phase-order: 020
-title: Interviewing Applicants for Phone Interviews
-intro: SMEs will conduct phone interviews for applicants who moved forward from resume review. If the applicant does not receive a high enough rating in the first phone assessment interview, they will not continue to the second phone assessment interview.
+title: Interviewing Applicants
+intro: SMEs may conduct one or two rounds of phone interviews in the assessment phase.
 ---
 
 <p class="usa-intro">

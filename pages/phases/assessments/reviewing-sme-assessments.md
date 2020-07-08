@@ -1,12 +1,12 @@
 ---
 layout: article
-permalink: /hiring-phases/phone-assessment-interviews/reviewing-sme-assessments/
+permalink: /hiring-phases/assessments/reviewing-sme-assessments/
 section: hiring-phases
 sidenav: hiring-phases
-phase: phone-assessment-interviews
+phase: assessments
 sub-phase-order: 030
 title: Reviewing SME Assessments
-intro: As SMEs submit their interview assessments, check their work and email them with any necessary feedback.
+intro: As SMEs submit assessment feedback, check their work and provide necessary feedback.
 ---
 
 <p class="usa-intro">
@@ -17,7 +17,7 @@ intro: As SMEs submit their interview assessments, check their work and email th
   <div class="usa-alert__body">
     <h3 class="usa-alert__heading">Do not conduct a separate minimum qualification review</h3>
     <p class="usa-alert__text">
-      After SMEs have completed interviews, do not conduct a separate minimum qualification review. For more information, see "<a href="{{ site.baseurl }}/about/differences/">How our process is different</a>."
+      After SMEs have completed assessments, do not conduct a separate minimum qualification review. For more information, see "<a href="{{ site.baseurl }}/about/differences/">How our process is different</a>."
     </p>
   </div>
 </div>
@@ -31,8 +31,8 @@ Verify that every core competency has a rating of Does Not Meet, Meets, or Excee
 
 ### Calculating an Applicant's Final Assessment Rating
 
-After SMEs have addressed your feedback for their interview assessment forms, calculate and save the applicant's final assessment rating.
+After SMEs have addressed your feedback for their assessment forms, calculate and save the applicant's final assessment rating.
 
 1. Review the proficiency ratings the SME gave for each question.
 2. In the table at the bottom of the interview assessment, mark whether the applicant does not meet, meets, or exceeds the minimum required proficiency levels.
-3. Using the <a href="{{site.baseurl}}/toolkit/phone-assessment-interviews/interview-ratings-and-outcomes/">Interview Assessment Rating Guide</a>, give the applicant an overall assessment score.
+3. Using the <a href="{{site.baseurl}}/toolkit/assessments/interview-ratings-and-outcomes/">Interview Assessment Rating Guide</a>, give the applicant an overall assessment score.

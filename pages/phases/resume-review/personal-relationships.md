@@ -1,9 +1,9 @@
----
+resume-review---
 layout: article
-permalink: /hiring-phases/reviewing-resumes/personal-relationships/
+permalink: /hiring-phases/resume-review/personal-relationships/
 section: hiring-phases
 sidenav: hiring-phases
-phase: reviewing-resumes
+phase: resume-review
 sub-phase-order: 040
 title: Guidance on Personal Relationships with Applicants
 intro: Use this guidance to know whether the SME should recuse themselves from assessing an applicant.

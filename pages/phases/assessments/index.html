@@ -1,11 +1,11 @@
 ---
 layout: article
-permalink: /hiring-phases/phone-assessment-interviews/
+permalink: /hiring-phases/assessments/
 section: hiring-phases
 sidenav: hiring-phases
-phase: phone-assessment-interviews
-title: Phone Assessment Interviews
-intro: SMEs will conduct up to two rounds of structured phone interviews to assess remaining applicants against the required competencies and proficiencies, with a single SME conducting each interview. Applicants who meet the basic required qualifications after that interview receive a second interview with a different SME. Those who receive an overall passing score during both phone assessment interviews are considered qualified for the position.
+phase: assessments
+title: Assessments
+intro: SMEs will conduct up to two rounds of assessments to assess remaining applicants against the required competencies and proficiencies. Applicants who achieve a passing score after the first round move to the second. Those who receive an overall passing score are considered qualified for the position.
 roles: [hr, sme]
 duration: 4 hours
 ---
@@ -18,11 +18,11 @@ duration: 4 hours
 
 <div class="chp-toolkit">
   <h4 class="chp-toolkit__title">Toolkit</h4>
-  {% include toolkit/phone-assessment-interviews.html %}
+  {% include toolkit/assessments.html %}
 </div>
 
 {% assign page-list = '' | split: '' %}
-{% assign sub-pages = site.pages | where: "phase","phone-assessment-interviews" | sort: "sub-phase-order" %}
+{% assign sub-pages = site.pages | where: "phase","assessments" | sort: "sub-phase-order" %}
 {% for sub-page in sub-pages %}
   {% if sub-page.sub-phase-order %}
     {% assign page-list = page-list | push: sub-page %}

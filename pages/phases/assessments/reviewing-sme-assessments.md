@@ -6,7 +6,7 @@ sidenav: hiring-phases
 phase: assessments
 sub-phase-order: 030
 title: Reviewing SME Assessments
-intro: As SMEs submit assessment feedback, check their work and provide necessary feedback.
+intro: As SMEs submit their assessment reviews, check their work and provide necessary feedback.
 ---
 
 <p class="usa-intro">
@@ -25,8 +25,8 @@ intro: As SMEs submit assessment feedback, check their work and provide necessar
 - Skim for jarring inconsistencies in their competency ratings (for example, feedback that "Applicant answered question poorly", but rated a "Meets" for that competency).
 - Verify that each required question documents the applicant's response.
 Verify that every core competency has a rating of Does Not Meet, Meets, or Exceeds.
-- Verify that the correct competency ratings and applicant responses are documented for the roles the applicant is eligible for (for example, if the applicant interviewed for Generalist and Network, then the SME must provide a competency rating and applicant response for the core competencies and Network).
-- Verify that the summary interview analysis is complete (with at least a few sentences).
+- If hiring for multiple roles under one PD, verify that the correct competency ratings and applicant responses are documented for the roles the applicant is eligible for (for example, if the applicant interviewed for the generalist and network roles, then the SME must provide a competency rating and applicant response for the core competencies and the network competancy).
+- Verify that the summary assessment analysis is complete (with at least a few sentences).
 - Confirm the SME correctly addressed any initial issues you may have reported.
 
 ### Calculating an Applicant's Final Assessment Rating

@@ -6,24 +6,29 @@ title: Creating Assessments from Competencies
 sidenav: hiring-phases
 phase: job-analysis
 sub-phase-order: 060
-intro: Finish your workshop by breaking participants into groups to write questions for both the first and second assessment rounds. Use your defined competencies, proficiencies, and required experience to create guidance for SMEs reviewing applicant responses.
+intro: Dedicate the second half of your job analysis workshop to working with SMEs to develop material for both assessment rounds. The SMEs should decide which assessment types make sense to evaluate each competency and then create assessments (interview questions and/or written prompts) to assess the identified proficiency levels.
 ---
 
 <p class="usa-intro">
   {{ page.intro }}
 </p>
 
-As a best practice, applicants should pass through multiple hurdles with multiple SMEs before an agency considers them qualified. Two rounds of assessments can assess the breadth and then the depth of applicants' knowledge about your required competencies. Any applicant who doesn't receive a high enough score during the first assessment will not progress to the second.
+As a best practice, applicants should pass through multiple hurdles with multiple SMEs before an agency considers them qualified. In order to eliminate unqualified applicants in each round, the two rounds should measure different things. For example, one interview can measure breadth of knowledge and the second interview can measure depth of knowledge. Or, a written demonstration project can measure technical competencies while a phone interview measures competencies more easily assessed through oral communications. Therefore, any applicant who doesn't receive a high enough score during the first assessment will not progress to the second. 
+
+Use your defined competencies, proficiencies, and required experience to create guidance for SMEs reviewing applicant responses.
 
 ### Assessment Options
 
-- Portfolio review
-- Short writing question response
-- Longform essay prompt
-- Hypothetical task
-- Asynchronous interview
-  - An applicant records answers for later SME review
-- Live interview
+- Biodata
+- Cognitive Ability
+- Emotional Intelligence
+- Job Knowledge Tests
+- Situational Judgment Test
+- Structured Interviews
+- Training and Experience
+- Work Samples
+
+See a longer list at [this reference link](https://www.opm.gov/policy-data-oversight/assessment-and-selection/other-assessment-methods/).
 
 ### If using Two Live Interviews
 

@@ -6,11 +6,13 @@ sidenav: hiring-phases
 phase: assessments
 sub-phase-order: 020
 title: Written Assessments
-intro: SMEs may conduct one or two rounds of written assessments in the assessment phase.
+intro: During job analysis, SMEs and HR may decide to do a written assessment or demonstration project instead of a first-round interview.
 ---
 
 <p class="usa-intro">
   {{ page.intro }}
 </p>
 
-You may choose to do a written assessment for one or both assessment phases.
+If your SMEs opt for a written assessment or demonstration project instead of a first-round interview, you will need to prepare questions and training for each different assessment round.
+
+The assessment type should be appropriate to evaluate the applicant's proficiency level within the examined competencies.

@@ -6,7 +6,7 @@ sidenav: hiring-phases
 phase: assessments
 sub-phase-order: 015
 title: Training SMEs to Conduct Assessments
-intro: Facilitate a mandatory two-hour training for all SMEs participating in an assessment round. The training should explain how to review the assessment (including conducting an interview, and how to assess the applicant’s proficiency levels.
+intro: Facilitate a mandatory two-hour training for all SMEs participating in an assessment round. The training should explain how to review the assessment against the required proficiency levels.
 ---
 
 <p class="usa-intro">
@@ -21,7 +21,7 @@ Attach these documents to the calendar invite you send to participating SMEs:
 - The <a href="{{site.baseurl}}/toolkit/assessments/phone-interview-training-agenda/">Phone Interview Training Agenda</a>
 - The <a href="{{ site.baseurl }}/toolkit/assessment-strategy/phone-interview-template.docx">Interview Template</a>: This is the primary document you'll use for training. Add the appropriate questions, competencies, and proficiency levels. In addition, add the words "minimum qualification" next to the required proficiency level in the SME rating section according to the results of the job analysis workshop.
 
-### Preparing Your Training Session
+### Preparing Your Interview Training Session
 
 After SMEs have been invited, prepare to conduct the interview training.
 

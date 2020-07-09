@@ -6,7 +6,7 @@ title: Notifying Applicants After Interviews
 sidenav: hiring-phases
 phase: assessments
 sub-phase-order: 040
-intro: After SMEs have completed interviews, you should send notifications to all applicants indicating their status. Use these NOR codes and notification messages to communicate with applicants.
+intro: After SMEs have completed the assessments, send notifications to all applicants indicating their status. This page has example NOR codes and notification messages.
 ---
 
 <p class="usa-intro">

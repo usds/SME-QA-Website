@@ -46,9 +46,3 @@ npm build
 NOTE: This isn't necessary as github pages will perform this step automatically.
 
 The website will start at http://localhost:4000
-
-### If you have no styles when building locally
-Will can only make the build work with this command:
-```
-bundle exec jekyll serve --config _config-dev.yml
-```

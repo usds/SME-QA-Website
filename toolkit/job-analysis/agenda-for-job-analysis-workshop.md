@@ -1,6 +1,6 @@
 ---
 layout: article
-permalink: /toolkit/job-analysis/agenda-for-job-analysis-workshop-day-1/
+permalink: /toolkit/job-analysis/agenda-for-job-analysis-workshop/
 section: hiring-phases
 sidenav: hiring-phases
 phase: job-analysis

@@ -6,12 +6,14 @@ title: Creating Assessments from Competencies
 sidenav: hiring-phases
 phase: job-analysis
 sub-phase-order: 060
-intro: Dedicate the second half of your job analysis workshop to working with SMEs to develop material for both assessment rounds. The SMEs should decide which assessment types make sense to evaluate each competency and then create assessments (interview questions and/or written prompts) to assess the identified proficiency levels.
+intro: Dedicate the second half of your job analysis workshop to working with SMEs to develop material for both assessment rounds.
 ---
 
 <p class="usa-intro">
   {{ page.intro }}
 </p>
+
+The SMEs should decide which assessment types make sense to evaluate each competency and then create assessments (interview questions and/or written prompts) to assess the identified proficiency levels.
 
 As a best practice, applicants should pass through multiple hurdles with multiple SMEs before an agency considers them qualified. In order to eliminate unqualified applicants in each round, the two rounds should measure different things. For example, one interview can measure breadth of knowledge and the second interview can measure depth of knowledge. Or, a written demonstration project can measure technical competencies while a phone interview measures competencies more easily assessed through oral communications. Therefore, any applicant who doesn't receive a high enough score during the first assessment will not progress to the second. 
 

@@ -118,8 +118,11 @@ This agenda will take more than one day to accomplish. Edit it and insert breaks
           <li>Privately record SME responses, then show results</li>
           <li>Group should go over results and iterate on materials to achieve:</li>
           <ul>
-            <li>Clarity on if any competancies have more weight than others</li>
+            <li>Clarity on if any competancies should be listed first</li>
             <li>Clarify on recency relevance for any competencies</li>
+            <ul>
+              <li>Only alllowed if job is in an industry where skills can become outdated</li>
+            </ul>
             <li>Clarity on number of resumes pages to review (2-5)</li>
           </ul>
           <li>If SMEs agree about all of the resumes, you likely need more borderline resumes to ensure calibration.</li>
@@ -132,8 +135,8 @@ This agenda will take more than one day to accomplish. Edit it and insert breaks
         Overview of assessments and tentative selections of assessment types
         <ul>
           <li>USDS suggests a first-round written assessment and second round oral interview</li>
-          <li>You can also use two interviews: one on breadth, one on depth</li>
-          <li>USDS is experimenting with other assessment methods</li>
+          <li>the two assessments need to measure different things since you will eliminate applicants between the two rounds</li>
+          <li>For example, breadth vs depth of knowledge, or core competencies then parenthetical competencies</li>
         </ul>
       </td>
     </tr>
@@ -144,7 +147,7 @@ This agenda will take more than one day to accomplish. Edit it and insert breaks
         <ul>
           <li>Break out into different groups to brainstorm question options</li>
           <li>Bring group back together to choose specific questions</li>
-          <li>Split up against to draft attributes of answers at different proficiency levels</li>
+          <li>Split up again to draft attributes of answers at different proficiency levels</li>
         </ul>
       </td>
     </tr>

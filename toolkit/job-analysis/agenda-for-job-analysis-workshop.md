@@ -137,6 +137,7 @@ This agenda will take more than one day to accomplish. Edit it and insert breaks
           <li>USDS suggests a first-round written assessment and second round oral interview</li>
           <li>the two assessments need to measure different things since you will eliminate applicants between the two rounds</li>
           <li>For example, breadth vs depth of knowledge, or core competencies then parenthetical competencies</li>
+          <li>IO psychologist or HR specialist w/ measurement experience discusses ensuring that assessments align with grade level</li>
         </ul>
       </td>
     </tr>
@@ -170,6 +171,17 @@ This agenda will take more than one day to accomplish. Edit it and insert breaks
       <th scope="row">1 hour</th>
       <td>
         Group talks through the draft job announcement (put together during the workshop)
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">4 hours</th>
+      <td>
+        Assessment validation
+        <ul>
+          <li>SMEs who can stay longer split up and test assessment materials on each other for wording and time taken</li>
+          <li>SMEs confirm the questions allow assessors to distinguish between proficiency levels</li>
+          <li>IO psychologist or HR specialist w/ measurement experience works with SMEs to ensure assessments align with grade level</li>
+        </ul>
       </td>
     </tr>
     <tr>

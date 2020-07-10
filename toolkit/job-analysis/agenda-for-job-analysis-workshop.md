@@ -91,7 +91,7 @@ This agenda will take more than one day to accomplish. Edit it and insert breaks
       <td>
         Confidentiality agreements
         <ul>
-          <li>SMEs sign privacy agreement on testing materialsw</li>
+          <li>SMEs sign privacy agreement on testing materials</li>
             <ul>
               <li>HR should talk about importance of confidentiality test materials</li>
               <li>Use this time to ensure everyone knows who is saving/storing the test materials</li>
@@ -126,6 +126,7 @@ This agenda will take more than one day to accomplish. Edit it and insert breaks
             <li>Clarity on number of resumes pages to review (2-5)</li>
           </ul>
           <li>If SMEs agree about all of the resumes, you likely need more borderline resumes to ensure calibration.</li>
+          <li>May take more or less time depending on revisions needed.</li>
         </ul>
       </td>
     </tr>

@@ -55,6 +55,7 @@ This agenda will take more than one day to accomplish. Edit it and insert breaks
             <ul>
               <li>Leverage example competancies</li>
               <li>Definition should be 1-3 sentences, not a list of job tasks</li>
+              <li>Include the 4-5 most critical job tasks for each group.</li>
             </ul>
           <li>Come back together as a group to validate drafts</li>
         </ul>
@@ -113,7 +114,7 @@ This agenda will take more than one day to accomplish. Edit it and insert breaks
         Resume review exercise and competency/proficiency refinement
         <ul>
           <li>This is the most important exercise so far - the group will check its work to date</li>
-          <li>Hand SMEs sample resumes (ideally, difficult resumes) and have them review against the current drafts</li>
+          <li>Give SMEs sample resumes (ideally, a mix of long/short and strong/weak/borderline resumes) and have them review the resumes against the current draft competancies/proficiencies</li>
           <li>Privately record SME responses, then show results</li>
           <li>Group should go over results and iterate on materials to achieve:</li>
           <ul>
@@ -121,6 +122,7 @@ This agenda will take more than one day to accomplish. Edit it and insert breaks
             <li>Clarify on recency relevance for any competencies</li>
             <li>Clarity on number of resumes pages to review (2-5)</li>
           </ul>
+          <li>If SMEs agree about all of the resumes, you likely need more borderline resumes to ensure calibration.</li>
         </ul>
       </td>
     </tr>

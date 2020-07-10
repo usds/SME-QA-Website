@@ -138,7 +138,7 @@ This agenda will take more than one day to accomplish. Edit it and insert breaks
     <tr>
       <th scope="row">1 hour</th>
       <td>
-        Create questions for first assessment
+        Create materials for first assessment
         <ul>
           <li>Break out into different groups to brainstorm question options</li>
           <li>Bring group back together to choose specific questions</li>
@@ -149,28 +149,28 @@ This agenda will take more than one day to accomplish. Edit it and insert breaks
     <tr>
       <th scope="row">1 hour 15 min</th>
       <td>
-        Create questions for second assessment
+        Create materials for second assessment
         <ul>
-          <li>Follow similar process as before to create a mote intensive assessment</li>
+          <li>Follow similar process as before to create a more intensive assessment</li>
         </ul>
       </td>
     </tr>
     <tr>
-      <th scope="row">2:00 pm</th>
+      <th scope="row">1 hour</th>
       <td>
-        Group present breadth and depth questions and answers for feedback (1 hour)
+        Groups present questions and answers for feedback
       </td>
     </tr>
     <tr>
-      <th scope="row">3:00 pm</th>
+      <th scope="row">1 hour</th>
       <td>
-        Job Announcement: Summary and Responsibilities (1 hour)
+        Group talks through the draft job announcement (put together during the workshop)
       </td>
     </tr>
     <tr>
-      <th scope="row">4:00 pm</th>
+      <th scope="row">15 min</th>
       <td>
-        Wrap up and Next Steps (timeline moving forward)
+        Wrap up and Next Steps. Discuss timeline moving forward.
       </td>
     </tr>
   </tbody>

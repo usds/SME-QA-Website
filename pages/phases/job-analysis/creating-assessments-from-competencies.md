@@ -19,14 +19,9 @@ Use your defined competencies, proficiencies, and required experience to create 
 
 ### Assessment Options
 
-- Biodata
-- Cognitive Ability
-- Emotional Intelligence
-- Job Knowledge Tests
-- Situational Judgment Test
+- Demonstration Projects
+- Written Prompts
 - Structured Interviews
-- Training and Experience
-- Work Samples
 
 See a longer list at [this reference link](https://www.opm.gov/policy-data-oversight/assessment-and-selection/other-assessment-methods/).
 

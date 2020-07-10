@@ -13,15 +13,6 @@ intro: As SMEs submit their assessment reviews, check their work and provide nec
   {{ page.intro }}
 </p>
 
-<div class="usa-alert usa-alert--info" >
-  <div class="usa-alert__body">
-    <h3 class="usa-alert__heading">Do not conduct a separate minimum qualification review</h3>
-    <p class="usa-alert__text">
-      After SMEs have completed assessments, do not conduct a separate minimum qualification review. For more information, see "<a href="{{ site.baseurl }}/about/differences/">How our process is different</a>."
-    </p>
-  </div>
-</div>
-
 - Skim for jarring inconsistencies in their competency ratings (for example, feedback that "Applicant answered question poorly", but rated a "Meets" for that competency).
 - Verify that each required question documents the applicant's response.
 Verify that every core competency has a rating of Does Not Meet, Meets, or Exceeds.

@@ -1,0 +1,67 @@
+---
+layout: article
+permalink: /hiring-phases/resume-review/
+section: hiring-phases
+sidenav: hiring-phases
+phase: resume-review
+title: Resume Review
+intro: SMEs independently review each remaining applicant’s resume to determine whether they adequately reflect the core competencies and proficiencies to warrant entry to the assessment phase.
+roles: [hr, sme]
+duration: Approximately 5 days
+---
+
+<p class="usa-intro">
+  {{ page.intro }}
+</p>
+
+{% include phase-meta.html %}
+
+<div class="chp-toolkit">
+  <h4 class="chp-toolkit__title">Toolkit</h4>
+  {% include toolkit/resume-review.html %}
+</div>
+
+<div class="usa-alert usa-alert--info" >
+  <div class="usa-alert__body">
+    <h3 class="usa-alert__heading">HR does not need to conduct a separate HR minimum qualification review.</h3>
+    <p class="usa-alert__text">
+      After SMEs have finished reviewing resumes, HR is not required to conduct a separate qualifications review since this process relies on the judgement of SMEs. HR instead plays a strong role in ensuring the justification statement traces back to a required competency or proficiency. In this process, being minimally qualified only gains applicants entry into the pass/fail interview- it does not guarantee applicants preference points. See DE handbook 4-2, and 5-23, 24.
+    </p>
+  </div>
+</div>
+
+{% assign page-list = '' | split: '' %}
+{% assign sub-pages = site.pages | where: "phase","resume-review" | sort: "sub-phase-order" %}
+{% for sub-page in sub-pages %}
+  {% if sub-page.sub-phase-order %}
+    {% assign page-list = page-list | push: sub-page %}
+  {% endif %}
+{% endfor %}
+
+{% for sub-page in page-list %}
+  <h3>
+    <a href="{{ site.baseurl }}{{ sub-page.permalink }}">{{ sub-page.title }}</a>
+  </h3>
+  <p>
+    {{ sub-page.intro }}
+  </p>
+{% endfor %}
+
+<!--
+{% assign hr-tasks = site.hr-tasks | where: "phase","reviewing-resumes" | where: "sub-phase","prep-for-resume-reviews" | where: "role","hr" %}
+<ul>
+  {% for task in hr-tasks %}
+  <li><a href="{{ site.baseurl }}{{ task.permalink }}">{{ task.title }}</a></li>
+  {% endfor %}
+</ul>
+
+<h2 id="reviewing-resume-documentation-and-ratings">
+  Reviewing Resume Documentation and Ratings
+</h2>
+{% assign hr-tasks-two = site.hr-tasks | where: "phase","reviewing-resumes" | where: "sub-phase","reviewing-resume-documentation-and-ratings" | where: "role","hr" %}
+<ul>
+  {% for task in hr-tasks-two %}
+  <li><a href="{{ site.baseurl }}{{ task.permalink }}">{{ task.title }}</a></li>
+  {% endfor %}
+</ul>
+-->

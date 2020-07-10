@@ -49,7 +49,7 @@ hiring-phases:
     - text: Defining Proficiency Levels and Required Experience
       href: "/hiring-phases/job-analysis/defining-proficiency-levels/"
     - text: Creating a Structured Interview from Competencies
-      href: "/hiring-phases/job-analysis/creating-a-structured-interview-from-competencies"
+      href: "/hiring-phases/job-analysis/creating-assessments-from-competencies"
   - text: Assessment Strategy
     href: /hiring-phases/assessment-strategy/
     phase: assessment-strategy
@@ -57,44 +57,50 @@ hiring-phases:
     href: /hiring-phases/job-announcement/
     phase: job-announcement
     subnav:
+    - text: Configuring USA Staffing
+      href: "/hiring-phases/job-announcement/configuring-usas/"
     - text: Creating a SME-QA job announcement
       href: "/hiring-phases/job-announcement/creating-job-announcement/"
     - text: Recruiting for your roles
       href: "/hiring-phases/job-announcement/recruiting/"
     - text: Plain Language Guidelines
       href: "/hiring-phases/job-announcement/plain-language-guidelines/"
-  - text: Reviewing Resumes
-    href: /hiring-phases/reviewing-resumes/
-    phase: reviewing-resumes
+  - text: Resume Review
+    href: /hiring-phases/resume-review/
+    phase: resume-review
     subnav:
-    - text: Preparing for Resume Reviews
-      href: "/hiring-phases/reviewing-resumes/prep/"
+    - text: Preparing for Resume Review
+      href: "/hiring-phases/resume-review/prep/"
     - text: Set Up and Conduct Resume Review Training
-      href: "/hiring-phases/reviewing-resumes/training/"
+      href: "/hiring-phases/resume-review/training/"
+    - text: Using USA Staffing for Resume Review
+      href: "/hiring-phases/resume-review/usas-for-rr/"
     - text: Guidance on Personal Relationships with Applicants
-      href: "/hiring-phases/reviewing-resumes/personal-relationships/"
+      href: "/hiring-phases/resume-review/personal-relationships/"
     - text: Conducting SME Resume Reviews
-      href: "/hiring-phases/reviewing-resumes/sme-instructions/"
+      href: "/hiring-phases/resume-review/sme-instructions/"
     - text: Reviewing SME Resume Review Notes
-      href: "/hiring-phases/reviewing-resumes/reviewing-sme-notes/"
-    - text: Notifying Applicants After Resume Reviews
-      href: "/hiring-phases/reviewing-resumes/notifications/"
-  - text: Phone Interviews
-    href: /hiring-phases/phone-assessment-interviews/
-    phase: phone-assessment-interviews
+      href: "/hiring-phases/resume-review/reviewing-sme-notes/"
+    - text: Notifying Applicants After Resume Review
+      href: "/hiring-phases/resume-review/notifications/"
+  - text: Assessments
+    href: /hiring-phases/assessments/
+    phase: assessments
     subnav:
-    - text: Scheduling Interviews with Applicants
-      href: "/hiring-phases/phone-assessment-interviews/scheduling/"
-    - text: Training SMEs to Conduct Interviews
-      href: "/hiring-phases/phone-assessment-interviews/training/"
     - text: Guidance on Personal Relationships with Applicants
-      href: "/hiring-phases/reviewing-resumes/personal-relationships/"
-    - text: Interviewing Applicants for Phone Interviews
-      href: "/hiring-phases/phone-assessment-interviews/interviewing-applicants/"
+      href: "/hiring-phases/resume-review/personal-relationships/"
+    - text: Training SMEs to Conduct Assessments
+      href: "/hiring-phases/assessments/training/"
+    - text: Written Assessments
+      href: "/hiring-phases/assessments/written-assessments/"
+    - text: Scheduling Interviews with Applicants
+      href: "/hiring-phases/assessments/interview-scheduling/"
+    - text: Interviewing Applicants
+      href: "/hiring-phases/assessments/interviewing-applicants/"
     - text: Reviewing SME Assessments
-      href: "/hiring-phases/phone-assessment-interviews/reviewing-sme-assessments/"
-    - text: Notifying Applicants After Interviews
-      href: /hiring-phases/phone-assessment-interviews/notifications/
+      href: "/hiring-phases/assessments/reviewing-sme-assessments/"
+    - text: Notifying Applicants After Assessments
+      href: /hiring-phases/assessments/notifications/
   - text: Issuing a Certificate
     href: /hiring-phases/certificate/
     phase: certificate

@@ -28,12 +28,12 @@ This agenda will take more than one day to accomplish. Edit it and insert breaks
     <tr>
       <th scope="row">1 hour</th>
       <td>
-        Job task exercise
+        Job task exercise (may use online platform for a remote workshop)
         <ul>
           <li>Explain exercise and example tasks (5 min)</li>
-          <li>Post-it exercise (10 min)</li>
-          <li>Put Post-its on wall (15 min)</li>
-          <li>Group Post-its and identify competencies (30 min)</li>
+          <li>Group writes post-its of tasks (10 min)</li>
+          <li>Discuss and group post-its on board (15 min)</li>
+          <li>Identify and name competency groupings (30 min)</li>
         </ul>
       </td>
     </tr>

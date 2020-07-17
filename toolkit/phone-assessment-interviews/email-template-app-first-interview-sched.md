@@ -11,10 +11,10 @@ Hello,
 
 Thank you for your interest in the `{POSITION-NAME}` position. You have moved forward from the {PRIOR PHASE} and I'm happy to  invite you to a phone interview with a subject matter expert to further assess your qualifications. 
 
-This interview will take about {TIME OF INTERVIEW} to complete, and to ensure fairness, you will be asked the same questions as all other applicants. Your interviewer will not be able to answer questions about the hiring process or the job you're applying for. Please direct questions about the hiring process to me and hold questions about the position until after you qualify.
+This interview will take about {TIME OF INTERVIEW} to complete, and to ensure fairness, you will be asked the same questions as all other applicants. Given the structured interview format, we ask you hold any questions about the position for the HR Specialist and/or the hiring manager later in the process. 
 
 {IF THIS IS ONE OF TWO INTERVIEWS}: If you move forward from this interview, you will have one additional subject matter expert qualifications interview.
-{IF ONLY DOING ONE INTERVIEW}: If you move forward and are deemed qualified, you will be informed and then, likely invited to an additional interview with a hiring manager (also called a selecting official). If multiple offices are hiring, you may be invited to multiple interviews.
+{IF ONLY DOING ONE INTERVIEW}: HR will refer some or all qualified applicants to hiring managers per federal category ranking and veterans preference rules. Referred applicants will be invited to an additional fit interview. If multiple offices are hiring, you may be invited to multiple final fit interviews.
 
 Please refer to the job announcement for details about the position you’ve applied for: {link to job announcement}
 

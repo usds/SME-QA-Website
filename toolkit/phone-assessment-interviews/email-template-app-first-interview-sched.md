@@ -14,7 +14,7 @@ Thank you for your interest in the `{POSITION-NAME}` position. You have moved fo
 This interview will take about {TIME OF INTERVIEW} to complete, and to ensure fairness, you will be asked the same questions as all other applicants. Given the structured interview format, we ask you hold any questions about the position for the HR Specialist and/or the hiring manager later in the process. 
 
 {IF THIS IS ONE OF TWO INTERVIEWS}: If you move forward from this interview, you will have one additional subject matter expert qualifications interview.
-{IF ONLY DOING ONE INTERVIEW}: If you are deemed qualified, HR will apply category ranking and veterans preference to the qualified list. Applicants who are then referred to a hiring manager will be invited to an additional fit interview for that office. If multiple offices are hiring, you may be invited to multiple final fit interviews.
+{IF ONLY DOING ONE INTERVIEW}: HR will refer some or all qualified applicants to hiring managers per federal category ranking and veterans preference rules. Referred applicants will be invited to an additional fit interview. If multiple offices are hiring, you may be invited to multiple final fit interviews.
 
 Please refer to the job announcement for details about the position you’ve applied for: {link to job announcement}
 

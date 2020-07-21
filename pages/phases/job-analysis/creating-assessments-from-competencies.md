@@ -28,7 +28,7 @@ During job analysis you will select additional assessment hurdles to measure an 
   - Structured Interviews
   - USAHire Assessments
   
-You should discuss options thoughtfully with hiring managers before the job analysis workshop, then plan the content of the assessments with SMEs during that workshop. Each assessment should measure different aspects of qualification; this enables applicants to fail out after each assessment round.
+You should discuss options thoughtfully with hiring managers before the job analysis workshop, then plan the content of the assessments with SMEs during that workshop. If you have more than one assessment then they must measure two different things. This allows you to disqualify applicants from the second assessment if they don't pass the first.
 
 If you are creating a new passing score work simulation assessment, think through the following:
   - Is the assessment linked to the job analysis of what is required to do the job from day one?

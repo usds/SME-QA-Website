@@ -19,15 +19,25 @@ As a best practice, applicants should pass through multiple hurdles with multipl
 
 Use your defined competencies, proficiencies, and required experience to create guidance for SMEs reviewing applicant responses.
 
-### Assessment Options
+### Assessment Options (all pass/fail)
 
-- Demonstration Projects
-- Written Prompts
-- Structured Interviews
+During job analysis you will select additional assessment hurdles to measure an applicant's competencies. For example:
+  
+  - Work Samples (these can be requested at the time of application)
+  - Written Assessments
+  - Structured Interviews
+  - USAHire Assessments
+  
+You should discuss options thoughtfully with hiring managers before the job analysis workshop, then plan the content of the assessments with SMEs during that workshop. If you have more than one assessment then they must measure two different things. This allows you to disqualify applicants from the second assessment if they don't pass the first.
+
+If you are creating a new passing score work simulation assessment, think through the following:
+  - Is the assessment linked to the job analysis of what is required to do the job from day one?
+  - You are required to include awareness of this passing score assessment hurdle in the job announcement language under "how you will be evaluated." Make it clear applicants must pass the assessments to be considered qualified.
+  - The scoring for the assessment must be clear so it’s obvious to all SMEs which applicants pass and which do not.
 
 See a longer list at [this reference link](https://www.opm.gov/policy-data-oversight/assessment-and-selection/other-assessment-methods/).
 
-### If using Two Live Interviews
+### If Using Two Live Interviews
 
 **Phone Assessment Interview 1** tests the applicant's *breadth of experience* by evaluating their basic knowledge across all required competencies. Write one question per competency and include follow-up questions to determine whether the applicant meets the required proficiency level. Breadth questions tend to take five to ten minutes to answer, including any follow-up questions.
 

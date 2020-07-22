@@ -21933,6 +21933,7 @@ input[type=search]{
 }
 
 .chp-home__sub-title{
+  font-size:1.06rem;
   text-transform:uppercase;
   letter-spacing:0.3em;
   font-weight:400;
@@ -22016,10 +22017,11 @@ input[type=search]{
 }
 
 .chp-banner--beta{
-  background-color:#d9e8f6;
+  background-color:#e1f3f8;
 }
-.chp-banner--beta .usa-tag{
+.chp-banner--beta__tag{
   margin-right:0.5rem;
+  background-color:#2378c3;
 }
 .chp-banner--beta__body{
   margin-left:auto;
@@ -22028,7 +22030,7 @@ input[type=search]{
   padding-left:1rem;
   padding-right:1rem;
   margin:0 auto;
-  padding:1rem;
+  padding:0.5rem;
 }
 @media all and (min-width: 64em){
   .chp-banner--beta__body{
@@ -22038,7 +22040,7 @@ input[type=search]{
 }
 .chp-banner--beta__text{
   margin:0;
-  font-size:1.13rem;
+  font-size:0.93rem;
   max-width:inherit;
 }
 .chp-banner--beta__link{

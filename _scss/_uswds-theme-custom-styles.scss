@@ -150,6 +150,7 @@ i.e.
 
 .chp-home {
   &__sub-title {
+    @include u-font-size('body', 'sm');
     text-transform: uppercase;
     letter-spacing: .3em;
     font-weight: 400;
@@ -216,21 +217,22 @@ i.e.
 }
 
 .chp-banner--beta {
-  background-color: color($theme-color-chp-blue-light);
+  background-color: color($theme-color-chp-blue-lightest);
 
-  .usa-tag {
+  &__tag {
     margin-right: units(1);
+    background-color: color($theme-color-chp-blue);
   }
 
   &__body {
     @include grid-container;
     margin: 0 auto;
-    @include u-padding(2);
+    @include u-padding(1);
   }
 
   &__text {
     margin: 0;
-    @include u-font-size('body', 'md');
+    @include u-font-size('body', '2xs');
     max-width: inherit;
   }
 

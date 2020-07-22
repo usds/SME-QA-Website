@@ -11,6 +11,24 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 <!-- and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html) -->
 
+## [2.5.0](https://github.com/usds/SME-QA-Website/releases) - 2020-07-21
+
+This release updates the site with changes made to the process in order to support the 2nd round of pilots.
+
+### Added
+
+- The option to use the Resume Review Tool for reviewing resumes.
+- Resume review results templates in Excel.
+- Note that SMEs cannot apply for the job they are reviewing.
+- Standard Operating Procedures for setting up manual assessment in USA Staffing.
+- A note for USA Staffing customers on how to pull baseline data.
+
+### Changed
+
+- Assessment strategy page now discuss additional assessments.
+- Diagrams now reflect that assessments do not have to be 2 phone interviews.
+ 
+
 ## [2.4.1](https://github.com/usds/SME-QA-Website/releases) - 2019-11-06
 
 This release updates the Case Studies section to Results and updates the result metrics.

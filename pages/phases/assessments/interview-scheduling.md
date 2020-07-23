@@ -6,7 +6,7 @@ sidenav: hiring-phases
 phase: assessments
 sub-phase-order: 010
 title: Scheduling Interviews with Applicants
-intro: To schedule applicants, work with a team of schedulers or admins who can coordinate SME schedules with applicant availability.
+intro: Work with a team of schedulers or a scheduling tool to match SMEs with applicants for interviews.
 ---
 
 <p class="usa-intro">

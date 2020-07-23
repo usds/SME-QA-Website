@@ -220,18 +220,20 @@ i.e.
   background-color: color($theme-color-chp-blue-lightest);
 
   &__tag {
-    margin-right: units(1);
+    margin: units(1);
     background-color: color($theme-color-chp-blue);
   }
 
   &__body {
+    display: flex;
+    align-items: center;
     @include grid-container;
     margin: 0 auto;
-    @include u-padding(1);
+    padding: units(1) units(2) units(1) units(1);
   }
 
   &__text {
-    margin: 0;
+    margin: 0 0 0 units(1);
     @include u-font-size('body', '2xs');
     max-width: inherit;
   }

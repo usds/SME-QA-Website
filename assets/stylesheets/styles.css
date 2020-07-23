@@ -21933,6 +21933,7 @@ input[type=search]{
 }
 
 .chp-home__sub-title{
+  font-size:1.06rem;
   text-transform:uppercase;
   letter-spacing:0.3em;
   font-weight:400;
@@ -22016,19 +22017,26 @@ input[type=search]{
 }
 
 .chp-banner--beta{
-  background-color:#d9e8f6;
+  background-color:#e1f3f8;
 }
-.chp-banner--beta .usa-tag{
-  margin-right:0.5rem;
+.chp-banner--beta__tag{
+  margin:0.5rem;
+  background-color:#2378c3;
 }
 .chp-banner--beta__body{
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-align:center;
+      -ms-flex-align:center;
+          align-items:center;
   margin-left:auto;
   margin-right:auto;
   max-width:64rem;
   padding-left:1rem;
   padding-right:1rem;
   margin:0 auto;
-  padding:1rem;
+  padding:0.5rem 1rem 0.5rem 0.5rem;
 }
 @media all and (min-width: 64em){
   .chp-banner--beta__body{
@@ -22037,8 +22045,8 @@ input[type=search]{
   }
 }
 .chp-banner--beta__text{
-  margin:0;
-  font-size:1.13rem;
+  margin:0 0 0 0.5rem;
+  font-size:0.93rem;
   max-width:inherit;
 }
 .chp-banner--beta__link{

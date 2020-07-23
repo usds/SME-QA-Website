@@ -6,7 +6,7 @@ title: Selecting Subject Matter Experts
 sidenav: hiring-phases
 phase: getting-started
 sub-phase-order: 020
-intro: The success of your hiring action depends on the strength of your subject matter experts (SMEs). It's understandable that your most exemplary SMEs have many responsibilities on a daily and weekly basis. However, their time investment now will result in stronger hires and a healthier workforce down the line.
+intro: The success of your hiring action depends on the strength of your subject matter experts (SMEs). Your most exemplary SMEs likely have many responsibilities; however, their time investment will result in stronger hires and a healthier workforce.
 ---
 
 <p class="usa-intro">

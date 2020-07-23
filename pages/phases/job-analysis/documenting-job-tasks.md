@@ -6,7 +6,7 @@ title: Documenting Job Tasks
 sidenav: hiring-phases
 phase: job-analysis
 sub-phase-order: 020
-intro: For your job analysis to be legally defensible, the required competencies you develop must be based on actual job tasks that you expect people in this role and level to perform starting on their first day. Work with SMEs to complete a job task exercise to identify your competencies.
+intro: For your job analysis to be legally defensible, the competencies you develop must be based on actual job tasks that you expect people in this role and level to perform on their first day. Work with SMEs to complete a job task exercise to identify your competencies.
 ---
 
 <p class="usa-intro">

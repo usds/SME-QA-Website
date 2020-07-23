@@ -5,7 +5,7 @@ section: hiring-phases
 title: Collecting data
 sidenav: hiring-phases
 phase: getting-started
-intro: To gauge the success of your hiring action, collect baseline data about recent delegated examination (DE) hiring actions at your agency. You'll compare this information with the results you receive when your new hiring action is complete. If you share this data with us we can help you analyze the data and evaluate your results.
+intro: Collect data on past hiring actions to determine the impact of your pilot after completion. The SME-QA team can help with this.
 sub-phase-order: 040
 ---
 
@@ -14,6 +14,8 @@ sub-phase-order: 040
 <p class="usa-intro">
   {{ page.intro }}
 </p>
+
+To gauge the success of your hiring action, collect baseline data about recent hiring actions at your agency. If you plan a delegated examination (DE) pilot, you will want to collect data from past DE actions, and so forth. You'll compare this information with the results you receive when your new hiring action is complete. If you share this data with us we can help you analyze the data and evaluate your results.
 
 For one to two recent DE actions for a similar GS level and series to the position you plan to fill, gather:
 

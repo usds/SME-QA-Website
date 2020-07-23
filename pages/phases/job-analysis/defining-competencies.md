@@ -6,7 +6,7 @@ title: Defining Competencies
 sidenav: hiring-phases
 phase: job-analysis
 sub-phase-order: 040
-intro: Resume reviewers and interviewers must be able to clearly and objectively evaluate an applicant against competencies that you've defined before assessments begin. To define your competencies, document what it looks like when an applicant has that skill. You'll list these definitions in the job announcement as required qualifications.
+intro: Your SMEs must clearly and objectively evaluate applicants against competencies you define before assessments begin. You'll list competancies in the job announcement as required qualifications.
 ---
 
 <p class="usa-intro">
@@ -19,7 +19,7 @@ In this example, the job tasks in a grouping resulted in a Customer Support core
 - Communicate and escalate across issues to a given vendor.
 - Assist customers with deployment and installation of new or updated applications.
 
-The competency definition should be 1-3 sentences long and avoid a laundry list of specific tasks. Based on the job tasks, the definition for Customer Support is:
+The competency definition should be 1-3 sentences long and avoid a laundry list of specific tasks. Competancies should explain what it looks like when an applicant has that skill. Based on the job tasks, the definition for Customer Support is:
 
 > *Customer Support: Works with external and/or internal customers in a large, geographically dispersed organization to assess needs, provide information or assistance, and resolve their problems. Knows how to best utilize ticketing systems. Is committed to providing quality products and services.*
 

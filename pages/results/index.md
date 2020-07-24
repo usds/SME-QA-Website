@@ -3,17 +3,22 @@ layout: article
 section: results
 permalink: /results/
 title: Results
-intro: In Spring 2019, USDS and OPM partnered to run identical hiring pilots at both Health and Human Services (HHS) and Department of Interior (DOI). The pilots, named the Subject Matter Expert Qualification Assessment (SME-QA) Process, tested whether SME qualification determinations improve hiring outcomes within the competitive service.
+intro: Through the spring of 2019, the team tested the SME-QA process with two pilots at Health and Human Services (HHS) and Department of the Interior (DOI), both focused on improving the quality of applicants who appear on certificates. In addition, while time to hire was not a focus of these pilots, it will be critical as the SME-QA process scales. To measure the success of the pilots, the team gathered baseline data to compare with data from each agency pilot.
 ---
+
+{% assign agencies = site.data.results %}
 
 <p class="usa-intro">
   {{ page.intro }}
 </p>
 <p>
-  To begin the pilots at both agencies, USDS facilitated a job analysis workshop with HR specialists and SMEs to establish minimum qualification criteria and structured interview assessments. HR specialists used the information from the workshop to craft and post a shorter, private-sector-style job announcement. Two trained subject matter experts (SMEs) separately reviewed each applicant’s resume to determine whether they qualified for a first interview. A single SME conducted the first interview, which assessed the applicant’s breadth of knowledge in the required competencies. Those who passed the first interview received a second interview with a different SME to assess their depth of knowledge in the required competencies. Only applicants who passed the second interview were considered qualified. HR specialists then adjudicated veterans’ preference, applied category ratings, and issued certificates to selecting officials.
+  The most important metric the team tracked was the number of selections hiring managers made from the certificates, indicating the quality of the certificates. Because the SME-QA process gradually eliminates applicants who Subject Matter Experts (SMEs) do not find qualified, hiring managers received a shorter list of qualified applicants. In both pilots, fewer applicants were deemed qualified but more applicants were selected. 
 </p>
 
-## Pilot Agencies
+## Pilot Agencies - Round One
 
-* [Health and Human Services](hhs/)
-* [Department of Interior](doi/)
+{% assign hhs = agencies['hhs'] %}
+{% assign doi = agencies['doi'] %}
+
+* <a href="{{hhs.abbrev | prepend: site.baseurl }}/">{{hhs.name}}</a>
+* <a href="{{doi.abbrev | prepend: site.baseurl }}/">{{doi.name}}</a>

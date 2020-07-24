@@ -1,0 +1,42 @@
+name: Health and Human Services
+abbrev: hhs
+office: Office of the Secretary of HHS
+pilots:
+  - first:
+    role: IT Specialist 
+    series: 2210
+    vacancies:
+      - grade: GS-13
+        open: 10
+    locations:
+      - name: Washington, DC
+    participants:
+      - name: HR Specialists 
+        count: 2
+      - name: Subject Matter Experts
+        count: 9
+    joa:
+      open-date: Friday April 5th, 2019
+      close-date: Saturday April 6th, 2019
+      url: https://www.usajobs.gov/GetJob/ViewDetails/529652500
+    roles:
+      - IT Specialist Generalist
+      - IT Customer Support Specialist
+      - IT Data Management Specialist
+      - IT Policy and Planning Specialist
+    applicants:
+      total: 164
+      qualified: 36
+      selected: 7
+      hired: 7
+    assessments:
+      - name: Resume review
+        passed: 103
+        percentage: 63
+      - name: Interview One
+        passed: 54
+        percentage: 33
+      - name: Interview Two
+        passed: 36
+        percentage: 22
+      

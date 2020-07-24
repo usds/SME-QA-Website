@@ -21812,131 +21812,31 @@ input[type=search]{
   }
 }
 
-.chp-home-hero{
-  background-color:#000;
-  background-repeat:no-repeat;
-  min-height:400px;
-  background-image:url(../img/hero--home-sm.png);
+.chp-home{
+  margin-top:2rem;
 }
-@media all and (min-width: 64em){
-  .chp-home-hero{
-    background-position:right;
-    background-image:url(../img/hero--home-lg.png);
-    min-height:500px;
-  }
+.chp-home__row{
+  margin-bottom:2.5rem;
 }
-.chp-home-hero__mask{
-  width:100%;
-  min-height:400px;
-  background:-webkit-gradient(linear, left top, left bottom, from(black), color-stop(60%), to(transparent));
-  background:linear-gradient(to bottom, black, 60%, transparent);
-}
-@media all and (min-width: 64em){
-  .chp-home-hero__mask{
-    min-height:500px;
-    background:-webkit-gradient(linear, left top, right top, from(black), color-stop(77%), to(transparent));
-    background:linear-gradient(to right, black, 77%, transparent);
-  }
-}
-.chp-home-hero__body{
+.chp-home__diagram{
+  max-width:550px;
   margin-left:auto;
   margin-right:auto;
-  max-width:64rem;
 }
-.chp-home-hero__quote{
-  border:0;
-  margin:0;
-  padding:2rem;
-  color:white;
-  font-family:Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-  font-size:1.13rem;
-}
-@media all and (min-width: 64em){
-  .chp-home-hero__quote{
-    font-size:3.19rem;
-    padding:3.5rem 16rem 2rem 2rem;
+@media all and (min-width: 55em){
+  .chp-home__diagram{
+    max-width:inherit;
   }
 }
-.chp-home-hero__quote-attribution{
-  display:block;
-  margin-top:0.5rem;
-  font-style:italic;
-  font-family:Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-  font-size:1.13rem;
-}
-@media all and (min-width: 64em){
-  .chp-home-hero__quote-attribution{
-    text-align:right;
-    padding-right:5rem;
-  }
-}
-.chp-home-hero__title{
-  color:white;
-  margin:0;
-  padding:1rem;
-}
-@media all and (min-width: 64em){
-  .chp-home-hero__title{
-    padding:3rem 2rem;
-  }
-}
-.chp-home-hero__caption{
-  width:100%;
-  padding:0.5rem 0;
-  max-width:inherit;
-  background-color:white;
-  font-size:0.93rem;
-}
-
-.chp-home__lead{
-  font-family:Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-  font-size:1.13rem;
-}
-
-.chp-home-certs{
-  position:relative;
-  text-align:center;
-  padding-bottom:2.5rem;
-  padding-top:2.5rem;
-  width:100%;
-}
-@media all and (min-width: 30em){
-  .chp-home-certs{
-    -webkit-box-flex:0;
-        -ms-flex:0 0 auto;
-            flex:0 0 auto;
-    width:50%;
-  }
-}
-.chp-home-certs__stat{
-  font-size:3.19rem;
-}
-.chp-home-certs__desc{
-  font-size:1.46rem;
-}
-
-.chp-home-certs::after{
-  content:"";
-  background-image:url(../img/solid/times.svg);
-  background-size:35%;
-  background-repeat:no-repeat;
-  background-position:center center;
-  display:block;
-  position:absolute;
-  top:0;
-  left:0;
-  bottom:0;
-  right:0;
-  width:100%;
-  height:100%;
-  opacity:0.3;
-}
-
 .chp-home__sub-title{
   font-size:1.06rem;
   text-transform:uppercase;
   letter-spacing:0.3em;
   font-weight:400;
+}
+.chp-home__lead{
+  font-family:Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-size:1.13rem;
 }
 
 .chp-home-features__row{
@@ -22013,7 +21913,7 @@ input[type=search]{
       -ms-flex:1;
           flex:1;
   min-width:0;
-  font-size:1.46rem;
+  font-size:1.13rem;
 }
 
 .chp-banner--beta{

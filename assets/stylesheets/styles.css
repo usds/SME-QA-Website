@@ -21838,6 +21838,26 @@ input[type=search]{
   font-family:Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-size:1.13rem;
 }
+.chp-home__button{
+  margin-bottom:2.5rem;
+}
+
+.chp-home-read-more{
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-align:center;
+      -ms-flex-align:center;
+          align-items:center;
+  margin-top:0.5rem;
+}
+.chp-home-read-more__figure{
+  padding-right:1rem;
+}
+.chp-home-read-more__figure svg{
+  width:1.5rem;
+  fill:#005ea2;
+}
 
 .chp-home-features__row{
   display:-webkit-box;

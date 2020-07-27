@@ -55,6 +55,25 @@ i.e.
     @include u-font-family('serif');
     @include u-font-size('body', 'md');
   }
+
+  &__button {
+    margin-bottom: units(5);
+  }
+}
+
+.chp-home-read-more {
+  display: flex;
+  align-items: center;
+  margin-top: units(1);
+
+  &__figure {
+    padding-right: units(2);
+
+    svg {
+      width: 1.5rem;
+      fill: color('primary');
+    }
+  }
 }
 
 .chp-home-features {

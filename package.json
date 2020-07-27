@@ -32,7 +32,7 @@
     "acorn": "^7.1.1",
     "autoprefixer": "^9.7.6",
     "axe-core": "^3.5.3",
-    "browser-sync": "^2.26.7",
+    "browser-sync": "^2.26.10",
     "chalk": "^4.0.0",
     "chrome-launcher": "^0.13.1",
     "chrome-remote-interface": "^0.28.1",

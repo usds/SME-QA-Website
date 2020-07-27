@@ -10,16 +10,14 @@ primary:
     name: results
 
 about:
-  - text: The SME-QA Process
-    href: /about/our-process/
+  - text: SME-QA Principles
+    href: /about/our-principles/
   - text: How SME-QA is Different
     href: /about/differences/
   - text: The Authority for SME-QA
     href: /about/authority/
 
 hiring-phases:
-  - text: Overview of SME-QA Phases
-    href: /hiring-phases/
   - text: Getting Started
     href: /hiring-phases/getting-started/
     subnav:

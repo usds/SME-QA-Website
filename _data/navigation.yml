@@ -10,7 +10,7 @@ primary:
     name: results
 
 about:
-  - text: SME-QA Pinciples
+  - text: SME-QA Principles
     href: /about/our-principles/
   - text: How SME-QA is Different
     href: /about/differences/

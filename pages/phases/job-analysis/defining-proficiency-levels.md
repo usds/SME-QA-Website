@@ -6,7 +6,7 @@ title: Defining Proficiency Levels and Required Experience
 sidenav: hiring-phases
 phase: job-analysis
 sub-phase-order: 050
-intro: Define the proficiency levels SMEs will use to compare an applicant's experience against your competencies. This establishes the specialized experience for the position.
+intro: Define proficiency levels for each competency and then SMEs and HR will decide which level is required for the GS level in this hiring action.
 ---
 
 <p class="usa-intro">

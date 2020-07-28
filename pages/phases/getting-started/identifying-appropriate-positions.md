@@ -6,7 +6,7 @@ title: Identifying Appropriate Positions
 sidenav: hiring-phases
 phase: getting-started
 sub-phase-order: 010
-intro: Start by finding the right people to serve in the different roles to support this process and select a position with multiple openings.
+intro: Start by selecting a specialized position with multiple openings. 
 ---
 
 <p class="usa-intro">

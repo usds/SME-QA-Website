@@ -6,7 +6,7 @@ sidenav: hiring-phases
 phase: assessments
 sub-phase-order: 015
 title: Training SMEs to Conduct Assessments
-intro: Hold a mandatory two-hour training for all assessing SMEs for each type of assessment, leveraging the required proficiency levels.
+intro: Hold a mandatory SME training for each type of assessment, showing them how to review the responses against the required specialized experience (e.g. minimum  proficiency level set during job analysis)
 ---
 
 <p class="usa-intro">

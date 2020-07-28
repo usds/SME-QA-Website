@@ -19,11 +19,11 @@ In this example, the job tasks in a grouping resulted in a Customer Support core
 - Communicate and escalate across issues to a given vendor.
 - Assist customers with deployment and installation of new or updated applications.
 
-The competency definition should be 1-3 sentences long and avoid a laundry list of specific tasks. Competancies should explain what it looks like when an applicant has that skill. Based on the job tasks, the definition for Customer Support is:
+The competency definition should be 1-3 sentences long and avoid a laundry list of specific tasks. Competencies should explain what it looks like when an applicant has that skill. Here is an example definition for the "Customer Support" competency:
 
-> *Customer Support: Works with external and/or internal customers in a large, geographically dispersed organization to assess needs, provide information or assistance, and resolve their problems. Knows how to best utilize ticketing systems. Is committed to providing quality products and services.*
+> *Customer Support: Works with customers to assess needs, provide information or assistance, and resolve their problems. Shows commitment to providing quality products and services.*
 
-When defining your competencies, you may find it helpful to refer to existing competency definitions like the OPM qualification standards for the series you're hiring for. Edit those definitions to match the requirements your workshop group has determined are necessary for your posted position.
+When defining your competencies, you may find it helpful to refer to existing competency definitions and frameworks like the OPM qualification standards. SMEs can edit those definitions to match the requirements your workshop group has determined are necessary for your posted position.
 
 #### Weighting competencies
 

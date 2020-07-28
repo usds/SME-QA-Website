@@ -6,17 +6,17 @@ title: Recruiting For Your Roles
 sidenav: hiring-phases
 phase: job-announcement
 sub-phase-order: 030
-intro: High applicant volume from USAJOBS often convinces agencies that they don't need to recruit for their positions. To attract highly qualified applicants who don't typically search USAJOBS, plan where you'll advertise your announcement before the job is posted using these common private sector recruitment methods.
+intro: To attract highly qualified applicants who don't typically search USAJOBS, plan to advertise your announcement before posting using common private sector recruitment methods.
 ---
 
 <p class="usa-intro">
   {{ page.intro }}
 </p>
-
+High applicant volume from USAJOBS often convinces agencies they don't need to recruit for their positions. Recruitment is key to ensure a strong talent pipeline at the beginning of the process.
 
 ### Use personal and professional referrals
 
-Traditional networking is extremely effective for finding great candidates. Mention positions to your internal networks, and ask them to reach out to *their* networks to encourage people to apply.
+Traditional networking is extremely effective for finding great candidates. Engage hiring managers and SMEs in the recruitment process so they have a role in recruiting top talent.
 
 ### Post to free and popular targeted job boards
 

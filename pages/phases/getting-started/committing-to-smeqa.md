@@ -6,7 +6,7 @@ title: Committing to SME-QA
 sidenav: hiring-phases
 phase: getting-started
 sub-phase-order: 005
-intro: In order to be successful, all parties involved in the hiring action need to commit to the assessment strategy employed by SME-QA.
+intro: All parties involved in the hiring action should understand the process and time commitment before getting started. 
 ---
 
 <p class="usa-intro">

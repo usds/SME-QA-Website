@@ -6,7 +6,7 @@ title: Creating Assessments from Competencies
 sidenav: hiring-phases
 phase: job-analysis
 sub-phase-order: 060
-intro: Dedicate the second half of your job analysis workshop to working with SMEs to develop material for both assessment rounds.
+intro: In the second half of your job analysis workshop, work with SMEs to develop material for your job related assessments.
 ---
 
 <p class="usa-intro">

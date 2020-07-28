@@ -29,6 +29,17 @@ gem install bundler
 gem install jekyll
 ```
 
+### Make sure you have node and npm installed
+```
+node --version
+npm --version
+```
+
+### Install the gulp command line tool
+```
+npm install --global gulp-cli
+```
+
 ### Do this occasionally when the project updates
 ```
 bundle install

@@ -12,11 +12,11 @@ intro: To attract highly qualified applicants who don't typically search USAJOBS
 <p class="usa-intro">
   {{ page.intro }}
 </p>
-High applicant volume from USAJOBS often convinces agencies they don't need to recruit for their positions. We have observed that many applicants eventually hired by agencies learn about postings via mechanisms besides USAJOBS.
+High applicant volume from USAJOBS often convinces agencies they don't need to recruit for their positions. Recruitment is key to ensure a strong talent pipeline at the beginning of the process.
 
 ### Use personal and professional referrals
 
-Traditional networking is extremely effective for finding great candidates. Mention positions to your internal networks, and ask them to reach out to *their* networks to encourage people to apply.
+Traditional networking is extremely effective for finding great candidates. Engage hiring managers and SMEs in the recruitment process so they have a role in recruiting top talent.
 
 ### Post to free and popular targeted job boards
 

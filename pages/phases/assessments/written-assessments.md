@@ -19,8 +19,4 @@ The assessment type should be appropriate to evaluate the applicant's proficienc
 
 ### Assessment Options
 
-- Whiteboarding exercise
-- Structured essay
-- Unstructured essay (short responses or long responses)
-
-See a longer list at [this reference link](https://www.opm.gov/policy-data-oversight/assessment-and-selection/other-assessment-methods/).
+See a full list at [this reference link](https://www.opm.gov/policy-data-oversight/assessment-and-selection/other-assessment-methods/).

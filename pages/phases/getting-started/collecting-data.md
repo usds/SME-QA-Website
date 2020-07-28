@@ -15,12 +15,13 @@ sub-phase-order: 040
   {{ page.intro }}
 </p>
 
-To gauge the success of your hiring action, collect baseline data about recent hiring actions at your agency. If you plan a delegated examination (DE) pilot, you will want to collect data from past DE actions, and so forth. You'll compare this information with the results you receive when your new hiring action is complete. If you share this data with us we can help you analyze the data and evaluate your results.
+To gauge the success of your hiring action, collect baseline data about recent hiring actions at your agency. If you plan a delegated examination (DE) pilot, you will want to collect data from past DE actions. You'll compare this information with the results you receive when your new hiring action is complete. 
 
-For one to two recent DE actions for a similar GS level and series to the position you plan to fill, gather:
+For all your DE actions within the past one to two years for a similar GS level and series to the position you plan to fill, gather:
 
 1. **Current qualified rate**: How many applications were considered qualified by an HR specialist.
-2. **Current selection rate**: The number of selections made off of the resulting certificates, represented numerically and as a percentage of qualified applications.
+2. **Current referral rate**: How many applicants were referred to the hiring manager.
+3. **Current selection rate**: The number of selections made off of the resulting certificates, represented numerically and as a percentage of qualified applications.
 
 Use our <a href="{{site.baseline}}/toolkit/getting-started/baseline-data-to-collect.xlsx">baseline data spreadsheet</a> in order to request data from your Talent Acquisition System. 
 

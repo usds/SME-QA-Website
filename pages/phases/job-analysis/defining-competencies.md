@@ -6,7 +6,7 @@ title: Defining Competencies
 sidenav: hiring-phases
 phase: job-analysis
 sub-phase-order: 040
-intro: SMEs will clearly and objectively evaluate applicants against competencies you define before assessments begin. You'll list competancies in the job announcement as required qualifications.
+intro: During the job analysis workshop, SMEs will clearly define the specialized experience in the form of competencies. These will then be listed in the job announcement along with the competency definition. 
 ---
 
 <p class="usa-intro">

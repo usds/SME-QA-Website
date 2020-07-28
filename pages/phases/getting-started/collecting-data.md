@@ -5,7 +5,7 @@ section: hiring-phases
 title: Collecting data
 sidenav: hiring-phases
 phase: getting-started
-intro: Collect data on past hiring actions to determine the impact of your pilot after completion. The SME-QA team can help with this.
+intro: Collect qualification, referral, and selection data on previous hiring actions that used the same hiring authority. By accessing your baseline data, you can better evaluate your results.
 sub-phase-order: 040
 ---
 

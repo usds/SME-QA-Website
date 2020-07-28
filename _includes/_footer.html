@@ -1,61 +1,73 @@
-<footer class="usa-footer usa-footer--slim chp-footer" role="contentinfo">
+<footer class="usa-footer usa-footer--big chp-footer" role="contentinfo">
   <div class="grid-container usa-footer__return-to-top">
     <a href="#main-content">Return to top</a>
   </div>
   <div class="usa-footer__primary-section">
-    <div class="usa-footer__primary-container grid-row">
-      <div class="mobile-lg:grid-col-8">
-        <nav class="usa-footer__nav" aria-label="Footer navigation">
-          <ul class="grid-row grid-gap">
-            <li class="mobile-lg:grid-col-6 desktop:grid-col-auto usa-footer__primary-content">
-              <a class="usa-footer__primary-link" href="{{ site.baseurl }}/about/our-process/">About SME-QA</a>
-            </li>
-            <li class="mobile-lg:grid-col-6 desktop:grid-col-auto usa-footer__primary-content">
-              <a class="usa-footer__primary-link" href="{{ site.baseurl }}/hiring-phases/getting-started/">Hiring Phases</a>
-            </li>
-            <li class="mobile-lg:grid-col-6 desktop:grid-col-auto usa-footer__primary-content">
-              <a class="usa-footer__primary-link" href="{{ site.baseurl }}/results/">Results</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-      <div class="mobile-lg:grid-col-4">
-        <div class="grid-row grid-gap mobile-lg:grid-gap-0">
-          <div class="grid-col-auto mobile-lg:grid-col-12 desktop:grid-col-auto">
-            <a class="chp-footer__changelog-link" href="{{site.baseurl}}/changelog/">Read our change log to see what has changed on this site.</a>
+    <div class="grid-container">
+      <div class="grid-row grid-gap">
+        <div class="tablet:grid-col-8">
+          <nav class="usa-footer__nav" aria-label="Footer navigation">
+            <div class="grid-row grid-gap-4">
+          {% assign primary_links = site.data.navigation.primary %}
+          {% if primary_links %}
+            {% for _section in primary_links %}
+              <div class="mobile-lg:grid-col-6 desktop:grid-col-4">
+                <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
+                  <h4 class="usa-footer__primary-link">{{ _section.text }}</h4>
+              {% assign secondary_links = site.data.navigation[_section.name] | default: _section.name %}
+              {% if secondary_links %}
+                  <ul class="usa-list usa-list--unstyled">
+                {% for _link in secondary_links %}
+                    <li class="usa-footer__secondary-link">
+                      <a href="{% if _link.external %}{{ _link.href }}{% else %}{{ _link.href | relative_url }}{% endif %}">{{ _link.text }}</a>
+                    </li>
+                {% endfor %}
+                  </ul>
+              {% endif %}
+                </section>
+              </div>
+            {% endfor %}
+            </div>
+          {% endif %}
+          </nav>
+        </div>
+        <div class="tablet:grid-col-4">
+          <div class="grid-row grid-gap mobile-lg:grid-gap-0">
+            <div class="grid-col-auto mobile-lg:grid-col-12 desktop:grid-col-auto">
+              <a class="chp-footer__changelog-link" href="{{site.baseurl}}/changelog/">
+                Recent changes to this site
+              </a>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <div class="usa-footer__secondary-section">
+  <div class="usa-footer__secondary-section chp-footer-secondary">
     <div class="grid-container">
-      <div class="usa-footer__logo grid-row grid-gap-2">
-        <div class="grid-col-auto">
-          <h3 class="usa-footer__logo-heading">USDS</h3>
-          <ul class="usa-unstyled-list chp-footer__sub-list">
-            <li>
-              <a href="https://www.usds.gov/privacy" target="_blank" rel="noreferrer"><span class="sr-only">Opens in a new window</span>Privacy Policy</a>
-            </li>
-            <!-- li>
-              <a href="https://www.opm.gov/about-us/budget-performance/" target="_blank"><span class="sr-only">Opens in a new window</span>Budget and Performance</a>
-            </li>
-            <li>
-              <a href="https://www.opm.gov/information-management/freedom-of-information-act/" target="_blank"><span class="sr-only">Opens in a new window</span>FOIA</a>
-            </li>
-            <li>
-              <a href="https://www.opm.gov/our-inspector-general/" target="_blank"><span class="sr-only">Opens in a new window</span>Inspector General</a>
-            </li>
-            <li>
-              <a href="https://www.opm.gov/information-management/no-fear-act/" target="_blank"><span class="sr-only">Opens in a new window</span>No Fear Act Data</a>
-            </li>
-            <li>
-              <a href="https://www.opm.gov/information-management/privacy-policy/" target="_blank"><span class="sr-only">Opens in a new window</span>Privacy Policy</a>
-            </li>
-            <li>
-              <a href="http://www.usa.gov/" target="_blank"><span class="sr-only">Opens in a new window</span>USA.gov</a>
-            </li -->
-          </ul>
+      <div class="grid-row grid-gap">
+        <div class="usa-footer__logo grid-row mobile-lg:grid-col-6 mobile-lg:grid-gap-2">
+          <div class="mobile-lg:grid-col-auto">
+            <img class="usa-footer__logo-img chp-footer-secondary__logo" src="{{ site.baseurl }}/assets/img/usds-logo-footer.svg" alt="USDS logo">
+          </div>
+          <div class="mobile-lg:grid-col-auto">
+            <h3 class="usa-footer__logo-heading">U.S. Digital Service</h3>
+          </div>
+        </div>
+        <div class="usa-footer__contact-links mobile-lg:grid-col-6">
+          <h3 class="usa-footer__contact-heading">
+            Subject Matter Expert Qualification Assessments (SME-QA)
+          </h3>
+          <address class="usa-footer__address">
+            <div class="usa-footer__contact-info grid-row grid-gap">
+              <div class="grid-col-auto">
+                <a href="mailto:dl.omb.smeqa@omb.eop.gov?subject=Interested in using SME-QA" class="chp-footer-secondary__link">Contact us</a>
+              </div>
+              <div class="grid-col-auto">
+                <a href="https://www.usds.gov/privacy" class="chp-footer-secondary__link" target="_blank" rel="noreferrer"><span class="sr-only">Opens in a new window</span>Privacy Policy</a>
+              </div>
+            </div>
+          </address>
         </div>
       </div>
     </div>

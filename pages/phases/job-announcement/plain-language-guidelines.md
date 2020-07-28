@@ -6,7 +6,7 @@ title: Plain Language Guidelines for Writing Your Job Announcement
 sidenav: hiring-phases
 phase: job-announcement
 sub-phase-order: 040
-intro: Each part of your job announcement should help the job seeker to understand the work they'll do and how they'll be assessed. Review your job announcement before you publish it to ensure the best applicant experience.
+intro: The job announcement should be an accurate representation of the position and not come verbatim from the Position Descripion. 
 ---
 
 <p class="usa-intro">

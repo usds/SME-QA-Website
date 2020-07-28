@@ -6,7 +6,7 @@ title: Defining Competencies
 sidenav: hiring-phases
 phase: job-analysis
 sub-phase-order: 040
-intro: In the job analysis workshop, SMEs clearly define the specialized experience in the form of competencies. You will least these competancies and their definitions in the job announcement. 
+intro: In the job analysis workshop, SMEs clearly define the specialized experience in the form of competencies. You will list these competancies and their definitions in the job announcement. 
 ---
 
 <p class="usa-intro">

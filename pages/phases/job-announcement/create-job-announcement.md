@@ -56,7 +56,7 @@ When posting your job to the public, select only *The public*, which encompasses
 
 ### 7. Assessment Strategy
 
-Use the "How You Will Be Evaluated" section to describe that applicants will be examined by subject matter experts using a structured interview process, then describe your phases. You should have established this information with SMEs during the job analysis workshop when you <a href="../../job-analysis/documenting-assessment-strategy">documented your assessment strategy</a>.
+Use the "How You Will Be Evaluated" section to describe that applicants will be examined by subject matter experts using a structured interview process, then describe your phases. You should have established this information with SMEs during the job analysis workshop when you <a href="{{ site.baseurl }}/hiring-phases/assessment-strategy">documented your assessment strategy</a>.
 
 <h4 id="example-how-you-will-be-evaluated">Example "How You Will Be Evaluated" section</h4>
 <blockquote>

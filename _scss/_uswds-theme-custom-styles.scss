@@ -395,10 +395,6 @@ blockquote {
     @include u-padding-y(2);
     @include permaLink();
   }
-
-  &__last-modified {
-    margin-bottom: units(2);
-  }
 }
 
 .chp-footer-secondary {

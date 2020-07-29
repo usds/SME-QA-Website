@@ -392,8 +392,12 @@ blockquote {
 
   &__changelog-link {
     display: block;
-    @include u-padding(2);
+    @include u-padding-y(2);
     @include permaLink();
+  }
+
+  &__last-modified {
+    margin-bottom: units(2);
   }
 }
 

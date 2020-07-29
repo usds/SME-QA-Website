@@ -22203,11 +22203,15 @@ blockquote{
 }
 .chp-footer__changelog-link{
   display:block;
-  padding:1rem;
+  padding-bottom:1rem;
+  padding-top:1rem;
   color:#005ea2;
 }
 .chp-footer__changelog-link:visited{
   color:#005ea2;
+}
+.chp-footer__last-modified{
+  margin-bottom:1rem;
 }
 
 .chp-footer-secondary{

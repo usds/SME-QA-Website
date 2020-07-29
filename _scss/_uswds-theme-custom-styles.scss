@@ -386,46 +386,34 @@ blockquote {
 }
 
 .chp-footer {
-  .usa-footer__primary-link {
+  .usa-footer__secondary-link a {
     @include permaLink();
   }
 
   &__changelog-link {
     display: block;
-    @include u-padding(2);
+    @include u-padding-y(2);
+    @include permaLink();
   }
 
-  &__sub-list {
-    list-style-type: none;
-    padding-left: 0;
-    width: 100%;
-
-    @include at-media('mobile-lg') {
-      @include grid-row;
-    }
-
-    li {
-      @include at-media('mobile-lg') {
-        @include grid-col(6);
-      }
-      @include at-media('tablet-lg') {
-        @include grid-col(auto);
-        max-width: inherit;
-      }
-    }
-
-    li a {
-      display: block;
-      @include u-padding-y(1);
-      @include u-font-size('body', '2xs');
-      text-decoration: none;
-
-      @include at-media('tablet-lg') {
-        @include u-padding(1);
-        margin-right: units(1);
-      }
-    }
+  &__last-modified {
+    margin-bottom: units(2);
   }
+}
+
+.chp-footer-secondary {
+  background-color: color($theme-color-chp-blue);
+  color: #fff;
+
+  &__logo {
+    width: 5rem;
+    max-width: inherit;
+  }
+}
+
+.chp-footer-secondary .chp-footer-secondary__link {
+  color: #fff;
+  @include permaLink(#fff);
 }
 
 .chp-card {

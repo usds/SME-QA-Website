@@ -46,6 +46,9 @@ plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
 
+last-modified-at:
+  date-format: '%B %d, %Y'
+
 # Jekyll SEO Tag
 # See https://github.com/jekyll/jekyll-seo-tag
 logo: /img/usds-logo-onwhite.png

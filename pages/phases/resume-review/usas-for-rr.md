@@ -6,7 +6,7 @@ title: Using USA Staffing for Resume Review
 sidenav: hiring-phases
 phase: resume-review
 sub-phase-order: 030
-intro: If you're using USA Staffing to support your hiring action, you can bulk export applicants and grant SMEs access to applicant resumes.
+intro: If using USA Staffing to support your hiring action, you can bulk export applicants and grant SMEs access to applicant resumes.
 ---
 
 <p class="usa-intro">

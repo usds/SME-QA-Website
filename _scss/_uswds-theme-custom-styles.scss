@@ -27,133 +27,52 @@ i.e.
   }
 }
 
-.chp-home-hero {
-  $hero-min-height-sm: 400px;
-  $hero-min-height-lg: 500px;
-  background-color: #000;
-  background-repeat: no-repeat;
-  min-height: $hero-min-height-sm;
-  background-image: url(../img/hero--home-sm.png);
+.chp-home {
+  margin-top: units(4);
 
-  @include at-media(desktop) {
-    background-position: right;
-    background-image: url(../img/hero--home-lg.png);
-    min-height: $hero-min-height-lg;
+  &__row {
+    margin-bottom: units(5);
   }
 
-  &__mask {
-    width: 100%;
-    min-height: $hero-min-height-sm;
-    background: linear-gradient(to bottom, black, 60%, transparent);
-
-    @include at-media(desktop) {
-      min-height: $hero-min-height-lg;
-      background: linear-gradient(to right, black, 77%, transparent);
-    }
-  }
-
-  &__body {
+  &__diagram {
+    max-width: 550px;
     margin-left: auto;
     margin-right: auto;
-    max-width: 64rem;
-  }
 
-  &__quote {
-    border: 0;
-    margin: 0;
-    padding: units(4);
-    color: color('white');
-    @include u-font-family('serif');
-    @include u-font-size('body', 'md');
-
-    @include at-media(desktop) {
-      @include u-font-size('body', '3xl');
-      padding: units(7) 16rem units(4) units(4);
+    @include at-media(tablet-lg) {
+      max-width: inherit;
     }
   }
 
-  &__quote-attribution {
-    display: block;
-    margin-top: units(1);
-    font-style: italic;
-    @include u-font-family('serif');
-    @include u-font-size('body', 'md');
-
-    @include at-media(desktop) {
-      text-align: right;
-      padding-right: 5rem;
-    }
-  }
-
-  &__title {
-    color: color('white');
-    margin: 0;
-    padding: units(2);
-
-    @include at-media(desktop) {
-      padding: units(6) units(4);
-    }
-  }
-
-  &__caption {
-    width: 100%;
-    padding: units(1) 0;
-    max-width: inherit;
-    background-color: color('white');
-    @include u-font-size('body', '2xs');
-  }
-}
-
-.chp-home {
-  &__lead {
-    @include u-font-family('serif');
-    @include u-font-size('body', 'md');
-  }
-}
-
-
-.chp-home-certs {
-  position: relative;
-  text-align: center;
-  @include u-padding-y(5);
-  width: 100%;
-
-  @include at-media('mobile-lg') {
-    @include grid-col(6);
-  }
-
-  &__stat {
-    @include u-font-size('body', '3xl');
-  }
-
-  &__desc {
-    @include u-font-size('body', 'lg');
-  }
-}
-
-.chp-home-certs::after {
-  content: "";
-  background-image: url(../img/solid/times.svg);
-  background-size: 35%;
-  background-repeat: no-repeat;
-  background-position: center center;
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0.3;
-}
-
-.chp-home {
   &__sub-title {
     @include u-font-size('body', 'sm');
     text-transform: uppercase;
     letter-spacing: .3em;
     font-weight: 400;
+  }
+
+  &__lead {
+    @include u-font-family('serif');
+    @include u-font-size('body', 'md');
+  }
+
+  &__button {
+    margin-bottom: units(5);
+  }
+}
+
+.chp-home-read-more {
+  display: flex;
+  align-items: center;
+  margin-top: units(1);
+
+  &__figure {
+    padding-right: units(2);
+
+    svg {
+      width: 1.5rem;
+      fill: color('primary');
+    }
   }
 }
 
@@ -212,7 +131,7 @@ i.e.
   &__body {
     flex: 1;
     min-width: 0;
-    @include u-font-size('body', 'lg');
+    @include u-font-size('body', 'md');
   }
 }
 
@@ -467,46 +386,30 @@ blockquote {
 }
 
 .chp-footer {
-  .usa-footer__primary-link {
+  .usa-footer__secondary-link a {
     @include permaLink();
   }
 
   &__changelog-link {
     display: block;
-    @include u-padding(2);
+    @include u-padding-y(2);
+    @include permaLink();
   }
+}
 
-  &__sub-list {
-    list-style-type: none;
-    padding-left: 0;
-    width: 100%;
+.chp-footer-secondary {
+  background-color: color($theme-color-chp-blue);
+  color: #fff;
 
-    @include at-media('mobile-lg') {
-      @include grid-row;
-    }
-
-    li {
-      @include at-media('mobile-lg') {
-        @include grid-col(6);
-      }
-      @include at-media('tablet-lg') {
-        @include grid-col(auto);
-        max-width: inherit;
-      }
-    }
-
-    li a {
-      display: block;
-      @include u-padding-y(1);
-      @include u-font-size('body', '2xs');
-      text-decoration: none;
-
-      @include at-media('tablet-lg') {
-        @include u-padding(1);
-        margin-right: units(1);
-      }
-    }
+  &__logo {
+    width: 5rem;
+    max-width: inherit;
   }
+}
+
+.chp-footer-secondary .chp-footer-secondary__link {
+  color: #fff;
+  @include permaLink(#fff);
 }
 
 .chp-card {

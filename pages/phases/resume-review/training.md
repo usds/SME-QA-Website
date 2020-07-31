@@ -6,7 +6,7 @@ title: Set Up and Conduct Resume Review Training
 sidenav: hiring-phases
 phase: resume-review
 sub-phase-order: 020
-intro: Before providing SMEs with their resume review assignments, conduct a two-hour training on how to review resumes. Optionally, follow your training with a one-hour guided resume review session, where you'll provide SMEs with their assignments and review resumes as a group.
+intro: Before assigning resumes to SMEs, conduct a two-hour training on resume review. Optionally, follow your training by assigning resumes and holding a one hour review session where SMEs can raise questions.
 ---
 
 <p class="usa-intro">

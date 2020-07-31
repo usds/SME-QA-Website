@@ -1,75 +1,97 @@
 ---
 layout: default
-description: During a typical competitive delegated examining hiring process, human resource (HR) specialists review resumes and occupational questionnaires to determine whether applicants are minimally qualified for a role. Agencies often conduct outreach and recruitment for technical positions and are concerned when they receive certificates without truly qualified applicants to select from.
+intro: The Subject Matter Expert Qualification Assessments (SME-QA) process introduces subject matter experts (SMEs), in partnership with HR specialists as guides, to create and conduct job related assessments before an applicant is considered qualified. HR specialists protect merit principles and ensure the integrity of the process.
 section: home
-img_description: 1,300 typists take civil service examinations at McKinley High School in Washington, DC on July 9, 1936. Such examinations continued until 1981.
+title: Subject Matter Expert Qualification Assessments
 permalink: /
 ---
 
 {% include _banner-beta.html %}
 
-<div class="chp-home-hero" role="img" aria-label="{{ page.img_description }}" alt="{{ page.img_description }}">
-  <div class="chp-home-hero__mask">
-    <div class="chp-home-hero__body">
-      <blockquote class="chp-home-hero__quote">
-         "It could be game-changing. Hiring scientists, any specialized skill&hellip;I would absolutely recommend my office use it."
-         <span class="chp-home-hero__quote-attribution">
-           – Technical Subject Matter Expert at HHS
-         </span>
-      </blockquote>
-      <h1 class="chp-home-hero__title">
-        Subject Matter Expert Qualification Assessments (SME-QA)
-      </h1>
+<div class="chp-home usa-layout-docs__main usa-prose">
+  <div class="grid-container">
+    <div class="grid-row grid-gap chp-home__row">
+      <div class="grid-col-fill">
+        <h1>{{ page.title }}</h1>
+        <p class="usa-intro">
+          {{ page.intro }}
+        </p>
+      </div>
     </div>
-  </div>
-</div>
-<div class="grid-container chp-home-hero__caption-container" aria-label="Introduction">
-  <div class="grid-row">
-    <div class="grid-cell">
-      <p class="chp-home-hero__caption">
-        {{ page.img_description }}
-      </p>
+    <div class="grid-row grid-gap chp-home__row">
+      <div class="desktop:grid-col-fill">
+        <h2>The SME-QA Process</h2>
+        <div class="chp-home__diagram">
+          <picture>
+            <source srcset="{{site.baseurl}}/assets/img/process-diagram-horiz.png" alt="A horizontal representation of each phase of the SME-QA hiring process" media="(min-width: 880px)">
+            <img srcset="{{site.baseurl}}/assets/img/process-diagram-vert.png" alt="A vertical representation of each phase of the SME-QA hiring process">
+          </picture>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
-
-<div class="grid-container margin-y-5">
-  <div class="grid-row">
-    <div class="grid-cell">
-      <p class="chp-home__lead">
-        {{ page.description }}
-      </p>
-      <p class="chp-home__lead">
-        With the SME-QA alternative, SMEs partner with HR specialists to create and conduct interview assessments before considering an applicant qualified and applying veterans’ preference. The SME-QA process is recommended for GS-12 or higher technical positions (not limited to IT) with at least five vacancies for the same role where applicant volume can be limited to approximately 100 applicants.
-      </p>
+    <div class="grid-row grid-gap chp-home__row">
+      <div class="tablet:grid-col-6">
+        <p>
+          During a typical competitive delegated examining hiring process, human resource (HR) specialists review resumes and occupational questionnaires to determine whether applicants are minimally qualified for a role. Agencies often conduct outreach and recruitment for technical positions and are concerned when they receive certificates without qualified applicants.
+        </p>
+      </div>
+      <div class="tablet:grid-col-6">
+        <p>
+          With the SME-QA process, subject matter experts (SMEs) partner with HR specialists to create and conduct job related assessments before considering an applicant qualified and applying Veterans’ preference. SME-QA is recommended for specialized positions with multiple vacancies for the same role.
+        </p>
+      </div>
+    </div>
+    <div class="grid-row grid-gap chp-home__row">
+      <div class="grid-col-fill">
+        <a class="usa-button usa-button--big chp-home__button" href="{{ site.baseurl }}/hiring-phases/">Get started</a>
+        <div class="chp-home-read-more">
+          <span class="chp-home-read-more__figure">
+            {% include svg/angle-right.svg %}
+          </span>
+          <div class="chp-home-read-more__body">
+            The Office of Personnel Management (OPM) memorandum "<a href="https://www.chcoc.gov/content/improving-federal-hiring-through-use-effective-assessment-strategies-advance-mission" target="_blank" rel="noreferrer">Improving Federal Hiring through the Use of Effective Assessment Strategies to Advance Mission Outcomes</a>" encourages HR to use SMEs to determine whether applicants are qualified.
+          </div>
+        </div>
+        <div class="chp-home-read-more">
+          <span class="chp-home-read-more__figure">
+            {% include svg/angle-right.svg %}
+          </span>
+          <div class="chp-home-read-more__body">
+            The "<a href="https://www.whitehouse.gov/presidential-actions/executive-order-modernizing-reforming-assessment-hiring-federal-job-candidates/" target="_blank" rel="noreferrer">Executive Order on Modernizing and Reforming the Assessment and Hiring of Federal Job Candidates</a>" removes self-evaluation as a solitary method for evaluating applicants.
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
 
 <div class="grid-container chp-home-features">
   <div class="grid-row chp-home-features__row">
+    <h2>Is SME-QA right for you?</h2>
+  </div>
+  <div class="grid-row chp-home-features__row">
     <div class="chp-home-features__container">
-      <a class="chp-home-featured" href="{{ site.baseurl }}/about/our-process/">
+      <a class="chp-home-featured" href="{{ site.baseurl }}/about/differences/">
         <h2 class="chp-home__sub-title">Learn more</h2>
         <div class="chp-home-featured__figure is-astronaut">
-          {% include svg/user-astronaut.svg %}
+          {% include svg/lightbulb.svg %}
         </div>
         <div class="chp-home-featured__body">
           <p>
-            Learn what it takes to qualify applicants using the Subject Matter Expert Qualification Assessment (SME-QA) process.
+            Learn what it takes to qualify applicants using competency-based assessments.
           </p>
         </div>
       </a>
     </div>
     <div class="chp-home-features__container">
-      <a class="chp-home-featured" href="{{ site.baseurl }}/hiring-phases/getting-started/">
-        <h2 class="chp-home__sub-title">Get started</h2>
+      <a class="chp-home-featured" href="{{ site.baseurl }}/about/authority/">
+        <h2 class="chp-home__sub-title">Why it's legal</h2>
         <div class="chp-home-featured__figure">
-          {% include svg/rocket.svg %}
+          {% include svg/book-open.svg %}
         </div>
         <div class="chp-home-featured__body">
           <p>
-            When you've decided to find qualified applicants using the SME-QA process, you can plan your hiring action.
+            Read more from existing OPM guidance that enables this process.
           </p>
         </div>
       </a>
@@ -82,7 +104,7 @@ permalink: /
         </div>
         <div class="chp-home-featured__body">
           <p>
-            See the results of our pilots with agencies that have used the SME-QA process to find talented applicants thus far.
+            See the results of our pilots with agencies that have used the SME-QA process.
           </p>
         </div>
       </a>

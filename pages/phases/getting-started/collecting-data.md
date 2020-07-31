@@ -5,7 +5,7 @@ section: hiring-phases
 title: Collecting data
 sidenav: hiring-phases
 phase: getting-started
-intro: To gauge the success of your hiring action, collect baseline data about recent delegated examination (DE) hiring actions at your agency. You'll compare this information with the results you receive when your new hiring action is complete. If you share this data with us we can help you analyze the data and evaluate your results.
+intro: Collect qualification, referral, and selection data on previous hiring actions that used the same hiring authority. By accessing your baseline data, you can better evaluate your results.
 sub-phase-order: 040
 ---
 
@@ -15,10 +15,13 @@ sub-phase-order: 040
   {{ page.intro }}
 </p>
 
-For one to two recent DE actions for a similar GS level and series to the position you plan to fill, gather:
+To gauge the success of your hiring action, collect baseline data about recent hiring actions at your agency. If you plan a delegated examination (DE) pilot, you will want to collect data from past DE actions. You'll compare this information with the results you receive when your new hiring action is complete. 
 
-1. **Current qualified rate**: How many applications were considered qualified by an HR specialist.
-2. **Current selection rate**: The number of selections made off of the resulting certificates, represented numerically and as a percentage of qualified applications.
+For all your DE actions within the past one to two years for a similar GS level and series to the position you plan to fill, gather:
+
+1. **Number of applicants found qualified**: How many applications were considered qualified by an HR specialist.
+2. **Number of applicants referred**: How many applicants were referred to the hiring manager.
+3. **Total number of selections**: The number of selections made off of the resulting certificates, represented numerically and as a percentage of qualified applications.
 
 Use our <a href="{{site.baseline}}/toolkit/getting-started/baseline-data-to-collect.xlsx">baseline data spreadsheet</a> in order to request data from your Talent Acquisition System. 
 

@@ -1,6 +1,8 @@
 name: Department of Interior
 abbrev: doi
 office: Office of the Information Resources (IR) Directorate
+office-abbrev: National Park Service
+overall-order: 2
 pilots:
   - first:
     role: IT Specialist 
@@ -28,7 +30,7 @@ pilots:
       - Sysadmin - Patch Management
     applicants:
       total: 224
-      qualified: 25
+      total-qualified: 25
       selected: 13
       hired: 13
     assessments:

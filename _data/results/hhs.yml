@@ -1,6 +1,8 @@
 name: Health and Human Services
 abbrev: hhs
 office: Office of the Secretary of HHS
+office-abbrev: CIO and CTO
+overall-order: 1
 pilots:
   - first:
     role: IT Specialist 
@@ -26,7 +28,7 @@ pilots:
       - IT Policy and Planning Specialist
     applicants:
       total: 164
-      qualified: 36
+      total-qualified: 36
       selected: 7
       hired: 7
     assessments:

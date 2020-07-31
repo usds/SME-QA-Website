@@ -1,0 +1,50 @@
+name: Centers for Medicare and Medicaid Services
+abbrev: cms
+office: 3 Offices
+office-abbrev: Multiple Offices
+overall-order: 6
+pilots:
+  - first:
+    role: Product Manager
+    series: 2210
+    vacancies:
+      - grade: GS-13
+        open: 7
+    locations:
+      - name: Woodlawn, MD
+    participants:
+      - name: HR Specialists 
+        count: 1
+      - name: Subject Matter Experts
+        count: 13
+    joa:
+      open-date: Wednesday, March 23, 2020
+      close-date: Friday, March 27, 2020
+      url: https://www.usajobs.gov/GetJob/ViewDetails/561960700
+    applicants:
+      total: 238
+      total-qualified: 12
+      best-qualified: 2 
+      well-qualified: 7
+      qualified: 3
+      selected: 6
+      hired: 5
+      declined: 1
+    assessments:
+      - name: Resume review
+        passed: 38
+        percentage: 16
+      - name: Written assessment
+        entered: 37
+        passed: 15
+        percentage: 14
+        breakdown:
+          did-not-respond: 8
+          failed: 14
+          passed: 12
+          exceeded: 3
+      - name: Interview
+        entered: 15
+        passed: 12
+        percentage: 5
+      

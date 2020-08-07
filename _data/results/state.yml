@@ -1,0 +1,44 @@
+name: State Department
+abbrev: state
+office: Office of Procurement Executive
+office-abbrev: Office of Mission Support
+overall-order: 6
+pilots:
+  - first:
+    role: Grants Management Specialist
+    series: 1109
+    vacancies:
+      - grade: GS-12
+        open: 4
+    locations:
+      - name: Washington, DC
+    participants:
+      - name: HR Specialists 
+        count: 1
+      - name: Subject Matter Experts
+        count: Unknown
+    joa:
+      open-date: Monday March 2nd, 2020
+      close-date: Wednesday March 4th, 2019
+      url: https://www.usajobs.gov/GetJob/ViewDetails/561239500
+    applicants:
+      total: 115
+      total-qualified: 27
+      best-qualified: 14
+      well-qualified: 11
+      qualified: 2
+      referred: 14
+      selected: 4
+      selected-additional: 1
+      hired: 4
+    assessments:
+      - name: Resume review
+        passed: 45
+        percentage: 39
+      - name: Interview One
+        passed: 29
+        percentage: 25
+      - name: Interview Two
+        passed: 27
+        percentage: 23
+      

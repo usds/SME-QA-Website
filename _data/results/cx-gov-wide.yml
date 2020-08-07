@@ -1,0 +1,75 @@
+name: Customer Experience gov-wide
+abbrev: cx
+office: 13 Offices
+office-abbrev: Multiple Offices
+agencies:
+  - agency: Consumer Financial Protection Bureau (CFPB)
+    agency-abbrev: CFPB
+    selections: 2
+  - agency: Department of Education
+    agency-abbrev: Education
+    selections: 0
+  - agency: General Services Administration
+    agency-abbrev: GSA
+    selections: 1
+  - agency: Department of Health and Human Services
+    agency-abbrev: HHS
+    selections: 0
+  - agency: National Aeronautics and Space Administration (NASA)
+    agency-abbrev: NASA
+    selections: 1
+  - agency: Department of State
+    agency-abbrev: State
+    selections: 5
+  - agency: Department of Agriculture
+    agency-abbrev: USDA
+    selections: 2
+  - agency: "U.S. Patent and Trademark Office"
+    agency-abbrev: USPTO
+    selections: 0
+  - agency: Veterans Affairs
+    agency-abbrev: VA
+    selections: 2
+overall-order: 7
+pilots:
+  - first:
+    role: Customer Experience Strategist
+    series: "0301"
+    vacancies:
+      - grade: GS-13
+        open: 18
+      - grade: GS-14
+        open: 20
+      - grade: GS-15
+        open: 11
+    locations:
+      - name: Baltimore, MD
+      - name: Charleston, SC
+      - name: Washington, DC
+    participants:
+      - name: HR Specialists
+        count: 1
+      - name: Subject Matter Experts
+        count: 14
+    joa:
+      open-date: Wednesday April 22nd, 2020
+      close-date: Thursday April 23rd, 2019
+      url: https://www.usajobs.gov/GetJob/ViewDetails/566005100
+    applicants:
+      total: 844
+      eligible: 290
+      total-qualified: 44
+      selected: 14
+      hired: 13
+    assessments:
+      - name: Resume review
+        entered: 290
+        passed: 124
+        percentage: 15
+      - name: Hirevue Interview
+        passed: 79
+        percentage: 9
+      - name: Interview Two
+        passed: 63
+        percentage: 7
+      

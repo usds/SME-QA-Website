@@ -171,3 +171,81 @@ ul li {
     flex: none;
   }
 }
+
+
+// Style specific to SME-QA Brief (1-pager)
+.smeqa-brief {
+  // Drop font-sizes to fit into a portrait PDF
+  &__title {
+    @include u-font-size('body', $theme-h3-font-size);
+  }
+
+  &__sub-title {
+    @include u-font-size('body', $theme-h4-font-size);
+  }
+
+  &__header {
+    @include u-font-size('body', '3xs');
+    margin-top: units(2);
+  }
+
+  &__phase-item {
+    @include u-font-size('body', '3xs');
+  }
+
+  // Hide what we don't need
+  .smeqa-brief__cta-container {
+    display: none;
+  }
+
+  // Put the grid back
+  .tablet\:grid-col-8 {
+    @include grid-col(8); 
+  }
+
+  .tablet\:grid-col-6 {
+    @include grid-col(6); 
+  }
+
+  .tablet\:grid-col-4 {
+    @include grid-col(4); 
+  }
+
+  .grid-container {
+    padding-left: units(2);
+    padding-right: units(2);
+  }
+
+  .grid-row.grid-gap > * {
+    padding-left: units(1);
+    padding-right: units(1);
+  }
+
+  .grid-row.grid-gap {
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
+  }
+ 
+  // Now the finagling to get it to look like the PDF version
+  .grid-row.grid-gap .smeqa-brief-hiring-actions {
+    margin: units(2) 0;
+    padding: units(3) 0 units(3) units(2);
+    border-left: 1px dashed color('gray-30');
+  }
+
+  .smeqa-brief-hiring-actions__logos img {
+    max-width: 90px;
+  }
+
+  .smeqa-brief-hiring-actions__item {
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+
+  &__phase-row.grid-row.grid-gap {
+    // Provides a page break
+    page-break-before: always;
+    margin-top: units(2);
+  }
+}

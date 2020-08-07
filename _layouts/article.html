@@ -10,7 +10,7 @@
   {% if page.sidenav == 'hiring-phases' %}
     {% include _breadcrumbs.html %}
   {% endif %}
-  <div class="usa-section">
+  <div class="chp-article">
     <div class="grid-container">
       <div class="grid-row grid-gap">
       {% assign sidenav = site.data.navigation[page.sidenav] | default: page.sidenav %}
@@ -27,7 +27,7 @@
           </div>
         </div>
       {% endif %}
-        <main id="main-content" role="main" class="usa-layout-docs__main desktop:grid-col-9 margin-bottom-9 chp-article">
+        <main id="main-content" role="main" class="usa-layout-docs__main desktop:grid-col-9">
           {% if page.title %}
           <h1>{{ page.title }}</h1>
           {% endif %}

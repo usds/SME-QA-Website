@@ -1,18 +1,22 @@
 ---
 layout: default
 section: about
-permalink: /about/brief/
-title: SME-QA Brief
+permalink: /about/
+title: Subject Matter Expert Qualification Assessments
 ---
 
-<main id="main-content" role="main" class="usa-layout-docs usa-section smeqa-brief">
+<main id="main-content" role="main" class="usa-layout-docs smeqa-brief">
   <div class="grid-container">
-    <div class="grid-row grid-gap">
-      <div class="desktop:grid-col-8 usa-prose">
-        <h1>Subject Matter Expert Qualification Assessments</h1>
-        <h2 class="smeqa-brief__subtitle">
+    <div class="grid-row grid-gap smeqa-brief__row">
+      <div class="grid-col-fill">
+        <h1 class="smeqa-brief__title">Subject Matter Expert Qualification Assessments</h1>
+        <h2 class="smeqa-brief__sub-title">
           Promoting effective assessments to ensure high quality applicants
         </h2>
+      </div>
+    </div>
+    <div class="grid-row grid-gap smeqa-brief__row">
+      <div class="tablet:grid-col-8">
         <h3 class="smeqa-brief__header">Overview</h3>
         <p>
          During a typical competitive delegated examining hiring process, human resource (HR) specialists review resumes and occupational questionnaires to determine whether applicants are minimally qualified for a role. Agencies often conduct outreach and recruitment for technical positions and are concerned when they receive certificates without qualified applicants to select from.
@@ -40,64 +44,22 @@ title: SME-QA Brief
           </li>
         </ul>
       </div>
-      <div class="desktop:grid-col-4 smeqa-brief-hiring-actions">
-        <h3 class="smeqa-brief-hiring-actions__header">Pilot hiring actions</h3>
-        {% assign results = site.data.results | sort %}
-        {% for agencies_hash in results %}
-          {% assign agency = agencies_hash[1] %}
-        <h4 class="smeqa-brief-hiring-action__title">
-          {{agency.abbrev | upcase }}: {{agency.office-abbrev | upcase }}
-        </h4>
-          {% for pilot in agency.pilots %}
-            {% assign grades = pilot.vacancies | map: "grade" %}
-            {% assign vacancies = pilot.vacancies | map: "open" %}
-        <h5 class="smeqa-brief-hiring-action__position">
-          {% unless grades.size > 1 %}
-            {{ pilot.role }} - {{ grades | join: ", " }} - {{ pilot.series }} series
-          {% else %}
-            {{ pilot.role }} - {{ pilot.series }} series
-          {% endunless %}
-        </h5>
-        <ul class="smeqa-brief-hiring-action__stats">
-          <li class="smeqa-brief-hiring-action__stat">
-          {% unless grades.size > 1 %}
-            <span class="smeqa-brief-hiring-action__number">{{ vacancies }}</span>
-            <span class="smeqa-brief-hiring-action__value">Vacancies</span>
-          {% else %}
-            <ul class="smeqa-brief-hiring-action__stats-nested">
-            {% for vacancy in pilot.vacancies %}
-              <li class="smeqa-brief-hiring-action__stat-nested">
-                {{vacancy.grade}}: <span class="smeqa-brief-hiring-action__number">{{ vacancy.open}}</span>
-              </li>
-            {% endfor %}
-            </ul>
-          {% endunless %}
-          </li>
-          <li class="smeqa-brief-hiring-action__stat">
-            <span class="smeqa-brief-hiring-action__number">{{pilot.applicants.total}}</span>
-            <span class="smeqa-brief-hiring-action__value">Applicants</span>
-          </li>
-          <li class="smeqa-brief-hiring-action__stat">
-            <span class="smeqa-brief-hiring-action__number">
-              {{pilot.applicants.total-qualified}}
-            </span>
-            <span class="smeqa-brief-hiring-action__value">Passed assessments</span>
-            <span class="smeqa-brief-hiring-action__percentage">
-              {% assign passed = pilot.applicants.total-qualified | times: 100 | divided_by: pilot.applicants.total %}
-              ({{passed}}%)
-            </span>
-          </li>
-          <li class="smeqa-brief-hiring-action__stat">
-            <span class="smeqa-brief-hiring-action__number">{{pilot.applicants.selected}}</span>
-            <span class="smeqa-brief-hiring-action__value">Selections</span>
-          </li>
-        </ul>
-          {% endfor %}
-        {% endfor %}
+      <div class="tablet:grid-col-4 smeqa-brief-hiring-actions">
+        <div class="smeqa-brief-hiring-actions__logos">
+          <img src="{{ site.baseurl }}/assets/img/opm-seal.png" alt="The seal of the Office of Personnel Management"/>
+          <img src="{{ site.baseurl }}/assets/img/usds-logo.svg" alt="The logo of the U.S. Digital Service"/>
+        </div>
+        <h3 class="smeqa-brief__header">Pilot hiring actions</h3>
+        {% include results/pilot-hiring-actions-summary.html %}
+        <div class="smeqa-brief__cta-container">
+          <a href="{{ site.baseurl }}{{ page.permalink }}" target="_blank" download="smeqa-brief.pdf" class="usa-button">
+            Download PDF
+          </a>
+        </div>
       </div>
     </div>
-    <div class="grid-row grid-gap">
-      <div class="desktop:grid-col-8 usa-prose">
+    <div class="grid-row grid-gap smeqa-brief__row smeqa-brief__phase-row">
+      <div class="tablet:grid-col-6 smeqa-brief__phase-container">
         <h3 class="smeqa-brief__header">Five Phases</h3>
         <ol class="smeqa-brief__phase-list">
           <li class="smeqa-brief__phase-item">
@@ -118,8 +80,8 @@ title: SME-QA Brief
           </li>
         </ol>
       </div>
-      <div class="desktop:grid-col-4">
-
+      <div class="tablet:grid-col-6">
+        <img src="{{site.baseurl}}/assets/img/process-diagram-vert.png" alt="A vertical representation of each phase of the SME-QA hiring process">
       </div>
     </div>
   </div>

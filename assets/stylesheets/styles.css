@@ -470,7 +470,7 @@ h5{
 
 h6{
   font-family:Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
-  font-size:0.87rem;
+  font-size:0.8rem;
   line-height:1.1;
   font-weight:normal;
   letter-spacing:0.025em;
@@ -3613,7 +3613,7 @@ h6 + *{
 }
 .usa-prose > h6{
   font-family:Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
-  font-size:0.87rem;
+  font-size:0.8rem;
   line-height:1.1;
   font-weight:normal;
   letter-spacing:0.025em;
@@ -3922,7 +3922,7 @@ h6 + *{
 }
 @media all and (min-width: 40em){
   .usa-banner{
-    font-size:0.87rem;
+    font-size:0.8rem;
     padding-bottom:0;
   }
 }
@@ -4963,7 +4963,7 @@ h6 + *{
   padding-right:0.75rem;
   background-color:#005ea2;
   color:white;
-  font-size:0.87rem;
+  font-size:0.8rem;
   height:3rem;
   text-align:center;
   text-decoration:none;
@@ -8504,7 +8504,7 @@ input[type=search]{
   float:right;
 }
 .font-mono-3xs{
-  font-size:0.77rem;
+  font-size:0.71rem;
 }
 .font-mono-2xs{
   font-size:0.83rem;
@@ -8531,7 +8531,7 @@ input[type=search]{
   font-size:2.86rem;
 }
 .font-sans-3xs{
-  font-size:0.87rem;
+  font-size:0.8rem;
 }
 .font-sans-2xs{
   font-size:0.93rem;
@@ -8558,7 +8558,7 @@ input[type=search]{
   font-size:3.19rem;
 }
 .font-serif-3xs{
-  font-size:0.81rem;
+  font-size:0.75rem;
 }
 .font-serif-2xs{
   font-size:0.88rem;
@@ -8585,7 +8585,7 @@ input[type=search]{
   font-size:3rem;
 }
 .font-heading-3xs{
-  font-size:0.81rem;
+  font-size:0.75rem;
 }
 .font-heading-2xs{
   font-size:0.88rem;
@@ -8612,7 +8612,7 @@ input[type=search]{
   font-size:3rem;
 }
 .font-body-3xs{
-  font-size:0.87rem;
+  font-size:0.8rem;
 }
 .font-body-2xs{
   font-size:0.93rem;
@@ -8639,7 +8639,7 @@ input[type=search]{
   font-size:3.19rem;
 }
 .font-code-3xs{
-  font-size:0.77rem;
+  font-size:0.71rem;
 }
 .font-code-2xs{
   font-size:0.83rem;
@@ -8666,7 +8666,7 @@ input[type=search]{
   font-size:2.86rem;
 }
 .font-alt-3xs{
-  font-size:0.81rem;
+  font-size:0.75rem;
 }
 .font-alt-2xs{
   font-size:0.88rem;
@@ -8693,7 +8693,7 @@ input[type=search]{
   font-size:3rem;
 }
 .font-ui-3xs{
-  font-size:0.87rem;
+  font-size:0.8rem;
 }
 .font-ui-2xs{
   font-size:0.93rem;
@@ -12666,7 +12666,7 @@ input[type=search]{
     display:table-row;
   }
   .mobile-lg\:font-mono-3xs{
-    font-size:0.77rem;
+    font-size:0.71rem;
   }
   .mobile-lg\:font-mono-2xs{
     font-size:0.83rem;
@@ -12693,7 +12693,7 @@ input[type=search]{
     font-size:2.86rem;
   }
   .mobile-lg\:font-sans-3xs{
-    font-size:0.87rem;
+    font-size:0.8rem;
   }
   .mobile-lg\:font-sans-2xs{
     font-size:0.93rem;
@@ -12720,7 +12720,7 @@ input[type=search]{
     font-size:3.19rem;
   }
   .mobile-lg\:font-serif-3xs{
-    font-size:0.81rem;
+    font-size:0.75rem;
   }
   .mobile-lg\:font-serif-2xs{
     font-size:0.88rem;
@@ -12747,7 +12747,7 @@ input[type=search]{
     font-size:3rem;
   }
   .mobile-lg\:font-heading-3xs{
-    font-size:0.81rem;
+    font-size:0.75rem;
   }
   .mobile-lg\:font-heading-2xs{
     font-size:0.88rem;
@@ -12774,7 +12774,7 @@ input[type=search]{
     font-size:3rem;
   }
   .mobile-lg\:font-body-3xs{
-    font-size:0.87rem;
+    font-size:0.8rem;
   }
   .mobile-lg\:font-body-2xs{
     font-size:0.93rem;
@@ -12801,7 +12801,7 @@ input[type=search]{
     font-size:3.19rem;
   }
   .mobile-lg\:font-code-3xs{
-    font-size:0.77rem;
+    font-size:0.71rem;
   }
   .mobile-lg\:font-code-2xs{
     font-size:0.83rem;
@@ -12828,7 +12828,7 @@ input[type=search]{
     font-size:2.86rem;
   }
   .mobile-lg\:font-alt-3xs{
-    font-size:0.81rem;
+    font-size:0.75rem;
   }
   .mobile-lg\:font-alt-2xs{
     font-size:0.88rem;
@@ -12855,7 +12855,7 @@ input[type=search]{
     font-size:3rem;
   }
   .mobile-lg\:font-ui-3xs{
-    font-size:0.87rem;
+    font-size:0.8rem;
   }
   .mobile-lg\:font-ui-2xs{
     font-size:0.93rem;
@@ -15203,7 +15203,7 @@ input[type=search]{
     display:table-row;
   }
   .tablet\:font-mono-3xs{
-    font-size:0.77rem;
+    font-size:0.71rem;
   }
   .tablet\:font-mono-2xs{
     font-size:0.83rem;
@@ -15230,7 +15230,7 @@ input[type=search]{
     font-size:2.86rem;
   }
   .tablet\:font-sans-3xs{
-    font-size:0.87rem;
+    font-size:0.8rem;
   }
   .tablet\:font-sans-2xs{
     font-size:0.93rem;
@@ -15257,7 +15257,7 @@ input[type=search]{
     font-size:3.19rem;
   }
   .tablet\:font-serif-3xs{
-    font-size:0.81rem;
+    font-size:0.75rem;
   }
   .tablet\:font-serif-2xs{
     font-size:0.88rem;
@@ -15284,7 +15284,7 @@ input[type=search]{
     font-size:3rem;
   }
   .tablet\:font-heading-3xs{
-    font-size:0.81rem;
+    font-size:0.75rem;
   }
   .tablet\:font-heading-2xs{
     font-size:0.88rem;
@@ -15311,7 +15311,7 @@ input[type=search]{
     font-size:3rem;
   }
   .tablet\:font-body-3xs{
-    font-size:0.87rem;
+    font-size:0.8rem;
   }
   .tablet\:font-body-2xs{
     font-size:0.93rem;
@@ -15338,7 +15338,7 @@ input[type=search]{
     font-size:3.19rem;
   }
   .tablet\:font-code-3xs{
-    font-size:0.77rem;
+    font-size:0.71rem;
   }
   .tablet\:font-code-2xs{
     font-size:0.83rem;
@@ -15365,7 +15365,7 @@ input[type=search]{
     font-size:2.86rem;
   }
   .tablet\:font-alt-3xs{
-    font-size:0.81rem;
+    font-size:0.75rem;
   }
   .tablet\:font-alt-2xs{
     font-size:0.88rem;
@@ -15392,7 +15392,7 @@ input[type=search]{
     font-size:3rem;
   }
   .tablet\:font-ui-3xs{
-    font-size:0.87rem;
+    font-size:0.8rem;
   }
   .tablet\:font-ui-2xs{
     font-size:0.93rem;
@@ -17740,7 +17740,7 @@ input[type=search]{
     display:table-row;
   }
   .tablet-lg\:font-mono-3xs{
-    font-size:0.77rem;
+    font-size:0.71rem;
   }
   .tablet-lg\:font-mono-2xs{
     font-size:0.83rem;
@@ -17767,7 +17767,7 @@ input[type=search]{
     font-size:2.86rem;
   }
   .tablet-lg\:font-sans-3xs{
-    font-size:0.87rem;
+    font-size:0.8rem;
   }
   .tablet-lg\:font-sans-2xs{
     font-size:0.93rem;
@@ -17794,7 +17794,7 @@ input[type=search]{
     font-size:3.19rem;
   }
   .tablet-lg\:font-serif-3xs{
-    font-size:0.81rem;
+    font-size:0.75rem;
   }
   .tablet-lg\:font-serif-2xs{
     font-size:0.88rem;
@@ -17821,7 +17821,7 @@ input[type=search]{
     font-size:3rem;
   }
   .tablet-lg\:font-heading-3xs{
-    font-size:0.81rem;
+    font-size:0.75rem;
   }
   .tablet-lg\:font-heading-2xs{
     font-size:0.88rem;
@@ -17848,7 +17848,7 @@ input[type=search]{
     font-size:3rem;
   }
   .tablet-lg\:font-body-3xs{
-    font-size:0.87rem;
+    font-size:0.8rem;
   }
   .tablet-lg\:font-body-2xs{
     font-size:0.93rem;
@@ -17875,7 +17875,7 @@ input[type=search]{
     font-size:3.19rem;
   }
   .tablet-lg\:font-code-3xs{
-    font-size:0.77rem;
+    font-size:0.71rem;
   }
   .tablet-lg\:font-code-2xs{
     font-size:0.83rem;
@@ -17902,7 +17902,7 @@ input[type=search]{
     font-size:2.86rem;
   }
   .tablet-lg\:font-alt-3xs{
-    font-size:0.81rem;
+    font-size:0.75rem;
   }
   .tablet-lg\:font-alt-2xs{
     font-size:0.88rem;
@@ -17929,7 +17929,7 @@ input[type=search]{
     font-size:3rem;
   }
   .tablet-lg\:font-ui-3xs{
-    font-size:0.87rem;
+    font-size:0.8rem;
   }
   .tablet-lg\:font-ui-2xs{
     font-size:0.93rem;
@@ -20277,7 +20277,7 @@ input[type=search]{
     display:table-row;
   }
   .desktop\:font-mono-3xs{
-    font-size:0.77rem;
+    font-size:0.71rem;
   }
   .desktop\:font-mono-2xs{
     font-size:0.83rem;
@@ -20304,7 +20304,7 @@ input[type=search]{
     font-size:2.86rem;
   }
   .desktop\:font-sans-3xs{
-    font-size:0.87rem;
+    font-size:0.8rem;
   }
   .desktop\:font-sans-2xs{
     font-size:0.93rem;
@@ -20331,7 +20331,7 @@ input[type=search]{
     font-size:3.19rem;
   }
   .desktop\:font-serif-3xs{
-    font-size:0.81rem;
+    font-size:0.75rem;
   }
   .desktop\:font-serif-2xs{
     font-size:0.88rem;
@@ -20358,7 +20358,7 @@ input[type=search]{
     font-size:3rem;
   }
   .desktop\:font-heading-3xs{
-    font-size:0.81rem;
+    font-size:0.75rem;
   }
   .desktop\:font-heading-2xs{
     font-size:0.88rem;
@@ -20385,7 +20385,7 @@ input[type=search]{
     font-size:3rem;
   }
   .desktop\:font-body-3xs{
-    font-size:0.87rem;
+    font-size:0.8rem;
   }
   .desktop\:font-body-2xs{
     font-size:0.93rem;
@@ -20412,7 +20412,7 @@ input[type=search]{
     font-size:3.19rem;
   }
   .desktop\:font-code-3xs{
-    font-size:0.77rem;
+    font-size:0.71rem;
   }
   .desktop\:font-code-2xs{
     font-size:0.83rem;
@@ -20439,7 +20439,7 @@ input[type=search]{
     font-size:2.86rem;
   }
   .desktop\:font-alt-3xs{
-    font-size:0.81rem;
+    font-size:0.75rem;
   }
   .desktop\:font-alt-2xs{
     font-size:0.88rem;
@@ -20466,7 +20466,7 @@ input[type=search]{
     font-size:3rem;
   }
   .desktop\:font-ui-3xs{
-    font-size:0.87rem;
+    font-size:0.8rem;
   }
   .desktop\:font-ui-2xs{
     font-size:0.93rem;
@@ -21977,8 +21977,12 @@ input[type=search]{
   color:#005ea2;
 }
 
+.chp-article{
+  padding:2rem 0;
+}
 @media all and (min-width: 64em){
   .chp-article{
+    padding:3rem 0;
     min-height:70vh;
   }
 }
@@ -22406,4 +22410,127 @@ blockquote{
 }
 .smeqa-sme-selection-checklist__label input[type=checkbox]{
   margin-left:-1.5rem;
+}
+
+.smeqa-brief{
+  padding:2rem 0;
+}
+@media all and (min-width: 64em){
+  .smeqa-brief{
+    padding:3rem 0;
+  }
+}
+.smeqa-brief__title, .smeqa-brief__sub-title, .smeqa-brief__header{
+  color:#1a4480;
+}
+.smeqa-brief__sub-title{
+  font-style:italic;
+  font-size:1.46rem;
+}
+.smeqa-brief__header{
+  text-transform:uppercase;
+  font-size:1.06rem;
+}
+.smeqa-brief__row{
+  margin-bottom:2rem;
+}
+.smeqa-brief__phase-title{
+  font-weight:bold;
+}
+.smeqa-brief__phase-container{
+  margin-bottom:2rem;
+}
+.smeqa-brief__phase-list{
+  counter-reset:my-counter;
+  list-style:none;
+  padding-left:40px;
+}
+.smeqa-brief__phase-item{
+  position:relative;
+  counter-increment:my-counter;
+  margin:0 0 0.5rem 0;
+}
+.smeqa-brief__phase-item::before{
+  content:counter(my-counter);
+  color:#1a4480;
+  font-size:1.2rem;
+  font-weight:bold;
+  position:absolute;
+  --size:32px;
+  left:calc(-1 * var(--size) - 10px);
+  line-height:var(--size);
+  top:0;
+}
+.smeqa-brief__phase-item::after{
+  content:"|";
+  position:absolute;
+  --size:48px;
+  width:var(--size);
+  height:var(--size);
+  left:calc(-1 * var(--size) + 14px);
+  top:10px;
+  color:#1a4480;
+  font-size:1.8rem;
+  -webkit-transform:rotate(38deg);
+          transform:rotate(38deg);
+}
+
+.smeqa-brief__row .smeqa-brief-hiring-actions{
+  margin:2rem 0;
+}
+@media all and (min-width: 40em){
+  .smeqa-brief__row .smeqa-brief-hiring-actions{
+    margin:0;
+  }
+}
+@media all and (min-width: 64em){
+  .smeqa-brief__row .smeqa-brief-hiring-actions{
+    padding:0 0 0 1.5rem;
+    border-left:1px dashed #adadad;
+  }
+}
+
+.smeqa-brief-hiring-actions__header{
+  text-transform:uppercase;
+  font-size:1.06rem;
+  color:#c05600;
+  border-bottom:1px solid #c05600;
+}
+.smeqa-brief-hiring-actions__logos{
+  clear:both;
+  text-align:center;
+}
+.smeqa-brief-hiring-actions__logos img{
+  max-width:125px;
+  float:left;
+  padding:0 1rem 1rem;
+}
+.smeqa-brief-hiring-actions__list{
+  list-style-type:none;
+  padding:0;
+}
+.smeqa-brief-hiring-actions__item{
+  display:inline-block;
+  width:32%;
+  margin:0;
+  padding:1rem;
+  text-align:center;
+}
+@media all and (min-width: 40em){
+  .smeqa-brief-hiring-actions__item{
+    padding:0;
+  }
+}
+.smeqa-brief-hiring-actions__stat{
+  display:block;
+  font-size:2.13rem;
+  color:#2378c3;
+}
+
+.smeqa-brief-hiring-action__title{
+  color:#1a4480;
+  text-transform:uppercase;
+}
+.smeqa-brief-hiring-action__stats-nested{
+  margin-top:0;
 }

@@ -3,46 +3,22 @@ layout: default
 section: about
 permalink: /about/
 title: Subject Matter Expert Qualification Assessments
+sub-title: Promoting effective assessments to ensure high quality applicants
 ---
 
 <main id="main-content" role="main" class="usa-layout-docs smeqa-brief">
   <div class="grid-container">
     <div class="grid-row grid-gap smeqa-brief__row">
       <div class="grid-col-fill">
-        <h1 class="smeqa-brief__title">Subject Matter Expert Qualification Assessments</h1>
+        <h1 class="smeqa-brief__title">{{ page.title }}</h1>
         <h2 class="smeqa-brief__sub-title">
-          Promoting effective assessments to ensure high quality applicants
+          {{ page.sub-title }}
         </h2>
       </div>
     </div>
     <div class="grid-row grid-gap smeqa-brief__row">
       <div class="tablet:grid-col-8">
-        <h3 class="smeqa-brief__header">Overview</h3>
-        <p>
-         During a typical competitive delegated examining hiring process, human resource (HR) specialists review resumes and occupational questionnaires to determine whether applicants are minimally qualified for a role. Agencies often conduct outreach and recruitment for technical positions and are concerned when they receive certificates without qualified applicants to select from.
-         </p>
-        <p>
-          With this assessment alternative, SMEs partner with HR specialists to create and conduct interview assessments before considering an applicant qualified and applying veterans’ preference. This process is recommended for GS 12+ technical positions (not limited to IT) with at least five vacancies for the same role and where applicant volume can be limited to approximately 100 applicants.
-        </p>
-        <h3 class="smeqa-brief__header">IMPROVING FAIR AND OPEN ACCESS FOR ALL APPLICANTS</h3>
-        <p>
-          This process is an alternative to using the traditional resume review and assessment process and through the use of SMEs, provides the hiring manager the ability to hire highly qualified talent. Key principles include:
-        </p>
-        <ul>
-          <li>A clean, simple USAJOBS announcement template that is more narrowly tailored to the job requirements, similar to private sector standards.
-          <li>
-            The ability to limit the number of resume pages that SMEs will review, removing the common practice of submitting long, overly comprehensive resumes that favor individuals intimately familiar with federal hiring practices.
-          </li>
-          <li>
-            Structured SME assessment interviews replace the self-reported, and often over-inflated, applicant occupational questionnaire. These interview assessments allow experts in the role to mark unqualified any applicant who does not meet the required technical qualifications.
-          </li>
-          <li>
-            Minimal burden on participating SMEs, such as allowing minimal but retraceable justifications and being comfortable with one SME participating in each structured phone interview.
-          </li>
-          <li>
-            The assessment strategy enforces a passing score on SME interviews before determining qualification. At that point, veterans’ preference and category rating rules apply.
-          </li>
-        </ul>
+        {% include about/_overview.html %}
       </div>
       <div class="tablet:grid-col-4 smeqa-brief-hiring-actions">
         <div class="smeqa-brief-hiring-actions__logos">
@@ -52,7 +28,7 @@ title: Subject Matter Expert Qualification Assessments
         <h3 class="smeqa-brief__header">Pilot hiring actions</h3>
         {% include results/pilot-hiring-actions-summary.html %}
         <div class="smeqa-brief__cta-container">
-          <a href="{{ site.baseurl }}{{ page.permalink }}" target="_blank" download="smeqa-brief.pdf" class="usa-button">
+          <a href="{{ site.baseurl }}/toolkit/getting-started/sme-qa-1-pager.pdf" target="_blank" download="smeqa-brief.pdf" class="usa-button">
             Download PDF
           </a>
         </div>
@@ -60,25 +36,7 @@ title: Subject Matter Expert Qualification Assessments
     </div>
     <div class="grid-row grid-gap smeqa-brief__row smeqa-brief__phase-row">
       <div class="tablet:grid-col-6 smeqa-brief__phase-container">
-        <h3 class="smeqa-brief__header">Five Phases</h3>
-        <ol class="smeqa-brief__phase-list">
-          <li class="smeqa-brief__phase-item">
-            <span class="smeqa-brief__phase-title">Job Analysis Workshop:</span> Conduct a two-day job analysis workshop to develop the job qualifications and assessments. HR, SMEs, and hiring manager identify and define the required competencies and proficiency levels for the position. The team writes two sets of structured interview questions to be used later in the assessment process.
-          </li>
-          <li class="smeqa-brief__phase-item">
-            <span class="smeqa-brief__phase-title">Job Announcement:</span> Use the results of the job analysis workshop to bridge a standard position description into a job announcement that is an accurate and compelling representation of the position. In addition, to reach potential applicants who may not visit USAJOBS, consider posting on other applicable job boards.
-          </li>
-          <li class="smeqa-brief__phase-item">
-            <span class="smeqa-brief__phase-title">Reviewing Resumes:</span> HR specialists remove applicants who did not include a resume or are ineligible due to citizenship requirements. After this limited step, two SMEs independently review each remaining resume to determine whether they adequately reflect the core competencies and proficiencies to warrant the first of two phone assessment interviews.
-          </li>
-          <li class="smeqa-brief__phase-item">
-            <span class="smeqa-brief__phase-title">Assessments:</span> SMEs conduct up to two rounds of assessments (eg. live or recorded phone interviews, review of written exam or work simulation) to assess remaining applicants against the required competencies and proficiencies, with a single SME conducting each assessment. Applicants who meet the minimum qualifications move on to a second assessment with a
-            different SME. Applicants who receive an overall passing score after two assessments are considered minimally qualified.
-          </li>
-          <li class="smeqa-brief__phase-item">
-            <span class="smeqa-brief__phase-title">Issuing a Certificate:</span> When SMEs complete the minimum qualification assessments, HR specialists can adjudicate veterans’ preference and assign categories based on whether the applicant met or exceeded the requirements during the assessments. After hiring managers receive a hiring certificate, they can either conduct additional interviews or make selections based on transcripts from phone assessment interviews or other assessment information. 
-          </li>
-        </ol>
+        {% include about/_five-phases.html %}
       </div>
       <div class="tablet:grid-col-6">
         <img src="{{site.baseurl}}/assets/img/process-diagram-vert.png" alt="A vertical representation of each phase of the SME-QA hiring process">

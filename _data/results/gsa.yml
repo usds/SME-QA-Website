@@ -1,0 +1,50 @@
+name: General Services Administration
+abbrev: gsa
+office: Technology Transformation Services
+office-abbrev: TTS
+office-count: 1
+agency-count: 1
+overall-order: 3
+pilots:
+  - first:
+    role: UX Designer
+    series: 301
+    vacancies:
+      - grade: GS-15
+        open: 3
+    locations:
+      - name: Virtual (100% remote)
+      - name: Washington, DC
+      - name: San Francisco, CA
+      - name: Chicago, IL
+      - name: New York, NY
+    participants:
+      - name: HR Specialists 
+        count: 2
+      - name: Subject Matter Experts
+        count: 13
+    joa:
+      open-date: Wednesday, September 23, 2019
+      close-date: Sunday, September 27, 2019
+      url: https://join.tts.gsa.gov/join/18f-user-experience-designer/
+    applicants:
+      total: 146
+      total-qualified: 8
+      best-qualified: 4
+      well-qualified: 3
+      qualified: 1
+      selected: 2
+      hired: 2
+    assessments:
+      - name: Resume review
+        passed: 44
+        percentage: 30
+      - name: Interview One
+        entered: 44
+        passed: 20
+        percentage: 14
+      - name: Interview Two
+        entered: 20
+        passed: 8
+        percentage: 5
+      

@@ -1,0 +1,57 @@
+
+### Role
+
+**{{pilot.role}}** 
+
+* {{pilot.series}} Series
+
+{% if pilot.vacancies.size > 1 %}
+  {% for vacancy in pilot.vacancies %}
+* {{ vacancy.grade }}: {{ vacancy.open }} vacancies
+  {% endfor %}
+{% else %}
+  {% assign vacancy = pilot.vacancies.first %}
+* {{ vacancy.grade }}: {{ vacancy.open }} vacancies
+{% endif %}
+
+{% if pilot.locations.size > 1 %}
+Locations:
+  {% for location in pilot.locations %}
+* {{ location.name }}
+  {% endfor %}
+{% else %}
+  {% assign location = pilot.locations.first %}
+* Location: {{ location.name }}
+{% endif %}
+
+### Agency Participants
+
+{% for participant in pilot.participants %}
+* {{ participant.count }} {{ participant.name }}
+{% endfor %}
+
+### Job announcement
+
+{% if pilot.roles %}
+  {{agency.abbrev | upcase}} posted <a href="{{pilot.joa.url}}">a job announcement</a> on {{ pilot.joa.open-date }}. 
+
+  It covered {{ pilot.roles | size }} roles:
+  {% for role in pilot.roles %}
+  * {{ role }}
+  {% endfor %}
+{% else %}
+  {{agency.abbrev | upcase}} posted <a href="{{pilot.joa.url}}">a job announcement</a> on {{ pilot.joa.open-date }} for the {{ pilot.role }} role. 
+{% endif %}
+
+The announcement closed on {{ pilot.joa.close-date }} after receiving {{ pilot.applicants.total }} applications.
+
+## Passing Rates
+
+* Total Applicants: **{{ pilot.applicants.total }}**
+{% for assessment in pilot.assessments %}
+* {{ assessment.name }}: **{{ assessment.passed }}** ({{ assessment.percentage }}%)
+{% endfor %}
+
+## Selections
+
+**{{ pilot.applicants.selected }} selections**

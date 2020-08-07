@@ -1,0 +1,41 @@
+name: Environmental Protection Agency
+abbrev: epa
+office: Office of Mission Support
+office-abbrev: Office of Mission Support
+office-count: 1
+agency-count: 1
+overall-order: 5
+pilots:
+  - first:
+    role: Personnel Security Specialist
+    series: 0800
+    vacancies:
+      - grade: GS-13
+        open: 4
+    locations:
+      - name: Washington, DC
+    participants:
+      - name: HR Specialists 
+        count: 1
+      - name: Subject Matter Experts
+        count: Unknown
+    joa:
+      open-date: Friday March 6th, 2020
+      close-date: Friday March 6th, 2019
+      url: https://www.usajobs.gov/GetJob/ViewDetails/561996400
+    applicants:
+      total: 112
+      total-qualified: 8
+      selected: 4
+      hired: 4
+    assessments:
+      - name: Resume review
+        passed: 30
+        percentage: 27
+      - name: Written
+        passed: 15
+        percentage: 13
+      - name: Interview
+        passed: 8
+        percentage: 7
+      

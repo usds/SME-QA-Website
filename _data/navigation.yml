@@ -1,6 +1,6 @@
 primary:
   - text: About SME-QA
-    href: /
+    href: /about/
     name: about
   - text: Hiring Phases
     href: /hiring-phases/
@@ -10,6 +10,8 @@ primary:
     name: results
 
 about:
+  - text: Intoduction to SME-QA
+    href: /about/
   - text: SME-QA Principles
     href: /about/our-principles/
   - text: How SME-QA is Different

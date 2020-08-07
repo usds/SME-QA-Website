@@ -1,0 +1,50 @@
+name: Department of Interior
+abbrev: doi
+office: Office of the Information Resources (IR) Directorate
+office-abbrev: National Park Service
+office-count: 1
+agency-count: 1
+overall-order: 2
+pilots:
+  - first:
+    role: IT Specialist 
+    series: 2210
+    vacancies:
+      - grade: GS-13
+        open: 7
+    locations:
+      - name: Lakewood, CO
+      - name: Reston, VA
+      - name: Washington, DC
+    participants:
+      - name: HR Specialists 
+        count: 2
+      - name: Subject Matter Experts
+        count: 8
+    joa:
+      open-date: Wednesday May 1st, 2019
+      close-date: Friday May 3rd, 2019
+      url: https://www.usajobs.gov/GetJob/ViewDetails/532244000
+    roles:
+      - IT Specialist System administrator (Generalist)
+      - Sysadmin - Active Directory
+      - Sysadmin - Network Infrastructure
+      - Sysadmin - Patch Management
+    applicants:
+      total: 224
+      total-qualified: 25
+      selected: 13
+      hired: 13
+    assessments:
+      - name: Resume review
+        passed: 78
+        percentage: 35
+      - name: Interview One
+        passed: 40
+        percentage: 18
+      - name: Interview Two
+        passed: 25
+        percentage: 11
+      
+    
+        

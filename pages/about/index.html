@@ -1,0 +1,47 @@
+---
+layout: default
+section: about
+permalink: /about/
+title: Subject Matter Expert Qualification Assessments
+sub-title: Promoting effective assessments to ensure high quality applicants
+---
+
+<main id="main-content" role="main" class="usa-layout-docs smeqa-brief">
+  <div class="grid-container">
+    <div class="grid-row grid-gap smeqa-brief__row">
+      <div class="grid-col-fill">
+        <h1 class="smeqa-brief__title">{{ page.title }}</h1>
+        <h2 class="smeqa-brief__sub-title">
+          {{ page.sub-title }}
+        </h2>
+      </div>
+    </div>
+    <div class="grid-row grid-gap smeqa-brief__row">
+      <div class="tablet:grid-col-8">
+        {% include about/_overview.html %}
+      </div>
+      <div class="tablet:grid-col-4 smeqa-brief-hiring-actions">
+        <div class="smeqa-brief-hiring-actions__logos">
+          <img src="{{ site.baseurl }}/assets/img/opm-seal.png" alt="The seal of the Office of Personnel Management"/>
+          <img src="{{ site.baseurl }}/assets/img/usds-logo.svg" alt="The logo of the U.S. Digital Service"/>
+        </div>
+        <h3 class="smeqa-brief__header">Pilot hiring actions</h3>
+        {% include results/pilot-hiring-actions-summary.html %}
+        <div class="smeqa-brief__cta-container">
+          <a href="{{ site.baseurl }}/toolkit/getting-started/sme-qa-1-pager.pdf" target="_blank" download="smeqa-brief.pdf" class="usa-button">
+            Download PDF
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="grid-row grid-gap smeqa-brief__row smeqa-brief__phase-row">
+      <div class="tablet:grid-col-6 smeqa-brief__phase-container">
+        {% include about/_five-phases.html %}
+      </div>
+      <div class="tablet:grid-col-6">
+        <img src="{{site.baseurl}}/assets/img/process-diagram-vert.png" alt="A vertical representation of each phase of the SME-QA hiring process">
+      </div>
+    </div>
+  </div>
+</main>
+        

@@ -2,6 +2,8 @@ name: Environmental Protection Agency
 abbrev: epa
 office: Office of Mission Support
 office-abbrev: Office of Mission Support
+office-count: 1
+agency-count: 1
 overall-order: 5
 pilots:
   - first:

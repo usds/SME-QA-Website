@@ -2,6 +2,8 @@ name: Department of Interior
 abbrev: doi
 office: Office of the Information Resources (IR) Directorate
 office-abbrev: National Park Service
+office-count: 1
+agency-count: 1
 overall-order: 2
 pilots:
   - first:

@@ -2,6 +2,8 @@ name: Centers for Medicare and Medicaid Services
 abbrev: cms
 office: 3 Offices
 office-abbrev: Multiple Offices
+office-count: 3
+agency-count: 1
 overall-order: 6
 pilots:
   - first:

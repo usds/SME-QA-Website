@@ -22512,7 +22512,7 @@ blockquote{
 .smeqa-brief-hiring-actions__item{
   display:inline-block;
   width:32%;
-  margin:0;
+  margin:0 0 1rem;
   padding:1rem;
   text-align:center;
 }

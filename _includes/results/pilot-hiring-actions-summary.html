@@ -1,18 +1,33 @@
 {% assign results = site.data.results | sort %}
-{% assign agencies_count = results.size %}
+{% assign pilots_count = results.size %}
 
+{% assign total_agencies = "" | split: ',' %}
+{% assign total_offices = "" | split: ',' %}
 {% assign total_applicants = "" | split: ',' %}
 {% assign total_qualified = "" | split: ',' %}
 {% assign total_selected = "" | split: ',' %}
 
 {%- for agencies_hash in results -%}
   {%- assign agency = agencies_hash[1] -%}
+  {% assign total_agencies = total_agencies | push: agency.agency-count %}
+  {% assign total_offices = total_offices | push: agency.office-count %}
+
   {% for pilot in agency.pilots %}
     {% assign total_selected = total_selected | push: pilot.applicants.selected %}
     {% assign total_applicants = total_applicants | push: pilot.applicants.total %}
     {% assign total_qualified = total_qualified | push: pilot.applicants.total-qualified %}
   {% endfor %}
 {%- endfor -%}
+
+{% assign agencies = 0 %}
+{% for agency in total_agencies %}
+  {% assign agencies = agencies | plus: agency %}
+{% endfor %}
+
+{% assign offices = 0 %}
+{% for office in total_offices %}
+  {% assign offices = offices | plus: office %}
+{% endfor %}
 
 {% assign selections = 0 %}
 {% for selected in total_selected %}
@@ -30,10 +45,19 @@
 {% endfor %}
 
 <p class="smeqa-brief-hiring-actions__brief">
-  U.S. Digital Service and OPM have conducted <strong>{{ agencies_count }} pilots</strong> in 2 rounds over the previous 18 months.
+  U.S. Digital Service and OPM have now conducted 2 rounds of pilots over the previous 18 months: 
 </p>
 
 <ul class="smeqa-brief-hiring-actions__list">
+  <li class="smeqa-brief-hiring-actions__item">
+    <span class="smeqa-brief-hiring-actions__stat">{{ pilots_count }}</span> pilots
+  </li>
+  <li class="smeqa-brief-hiring-actions__item">
+    <span class="smeqa-brief-hiring-actions__stat">{{ agencies }}</span> agencies
+  </li>
+  <li class="smeqa-brief-hiring-actions__item">
+    <span class="smeqa-brief-hiring-actions__stat">{{ offices }}</span> offices
+  </li>
   <li class="smeqa-brief-hiring-actions__item">
     <span class="smeqa-brief-hiring-actions__stat">{{ applicants }}</span> applicants
   </li>

@@ -1,6 +1,8 @@
 name: State Department
 abbrev: state
 office: Office of Procurement Executive
+office-count: 1
+agency-count: 1
 office-abbrev: Office of Mission Support
 overall-order: 6
 pilots:

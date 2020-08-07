@@ -237,10 +237,15 @@ ul li {
     max-width: 90px;
   }
 
+  .smeqa-brief-hiring-actions__list {
+    margin-bottom: 0;
+  }
+
   .smeqa-brief-hiring-actions__item {
     display: block;
     text-align: center;
     width: 100%;
+    margin-bottom: 0;
   }
 
   &__phase-row.grid-row.grid-gap {

@@ -2,6 +2,8 @@ name: General Services Administration
 abbrev: gsa
 office: Technology Transformation Services
 office-abbrev: TTS
+office-count: 1
+agency-count: 1
 overall-order: 3
 pilots:
   - first:

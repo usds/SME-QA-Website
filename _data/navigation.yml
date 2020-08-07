@@ -118,7 +118,15 @@ hiring-roles:
 results:
   - text: Overview
     href: "/results/"
+  - text: CMS
+    href: "/results/cms/"
+  - text: EPA
+    href: "/results/epa/"
+  - text: GSA
+    href: "/results/gsa/"
   - text: Health and Human Services
     href: "/results/hhs/"
   - text: Interior
     href: "/results/doi/"
+  - text: State
+    href: "/results/state/"

@@ -2,7 +2,7 @@
 layout: article
 section: results
 permalink: /results/hhs/
-title: Results - Health and Human Services
+title: Health and Human Services Pilot Results
 ---
 
 {% assign agency = site.data.results.hhs %}

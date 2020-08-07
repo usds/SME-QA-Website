@@ -1,0 +1,41 @@
+---
+layout: article
+section: results
+permalink: /results/
+title: Results
+---
+
+{% assign agencies = site.data.results %}
+{% assign hhs = agencies['hhs'] %}
+{% assign doi = agencies['doi'] %}
+{% assign round_two_agencies = site.data.results | where: "round", "2" | sort: "name" %}
+
+{% include results/pilot-hiring-actions-summary.html %}
+
+<h2>Round One Pilots</h2>
+<p>
+  Through the spring of 2019, the team tested the SME-QA process with two pilots at <a href="{{hhs.abbrev | prepend: site.baseurl }}/">{{ hhs.name }} ({{hhs.abbrev | upcase}})</a> and <a href="{{doi.abbrev | prepend: site.baseurl }}/">{{ doi.name }} ({{ doi.abbrev | upcase }})</a>, both focused on improving the quality of applicants who appear on certificates. In addition, while time to hire was not a focus of these pilots, it will be critical as the SME-QA process scales. To measure the success of the pilots, the team gathered baseline data to compare with data from each agency pilot.
+</p>
+<p>
+  The most important metric the team tracked was the number of selections hiring managers made from the certificates, indicating the quality of the certificates. Because the SME-QA process gradually eliminates applicants who Subject Matter Experts (SMEs) do not find qualified, hiring managers received a shorter list of qualified applicants. In both pilots, fewer applicants were deemed qualified but more applicants were selected. 
+</p>
+
+<h2>Round Two Pilots</h2>
+<p>
+  Over the course of 2020 the team has refined the process with pilots at the following agencies:
+</p>
+
+<ul>
+{% for agency in round_two_agencies %}
+  <li>
+    <a href="{{ agency.abbrev | prepend: site.baseurl }}/">
+      {{ agency.name }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
+
+
+<h2>Assessment and Selection Summary</h2>
+
+{% include results/pilot-hiring-actions-brief.html %}

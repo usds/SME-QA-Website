@@ -2,7 +2,7 @@
 layout: article
 section: results
 permalink: /results/doi/
-title: Results - Department of Interior
+title: Department of Interior Pilot Results
 ---
 
 {% assign agency = site.data.results.doi %}

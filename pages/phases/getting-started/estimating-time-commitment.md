@@ -6,15 +6,12 @@ title: Estimating Time Commitment
 sidenav: hiring-phases
 phase: getting-started
 sub-phase-order: 030
-intro: The SME-QA process requires time commitments from subject matter experts, hiring managers/selection officials, and HR specialists.
+intro: Use the reference information (which presumes a hiring action of 150 applicants and 8 SMEs) to estimate the time required for your hiring action from subject matter experts, hiring managers/selection officials, and HR specialists.
 ---
 
 <p class="usa-intro">
   {{ page.intro }}
 </p>
-
-<p>Use the information below to estimate the time required for your hiring action. The information below presumes a hiring action of 150 applicants and 8 SMEs, but will vary further depending on the type and length of your assessments.</p>
-
 <div class="grid-container chp-card-container">
   <div class="grid-row">
     <div class="chp-card">

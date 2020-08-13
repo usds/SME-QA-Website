@@ -1,17 +1,28 @@
 
-<p class="usa-intro">
+{% if pilot.quote %}
+<blockquote class="smeqa-results-blockquote">
+  <p class="usa-intro smeqa-results-blockquote__text">
+    {{ pilot.quote }}
+  </p>
+  <p class="smeqa-results-blockquote__attribution">
+    &mdash; {{ pilot.quote-attribution }}
+  </p>
+</blockquote>
+{% endif %}
+
+<h2>
   {{ pilot.role }} ({{pilot.series}} Series)
-</p>
+</h2>
 
 {% if pilot.vacancies.size > 1 %}
   {% for vacancy in pilot.vacancies %}
-  <h5>{{ vacancy.open }} vacancies at {{ vacancy.grade }}</h5>
+  <h3 class="smeqa-results__vacancies">{{ vacancy.open }} vacancies at {{ vacancy.grade }}</h3>
   {% endfor %}
 {% else %}
   {% assign vacancy = pilot.vacancies.first %}
-  <h5>
+  <h3 class="smeqa-results__vacancies">
     {{ vacancy.open }} vacancies at {{ vacancy.grade }} in {{ pilot.locations | map: "name" | join: "; " }}
-  </h5>
+  </h3>
 {% endif %}
 
 <ul class="usa-card-group smeqa-results-cards">

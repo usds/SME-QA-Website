@@ -24377,6 +24377,7 @@ blockquote{
 .smeqa-brief-hiring-actions__stat{
   display:block;
   font-size:2.13rem;
+  font-weight:bold;
   color:#2378c3;
 }
 
@@ -24386,6 +24387,29 @@ blockquote{
 }
 .smeqa-brief-hiring-action__stats-nested{
   margin-top:0;
+}
+
+.smeqa-results__vacancies{
+  font-weight:normal;
+}
+
+.smeqa-results-blockquote{
+  margin-left:0;
+  margin-right:0;
+  padding:0.5rem 10px;
+  quotes:"“" "”" "‘" "’";
+}
+.smeqa-results-blockquote:before{
+  color:#dfe2e5;
+  content:open-quote;
+  font-size:6rem;
+  line-height:0.1em;
+  margin-right:0.25rem;
+  vertical-align:-2rem;
+}
+.smeqa-results-blockquote__text{
+  display:inline;
+  font-weight:lighter;
 }
 
 .smeqa-results-cards{
@@ -24427,6 +24451,7 @@ blockquote{
 .smeqa-results-card__stat{
   display:block;
   font-size:2.13rem;
+  font-weight:bold;
   color:#2378c3;
 }
 

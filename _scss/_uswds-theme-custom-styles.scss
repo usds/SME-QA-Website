@@ -706,6 +706,7 @@ blockquote {
   &__stat {
     display: block;
     @include u-font-size('body', $theme-h2-font-size);
+    font-weight: bold;
     color: color($theme-color-chp-blue);
   }
 }
@@ -718,6 +719,33 @@ blockquote {
 
   &__stats-nested {
     margin-top: 0;
+  }
+}
+
+.smeqa-results {
+  &__vacancies {
+    font-weight: normal;
+  }
+}
+
+.smeqa-results-blockquote {
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0.5rem 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+
+  &:before {
+    color: #dfe2e5;
+    content: open-quote;
+    font-size: 6rem;
+    line-height: 0.1em;
+    margin-right: 0.25rem;
+    vertical-align: -2rem;
+  }
+
+  &__text {
+    display: inline;
+    font-weight: lighter;
   }
 }
 
@@ -751,6 +779,7 @@ blockquote {
   &__stat {
     display: block;
     @include u-font-size('body', $theme-h2-font-size);
+    font-weight: bold;
     color: color($theme-color-chp-blue);
   }
 }

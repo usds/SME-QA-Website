@@ -20,6 +20,8 @@ pilots:
         count: 1
       - name: Subject Matter Experts
         count: 4
+    quote: "I really like the idea of SMEs determining what it means to be qualified."
+    quote-attribution: Human Resources Specialist at EPA
     joa:
       open-date: Friday March 6th, 2020
       close-date: Friday March 6th, 2019

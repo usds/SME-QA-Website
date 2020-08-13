@@ -5,7 +5,7 @@ section: hiring-phases
 title: Hosting a Kickoff
 sidenav: hiring-phases
 phase: getting-started
-sub-phase-order: 040
+sub-phase-order: 050
 intro: Host a kick off meeting with SMEs, HR, and hiring managers to ensure everyone is on the same page about the process, goals, and time commitment.
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: article
-permalink: /hiring-phases/getting-started/time-commitment/
+permalink: /hiring-phases/getting-started/estimating-time-commitment/
 section: hiring-phases
-title: Time Commitment
+title: Estimating Time Commitment
 sidenav: hiring-phases
 phase: getting-started
 sub-phase-order: 030
@@ -12,6 +12,8 @@ intro: The SME-QA process requires time commitments from subject matter experts,
 <p class="usa-intro">
   {{ page.intro }}
 </p>
+
+<p>Use the information below to estimate the time required for your hiring action. The information below presumes a hiring action of 150 applicants and 8 SMEs, but will vary further depending on the type and length of your assessments.</p>
 
 <div class="grid-container chp-card-container">
   <div class="grid-row">
@@ -29,11 +31,7 @@ intro: The SME-QA process requires time commitments from subject matter experts,
           <dt class="chp-time-commitment__hours">5 hours</dt>
           <dd class="chp-time-commitment__phase">Resume review training (3 hours) and interview training (2 hours)</dd>
           <dt class="chp-time-commitment__hours">5 hours (over 1 week)</dt>
-          <dd class="chp-time-commitment__phase">Resume review
-            <div class="chp-time-commitment__paren">
-              (assumes 150 applicants and 8 SMEs)
-            </div>
-          </dd>
+          <dd class="chp-time-commitment__phase">Resume review</dd>
           <dt class="chp-time-commitment__hours">Variable hours over three weeks</dt>
           <dd class="chp-time-commitment__phase">
             Applicant assessment time needed will vary depending on the number of applicants passing resume review and assessment round one.

@@ -5,8 +5,8 @@ section: hiring-phases
 title: Collecting data
 sidenav: hiring-phases
 phase: getting-started
+sub-phase-order: 050
 intro: Collect qualification, referral, and selection data on previous hiring actions that used the same hiring authority. By accessing your baseline data, you can better evaluate your results.
-sub-phase-order: 040
 ---
 
 ## Collecting baseline data

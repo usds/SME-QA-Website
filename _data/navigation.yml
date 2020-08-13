@@ -23,18 +23,18 @@ hiring-phases:
   - text: Getting Started
     href: /hiring-phases/getting-started/
     subnav:
-    - text: Committing to SME-QA
-      href: /hiring-phases/getting-started/committing-to-smeqa/
     - text: Identifying Appropriate Positions
       href: /hiring-phases/getting-started/identifying-appropriate-positions/
     - text: Selecting Subject Matter Experts
       href: "/hiring-phases/getting-started/selecting-smes/"
-    - text: Time Commitment
-      href: "/hiring-phases/getting-started/time-commitment/"
-    - text: Timeline
-      href: "/hiring-phases/getting-started/timeline/"
+    - text: Estimating Time Commitment
+      href: "/hiring-phases/getting-started/estimating-time-commitment/"
+    - text: Planning Your Timeline
+      href: "/hiring-phases/getting-started/planning-your-timeline/"
     - text: Collecting Data
       href: "/hiring-phases/getting-started/collecting-data/"
+    - text: Hosting a Kickoff
+      href: /hiring-phases/getting-started/hosting-a-kickoff/
     phase: getting-started
   - text: Job Analysis Workshop
     href: /hiring-phases/job-analysis/

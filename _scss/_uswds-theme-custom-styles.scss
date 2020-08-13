@@ -720,3 +720,51 @@ blockquote {
     margin-top: 0;
   }
 }
+
+.smeqa-results-cards {
+  margin-top: units(2);
+  flex-direction: row;
+
+  @include at-media(tablet) {
+    flex-direction: column;
+  }
+}
+
+.smeqa-results-card {
+  @include at-media(mobile-lg) {
+    display: inline-flex;
+    width: 50%;
+    margin-bottom: units(2);
+  }
+
+  @include at-media(tablet) {
+    display: inherit;
+    width: 100%;
+  }
+
+  &__container {
+    @include at-media(tablet) {
+      width: 100%;
+    }
+  }
+
+  &__stat {
+    display: block;
+    @include u-font-size('body', $theme-h2-font-size);
+    color: color($theme-color-chp-blue);
+  }
+}
+
+.smeqa-results-cards-list {
+  list-style-type: none;
+  padding: 0;
+
+  &__item {
+    display: inline-block;
+    width: 49%;
+    
+    @include at-media(tablet) {
+      padding: 0;
+    }
+  }
+}

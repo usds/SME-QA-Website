@@ -1,57 +1,146 @@
 
-### Role
-
-**{{pilot.role}}** 
-
-* {{pilot.series}} Series
+<p class="usa-intro">
+  {{ pilot.role }} ({{pilot.series}} Series)
+</p>
 
 {% if pilot.vacancies.size > 1 %}
   {% for vacancy in pilot.vacancies %}
-* {{ vacancy.grade }}: {{ vacancy.open }} vacancies
+  <h5>{{ vacancy.open }} vacancies at {{ vacancy.grade }}</h5>
   {% endfor %}
 {% else %}
   {% assign vacancy = pilot.vacancies.first %}
-* {{ vacancy.grade }}: {{ vacancy.open }} vacancies
+  <h5>
+    {{ vacancy.open }} vacancies at {{ vacancy.grade }} in {{ pilot.locations | map: "name" | join: "; " }}
+  </h5>
 {% endif %}
 
-{% if pilot.locations.size > 1 %}
-Locations:
-  {% for location in pilot.locations %}
-* {{ location.name }}
-  {% endfor %}
-{% else %}
-  {% assign location = pilot.locations.first %}
-* Location: {{ location.name }}
-{% endif %}
-
-### Agency Participants
-
-{% for participant in pilot.participants %}
-* {{ participant.count }} {{ participant.name }}
-{% endfor %}
-
-### Job announcement
-
-{% if pilot.roles %}
-  {{agency.abbrev | upcase}} posted <a href="{{pilot.joa.url}}">a job announcement</a> on {{ pilot.joa.open-date }}. 
-
-  It covered {{ pilot.roles | size }} roles:
-  {% for role in pilot.roles %}
-  * {{ role }}
-  {% endfor %}
-{% else %}
-  {{agency.abbrev | upcase}} posted <a href="{{pilot.joa.url}}">a job announcement</a> on {{ pilot.joa.open-date }} for the {{ pilot.role }} role. 
-{% endif %}
-
-The announcement closed on {{ pilot.joa.close-date }} after receiving {{ pilot.applicants.total }} applications.
-
-## Passing Rates
-
-* Total Applicants: **{{ pilot.applicants.total }}**
-{% for assessment in pilot.assessments %}
-* {{ assessment.name }}: **{{ assessment.passed }}** ({{ assessment.percentage }}%)
-{% endfor %}
-
-## Selections
-
-**{{ pilot.applicants.selected }} selections**
+<ul class="usa-card-group smeqa-results-cards">
+  <li class="usa-card usa-card--flag smeqa-results-card">
+    <div class="usa-card__container smeqa-results-card__container">
+      <header class="usa-card__header">
+        <h2 class="usa-card__heading">1. Job Analysis Workshop</h2>
+      </header>
+      <div class="usa-card__media">
+        <div class="usa-card__img">
+          <img src="{{ site.baseurl }}/assets/img/icon-job-analysis-workshop.png"
+            alt="Icon showing people around a table in a workshop">
+        </div>
+      </div>
+      <div class="usa-card__body">
+        <ul class="smeqa-results-cards-list">
+        {% for participant in pilot.participants %}
+          <li class="smeqa-results-cards-list__item">
+            <span class="smeqa-results-card__stat">{{ participant.count }}</span> 
+            {{ participant.name }}
+          </li>
+        {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </li>
+  <li class="usa-card usa-card--flag smeqa-results-card">
+    <div class="usa-card__container smeqa-results-card__container">
+      <header class="usa-card__header">
+        <h2 class="usa-card__heading">2. Job Announcement</h2>
+      </header>
+      <div class="usa-card__media">
+        <div class="usa-card__img">
+          <img src="{{ site.baseurl }}/assets/img/icon-job-announcement.png"
+            alt="Icon showing a usajobs.gov job announcement">
+        </div>
+      </div>
+      <div class="usa-card__body">
+        {% if pilot.roles %}
+          <a href="{{pilot.joa.url}}">Job announcement</a> posted from {{ pilot.joa.open-date }} to {{ pilot.joa.close-date }}.
+          <p>It covered {{ pilot.roles | size }} roles:</p>
+          <ul>
+          {% for role in pilot.roles %}
+            <li>{{ role }}</li>
+          {% endfor %}
+          </ul>
+        {% else %}
+          <a href="{{pilot.joa.url}}">Job announcement</a> posted from {{ pilot.joa.open-date }} to {{ pilot.joa.close-date }}.
+        {% endif %}
+        <div class="smeqa-results-card__stat-container">
+          <span class="smeqa-results-card__stat">{{ pilot.applicants.total }}</span> 
+          applied
+        </div>
+      </div>
+    </div>
+  </li>
+  <li class="usa-card usa-card--flag smeqa-results-card">
+    <div class="usa-card__container smeqa-results-card__container">
+      <header class="usa-card__header">
+        <h2 class="usa-card__heading">3. Resume Review</h2>
+      </header>
+      <div class="usa-card__media">
+        <div class="usa-card__img">
+          <img src="{{ site.baseurl }}/assets/img/icon-resume-review.png"
+            alt="Icon showing two individuals reviewing resumes">
+        </div>
+      </div>
+      <div class="usa-card__body">
+        {% assign assessment = pilot.assessments[0] %}
+        <div class="smeqa-results-card__stat-container">
+          <span class="smeqa-results-card__stat">{{ assessment.passed }} ({{ assessment.percentage }}%)</span>
+          passed resume review
+        </div>
+      </div>
+    </div>
+  </li>
+  <li class="usa-card usa-card--flag smeqa-results-card">
+    <div class="usa-card__container smeqa-results-card__container">
+      <header class="usa-card__header">
+        <h2 class="usa-card__heading">4. Assessments</h2>
+      </header>
+      <div class="usa-card__media">
+        <div class="usa-card__img">
+          <img src="{{ site.baseurl }}/assets/img/icon-assessments.png"
+            alt="Icon showing individuals being assessed">
+        </div>
+      </div>
+      <div class="usa-card__body">
+        <ul class="smeqa-results-cards-list">
+        {% assign round-one = pilot.assessments[1] %}
+        {% assign round-two = pilot.assessments[2] %}
+          <li class="smeqa-results-cards-list__item">
+            <div class="smeqa-results-card__stat-container">
+              <span class="smeqa-results-card__stat">
+                {{ round-one.passed }} ({{ round-one.percentage }}%)
+              </span>
+              passed {{ round-one.name | downcase }}
+            </div>
+          </li>
+          <li class="smeqa-results-cards-list__item">
+            <div class="smeqa-results-card__stat-container">
+              <span class="smeqa-results-card__stat">
+                {{ round-two.passed }} ({{ round-two.percentage }}%)
+              </span>
+              passed {{ round-two.name | downcase }}
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </li>
+  <li class="usa-card usa-card--flag smeqa-results-card">
+    <div class="usa-card__container smeqa-results-card__container">
+      <header class="usa-card__header">
+        <h2 class="usa-card__heading">5. Issuing a Certificate</h2>
+      </header>
+      <div class="usa-card__media">
+        <div class="usa-card__img">
+          <img src="{{ site.baseurl }}/assets/img/icon-issuing-certificate.png"
+            alt="Icon showing individuals being categorized">
+        </div>
+      </div>
+      <div class="usa-card__body">
+        <div class="smeqa-results-card__stat-container">
+          {% assign selected-percentage = pilot.applicants.selected | times: 100 | divided_by: pilot.applicants.total %}
+          <span class="smeqa-results-card__stat">{{ pilot.applicants.selected }} ({{ selected-percentage }}%)</span>
+          selected
+        </div>
+      </div>
+    </div>
+  </li>
+</ul>

@@ -19,7 +19,7 @@ pilots:
       - name: HR Specialists 
         count: 1
       - name: Subject Matter Experts
-        count: Unknown
+        count: 4
     joa:
       open-date: Friday March 6th, 2020
       close-date: Friday March 6th, 2019

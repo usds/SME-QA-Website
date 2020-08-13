@@ -118,15 +118,22 @@ hiring-roles:
 results:
   - text: Overview
     href: "/results/"
+    phase: results
   - text: CMS
     href: "/results/cms/"
+    phase: results
   - text: EPA
     href: "/results/epa/"
+    phase: results
   - text: GSA
     href: "/results/gsa/"
+    phase: results
   - text: Health and Human Services
     href: "/results/hhs/"
+    phase: results
   - text: Interior
     href: "/results/doi/"
+    phase: results
   - text: State
     href: "/results/state/"
+    phase: results

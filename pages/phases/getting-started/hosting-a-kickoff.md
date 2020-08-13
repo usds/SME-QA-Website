@@ -1,8 +1,8 @@
 ---
 layout: article
-permalink: /hiring-phases/getting-started/host-a-kickoff/
+permalink: /hiring-phases/getting-started/hosting-a-kickoff/
 section: hiring-phases
-title: Host a Kickoff
+title: Hosting a Kickoff
 sidenav: hiring-phases
 phase: getting-started
 sub-phase-order: 005

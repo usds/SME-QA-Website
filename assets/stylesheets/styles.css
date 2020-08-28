@@ -24382,11 +24382,31 @@ blockquote{
 }
 
 .smeqa-brief-hiring-action__title{
+  margin-top:1.5rem;
   color:#1a4480;
   text-transform:uppercase;
 }
+.smeqa-brief-hiring-action__position{
+  margin:0.25rem 0;
+}
 .smeqa-brief-hiring-action__stats-nested{
   margin-top:0;
+}
+@media all and (min-width: 30em){
+  .smeqa-brief-hiring-action__stats-nested{
+    list-style-type:none;
+    padding-left:0;
+  }
+}
+.smeqa-brief-hiring-action__stat{
+  display:block;
+  font-size:1.46rem;
+  font-weight:bold;
+}
+@media all and (min-width: 30em){
+  .smeqa-brief-hiring-action__stat{
+    display:block;
+  }
 }
 
 .smeqa-results__vacancies{
@@ -24466,5 +24486,89 @@ blockquote{
 @media all and (min-width: 40em){
   .smeqa-results-cards-list__item{
     padding:0;
+  }
+}
+
+.smeqa-table{
+  display:block;
+}
+@media all and (min-width: 30em){
+  .smeqa-table{
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -ms-flex-wrap:wrap;
+        flex-wrap:wrap;
+  }
+}
+.smeqa-table__cell{
+  width:100%;
+  padding:0.5rem;
+  -webkit-box-flex:1;
+      -ms-flex-positive:1;
+          flex-grow:1;
+  overflow:hidden;
+}
+@media all and (min-width: 30em){
+  .smeqa-table__cell{
+    padding:0.5rem 1rem;
+    border:2px solid #fff;
+    text-align:center;
+  }
+}
+.smeqa-table__cell > h1, .smeqa-table__cell > h2, .smeqa-table__cell > h3, .smeqa-table__cell > h4, .smeqa-table__cell > h5, .smeqa-table__cell > h6{
+  margin:0;
+}
+.smeqa-table__cell.is-header{
+  margin-top:1rem;
+}
+@media all and (min-width: 30em){
+  .smeqa-table__cell.is-header{
+    margin-top:0;
+  }
+}
+.smeqa-table__cell.is-even{
+  background-color:#fff;
+}
+.smeqa-table__cell.is-odd{
+  background-color:#f0f0f0;
+}
+
+@media all and (min-width: 40em){
+  .smeqa-table--2cols > .smeqa-table__cell{
+    width:50%;
+  }
+}
+
+@media all and (min-width: 40em){
+  .smeqa-table--3cols > .smeqa-table__cell{
+    width:33.33%;
+  }
+}
+
+@media all and (min-width: 30em){
+  .smeqa-table--4cols > .smeqa-table__cell{
+    width:25%;
+  }
+}
+
+@media all and (min-width: 40em){
+  .smeqa-table--5cols > .smeqa-table__cell{
+    width:20%;
+  }
+}
+
+@media all and (min-width: 40em){
+  .smeqa-table--6cols > .smeqa-table__cell{
+    width:16.6%;
+  }
+}
+
+.smeqa-table--selections{
+  margin-top:0;
+}
+@media all and (min-width: 30em){
+  .smeqa-table--selections .smeqa-table__cell{
+    background-color:#f0f0f0;
   }
 }

@@ -713,12 +713,32 @@ blockquote {
 
 .smeqa-brief-hiring-action {
   &__title {
+    margin-top: units(3);
     color: color($theme-color-primary-dark);
     text-transform: uppercase;
   }
 
+  &__position {
+    margin: units(0.5) 0;
+  }
+
   &__stats-nested {
     margin-top: 0;
+  
+    @include at-media(mobile-lg) {
+      list-style-type: none;
+      padding-left: 0;
+    }
+  }
+
+  &__stat {
+    display: block;
+    @include u-font-size('body', $theme-h3-font-size);
+    font-weight: bold;
+
+    @include at-media(mobile-lg) {
+      display: block;
+    }
   }
 }
 
@@ -794,6 +814,89 @@ blockquote {
     
     @include at-media(tablet) {
       padding: 0;
+    }
+  }
+}
+
+.smeqa-table {
+  display: block;
+
+  @include at-media(mobile-lg) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__cell {
+    width: 100%;
+    padding: units(1);
+    flex-grow: 1;
+    overflow: hidden; // Or flex might break
+
+    @include at-media(mobile-lg) {
+      padding: units(1) units(2);
+      border: 2px solid #fff;
+      text-align: center;
+    }
+  
+    > h1, > h2, > h3, > h4, > h5, > h6 { 
+      margin: 0;
+    }
+  }
+
+  &__cell.is-header {
+    margin-top: units(2);
+
+    @include at-media(mobile-lg) {
+      margin-top: 0;
+    }
+  }
+
+  &__cell.is-even {
+    background-color: #fff;
+  }
+
+  &__cell.is-odd {
+    background-color: color($theme-color-base-lightest);
+  }
+}
+
+// Table column sizing
+.smeqa-table--2cols > .smeqa-table__cell  { 
+  @include at-media(tablet) {
+    width: 50%; 
+  }
+}
+
+.smeqa-table--3cols > .smeqa-table__cell  { 
+  @include at-media(tablet) {
+    width: 33.33%; 
+  }
+}
+
+.smeqa-table--4cols > .smeqa-table__cell  { 
+  @include at-media(mobile-lg) {
+    width: 25%; 
+  }
+}
+
+.smeqa-table--5cols > .smeqa-table__cell  { 
+  @include at-media(tablet) {
+    width: 20%; 
+  }
+}
+
+.smeqa-table--6cols > .smeqa-table__cell  { 
+  @include at-media(tablet) {
+    width: 16.6%; 
+  }
+}
+
+.smeqa-table--selections {
+  margin-top: 0;
+
+  .smeqa-table__cell {
+    @include at-media(mobile-lg) {
+      background-color: color($theme-color-base-lightest);
     }
   }
 }

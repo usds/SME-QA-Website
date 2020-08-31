@@ -39,7 +39,7 @@ pilots:
       - name: Resume review
         passed: 38
         percentage: 16
-      - name: Written assessment
+      - name: Written
         entered: 37
         passed: 15
         percentage: 14

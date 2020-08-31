@@ -535,27 +535,6 @@ blockquote {
   }
 }
 
-.smeqa-timeline {
-  width: 100%;
-
-  .smeqa-timeline &__header {
-    background-color: color($theme-color-chp-red-warm);
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: bold;
-    border-color: #fff;
-    min-width: 100px;
-  }
-
-  .smeqa-timeline &__data {
-    border-color: color($theme-color-chp-gray-light);
-
-    ul {
-      margin-top: 0;
-    }
-  }
-}
-
 .smeqa-sme-selection-checklist {
   &__list {
     @include add-list-reset();
@@ -746,6 +725,10 @@ blockquote {
   &__vacancies {
     font-weight: normal;
   }
+
+  &__diagram {
+    margin: units(2) 0;
+  }
 }
 
 .smeqa-results-blockquote {
@@ -754,18 +737,26 @@ blockquote {
   padding: 0.5rem 10px;
   quotes: "\201C""\201D""\2018""\2019";
 
-  &:before {
-    color: #dfe2e5;
+  &::before {
     content: open-quote;
     font-size: 6rem;
     line-height: 0.1em;
     margin-right: 0.25rem;
     vertical-align: -2rem;
+    color: color($theme-color-base-lighter);
   }
 
   &__text {
     display: inline;
     font-weight: lighter;
+  }
+}
+
+.smeqa-results-blockquote--inline {
+  border-left: none;
+
+  &::before {
+    color: color($theme-color-chp-gold);
   }
 }
 
@@ -816,6 +807,36 @@ blockquote {
       padding: 0;
     }
   }
+}
+
+.smeqa-results-rounds {
+  &__row {
+    @include grid-row;
+    @include grid-gap;
+  }
+}
+
+.smeqa-results-round {
+  margin-bottom: units(4);
+
+  @include at-media(tablet-lg) {
+    @include grid-col(6);
+  }
+
+  &__title {
+    @include u-font-size('body', $theme-h3-font-size);
+    font-weight: bold;
+  }
+}
+
+.smeqa-results-round.is-gov-wide {
+  @include at-media(tablet-lg) {
+    @include grid-col(fill);
+  }
+}
+
+.smeqa-results-table__selections {
+
 }
 
 .smeqa-table {
@@ -898,5 +919,9 @@ blockquote {
     @include at-media(mobile-lg) {
       background-color: color($theme-color-base-lightest);
     }
+  }
+
+  .smeqa-table__cell.is-selections {
+    background-color: color($theme-color-success-lighter);
   }
 }

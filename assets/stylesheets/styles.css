@@ -24221,24 +24221,6 @@ blockquote{
   font-size:0.93rem;
 }
 
-.smeqa-timeline{
-  width:100%;
-}
-.smeqa-timeline .smeqa-timeline__header{
-  background-color:#c3512c;
-  color:#fff;
-  text-transform:uppercase;
-  font-weight:bold;
-  border-color:#fff;
-  min-width:100px;
-}
-.smeqa-timeline .smeqa-timeline__data{
-  border-color:#e6e6e6;
-}
-.smeqa-timeline .smeqa-timeline__data ul{
-  margin-top:0;
-}
-
 .smeqa-sme-selection-checklist__list{
   margin-bottom:0;
   margin-top:0;
@@ -24412,6 +24394,9 @@ blockquote{
 .smeqa-results__vacancies{
   font-weight:normal;
 }
+.smeqa-results__diagram{
+  margin:1rem 0;
+}
 
 .smeqa-results-blockquote{
   margin-left:0;
@@ -24419,17 +24404,24 @@ blockquote{
   padding:0.5rem 10px;
   quotes:"“" "”" "‘" "’";
 }
-.smeqa-results-blockquote:before{
-  color:#dfe2e5;
+.smeqa-results-blockquote::before{
   content:open-quote;
   font-size:6rem;
   line-height:0.1em;
   margin-right:0.25rem;
   vertical-align:-2rem;
+  color:#dfe1e2;
 }
 .smeqa-results-blockquote__text{
   display:inline;
   font-weight:lighter;
+}
+
+.smeqa-results-blockquote--inline{
+  border-left:none;
+}
+.smeqa-results-blockquote--inline::before{
+  color:#e5a000;
 }
 
 .smeqa-results-cards{
@@ -24486,6 +24478,57 @@ blockquote{
 @media all and (min-width: 40em){
   .smeqa-results-cards-list__item{
     padding:0;
+  }
+}
+
+.smeqa-results-rounds__row{
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -ms-flex-wrap:wrap;
+      flex-wrap:wrap;
+  margin-left:-0.5rem;
+  margin-right:-0.5rem;
+}
+.smeqa-results-rounds__row > *{
+  padding-left:0.5rem;
+  padding-right:0.5rem;
+}
+@media all and (min-width: 64em){
+  .smeqa-results-rounds__row{
+    margin-left:-1rem;
+    margin-right:-1rem;
+  }
+  .smeqa-results-rounds__row > *{
+    padding-left:1rem;
+    padding-right:1rem;
+  }
+}
+
+.smeqa-results-round{
+  margin-bottom:2rem;
+}
+@media all and (min-width: 55em){
+  .smeqa-results-round{
+    -webkit-box-flex:0;
+        -ms-flex:0 1 auto;
+            flex:0 1 auto;
+    width:50%;
+  }
+}
+.smeqa-results-round__title{
+  font-size:1.46rem;
+  font-weight:bold;
+}
+
+@media all and (min-width: 55em){
+  .smeqa-results-round.is-gov-wide{
+    -webkit-box-flex:1;
+        -ms-flex:1 1 0%;
+            flex:1 1 0%;
+    width:auto;
+    max-width:100%;
+    min-width:1px;
   }
 }
 
@@ -24571,4 +24614,7 @@ blockquote{
   .smeqa-table--selections .smeqa-table__cell{
     background-color:#f0f0f0;
   }
+}
+.smeqa-table--selections .smeqa-table__cell.is-selections{
+  background-color:#ecf3ec;
 }

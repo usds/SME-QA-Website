@@ -5,49 +5,6 @@
   {{agency.abbrev | upcase }}: {{agency.office-abbrev | upcase }}
 </h4>
   {% for pilot in agency.pilots %}
-    {% assign grades = pilot.vacancies | map: "grade" %}
-    {% assign vacancies = pilot.vacancies | map: "open" %}
-<h5 class="smeqa-brief-hiring-action__position">
-    {%- unless grades.size > 1 -%}
-      {{ pilot.role }} - {{ grades | join: ", " }} - {{ pilot.series }} series
-    {%- else -%}
-      {{ pilot.role }} - {{ pilot.series }} series
-    {%- endunless -%}
-</h5>
-<div class="smeqa-table smeqa-table--4cols smeqa-table--selections">
-  <div class="smeqa-table__cell">
-  {% unless grades.size > 1 %}
-    <span class="smeqa-brief-hiring-action__stat">{{ vacancies }}</span>
-    <span class="smeqa-brief-hiring-action__value">Vacancies</span>
-  {% else %}
-    Vacancies at: 
-    <ul class="smeqa-brief-hiring-action__stats-nested">
-    {% for vacancy in pilot.vacancies %}
-      <li class="smeqa-brief-hiring-action__stat-nested">
-        {{vacancy.grade}}: <span class="smeqa-brief-hiring-action__number">{{ vacancy.open}}</span>
-      </li>
-    {% endfor %}
-    </ul>
-  {% endunless %}
-  </div>
-  <div class="smeqa-table__cell">
-    <span class="smeqa-brief-hiring-action__stat">{{pilot.applicants.total}}</span>
-    <span class="smeqa-brief-hiring-action__value">Applicants</span>
-  </div>
-  <div class="smeqa-table__cell">
-    <span class="smeqa-brief-hiring-action__stat">
-      {{pilot.applicants.total-qualified}}
-    </span>
-    <span class="smeqa-brief-hiring-action__value">Passed assessments</span>
-    <span class="smeqa-brief-hiring-action__percentage">
-      {% assign passed = pilot.applicants.total-qualified | times: 100 | divided_by: pilot.applicants.total %}
-      ({{passed}}%)
-    </span>
-  </div>
-  <div class="smeqa-table__cell">
-    <span class="smeqa-brief-hiring-action__stat">{{pilot.applicants.selected}}</span>
-    <span class="smeqa-brief-hiring-action__value">Selections</span>
-  </div>
+    {% include results/pilot-by-the-numbers.html pilot=pilot %}
   {% endfor %}
-</div>
 {% endfor %}

@@ -45,7 +45,7 @@ Scores will then be transmuted automatically by USA Staffing as follows:
 
 
 ### SME-QA Standard Example
-This assumes the standard SME-QA set up, using one *Resume Review* step and two *Assessment* steps:
+This assumes the standard SME-QA set up, using one *Resume Review* step and two *Assessment* steps. _(note: the screenshots use assessment names of "Interview 1" and "Interview 2" but "Assessment 1" and "Assessment 2" are appropriate to use)_
 1. In the Vacancy's **Assessment Package** page, go to the **Assessment Plan** tab and click the **New Assessment** button.
     [![USA Staffing create a new assessment](/assets/img/usas/assessment-package-new-assessment.png)](/assets/img/usas/assessment-package-new-assessment.png){:target="_blank"}
 
@@ -58,10 +58,9 @@ This assumes the standard SME-QA set up, using one *Resume Review* step and two 
     - **Maximum Raw Score**: 1
     - **Scoring**: Do not standardize scores
 
-
     [![USA Staffing create a manual assessment for Resume Review](/assets/img/usas/assessment-create-resume-review.png)](/assets/img/usas/assessment-create-resume-review.png){:target="_blank"}
 
-4. Enter the assessment details for **Assessment 1**:
+4. Enter the assessment details for **Assessment 1** 
     - **Assessment Type**: Manual
     - **Minimum Raw Score**: 1
     - **Maximum Raw Score**: 2

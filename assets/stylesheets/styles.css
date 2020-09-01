@@ -23778,9 +23778,6 @@ input[type=search]{
   width:4rem;
   fill:#005ea2;
 }
-.chp-home-featured__figure.is-astronaut svg{
-  height:4rem;
-}
 .chp-home-featured__body{
   -webkit-box-flex:1;
       -ms-flex:1;

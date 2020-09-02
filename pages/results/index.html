@@ -26,17 +26,8 @@ sidenav: results
         Agencies can drastically improve hiring outcomes using current delegated examining rules and regulations by incorporating Subject Matter Experts into the process.
       </p>
       <p>
-        Through the spring of 2019, the team tested the SME-QA process with a focus on improving the quality of applicants who appear on certificates. 
+        Through the spring of 2019, the team tested the SME-QA process with 2 agencies and focused on improving the quality of applicants who appear on certificates. 
       </p>
-      <h4 class="smeqa-results-round__sub-title">Results by agency</h4>
-      <ul>
-        <li>
-          <a href="{{hhs.abbrev | prepend: site.baseurl }}/">{{ hhs.name }} ({{hhs.abbrev | upcase}})</a>
-        </li>
-        <li>
-          <a href="{{doi.abbrev | prepend: site.baseurl }}/">{{ doi.name }} ({{ doi.abbrev | upcase }})</a>
-        </li>
-      </ul>
       <p>
         <a href="{{ site.baseurl }}/results/round-one/" class="usa-button usa-button--outline smeqa-results-round__cta">Initial pilot results</a>
       </p>
@@ -45,32 +36,22 @@ sidenav: results
       <h3 class="smeqa-results-round__title">Round Two</h3>
       <h4 class="smeqa-results-round__sub-title">What we set out to accomplish</h4>
       <p>
-        These pilots were intended to discover if we could make the SME-QA process more flexible to different assessment types and speed up the process through the use of better tools. 
+        These pilots were intended to discover if the SME-QA process could be more flexible to different assessment types and sped up through the use of better tools. This include the creation of a Resume Review Tool. 
       </p>
       <p>
-        Over the course of 2020 the team has refined the process with pilots at the following agencies:
+        Over the course of 2020 the team refined the process with pilots at 4 agencies.
       </p>
-      <h4 class="smeqa-results-round__sub-title">Results by agency</h4>
-      <ul>
-      {% for agency in round_two_agencies %}
-        <li>
-          <a href="{{ agency.abbrev | prepend: site.baseurl }}/">
-            {{ agency.name }}
-          </a>
-        </li>
-      {% endfor %}
-      </ul>
-      <!-- p>
+      <p>
         <a href="{{ site.baseurl }}/results/round-two/" class="usa-button usa-button--outline smeqa-results-round__cta">
           Flexibility with SME-QA
         </a>
-      </p -->
+      </p>
     </div>
     <div class="smeqa-results-round is-gov-wide">
       <h3 class="smeqa-results-round__title">Government-wide</h3>
       <h4 class="smeqa-results-round__sub-title">What we set out to accomplish</h4>
       <p>
-        This pilot intended to prove that a government-wide hiring action could be conducted using the SME-QA process and result in many simultaneous hires or high quality across a number of agencies.
+        This pilot intended to prove that a government-wide hiring action could be conducted using the SME-QA process and result in many simultaneous hires of high quality across a number of agencies.
       </p>
       <p>
         <a href="{{ site.baseurl }}/results/gov-wide/cx/" class="usa-button usa-button--outline smeqa-results-round__cta">

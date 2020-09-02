@@ -1,8 +1,9 @@
 ---
 layout: article
+permalink: /results/epa/
 section: results
 sidenav: results
-permalink: /results/epa/
+phase: round-two
 title: Environmental Protection Agency
 ---
 

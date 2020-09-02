@@ -1,8 +1,9 @@
 ---
 layout: article
+permalink: /results/gsa/
 section: results
 sidenav: results
-permalink: /results/gsa/
+phase: round-two
 title: General Services Administration
 ---
 

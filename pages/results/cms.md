@@ -1,8 +1,9 @@
 ---
 layout: article
+permalink: /results/cms/
 section: results
 sidenav: results
-permalink: /results/cms/
+phase: round-two
 title: Centers for Medicare and Medicaid Services Pilot Results
 ---
 

@@ -1,8 +1,9 @@
 ---
 layout: article
+permalink: /results/state/
 section: results
 sidenav: results
-permalink: /results/state/
+phase: round-two
 title: State Department
 ---
 

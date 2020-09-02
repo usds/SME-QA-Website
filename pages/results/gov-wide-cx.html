@@ -4,11 +4,13 @@ section: results
 permalink: /results/gov-wide/cx/
 title: Customer Experience - Government-wide hiring
 sidenav: results
-phase: results
+phase: gov-wide
 ---
 
 {% assign agencies = site.data.results %}
 {% assign cx-results = agencies['cx-gov-wide'] %}
+{% assign cx-pilot = cx-results.pilots.first %}
+{% assign smes = cx-pilot.participants | where: 'name', 'Subject Matter Experts' %}
 
 <p class="usa-intro">
   The CX Hiring Action Pilot was a federal government Customer Experience initiative spearheaded by the U.S. Digital Service, collaborating with several offices government wide, to conduct a recruitment effort for the Customer Experience (CX) position at the GS-13, 14, and 15 levels and bring in qualified talent through a streamlined hiring process.
@@ -25,3 +27,8 @@ phase: results
 
 <h2>By the numbers</h2>
 {% include results/pilot-by-the-numbers.html pilot=cx-results.pilots.first %}
+
+<h3>Subject Matter Experts</h3>
+<p>
+  {{ smes[0].count }} designers from eight agencies came together to evaluate applicants to the Customer Experience Strategist positions. 
+</p>

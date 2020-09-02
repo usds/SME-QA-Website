@@ -22,6 +22,7 @@ about:
 hiring-phases:
   - text: Getting Started
     href: /hiring-phases/getting-started/
+    phase: getting-started
     subnav:
     - text: Committing to SME-QA
       href: /hiring-phases/getting-started/committing-to-smeqa/
@@ -35,7 +36,6 @@ hiring-phases:
       href: "/hiring-phases/getting-started/timeline/"
     - text: Collecting Data
       href: "/hiring-phases/getting-started/collecting-data/"
-    phase: getting-started
   - text: Job Analysis Workshop
     href: /hiring-phases/job-analysis/
     phase: job-analysis
@@ -119,26 +119,26 @@ results:
   - text: Overview
     href: "/results/"
     phase: results
+  - text: Round One
+    href: "/results/round-one/"
+    phase: round-one
     subnav:
-    - text: Round One
-      href: "/results/round-one/"
-    - text: Gov-wide
-      href: "/results/gov-wide/cx/"
-  - text: CMS
-    href: "/results/cms/"
-    phase: round-one
-  - text: EPA
-    href: "/results/epa/"
-    phase: round-one
-  - text: GSA
-    href: "/results/gsa/"
-    phase: round-one
-  - text: HHS
-    href: "/results/hhs/"
-    phase: round-one
-  - text: Interior
-    href: "/results/doi/"
-    phase: round-one
-  - text: State
-    href: "/results/state/"
-    phase: round-one
+    - text: HHS
+      href: "/results/round-one/hhs/"
+    - text: Interior
+      href: "/results/round-one/doi/"
+  - text: Round Two
+    href: "/results/round-two/"
+    phase: round-two
+    subnav:
+    - text: CMS
+      href: "/results/cms/"
+    - text: EPA
+      href: "/results/epa/"
+    - text: GSA
+      href: "/results/gsa/"
+    - text: State
+      href: "/results/state/"
+  - text: Gov-wide
+    href: "/results/gov-wide/cx/"
+    phase: gov-wide

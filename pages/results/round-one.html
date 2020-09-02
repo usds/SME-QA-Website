@@ -4,7 +4,7 @@ section: results
 permalink: /results/round-one/
 title: Round One Pilots
 sidenav: results
-phase: results
+phase: round-one
 ---
 
 {% assign agencies = site.data.results %}
@@ -40,9 +40,11 @@ phase: results
 <p>
   The most important metric the team tracked was the number of selections hiring managers made from the certificates, indicating the quality of the certificates. Because the SME-QA process gradually eliminates applicants who SMEs do not find qualified, hiring managers received a shorter list of qualified applicants. In both pilots, fewer applicants were deemed qualified but more applicants were selected.
 </p>
-<h3>{{ hhs.name }}</h3>
+
+<h3><a href="{{ site.baseurl }}/results/round-one/hhs/">{{ hhs.name }}</a></h3>
 {% include results/pilot-by-the-numbers.html pilot=hhs.pilots.first %}
-<h3>{{ doi.name }}</h3>
+
+<h3><a href="{{ site.baseurl }}/results/round-one/doi/">{{ doi.name }}</a></h3>
 {% include results/pilot-by-the-numbers.html pilot=doi.pilots.first %}
 
 <div class="grid-row grid-gap margin-top-2">

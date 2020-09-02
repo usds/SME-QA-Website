@@ -1,8 +1,9 @@
 ---
 layout: article
+permalink: /results/round-one/doi/
 section: results
 sidenav: results
-permalink: /results/doi/
+phase: round-one
 title: Department of Interior Pilot Results
 ---
 

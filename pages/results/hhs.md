@@ -1,8 +1,9 @@
 ---
 layout: article
+permalink: /results/round-one/hhs/
 section: results
 sidenav: results
-permalink: /results/hhs/
+phase: round-one
 title: Health and Human Services Pilot Results
 ---
 

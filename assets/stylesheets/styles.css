@@ -24615,3 +24615,7 @@ blockquote{
 .smeqa-table--selections .smeqa-table__cell.is-selections{
   background-color:#ecf3ec;
 }
+
+.smeqa-results-graph{
+  max-width:400px;
+}

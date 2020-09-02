@@ -24619,3 +24619,10 @@ blockquote{
 .smeqa-results-graph{
   max-width:400px;
 }
+
+.smeqa-principles .smeqa-principle{
+  font-size:1.46rem;
+}
+.smeqa-principles .smeqa-cta-container{
+  margin-top:3rem;
+}

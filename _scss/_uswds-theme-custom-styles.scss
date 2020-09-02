@@ -831,10 +831,6 @@ blockquote {
   }
 }
 
-.smeqa-results-table__selections {
-
-}
-
 .smeqa-table {
   display: block;
 
@@ -924,4 +920,14 @@ blockquote {
 
 .smeqa-results-graph {
   max-width: 400px;
+}
+
+.smeqa-principles {
+  .smeqa-principle {
+    @include u-font-size('body', $theme-h3-font-size);
+  }
+
+  .smeqa-cta-container {
+    margin-top: units(6);
+  }
 }

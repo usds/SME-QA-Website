@@ -53,16 +53,16 @@ pilots:
       - name: HR Specialists
         count: 1
       - name: Subject Matter Experts
-        count: 14
+        count: 20
     joa:
       open-date: Wednesday April 22nd, 2020
       close-date: Thursday April 23rd, 2019
       url: https://www.usajobs.gov/GetJob/ViewDetails/566005100
     applicants:
       total: 844
-      eligible: 290
+      eligible: 291
       total-qualified: 44
-      selected: 14
+      selected: 17
       hired: 13
     assessments:
       - name: Resume review

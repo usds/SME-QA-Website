@@ -13,22 +13,101 @@ phase: gov-wide
 {% assign smes = cx-pilot.participants | where: 'name', 'Subject Matter Experts' %}
 
 <p class="usa-intro">
-  The CX Hiring Action Pilot was a federal government Customer Experience initiative spearheaded by the U.S. Digital Service, collaborating with several offices government wide, to conduct a recruitment effort for the Customer Experience (CX) position at the GS-13, 14, and 15 levels and bring in qualified talent through a streamlined hiring process.
+  In April 2020, USDS and OPM initiated the Customer Experience Strategist (CX) Hiring Action Pilot using the SME-QA process. 
 </p>
+
 <p>
-  Over a period of two months, USDS partnered with the Office of Personnel Management (OPM) and the Office of Management and Budget to bring in Subject Matter Experts (SMEs) across agencies in the initial stages of the pilot, to help define the role description, including proficiencies and competencies. After the qualification review phase, we moved forward to notify agencies, determined how many open positions at each level they would like to fill, interview, and finally, allow agencies to hire from the selected pool of candidates.
-</p>
-<p>
-  The main goal of this pilot was to assist government agencies reform their hiring process, eliminate the burden on HR managers struggling to recruit and select top talent for CX roles, and transform the way we deliver services within government.
-</p>
-<p>
-  Twelve federal agencies and their components took part in this hiring pilot, and thirteen SMEs assisted with a virtual resume review training. The CX job posting was announced via several social media platforms, went live on performance.gov, and was posted on the USAJOBS website.
+  Nine federal agencies (13 components) participated and completed the following results.
 </p>
 
 <h2>By the numbers</h2>
 {% include results/pilot-by-the-numbers.html pilot=cx-results.pilots.first %}
 
+<h3>Applicants</h3>
+<ul>
+  <li>844 applicants applied in one day.</li>
+  <li>14,000 visits were made in April to the <a href="https://smeqa.usds.gov/info/cx-govwide/">micro-site USDS built</a> explaining this job.</li>
+</ul>
+
 <h3>Subject Matter Experts</h3>
 <p>
   {{ smes[0].count }} designers from eight agencies came together to evaluate applicants to the Customer Experience Strategist positions. 
 </p>
+
+<h3>Assessments</h3>
+<ul>
+  <li>291 (34.5%) applicants were eligible for resume review for submitting both a resume and a design portfolio.</li>
+  <li>124 (42.6%) of applicants passed resume/portfolio review.</li>
+  <li>79 (69.9% of the 113 applicants who attempted during this phase) passed the HireVue structured interview and were eligible for a second interview with a SME.</li>
+  <li>63 (81.8% of the 77 applicants who scheduled an interview) had qualifying scores after their second interview.</li>
+  <li>Of the 63 applicants who passed the second round, 19 stated they would only accept a GS level higher than they qualified for in this process and therefore were not placed on any certificate.</li>
+  <li>44 applicants ended up on at least one certificate as shown below:
+    <ul>
+      <li>14 on GS-15 certs</li>
+      <li>27 on GS-14 certs</li>
+      <li>27 on GS-13 certs</li>
+    </ul>
+  </li>
+</ul>
+
+<img src="{{ site.baseurl }}/assets/img/results/gov-wide/applicant-performance-by-hurdle.png" alt="Diagram showing the applicant performance by assessment hurdle" class="smeqa-results__diagram" />
+
+<h2>Goals and Outcomes</h2>
+<h3>Goals</h3>
+<p>
+  The goal of this pilot was to test the value of centralizing a hiring action using effective assessments where agencies can share SMEs and share the certificate to place the maximum number of qualified applicants throughout the government.
+</p>
+
+<h3>Outcomes</h3>
+<p>
+  The CX government-wide action was largely successful, introducing 17 new experience strategists into government within 6 weeks from the posting of the job announcement to the creation of the certificate.
+</p>
+<img src="{{ site.baseurl }}/assets/img/results/gov-wide/time-to-hire.png" alt="Diagram showing the time to hire for the gov-wide CX hiring action" class="smeqa-results__diagram" />
+<p>
+  Our CX working group highly favored this process, with 92% of our SMEs expressing interest in repeating the process as a SME and 83% recommending this action to other government employees.
+</p>
+<p>
+  Participating agencies made a total of 17 selections and once they were done, additional certificates were shared with 3 agencies who were not part of the initial participating list. The initial agencies thought they had 30 openings at the start of the pilot, but by the end, due to positions and budgets shifting around because of COVID-19, there were 17 total positions to fill once certificates were issued.
+</p>
+<h2>New Technology</h2>
+<h3>Resume Review Tool</h3>
+<p>
+  Our team worked with OPM to prototype a cloud based resume review tool to help HR receive SME input on applicant qualifications. SMEs batch downloaded the resumes and portfolios and then logged in to review each assigned resume against the pre-defined proficiency levels. The SMEs conducted resume review against all applicants at the GS13 level on a pass/fail basis. The tool automatically created queues for each SME and knew each resume needed two independent reviews. If the SMEs disagreed if the applicant passed, then the tool would automatically give the resume to a third SME to break the tie. 
+</p>
+<img src="{{ site.baseurl }}/assets/img/results/gov-wide/rrt-sme-view.png" alt="Screenshot of the SME view of the Resume Review Tool" class="smeqa-results__diagram" />
+<div class="grid-row grid-gap">
+  <div class="tablet-lg:grid-col-6">
+    <p>
+      100% of the SMEs approved of the tool, indicating satisfaction on the functionality, ease, and design. The tool allowed SMEs to efficiently review the resume, analyze and evaluate an applicant against the competencies and proficiency levels, and review the applicant’s design portfolios alongside the resume, with the exception of resume and portfolio downloading, and competency definitions.
+    </p>
+    <p>
+      USA Staffing is now working with USDS to integrate this functionality into USA Staffing directly. Monster customers already have similar functionality in the Collaborate add-on.
+    </p>
+  </div>
+  <div class="tablet-lg:grid-col-6">
+    <blockquote class="smeqa-results-blockquote smeqa-results-blockquote--inline">
+      <p class="usa-intro smeqa-results-blockquote__text">
+        The tool, I love it. It keeps it simple. No weird timing-out&hellip;There's an overall progress bar&hellip;I love US Web Design Standards, so happy to see that. The tool allows you to get in a really good rhythm.
+      </p>
+      <p class="smeqa-results-blockquote__attribution">
+        &mdash; Subject Matter Expert for the CX hiring action
+      </p>
+    </blockquote>
+  </div>
+</div>
+<h3>HireVue</h3>
+<p>
+  Once applicants passed through resume review, they were invited to participate in two rounds of structured interviews. The first round was a 30-minute asynchronous breadth interview using the <a href="https://www.hirevue.com/">HireVue platform</a>, an automatic transcription tool. In this instance, applicants attended a walk-through training on how to use the program, which could be accessed through any internet-connected device (phone, laptop, or tablet). 
+</p>
+<div class="grid-row grid-gap">
+  <div class="tablet-lg:grid-col-6">
+    <img src="{{ site.baseurl }}/assets/img/results/gov-wide/hirevue.png" alt="Screenshot of the HireVue platform for conducting asynchronous interviews" class="smeqa-results__diagram" />
+  </div>
+  <div class="tablet-lg:grid-col-6">
+    <p>
+      SMEs created videos of themselves asking each of the four questions which applicants could listen to when doing the recorded interviews. We turned off video and just had the audio on in case there were concerns about the government unnecessarily recording people's faces. Because we saved the audio link within the case file, the SMEs saved time not having to transcribe each interview as they did in the second structured phone interview.
+    </p>
+  </div>
+  <p>
+    The tools garnered positive feedback with 100% of our SMEs approving the tool to evaluate applicants, noting that the tools was simple to use, could go through the questions or go back and listen to other applicants, and replay responses to gather more detail. However, the downsides to the tool was not being able to follow up on questions, not able to reference resume or portfolio, and questioned the tool’s ability to be fair and unbiased. Regardless, SMEs would recommend the use of HireVue for a future hiring action while being aware of the risks and human limitations that could present itself during the interview such as not being able to follow up with candidates.
+  </p>

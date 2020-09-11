@@ -725,6 +725,19 @@ blockquote {
   &__diagram {
     margin: units(2) 0;
   }
+
+  &__screenshot-frame {
+    @include at-media(tablet) {
+      margin: units(3) units(2);
+      padding: units(1);
+      @include boxShadow(2);
+    }
+  }
+
+  &__screenshot-caption {
+    @include u-font-size('body', '2xs');
+    font-style: italic;
+  }
 }
 
 .smeqa-results-blockquote {

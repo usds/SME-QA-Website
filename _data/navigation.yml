@@ -143,3 +143,12 @@ results:
   - text: Gov-wide
     href: "/results/gov-wide/cx/"
     phase: gov-wide
+    subnav:
+    - text: By the numbers
+      href: "/results/gov-wide/cx/#by-the-numbers"
+    - text: Goals and Outcomes
+      href: "/results/gov-wide/cx/#goals-and-outcomes"
+    - text: New Technology
+      href: "/results/gov-wide/cx/#new-technology"
+    - text: Lessons Learned
+      href: "/results/gov-wide/cx/#lessons-learned"

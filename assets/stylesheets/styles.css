@@ -24394,6 +24394,18 @@ blockquote{
 .smeqa-results__diagram{
   margin:1rem 0;
 }
+@media all and (min-width: 40em){
+  .smeqa-results__screenshot-frame{
+    margin:1.5rem 1rem;
+    padding:0.5rem;
+    -webkit-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+            box-shadow:0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  }
+}
+.smeqa-results__screenshot-caption{
+  font-size:0.93rem;
+  font-style:italic;
+}
 
 .smeqa-results-blockquote{
   margin-left:0;

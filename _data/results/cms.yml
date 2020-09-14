@@ -15,8 +15,8 @@ pilots:
     locations:
       - name: Woodlawn, MD
     participants:
-      - name: HR Specialists 
-        count: 1
+      - name: HR Specialists
+        count: 4
       - name: Subject Matter Experts
         count: 13
     joa:

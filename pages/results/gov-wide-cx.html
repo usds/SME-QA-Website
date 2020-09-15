@@ -19,6 +19,13 @@ phase: gov-wide
 </p>
 
 <h2 id="by-the-numbers">By the numbers</h2>
+<h3>Participating Agencies</h3>
+<ol class="smeqa-results-agencies__list">
+{% for org in cx-results.agencies %}
+  <li class="smeqa-results-agencies__item">{{ org.agency }}</li>
+{% endfor %}
+</ol>
+
 {% include results/pilot-by-the-numbers.html pilot=cx-results.pilots.first %}
 
 <h3>Applicants</h3>
@@ -27,7 +34,25 @@ phase: gov-wide
   <li>14,000 visits were made in April to the <a href="https://smeqa.usds.gov/info/cx-govwide/">micro-site USDS built</a> explaining this job.</li>
 </ul>
 
-<h3>Subject Matter Experts</h3>
+<h4>Applicant backgrounds</h4>
+<p>
+  The charts below collects the sector applicants belonged to when applying. Half of the
+  pool of total applicants came from outside of government, including backgrounds in private companies, non-profits, and universities. The process did not favor applicants of a certain background.
+</p>
+<p>
+  Based on reviewing the resumes of all eligible applicants, 59% (171 applicants) did not come from a government background in their most recent role, 31% were federal employees at the time of applying, and 10% were federal contractors.
+</p>
+<img src="{{ site.baseurl }}/assets/img/results/gov-wide/employment-background/cx-applied.png" alt="Employment background comparison for CX gov-wide hiring action: 290 applicants, 10% federal contractors, 31% federal employees, 59% private sector" class="smeqa-results-graph--single" /> 
+<p>
+  Applicants from all backgrounds were found qualified at similar proportions compared to those who were found eligible, as seen below. Although federal contractors tended to fare a little better than federal employees did over the SME-QA assessments, slight differences are expected and are normal.
+</p>
+<img src="{{ site.baseurl }}/assets/img/results/gov-wide/employment-background/cx-qualified.png" alt="Employment background comparison for CX gov-wide: 44 applicants qualified, 25% federal contractors, 23% federal employees, 52% private sector" class="smeqa-results-graph--single" /> 
+<p>
+  Finally, the distribution of background types remained consistent into the job offer stage.
+</p>
+<img src="{{ site.baseurl }}/assets/img/results/gov-wide/employment-background/cx-offers.png" alt="Employment background comparison for CX gov-wide: 15 applicants received offers, 27% federal contractors, 20% federal employees, 53% private sector"  class="smeqa-results-graph--single" /> 
+
+<h3>Subject matter experts</h3>
 <p>
   {{ smes[0].count }} designers from eight agencies came together to evaluate applicants to the Customer Experience Strategist positions. 
 </p>
@@ -50,7 +75,7 @@ phase: gov-wide
 
 <img src="{{ site.baseurl }}/assets/img/results/gov-wide/applicant-performance-by-hurdle.png" alt="Diagram showing the applicant performance by assessment hurdle" class="smeqa-results__diagram" />
 
-<h2 id="goals-and-outcomes">Goals and Outcomes</h2>
+<h2 id="goals-and-outcomes">Goals and outcomes</h2>
 <h3>Goals</h3>
 <p>
   The goal of this pilot was to test the value of centralizing a hiring action using effective assessments where agencies can share SMEs and share the certificate to place the maximum number of qualified applicants throughout the government.
@@ -68,8 +93,8 @@ phase: gov-wide
   Participating agencies made a total of 17 selections and once they were done, additional certificates were shared with 3 agencies who were not part of the initial participating list. The initial agencies thought they had 30 openings at the start of the pilot, but by the end, due to positions and budgets shifting around because of COVID-19, there were 17 total positions to fill once certificates were issued.
 </p>
 
-<h2 id="new-technology">New Technology</h2>
-<h3>Resume Review Tool</h3>
+<h2 id="new-technology">New technology</h2>
+<h3>Resume review tool</h3>
 <p>
   Our team worked with OPM to prototype a cloud based resume review tool to help HR receive SME input on applicant qualifications. SMEs batch downloaded the resumes and portfolios and then logged in to review each assigned resume against the pre-defined proficiency levels. The SMEs conducted resume review against all applicants at the GS13 level on a pass/fail basis. The tool automatically created queues for each SME and knew each resume needed two independent reviews. If the SMEs disagreed if the applicant passed, then the tool would automatically give the resume to a third SME to break the tie. 
 </p>
@@ -131,16 +156,16 @@ phase: gov-wide
   </div>
 </div>
 
-<h2 id="lessons-learned">Lessons Learned</h2>
+<h2 id="lessons-learned">Lessons learned</h2>
 <p>
   Some of the most pressing challenges in this phase revolved around understanding the process of certifications and actually pushing them forward on the agency’s behalf.
 </p>
-<h3>Certificate Sharing</h3> 
+<h3>Certificate sharing</h3> 
 <p>
   For one, certificate sharing also occurred outside of the original participating agencies. There were agencies that heard about the certificates and wanted to make offers as well. Those agencies also needed to submit an SF-52, confirm that the competencies are the same for the job they are hiring and the job our team posted, submit a relevant PD, and go through the additional requirements. In this case, a concern was having agencies initiating a new hiring action and conducting a separate interview, while still having access to OPM certifications. Regardless, hiring managers were allowed to access the certificate and begin conducting interviews concurrently to the time-period when HR is going through these other steps.
 </p>
 
-<h3>Certification Delays</h3>
+<h3>Certification delays</h3>
 <p>
   Another flag was having agencies share their certifications at the end of the hiring action. OPM required that the agency HR specialist contact the OPM HR specialist to first complete and sign a “Request for Certificate of Eligibles” form (see attachment in Appendix). Agencies were struggling to turn this in, adding more burden and paperwork up front, which disempowered our hiring managers. As a result, some agencies delayed in issuing certifications by several weeks. Having a hiring manager with the name of the available applicant on a shared certification list can motivate the HR shop to quickly process all of the paperwork as it gives them a bit more autonomy in the process. It would be ideal to have USAJOBS add a default USAJOBS template notifying applicants that they will be shared with other agencies for immediate selection in the same series and grade.
 </p>
@@ -150,7 +175,7 @@ phase: gov-wide
   Separately, agencies did not have enough time to select their candidate within the 10-day period. Several conversations between agencies stressed on requiring more time and communicated with OPM HR to decide how much time each agency should be given in order to select. Our recommendation in this case was to continue giving agencies a 10-day grace period with priority access. After the deadline passes, the certifications will be opened up to other agencies, noting that the original agency can apply for an extension, however, there will be other agencies now competing for selections.
 </p>
 
-<h3>Selection Opt-out</h3>
+<h3>Selection opt-out</h3>
 <p>
   In the end, some agencies did not issue selections because of varying circumstances. Some agencies deferred over budget concerns, while other agencies could not select due to the impact of COVID, and a hiring freeze, which stopped the paperwork from further processing even though the agency had given their verbal intent to hire the candidate.
 </p>

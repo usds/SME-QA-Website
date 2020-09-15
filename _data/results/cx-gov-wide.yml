@@ -61,8 +61,8 @@ pilots:
     applicants:
       total: 844
       eligible: 291
-      total-qualified: 44
-      selected: 17
+      total-qualified: 63
+      selected: 20
       hired: 13
     assessments:
       - name: Resume review
@@ -75,4 +75,7 @@ pilots:
       - name: Interview Two
         passed: 63
         percentage: 7
+    cost-per-hire: $2,992
+    time-to-hire: 6.2 weeks
+    hours-per-hire: 41
       

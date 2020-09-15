@@ -48,6 +48,9 @@ pilots:
       - name: Interview Two
         passed: 25
         percentage: 11
+    cost-per-hire: $1,673
+    time-to-hire: 9.4 weeks
+    hours-per-hire: 34.5
       
     
         

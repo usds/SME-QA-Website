@@ -18,9 +18,11 @@ phase: round-two
   The team continues to focus on measuring the most important metric: the number of selections hiring managers made from the certificates, indicating the quality of the certificates. 
 </p>
 {% for agency in round_two_agencies %}
-<h4 class="smeqa-brief-hiring-action__title">
-  {{agency.abbrev | upcase }}: {{agency.office-abbrev | upcase }}
-</h4>
+<h3 class="smeqa-brief-hiring-action__title">
+  <a href="{{ site.baseurl }}/results/round-two/{{ agency.abbrev }}/">
+    {{agency.abbrev | upcase }}: {{agency.office-abbrev | upcase }}
+  </a>
+</h3>
   {% for pilot in agency.pilots %}
     {% include results/pilot-by-the-numbers.html pilot=pilot %}
   {% endfor %}
@@ -32,10 +34,16 @@ phase: round-two
 </p>
 <div class="smeqa-results-graphs grid-row grid-gap">
   <div class="smeqa-results-graph tablet:grid-col-6">
-    <img src="{{ site.baseurl }}/assets/img/results/round-two/employment-background/cms.png" alt="Employment background comparison for CMS round two: 238 applicants, 22% contractors, 28% federal employees, 50% private sector" /> 
+    <img src="{{ site.baseurl }}/assets/img/results/round-two/employment-background/cms-applied.png" alt="Employment background comparison for CMS round two: 238 applicants, 22% contractors, 28% federal employees, 50% private sector" /> 
   </div>
   <div class="smeqa-results-graph tablet:grid-col-6">
-    <img src="{{ site.baseurl }}/assets/img/results/round-two/employment-background/epa.png" alt="Employment background comparison for EPA round two: 112 applicants, 19% contractors, 70% federal employees, 12% private sector" /> 
+    <img src="{{ site.baseurl }}/assets/img/results/round-two/employment-background/epa-applied.png" alt="Employment background comparison for EPA round two: 112 applicants, 19% contractors, 70% federal employees, 12% private sector" /> 
+  </div>
+  <div class="smeqa-results-graph tablet:grid-col-6">
+    <img src="{{ site.baseurl }}/assets/img/results/round-two/employment-background/cms-qualified.png" alt="Employment background comparison for CMS round two: 12 applicants qualified, 17% contractors, 17% federal employees, 67% private sector" /> 
+  </div>
+  <div class="smeqa-results-graph tablet:grid-col-6">
+    <img src="{{ site.baseurl }}/assets/img/results/round-two/employment-background/epa-qualified.png" alt="Employment background comparison for EPA round two: 8 applicants qualified, 25% contractors, 75% federal employees, 0 private sector" /> 
   </div>
 </div>
 

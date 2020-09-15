@@ -12,7 +12,7 @@ pilots:
     series: 2210
     vacancies:
       - grade: GS-13
-        open: 7
+        open: 8
     locations:
       - name: Woodlawn, MD
     participants:
@@ -32,7 +32,7 @@ pilots:
       best-qualified: 2 
       well-qualified: 7
       qualified: 3
-      selected: 6
+      selected: 10
       hired: 5
       declined: 1
     assessments:
@@ -52,4 +52,6 @@ pilots:
         entered: 15
         passed: 12
         percentage: 5
-      
+    cost-per-hire: $4,452
+    time-to-hire: 5.8 weeks
+    hours-per-hire: 52

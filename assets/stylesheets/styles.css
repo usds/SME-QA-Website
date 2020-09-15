@@ -24365,6 +24365,9 @@ blockquote{
   color:#1a4480;
   text-transform:uppercase;
 }
+.smeqa-brief-hiring-action__title a{
+  text-decoration:none;
+}
 .smeqa-brief-hiring-action__position{
   margin:0.25rem 0;
 }
@@ -24541,6 +24544,16 @@ blockquote{
   }
 }
 
+.smeqa-results-agencies__list{
+  -webkit-column-count:2;
+     -moz-column-count:2;
+          column-count:2;
+  -webkit-column-gap:2rem;
+     -moz-column-gap:2rem;
+          column-gap:2rem;
+  margin-bottom:1.5rem;
+}
+
 .smeqa-table{
   display:block;
 }
@@ -24619,17 +24632,22 @@ blockquote{
 .smeqa-table--selections{
   margin-top:0;
 }
-@media all and (min-width: 30em){
+@media all and (min-width: 40em){
   .smeqa-table--selections .smeqa-table__cell{
     background-color:#f0f0f0;
   }
 }
-.smeqa-table--selections .smeqa-table__cell.is-selections{
+.smeqa-table--selections .smeqa-table__cell.is-hires{
   background-color:#ecf3ec;
 }
 
 .smeqa-results-graph{
   max-width:400px;
+}
+
+.smeqa-results-graph--single{
+  max-width:540px;
+  margin-bottom:1.5rem;
 }
 
 .smeqa-principles .smeqa-principle{

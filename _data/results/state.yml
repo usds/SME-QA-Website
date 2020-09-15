@@ -33,9 +33,8 @@ pilots:
       well-qualified: 11
       qualified: 2
       referred: 14
-      selected: 4
-      selected-additional: 1
-      hired: 4
+      selected: 5
+      hired: 5
     assessments:
       - name: Resume review
         passed: 45
@@ -46,4 +45,5 @@ pilots:
       - name: Interview Two
         passed: 27
         percentage: 23
+    time-to-hire: 10.4 weeks
       

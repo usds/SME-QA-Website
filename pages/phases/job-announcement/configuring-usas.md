@@ -45,7 +45,7 @@ Scores will then be transmuted automatically by USA Staffing as follows:
 
 
 ### SME-QA Standard Example
-This assumes the standard SME-QA set up, using one *Resume Review* step and two *Assessment* steps. _(note: the screenshots use assessment names of "Interview 1" and "Interview 2" but "Assessment 1" and "Assessment 2" are appropriate to use)_
+This assumes the standard SME-QA set up for delegated examining, for one grade level, using one *Resume Review* step and two *Assessment* steps. _(note: the screenshots use assessment names of "Interview 1" and "Interview 2" but "Assessment 1" and "Assessment 2" are appropriate to use)_
 1. In the Vacancy's **Assessment Package** page, go to the **Assessment Plan** tab and click the **New Assessment** button.
     [![USA Staffing create a new assessment](/assets/img/usas/assessment-package-new-assessment.png)](/assets/img/usas/assessment-package-new-assessment.png){:target="_blank"}
 

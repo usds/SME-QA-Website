@@ -33,8 +33,8 @@ pilots:
       well-qualified: 7
       qualified: 3
       selected: 10
-      hired: 5
-      declined: 1
+      hired: 6
+      declined: 4
     assessments:
       - name: Resume review
         passed: 38

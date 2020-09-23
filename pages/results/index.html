@@ -1,0 +1,111 @@
+---
+layout: article
+section: results
+permalink: /results/
+title: Results
+sidenav: results
+---
+
+{% assign agencies = site.data.results %}
+{% assign hhs = agencies['hhs'] %}
+{% assign doi = agencies['doi'] %}
+{% assign round_two_agencies = site.data.results | where: "round", "2" | sort: "name" %}
+
+<p class="smeqa-brief-hiring-actions__brief">
+  U.S. Digital Service and OPM have now conducted 2 rounds of pilots over the previous 18 months: 
+</p>
+{% include results/pilot-hiring-actions-summary.html %}
+
+<h2>Pilots</h2>
+<div class="smeqa-results-rounds">
+  <div class="smeqa-results-rounds__row">
+    <div class="smeqa-results-round">
+      <h3 class="smeqa-results-round__title">Round One</h3>
+      <h4 class="smeqa-results-round__sub-title">What we set out to accomplish</h4>
+      <p>
+        Agencies can drastically improve hiring outcomes using current delegated examining rules and regulations by incorporating Subject Matter Experts into the process.
+      </p>
+      <p>
+        Through the spring of 2019, the team tested the SME-QA process with 2 agencies and focused on improving the quality of applicants who appear on certificates. 
+      </p>
+      <p>
+        <a href="{{ site.baseurl }}/results/round-one/" class="usa-button usa-button--outline smeqa-results-round__cta">Initial pilot results</a>
+      </p>
+    </div>
+    <div class="smeqa-results-round">
+      <h3 class="smeqa-results-round__title">Round Two</h3>
+      <h4 class="smeqa-results-round__sub-title">What we set out to accomplish</h4>
+      <p>
+        These pilots were intended to discover if the SME-QA process could be more flexible to different assessment types and sped up through the use of better tools. This include the creation of a Resume Review Tool. 
+      </p>
+      <p>
+        Over the course of 2020 the team refined the process with pilots at 4 agencies.
+      </p>
+      <p>
+        <a href="{{ site.baseurl }}/results/round-two/" class="usa-button usa-button--outline smeqa-results-round__cta">
+          Flexibility with SME-QA
+        </a>
+      </p>
+    </div>
+    <div class="smeqa-results-round is-gov-wide">
+      <h3 class="smeqa-results-round__title">Government-wide</h3>
+      <h4 class="smeqa-results-round__sub-title">What we set out to accomplish</h4>
+      <p>
+        This pilot intended to prove that a government-wide hiring action could be conducted using the SME-QA process and result in many simultaneous hires of high quality across a number of agencies.
+      </p>
+      <p>
+        <a href="{{ site.baseurl }}/results/gov-wide/cx/" class="usa-button usa-button--outline smeqa-results-round__cta">
+          Gov-wide hiring
+        </a>
+      </p>
+    </div>
+  </div>
+</div>
+
+<h2>Assessment and Selection Summary</h2>
+
+{% include results/pilot-hiring-actions-brief.html %}
+
+<h2>Time to Hire improvements</h2>
+<div class="grid-row grid-gap">
+  <div class="grid-col-fill">
+    <h3>Initial pilots</h3>
+  </div>
+</div>
+<div class="grid-row grid-gap">
+  <div class="tablet-lg:grid-col-6">
+    <p>
+      The initial pilots focused on improving the quality of certificates, rather than reducing the time it takes an agency to hire applicants. However, to gather baseline information to inform future hiring actions that employ the SME-QA process, the team tracked time to hire data for the initial pilots.
+    </p>
+    <p>
+      HHS was the first to pilot the SME-QA process, and took 3.5 months from posting the job announcement to creating the certificates. Learning quickly from HHS, the team iterated
+      on the SME-QA process during the DOI pilot by concurrently scheduling and conducting the first and second interviews and simplifying assessment ratings to remove the less decisive “borderline” score. These rapid iterations helped DOI complete the same hiring phases as HHS in only two months. 
+    </p>
+  </div>
+  <div class="tablet-lg:grid-col-6">
+    <p>
+      USDS played the role of project manager, which kept the SME-QA process moving and reduced the time to hire. As project managers, the USDS team enforced the structure and completion of the job analysis workshop, which created both a shared understanding of the SME-QA process among all participants and also built the necessary momentum to post the job
+      announcement one week later.
+    </p>
+    <blockquote class="smeqa-results-blockquote smeqa-results-blockquote--inline">
+      <p class="usa-intro smeqa-results-blockquote__text">
+        When people got a cert in the past they had to hunker down for a long ugly slog. This cert came-in and was ready to go. Literally [we] can choose today.
+      </p>
+      <p class="smeqa-results-blockquote__attribution">
+        &mdash; Hiring Manager at HHS
+      </p>
+    </blockquote>
+  </div>
+</div>
+<div class="grid-row grid-gap">
+  <div class="grid-col-fill">
+    <img src="{{ site.baseurl }}/assets/img/results/pilot-schedule-comparison-v3.png" alt="Diagram comparing time to hire statistics for 4 agencies who piloted SME-QA" class="smeqa-results__diagram" />
+  </div>
+</div>
+<div class="grid-row grid-gap">
+  <div class="tablet-lg:grid-col-6">
+    <h3>Second round</h3>
+    <p>
+      The second round of pilots added a Resume Assessment Tool that allowed SMEs to conduct resume reviews, and for HR Specialists to audit those reviews, much faster than before. Also, written assessment reviews were used at CMS and EPA in lieu of a first round interview.
+    </p>
+  </div>

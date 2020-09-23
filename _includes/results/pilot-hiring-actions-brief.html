@@ -5,49 +5,6 @@
   {{agency.abbrev | upcase }}: {{agency.office-abbrev | upcase }}
 </h4>
   {% for pilot in agency.pilots %}
-    {% assign grades = pilot.vacancies | map: "grade" %}
-    {% assign vacancies = pilot.vacancies | map: "open" %}
-<h5 class="smeqa-brief-hiring-action__position">
-  {% unless grades.size > 1 %}
-    {{ pilot.role }} - {{ grades | join: ", " }} - {{ pilot.series }} series
-  {% else %}
-    {{ pilot.role }} - {{ pilot.series }} series
-  {% endunless %}
-</h5>
-<ul class="smeqa-brief-hiring-action__stats">
-  <li class="smeqa-brief-hiring-action__stat">
-  {% unless grades.size > 1 %}
-    <span class="smeqa-brief-hiring-action__number">{{ vacancies }}</span>
-    <span class="smeqa-brief-hiring-action__value">Vacancies</span>
-  {% else %}
-    Vacancies at {{ pilot.vacancies.size }} grade levels:
-    <ul class="smeqa-brief-hiring-action__stats-nested">
-    {% for vacancy in pilot.vacancies %}
-      <li class="smeqa-brief-hiring-action__stat-nested">
-        {{vacancy.grade}}: <span class="smeqa-brief-hiring-action__number">{{ vacancy.open}}</span>
-      </li>
-    {% endfor %}
-    </ul>
-  {% endunless %}
-  </li>
-  <li class="smeqa-brief-hiring-action__stat">
-    <span class="smeqa-brief-hiring-action__number">{{pilot.applicants.total}}</span>
-    <span class="smeqa-brief-hiring-action__value">Applicants</span>
-  </li>
-  <li class="smeqa-brief-hiring-action__stat">
-    <span class="smeqa-brief-hiring-action__number">
-      {{pilot.applicants.total-qualified}}
-    </span>
-    <span class="smeqa-brief-hiring-action__value">Passed assessments</span>
-    <span class="smeqa-brief-hiring-action__percentage">
-      {% assign passed = pilot.applicants.total-qualified | times: 100 | divided_by: pilot.applicants.total %}
-      ({{passed}}%)
-    </span>
-  </li>
-  <li class="smeqa-brief-hiring-action__stat">
-    <span class="smeqa-brief-hiring-action__number">{{pilot.applicants.selected}}</span>
-    <span class="smeqa-brief-hiring-action__value">Selections</span>
-  </li>
-</ul>
+    {% include results/pilot-by-the-numbers.html pilot=pilot %}
   {% endfor %}
 {% endfor %}

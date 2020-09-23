@@ -22,6 +22,7 @@ about:
 hiring-phases:
   - text: Getting Started
     href: /hiring-phases/getting-started/
+    phase: getting-started
     subnav:
     - text: Identifying Appropriate Positions
       href: /hiring-phases/getting-started/identifying-appropriate-positions/
@@ -118,7 +119,36 @@ hiring-roles:
 results:
   - text: Overview
     href: "/results/"
-  - text: Health and Human Services
-    href: "/results/hhs/"
-  - text: Interior
-    href: "/results/doi/"
+    phase: results
+  - text: Round One
+    href: "/results/round-one/"
+    phase: round-one
+    subnav:
+    - text: HHS
+      href: "/results/round-one/hhs/"
+    - text: Interior
+      href: "/results/round-one/doi/"
+  - text: Round Two
+    href: "/results/round-two/"
+    phase: round-two
+    subnav:
+    - text: CMS
+      href: "/results/cms/"
+    - text: EPA
+      href: "/results/epa/"
+    - text: GSA
+      href: "/results/gsa/"
+    - text: State
+      href: "/results/state/"
+  - text: Gov-wide
+    href: "/results/gov-wide/cx/"
+    phase: gov-wide
+    subnav:
+    - text: By the numbers
+      href: "/results/gov-wide/cx/#by-the-numbers"
+    - text: Goals and Outcomes
+      href: "/results/gov-wide/cx/#goals-and-outcomes"
+    - text: New Technology
+      href: "/results/gov-wide/cx/#new-technology"
+    - text: Lessons Learned
+      href: "/results/gov-wide/cx/#lessons-learned"

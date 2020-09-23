@@ -122,10 +122,6 @@ i.e.
       width: 4rem;
       fill: color('primary');
     }
-
-    &.is-astronaut svg {
-      height: 4rem;
-    }
   }
 
   &__body {
@@ -535,27 +531,6 @@ blockquote {
   }
 }
 
-.smeqa-timeline {
-  width: 100%;
-
-  .smeqa-timeline &__header {
-    background-color: color($theme-color-chp-red-warm);
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: bold;
-    border-color: #fff;
-    min-width: 100px;
-  }
-
-  .smeqa-timeline &__data {
-    border-color: color($theme-color-chp-gray-light);
-
-    ul {
-      margin-top: 0;
-    }
-  }
-}
-
 .smeqa-sme-selection-checklist {
   &__list {
     @include add-list-reset();
@@ -706,17 +681,283 @@ blockquote {
   &__stat {
     display: block;
     @include u-font-size('body', $theme-h2-font-size);
+    font-weight: bold;
     color: color($theme-color-chp-blue);
   }
 }
 
 .smeqa-brief-hiring-action {
   &__title {
+    margin-top: units(3);
     color: color($theme-color-primary-dark);
     text-transform: uppercase;
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  &__position {
+    margin: units(0.5) 0;
   }
 
   &__stats-nested {
     margin-top: 0;
+  
+    @include at-media(mobile-lg) {
+      list-style-type: none;
+      padding-left: 0;
+    }
+  }
+
+  &__stat {
+    display: block;
+    @include u-font-size('body', $theme-h3-font-size);
+    font-weight: bold;
+
+    @include at-media(mobile-lg) {
+      display: block;
+    }
+  }
+}
+
+.smeqa-results {
+  &__vacancies {
+    font-weight: normal;
+  }
+
+  &__diagram {
+    margin: units(2) 0;
+  }
+
+  &__screenshot-frame {
+    @include at-media(tablet) {
+      margin: units(3) units(2);
+      padding: units(1);
+      @include boxShadow(2);
+    }
+  }
+
+  &__screenshot-caption {
+    @include u-font-size('body', '2xs');
+    font-style: italic;
+  }
+}
+
+.smeqa-results-blockquote {
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0.5rem 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+
+  &::before {
+    content: open-quote;
+    font-size: 6rem;
+    line-height: 0.1em;
+    margin-right: 0.25rem;
+    vertical-align: -2rem;
+    color: color($theme-color-base-lighter);
+  }
+
+  &__text {
+    display: inline;
+    font-weight: lighter;
+  }
+}
+
+.smeqa-results-blockquote--inline {
+  border-left: none;
+
+  &::before {
+    color: color($theme-color-chp-gold);
+  }
+}
+
+.smeqa-results-cards {
+  margin-top: units(2);
+  flex-direction: row;
+
+  @include at-media(tablet) {
+    flex-direction: column;
+  }
+}
+
+.smeqa-results-card {
+  @include at-media(mobile-lg) {
+    display: inline-flex;
+    width: 50%;
+    margin-bottom: units(2);
+  }
+
+  @include at-media(tablet) {
+    display: inherit;
+    width: 100%;
+  }
+
+  &__container {
+    @include at-media(tablet) {
+      width: 100%;
+    }
+  }
+
+  &__stat {
+    display: block;
+    @include u-font-size('body', $theme-h2-font-size);
+    font-weight: bold;
+    color: color($theme-color-chp-blue);
+  }
+}
+
+.smeqa-results-cards-list {
+  list-style-type: none;
+  padding: 0;
+
+  &__item {
+    display: inline-block;
+    width: 49%;
+    
+    @include at-media(tablet) {
+      padding: 0;
+    }
+  }
+}
+
+.smeqa-results-rounds {
+  &__row {
+    @include grid-row;
+    @include grid-gap;
+  }
+}
+
+.smeqa-results-round {
+  margin-bottom: units(4);
+
+  @include at-media(tablet-lg) {
+    @include grid-col(6);
+  }
+
+  &__title {
+    @include u-font-size('body', $theme-h3-font-size);
+    font-weight: bold;
+  }
+}
+
+.smeqa-results-round.is-gov-wide {
+  @include at-media(tablet-lg) {
+    @include grid-col(fill);
+  }
+}
+
+.smeqa-results-agencies {
+  &__list {
+    column-count: 2;
+    column-gap: 2rem;
+    margin-bottom: units(3);
+  }
+}
+
+.smeqa-table {
+  display: block;
+
+  @include at-media(mobile-lg) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__cell {
+    width: 100%;
+    padding: units(1);
+    flex-grow: 1;
+    overflow: hidden; // Or flex might break
+
+    @include at-media(mobile-lg) {
+      padding: units(1) units(2);
+      border: 2px solid #fff;
+      text-align: center;
+    }
+  
+    > h1, > h2, > h3, > h4, > h5, > h6 { 
+      margin: 0;
+    }
+  }
+
+  &__cell.is-header {
+    margin-top: units(2);
+
+    @include at-media(mobile-lg) {
+      margin-top: 0;
+    }
+  }
+
+  &__cell.is-even {
+    background-color: #fff;
+  }
+
+  &__cell.is-odd {
+    background-color: color($theme-color-base-lightest);
+  }
+}
+
+// Table column sizing
+.smeqa-table--2cols > .smeqa-table__cell  { 
+  @include at-media(tablet) {
+    width: 50%; 
+  }
+}
+
+.smeqa-table--3cols > .smeqa-table__cell  { 
+  @include at-media(tablet) {
+    width: 33.33%; 
+  }
+}
+
+.smeqa-table--4cols > .smeqa-table__cell  { 
+  @include at-media(mobile-lg) {
+    width: 25%; 
+  }
+}
+
+.smeqa-table--5cols > .smeqa-table__cell  { 
+  @include at-media(tablet) {
+    width: 20%; 
+  }
+}
+
+.smeqa-table--6cols > .smeqa-table__cell  { 
+  @include at-media(tablet) {
+    width: 16.6%; 
+  }
+}
+
+.smeqa-table--selections {
+  margin-top: 0;
+
+  .smeqa-table__cell {
+    @include at-media(tablet) {
+      background-color: color($theme-color-base-lightest);
+    }
+  }
+
+  .smeqa-table__cell.is-hires {
+    background-color: color($theme-color-success-lighter);
+  }
+}
+
+.smeqa-results-graph {
+  max-width: 400px;
+}
+
+.smeqa-results-graph--single {
+  max-width: 540px;
+  margin-bottom: units(3);
+}
+
+.smeqa-principles {
+  .smeqa-principle {
+    @include u-font-size('body', $theme-h3-font-size);
+  }
+
+  .smeqa-cta-container {
+    margin-top: units(6);
   }
 }

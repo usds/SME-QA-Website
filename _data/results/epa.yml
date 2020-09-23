@@ -5,6 +5,7 @@ office-abbrev: Office of Mission Support
 office-count: 1
 agency-count: 1
 overall-order: 5
+round: 2
 pilots:
   - first:
     role: Personnel Security Specialist
@@ -18,7 +19,9 @@ pilots:
       - name: HR Specialists 
         count: 1
       - name: Subject Matter Experts
-        count: Unknown
+        count: 4
+    quote: "I really like the idea of SMEs determining what it means to be qualified."
+    quote-attribution: Human Resources Specialist at EPA
     joa:
       open-date: Friday March 6th, 2020
       close-date: Friday March 6th, 2019
@@ -38,4 +41,4 @@ pilots:
       - name: Interview
         passed: 8
         percentage: 7
-      
+    time-to-hire: 5.6 weeks

@@ -15,16 +15,17 @@ intro: During job analysis, SMEs and HR may decide to do a written assessment in
 
 If your SMEs opt for a written assessment instead of a first-round interview, you will need to prepare questions and training for each different assessment round.
 
-The assessment type should be appropriate to evaluate the applicant's proficiency level within the examined competencies. Applicants may be concerned you are seeking "free work" - so clearly explain that the asseessment is solely for evaluation.
 
 ### Items to check before sending a written assessment
-- Have you had one SME who has not worked on developing the written assessment attempt to take it in order to gauge difficulty level and time to complete?
+#### Communication to applicants
+- Applicants may be concerned you are seeking "free work" - have you clearly explained that the asseessment is solely for evaluation?
 - Have you expressed the due date of the assessment consistently, with time zone marked?
 - Have you clarified any formatting requirements for submission and what will happen if people submit via another format?
-- Have you built out instructions for how to transmute the assessment scores, particularly if you have multiple reviewers? (the SME-QA team has a template you can reference)
-- Have you tested the time it will take to conduct the written assessment and added that to the job announcement?
-- Have you provided an estimated timeframe in which to expect a written assessment will be sent out on the JOA (e.g., "If you are selected to move forward, you should expect to receive a written assessment within approximately 3-5 days of this announcement closing."
 - Have you added language about how you will treat extenuating circumstances (e.g. a COVID infection)?
+
+#### Assessment readiness
+- Have you had one SME who has not worked on developing the written assessment attempt to take it in order to gauge difficulty level and time to complete?
+- Have you built out instructions for how to transmute the assessment scores, particularly if you have multiple reviewers? (the SME-QA team has a template you can reference)
 
 ### Assessment Options
 

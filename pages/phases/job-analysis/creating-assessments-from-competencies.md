@@ -37,11 +37,44 @@ If you are creating a new passing score work simulation assessment, think throug
 
 See a longer list at [this reference link](https://www.opm.gov/policy-data-oversight/assessment-and-selection/other-assessment-methods/).
 
-### If Using Two Live Interviews
+### Written Assessment Types
 
-**Phone Assessment Interview 1** tests the applicant's *breadth of experience* by evaluating their basic knowledge across all required competencies. Write one question per competency and include follow-up questions to determine whether the applicant meets the required proficiency level. Breadth questions tend to take five to ten minutes to answer, including any follow-up questions.
+**Work Sample Essay**
+In this type of assessment, applicants are provided with data, information, policies, or memos. Their task is to review the materials and provide a structured response based on the materials. This may involve interpreting the data, discussing the pros/cons of a policy, or designing a communication plan or roadmap to address the materials. The work product should be tied to one or more competencies and reflect the type of task and work applicants would be assigned upon first starting the job.
 
-**Phone Assessment Interview 2** tests the applicant's *depth of knowledge* across all required competencies. Depth questions test how an applicant reacts and responds to changes in the presented situation. Depth interview questions can cover one to two competencies per question, and should include multiple follow-up questions that add complexity to the original question, such as "Now imagine...". These questions can take 10-15 minutes for an applicant to answer, including follow-up questions.
+Work Sample Essay Example
+Imagine you are asked to modernize and update [example]. Create a research plan to outline how you would identify pain points for [example].
+
+**General Essay: Short Answer**
+This type of assessment requires the applicant to provide short answer responses to a set of questions based on a given scenario. Each question should be tied to a specific competency and have explicit scoring criteria and instructions. You may have one or multiple questions per competency. This method is more open-ended and can be subject to a SME’s interpretation. 
+
+Short answer example
+There are currently 10 different systems that support 30 different programs within an agency. The agency plans to consolidate these 10 systems into just one. You have been brought on to help with this initiative.
+
+a)	What questions would you want to answer? What assumptions would you make?
+b)	What would you propose to the agency for how to accomplish this?
+c)	What would a potential project plan / roadmap look like?
+
+**General Essay: Long Answer**
+This type of assessment requires the applicant to provide a longer essay response based on a given scenario. The essay response should allow applicants to demonstrate their proficiency level across the various competencies. This method is more open-ended and can be subject to a SME’s interpretation.
+
+Essay prompt example
+You’ve been tasked with solving “x” using “y” methods. Detail the steps you’d take. What would you do if a stakeholder blocked your efforts? What other alternative methods would you consider?
+
+**Sample Scoring Criteria**
+Scoring criteria should be defined when the assessment is created. Based on the scoring criteria, the applicant will either not meet or meet the associated required competency and required proficiency level being tested. If the hiring action is using the assessment both as a pass/fail assessment against the minimum bar and to later create categories, applicants can also note if the applicant “exceeds” the requirement on the scoring sheet. In this case, the reviewer should be provided with a definition of what it means to “meet” vs “exceed” the required proficiency level. SMEs can also define what a “good” answer looks like ahead of time while they are creating the assessment.
+
+Example competency scoring: Analytical Ability
+
+Meets Requirements: The submission encompasses the issues and evidence that were identified in the answer key table. A recommendation is provided.
+
+Exceeds Requirements: In addition to meeting the “Meets Requirements” definition, the applicant’s summary includes mitigating factors.
+
+### If Using Two Structured Interviews
+
+**Phone Assessment Interview 1** tests the applicant's *breadth of experience* by evaluating their basic knowledge across all required competencies. Write one question per competency and include follow-up questions to determine whether the applicant meets the required proficiency level. Breadth interviews tend to take 30 minutes and could be conducted asyncronously. Asyncronous interviews allow the agency to utilize tools where all applicants receive an interview link at the same time and have a certain number of days to return a recording of their responses for a SME to later review.
+
+**Phone Assessment Interview 2** tests the applicant's *depth of knowledge* across all required competencies. Depth questions test how an applicant reacts and responds to changes in the presented situation. Depth interview questions can cover one to two competencies per question, and should include multiple follow-up questions that add complexity to the original question, such as "Now imagine...". Depth interviews tend to take a full hour to conduct and are helpful to be live so that SMEs can ask follow up probe questions as needed.
 
 ### Types of Interview Questions
 

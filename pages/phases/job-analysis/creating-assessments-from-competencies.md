@@ -37,6 +37,13 @@ If you are creating a new passing score work simulation assessment, think throug
 
 See a longer list at [this reference link](https://www.opm.gov/policy-data-oversight/assessment-and-selection/other-assessment-methods/).
 
+## Written Assessments Tips
+- The assessment type should be appropriate to evaluate the applicant's proficiency level within the pre-defined competencies.
+- Ideally, you will have time during the workshop for live testing of assessment questions. If you end up revising the assessment after the workshop, the revised assessment will need to be tested.
+- As part of testing, record the time it will take to conduct the written assessment. Add that to the job announcement and assessment instructions.
+- You should provide an estimated timeframe within the JOA in which applicants can expect a written assessment to be sent (e.g., "If you are selected to move forward, you should expect to receive a written assessment within approximately 3-5 days of this announcement closing."
+- To keep the applicant burden manageable, give applicants a maximum word count to use to complete the assessment.
+
 ### If Using Two Live Interviews
 
 **Phone Assessment Interview 1** tests the applicant's *breadth of experience* by evaluating their basic knowledge across all required competencies. Write one question per competency and include follow-up questions to determine whether the applicant meets the required proficiency level. Breadth questions tend to take five to ten minutes to answer, including any follow-up questions.

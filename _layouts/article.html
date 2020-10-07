@@ -15,9 +15,10 @@
       <div class="grid-row grid-gap">
       {% assign sidenav = site.data.navigation[page.sidenav] | default: page.sidenav %}
       {% if sidenav %}
+        {% assign section-title = page.section | replace: '-', ' ' | capitalize %}
         <div class="usa-layout-docs__sidenav desktop:grid-col-3 chp-article-sidenav">
           <div class="chp-article-sidenav__container">
-            {% include sidenav.html links=sidenav title="Hiring Phases"%}
+            {% include sidenav.html links=sidenav title=section-title %}
             {% unless page.sidenav == 'hiring-roles' %}
               {% assign rolenav = site.data.navigation[page.rolenav] | default: page.rolenav %}
               {% if rolenav %}

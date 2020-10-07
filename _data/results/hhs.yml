@@ -4,6 +4,7 @@ office: Office of the Secretary of HHS
 office-abbrev: CIO and CTO
 office-count: 2
 agency-count: 1
+round: 1
 overall-order: 1
 pilots:
   - first:
@@ -19,6 +20,8 @@ pilots:
         count: 2
       - name: Subject Matter Experts
         count: 9
+    quote: "Outstanding. The fact that we had all of those SMEs in a room and we were brainstorming and just to hear their expertise come out. I wish I could do that on every job when we have to do job analysis. Especially when it comes to technical positions."
+    quote-attribution: Human Resources Specialist at HHS
     joa:
       open-date: Friday April 5th, 2019
       close-date: Saturday April 6th, 2019
@@ -43,4 +46,7 @@ pilots:
       - name: Interview Two
         passed: 36
         percentage: 22
+    cost-per-hire: $1,673
+    time-to-hire: 14.8 weeks
+    hours-per-hire: 34.5
       

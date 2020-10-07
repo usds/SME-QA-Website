@@ -1,0 +1,164 @@
+---
+layout: article
+section: results
+permalink: /results/round-one/
+title: Round One Pilots
+sidenav: results
+phase: round-one
+---
+
+{% assign agencies = site.data.results %}
+{% assign hhs = agencies['hhs'] %}
+{% assign doi = agencies['doi'] %}
+
+<p class="usa-intro">
+  In January 2019, the U.S. Digital Service (USDS) and Office of Personnel Management (OPM) partnered to test Subject Matter Expert Qualification Assessments (SME-QA), a process where SMEs work with HR specialists to create qualification criteria based on the SMEs' determination of what is required to be successful in the job from day one. 
+</p>
+<p>
+  These SMEs then use these criteria to conduct resume review and phone interview assessments. The USDS/OPM Hiring Pilot Team hypothesized that with SMEs completing these assessments before HR specialists considered an applicant qualified and eligible for veterans’ preference, hiring
+  managers would receive higher quality certificates and make more selections.
+</p>
+<div class="grid-row grid-gap">
+  <div class="tablet-lg:grid-col-6">
+    <p>
+      The SME-QA pilots have shown that agencies can drastically improve hiring outcomes using current delegated examining rules and regulations. However, the pilots presented challenges to both HR specialists and SMEs given the time commitment and lack of technology to automate what are currently highly manual tasks. Nonetheless, interviews with all participants during and after the pilots have demonstrated that they are glad to have participated and feel the SME-QA process was worthwhile. Both DOI and HHS intend to apply the process to future hiring actions.
+    </p>
+  </div>
+  <div class="tablet-lg:grid-col-6">
+    <blockquote class="smeqa-results-blockquote smeqa-results-blockquote--inline">
+      <p class="usa-intro smeqa-results-blockquote__text">
+        We were so used to a year [instead of two months]. When we told some people we hired this many people&hellip;they said 'How many years did it take?' 
+      </p>
+      <p class="smeqa-results-blockquote__attribution">
+        &mdash; Hiring Manager at DOI
+      </p>
+    </blockquote>
+  </div>
+</div>
+
+<h2>By the numbers</h2>
+<p>
+  The most important metric the team tracked was the number of selections hiring managers made from the certificates, indicating the quality of the certificates. Because the SME-QA process gradually eliminates applicants who SMEs do not find qualified, hiring managers received a shorter list of qualified applicants. In both pilots, fewer applicants were deemed qualified but more applicants were selected.
+</p>
+
+<h3 class="smeqa-brief-hiring-action__title">
+  <a href="{{ site.baseurl }}/results/round-one/hhs/">{{ hhs.name }}</a>
+</h3>
+{% include results/pilot-by-the-numbers.html pilot=hhs.pilots.first %}
+
+<h3 class="smeqa-brief-hiring-action__title">
+  <a href="{{ site.baseurl }}/results/round-one/doi/">{{ doi.name }}</a>
+</h3>
+{% include results/pilot-by-the-numbers.html pilot=doi.pilots.first %}
+
+<div class="grid-row grid-gap margin-top-2">
+  <div class="tablet-lg:grid-col-6">
+    <p>
+      The team also hypothesized that if presented with a list of truly qualified applicants, hiring managers would make selections faster than they would during a typical delegated examination hiring process. Baseline data shows that, on average, hiring managers across government take 37 days to make a selection after receiving certificates, representing the longest phase of the hiring process.2 In the SME-QA process, hiring managers made their first selections between 11 and 16 days after receiving the certificates.
+    </p>
+  </div>
+  <div class="tablet-lg:grid-col-6">
+    <blockquote class="smeqa-results-blockquote smeqa-results-blockquote--inline">
+      <p class="usa-intro smeqa-results-blockquote__text">
+        We got the results that you all promised. We have a list of 36 people who can do the job.
+      </p>
+      <p class="smeqa-results-blockquote__attribution">
+        &mdash; Hiring Manager at HHS
+      </p>
+    </blockquote>
+  </div>
+</div>
+
+<h3>Cost benefit analysis</h3>
+<p>
+  We averaged the time required of both HR specialists and SMEs from both pilot agencies that participated in the SME-QA process, which helped the team calculate the average cost for each selection made off of a certificate.
+</p>
+<p>
+  If the pilot agencies that used the SME-QA process made six selections off a certificate, the cost per hire would become equal to the industry average, and any selections over six would reduce the cost per hire considerably. If DOI and HHS had ended up making offers to all qualified applicants, their cost per hire would have dropped to between $700 - $1000.
+</p>
+<div class="grid-row">
+  <div class="tablet:grid-col-6">
+    <table class="usa-table">
+      <thead>
+        <tr>
+          <th scope="col">Role</th>
+          <th scope="col">FTA</th>
+          <th scope="col">Hours per FTE</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>SME</td>
+          <td>8</td>
+          <td>57.5</td>
+        </tr>
+        <tr>
+          <td>HR</td>
+          <td>2</td>
+          <td>115</td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="smeqa-results-table__caption">Assumes 150-200 applicants</p>
+  </div>
+  <div class="tablet:grid-col-6">
+    <table class="usa-table">
+      <thead>
+        <tr>
+          <th scope="col">Total hires</th>
+          <th scope="col">Cost per hire</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>5</td>
+          <td>$6,692</td>
+        </tr>
+        <tr>
+          <td>10</td>
+          <td>$3,346</td>
+        </tr>
+        <tr>
+          <td>15</td>
+          <td>$2,231</td>
+        </tr>
+        <tr>
+          <td>20</td>
+          <td>$1,673</td>
+        </tr>
+        <tr>
+          <td>25</td>
+          <td>$1,338</td>
+        </tr>
+        <tr>
+          <td>30</td>
+          <td>$1,115</td>
+        </tr>
+        <tr>
+          <td> 
+            <a href="https://www.shrm.org/ResourcesAndTools/business-solutions/Documents/Talent-Acquisition-Report-All-Industries-All-FTEs.pdf">Society for HR Management</a>
+          </td>
+          <td>
+            $4,425
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href="https://seniorexecs.org/resource/resmgr/Transforming_HCM_Recommendat.pdf">
+              Benchmark for Federal Agencies (External Hires)
+            </a>
+          </td>
+          <td>
+            $10,561
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<!-- h2>Lessons Learned</h2>
+
+<h2>User feedback</h2>
+
+<h2>Detailed analysis</h2 -->

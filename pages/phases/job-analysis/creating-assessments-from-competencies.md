@@ -70,6 +70,13 @@ Meets Requirements: The submission encompasses the issues and evidence that were
 
 Exceeds Requirements: In addition to meeting the “Meets Requirements” definition, the applicant’s summary includes mitigating factors.
 
+### Written Assessments Tips
+- The assessment type should be appropriate to evaluate the applicant's proficiency level within the pre-defined competencies.
+- Ideally, you will have time during the workshop for live testing of assessment questions. If you end up revising the assessment after the workshop, the revised assessment will need to be tested.
+- As part of testing, record the time it will take to conduct the written assessment. Add that to the job announcement and assessment instructions.
+- You should provide an estimated timeframe within the JOA in which applicants can expect a written assessment to be sent (e.g., "If you are selected to move forward, you should expect to receive a written assessment within approximately 3-5 days of this announcement closing."
+- To keep the applicant burden manageable, give applicants a maximum word count to use to complete the assessment.
+
 ### If Using Two Structured Interviews
 
 **Phone Assessment Interview 1** tests the applicant's *breadth of experience* by evaluating their basic knowledge across all required competencies. Write one question per competency and include follow-up questions to determine whether the applicant meets the required proficiency level. Breadth interviews tend to take 30 minutes and could be conducted asyncronously. Asyncronous interviews allow the agency to utilize tools where all applicants receive an interview link at the same time and have a certain number of days to return a recording of their responses for a SME to later review.

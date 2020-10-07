@@ -41,7 +41,7 @@ See a longer list at [this reference link](https://www.opm.gov/policy-data-overs
 - The assessment type should be appropriate to evaluate the applicant's proficiency level within the pre-defined competencies.
 - Ideally, you will have time during the workshop for live testing of the assessment questions. If you end up revising the assessment after the workshop, the revised assessment will need to be tested.
 - You should as part of testing record the time it will take to conduct the written assessment and added that to the job announcement and to the assessment instructions.
-- You should provide an estimated timeframe in which to expect a written assessment will be sent out on the JOA (e.g., "If you are selected to move forward, you should expect to receive a written assessment within approximately 3-5 days of this announcement closing."
+- You should provide an estimated timeframe within the JOA in which applicants can expect a written assessment to be sent (e.g., "If you are selected to move forward, you should expect to receive a written assessment within approximately 3-5 days of this announcement closing."
 
 ### If Using Two Live Interviews
 

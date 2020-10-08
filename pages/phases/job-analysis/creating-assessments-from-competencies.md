@@ -13,13 +13,13 @@ intro: In the second half of your job analysis workshop, work with SMEs to devel
   {{ page.intro }}
 </p>
 
-The SMEs should decide which assessment types make sense to evaluate each competency and then create assessments (interview questions and/or written prompts) to assess the identified proficiency levels.
+The SMEs should decide which assessment types make sense to evaluate each competency and then create pass/fail assessments to assess the identified proficiency levels.
 
-As a best practice, applicants should pass through multiple hurdles with multiple SMEs before an agency considers them qualified. In order to eliminate unqualified applicants in each round, the two rounds should measure different things. For example, one interview can measure breadth of knowledge and the second interview can measure depth of knowledge. Or, a written demonstration project can measure technical competencies while a phone interview measures competencies more easily assessed through oral communications. Therefore, any applicant who doesn't receive a high enough score during the first assessment will not progress to the second. 
+As a best practice, applicants should pass through multiple hurdles with multiple SMEs before an agency considers them qualified. In order to eliminate unqualified applicants in each round, the two rounds should measure different things. For example, one assessment can measure breadth of knowledge and the second can measure depth of knowledge. Or, a written demonstration project can measure technical competencies while a phone interview measures competencies more easily assessed through oral communications. Any applicant who does not pass the first assessment will not progress to the second. 
 
-Use your defined competencies, proficiencies, and required experience to create guidance for SMEs reviewing applicant responses.
+Use your defined competencies, proficiencies, and required experience to create guidance for SMEs reviewing applicant responses. This page covers various assessment options available to you.
 
-## Assessment options (all pass/fail)
+## Assessment options summary
 
 During job analysis you will select additional assessment hurdles to measure an applicant's competencies. For example:
   
@@ -39,7 +39,7 @@ If you are creating a new passing score work simulation assessment, think throug
 
 See a longer list at [this reference link](https://www.opm.gov/policy-data-oversight/assessment-and-selection/other-assessment-methods/).
 
-## Scoring criteria
+### Scoring criteria
 Scoring criteria should be defined when the assessment is created. Based on the scoring criteria, the applicant will either not meet or meet the associated required competency and required proficiency level being tested. If the hiring action is using the assessment both as a pass/fail assessment against the minimum bar and to later create categories, applicants can also note if the applicant “exceeds” the requirement on the scoring sheet. In this case, the reviewer should be provided with a definition of what it means to “meet” vs “exceed” the required proficiency level. SMEs can also define what a “good” answer looks like ahead of time while they are creating the assessment.
 
 #### Example competency scoring: Analytical Ability
@@ -77,6 +77,10 @@ You’ve been tasked with solving “x” using “y” methods. Detail a plan o
 - As part of testing, record the time it will take to conduct the written assessment. Add that to the job announcement and assessment instructions.
 - You should provide an estimated timeframe within the JOA in which applicants can expect a written assessment to be sent (e.g., "If you are selected to move forward, you should expect to receive a written assessment within approximately 3-5 days of this announcement closing."
 - To keep the applicant burden manageable, give applicants a maximum word count to use to complete the assessment.
+
+## Structured Interviews
+
+All pilots to date have included a structured interview as the final assessment step. We recommend having interviews be the last assessment step because of the time required to schedule, conduct, and assess them.
 
 ### If using two structured interviews
 

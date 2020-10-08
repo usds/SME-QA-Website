@@ -23,9 +23,11 @@ Use your defined competencies, proficiencies, and required experience to create 
 
 During job analysis you will select additional assessment hurdles to measure an applicant's competencies. For example:
   
-  - Work samples (these can be requested at the time of application)
+  - Work samples
+    - these can be requested at the time of application
   - Written assessments
-  - Structured interviews (we recommend phone calls or conference lines over video meetings)
+  - Structured interviews 
+    - We recommend phone calls or conference lines over video meetings
   - USAHire assessments
   
 You should discuss options thoughtfully with hiring managers before the job analysis workshop, then plan the content of the assessments with SMEs during that workshop. If you have more than one assessment then they must measure two different things. This allows you to disqualify applicants from the second assessment if they don't pass the first.
@@ -40,10 +42,10 @@ See a longer list at [this reference link](https://www.opm.gov/policy-data-overs
 ## Scoring criteria
 Scoring criteria should be defined when the assessment is created. Based on the scoring criteria, the applicant will either not meet or meet the associated required competency and required proficiency level being tested. If the hiring action is using the assessment both as a pass/fail assessment against the minimum bar and to later create categories, applicants can also note if the applicant “exceeds” the requirement on the scoring sheet. In this case, the reviewer should be provided with a definition of what it means to “meet” vs “exceed” the required proficiency level. SMEs can also define what a “good” answer looks like ahead of time while they are creating the assessment.
 
-#### Example competency scoring: Analytical ability
+#### Example competency scoring: Analytical Ability
 
 - Meets Requirements: The submission encompasses the issues and evidence that were identified in the answer key table. A recommendation is provided.
-- Exceeds Requirements: In addition to meeting the “Meets Requirements” definition, the applicant’s summary includes mitigating factors.
+- Exceeds Requirements: In addition to meeting the “Meets Requirements” definition, the applicant’s summary includes additional detail and nuance demonstrating mastery of the subject matter.
 
 ## Written assessments
 

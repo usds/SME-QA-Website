@@ -80,7 +80,7 @@ You’ve been tasked with solving “x” using “y” methods. Detail a plan o
 
 ## Structured Interviews
 
-All pilots to date have included a structured interview as the final assessment step. This pass/fail interview allows a SME to speak with an applicant to evaluate their proficiency and verify they have qualified without external assistance. This avoids a process where an unqualified candidate is on the cert and discovered only during fit interviews, risking and a cancelled certificate.
+All pilots to date have included a structured interview as the final assessment step. This pass/fail interview allows a SME to speak with an applicant to evaluate their proficiency and verify they have qualified without external assistance. This avoids a process where an unqualified candidate is on the cert and discovered only during fit interviews, risking a cancelled certificate.
 
 ### If using two structured interviews
 

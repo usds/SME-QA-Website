@@ -1,12 +1,12 @@
 ---
 layout: article
-permalink: /hiring-phases/assessments/notifications/
+permalink: /hiring-phases/certificate/notifications/
 section: hiring-phases
 title: Notifying Applicants After Interviews
 sidenav: hiring-phases
-phase: assessments
+phase: certificate
 sub-phase-order: 040
-intro: After SMEs have completed an assessment round, set NOR codes and send status notifications to all applicants. 
+intro: After SMEs have completed all assessment rounds, set NOR codes and send status notifications to all applicants. 
 ---
 
 <p class="usa-intro">

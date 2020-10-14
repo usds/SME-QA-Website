@@ -80,7 +80,7 @@ You’ve been tasked with solving “x” using “y” methods. Detail a plan o
 
 ## Structured Interviews
 
-All pilots to date have included a structured interview as the final assessment step. The benefit of including a pass/fail interview is that until a SME speaks with an applicant about the technical competencies, it is hard to know if they are really qualified. In the competitive process, you want to make sure only qualified applicants make it through the process to avoid a certificate cancelled with no selections.
+All pilots to date have included a structured interview as the final assessment step. This pass/fail interview allows a SME to speak with an applicant to evaluate their proficiency and verify they have qualified without external assistance. This avoids a process where an unqualified candidate is on the cert and discovered only during fit interviews, risking and a cancelled certificate.
 
 ### If using two structured interviews
 

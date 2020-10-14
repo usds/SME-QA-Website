@@ -100,11 +100,12 @@ hiring-phases:
       href: "/hiring-phases/assessments/interviewing-applicants/"
     - text: Reviewing SME Assessments
       href: "/hiring-phases/assessments/reviewing-sme-assessments/"
-    - text: Notifying Applicants After Assessments
-      href: /hiring-phases/assessments/notifications/
   - text: Issuing a Certificate
     href: /hiring-phases/certificate/
     phase: certificate
+    subnav:
+    - text: Notifying Applicants
+      href: /hiring-phases/certificate/notifications/
 
 hiring-roles:
   - text: HR Specialist

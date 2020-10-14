@@ -80,7 +80,7 @@ You’ve been tasked with solving “x” using “y” methods. Detail a plan o
 
 ## Structured Interviews
 
-All pilots to date have included a structured interview as the final assessment step. We recommend having interviews be the last assessment step because of the time required to schedule, conduct, and assess them.
+All pilots to date have included a structured interview as the final assessment step. The benefit of including a pass/fail interview is that until a SME speaks with an applicant about the technical competencies, it is hard to know if they are really qualified. In the competitive process, you want to make sure only qualified applicants make it through the process to avoid a certificate cancelled with no selections.
 
 ### If using two structured interviews
 

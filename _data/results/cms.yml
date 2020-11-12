@@ -4,6 +4,7 @@ office: 3 Offices
 office-abbrev: Multiple Offices
 office-count: 3
 agency-count: 1
+round: 2
 overall-order: 6
 pilots:
   - first:
@@ -11,7 +12,7 @@ pilots:
     series: 2210
     vacancies:
       - grade: GS-13
-        open: 7
+        open: 8
     locations:
       - name: Woodlawn, MD
     participants:
@@ -19,6 +20,8 @@ pilots:
         count: 1
       - name: Subject Matter Experts
         count: 13
+    quote: "Thanks everyone for the experience to work together and help CMS to recruit essential product management specialists! I too have enjoyed working with everyone and have learned a lot about skill sets and competencies throughout this process."
+    quote-attribution: "Subject Matter Expert at CMS"
     joa:
       open-date: Wednesday, March 23, 2020
       close-date: Friday, March 27, 2020
@@ -29,14 +32,14 @@ pilots:
       best-qualified: 2 
       well-qualified: 7
       qualified: 3
-      selected: 6
-      hired: 5
-      declined: 1
+      selected: 10
+      hired: 6
+      declined: 4
     assessments:
       - name: Resume review
         passed: 38
         percentage: 16
-      - name: Written assessment
+      - name: Written
         entered: 37
         passed: 15
         percentage: 14
@@ -49,4 +52,6 @@ pilots:
         entered: 15
         passed: 12
         percentage: 5
-      
+    cost-per-hire: $4,452
+    time-to-hire: 5.8 weeks
+    hours-per-hire: 52

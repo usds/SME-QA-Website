@@ -1,0 +1,67 @@
+---
+layout: article
+section: results
+permalink: /results/round-two/
+title: Round Two Pilots
+sidenav: results
+phase: round-two
+---
+
+{% assign round_two_agencies = site.data.results | where: "round", "2" | sort: "name" %}
+
+<p class="usa-intro">
+  In the second round of pilots the team focused on <a href="{{ site.baseurl }}/about/">refining the SME-QA applicant funnel</a>, how applicants move between assessment phases, by swapping the first interview out for written assessments and asynchronous interviews. The team also created a Resume Review Tool.
+</p>
+
+<h2>By the numbers</h2>
+<p>
+  The team continues to focus on measuring the most important metric: the number of selections hiring managers made from the certificates, indicating the quality of the certificates. 
+</p>
+{% for agency in round_two_agencies %}
+<h3 class="smeqa-brief-hiring-action__title">
+  <a href="{{ site.baseurl }}/results/round-two/{{ agency.abbrev }}/">
+    {{agency.abbrev | upcase }}: {{agency.office-abbrev | upcase }}
+  </a>
+</h3>
+  {% for pilot in agency.pilots %}
+    {% include results/pilot-by-the-numbers.html pilot=pilot %}
+  {% endfor %}
+{% endfor %}
+
+<h3>Private vs. Public Sector Applicants</h3>
+<p>
+  In support of fair and open competition, the team worked to put private sector applicants on equal footing with applicants who are familiar with the strategies for successfully navigating the federal application process. USA Staffing doesn’t currently track whether applicants come from the private or public sector, limiting the availability of baseline data. The team did, however, review every resume received for both pilot hiring actions to learn whether SMEs found private sector applicants qualified throughout the applicant funnel.
+</p>
+<div class="smeqa-results-graphs grid-row grid-gap">
+  <div class="smeqa-results-graph tablet:grid-col-6">
+    <img src="{{ site.baseurl }}/assets/img/results/round-two/employment-background/cms-applied.png" alt="Employment background comparison for CMS round two: 238 applicants, 22% contractors, 28% federal employees, 50% private sector" /> 
+  </div>
+  <div class="smeqa-results-graph tablet:grid-col-6">
+    <img src="{{ site.baseurl }}/assets/img/results/round-two/employment-background/epa-applied.png" alt="Employment background comparison for EPA round two: 112 applicants, 19% contractors, 70% federal employees, 12% private sector" /> 
+  </div>
+  <div class="smeqa-results-graph tablet:grid-col-6">
+    <img src="{{ site.baseurl }}/assets/img/results/round-two/employment-background/cms-qualified.png" alt="Employment background comparison for CMS round two: 12 applicants qualified, 17% contractors, 17% federal employees, 67% private sector" /> 
+  </div>
+  <div class="smeqa-results-graph tablet:grid-col-6">
+    <img src="{{ site.baseurl }}/assets/img/results/round-two/employment-background/epa-qualified.png" alt="Employment background comparison for EPA round two: 8 applicants qualified, 25% contractors, 75% federal employees, 0 private sector" /> 
+  </div>
+</div>
+
+<h3>Resume length</h3>
+<p>
+  As another metric to gauge the success of private sector applicants in fair and open competition with federal employees and contractors, the team recognized <a href="{{ site.baseurl }}/about/our-principles#limit-resume-pages">differences in resume length</a> between the two types of applicants. To redress the balance between the typical private sector guidance of very concise resumes and the government practice of long, comprehensive resumes, agencies clearly documented in the job announcements that SMEs would review a limited number of pages of work history on a submitted resume.
+</p>
+<div class="grid-row grid-gap">
+  <div class="tablet-lg:grid-col-4">
+    <p>
+      To measure this process change, the team sought to learn whether this limitation would either hurt applicants with federal-style resumes, or reinforce bias against private sector resumes from agency SMEs who are accustomed to longer documentation of work history. By tracking the length of resumes throughout the applicant funnel, the team found that resume review length did not significantly benefit or harm applicants. However, applicants with either one page resumes or resumes longer than 10 pages fared worse on average than those with resumes between two and nine pages in length.
+    </p>
+    <p>
+      Since the pilots began, OPM has <a href="{{ site.baseurl }}/about/authority/">updated the Delegated Examining Operations Handbook with new guidance</a> that allows agencies to limit the number of work history pages reviewed during the qualifications process.
+    </p>
+  </div>
+  <div class="tablet-lg:grid-col-8">
+    <img src="{{ site.baseurl }}/assets/img/results/round-two/resume-length/cms.png" alt="Resume length comparison for CMS round two" />
+    <img src="{{ site.baseurl }}/assets/img/results/round-two/resume-length/epa.png" alt="Resume length comparison for EPA round two" />
+  </div>
+</div>

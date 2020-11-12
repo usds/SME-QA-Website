@@ -52,7 +52,7 @@ npm start
 
 ### Do this to perform a clean build for deployment
 ```
-npm build
+npm run build
 ```
 NOTE: This isn't necessary as github pages will perform this step automatically.
 

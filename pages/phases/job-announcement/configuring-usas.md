@@ -6,7 +6,7 @@ title: Configuring USA Staffing for the SME-QA Process
 sidenav: hiring-phases
 phase: job-announcement
 sub-phase-order: 010
-intro: Set up USA Staffing to facilitate and support the SME-QA process.<p><em>If you're a Monster customer, contact us at <a href="mailto:dl.eop.smeqa@omb.eop.gov">usds@omb.eop.gov</a> and we can share more information on how to make this process work within Monster for SME resume reviews.</em></p>
+intro: Set up USA Staffing to facilitate and support the SME-QA process.<p><em>If you're a Monster customer, contact us at <a href="mailto:dl.eop.smeqa@omb.eop.gov">dl.eop.smeqa@omb.eop.gov</a> and we can share more information on how to make this process work within Monster for SME resume reviews.</em></p>
 ---
 
 <p class="usa-intro">
@@ -32,7 +32,7 @@ This process has used the following rating categories:
 The SME-QA process assumes that there is:
 
 * One resume review without score (the resume review is pass/fail)
-* Two interviews (both interviews are pass/fail and are used to determine category ratings) with the following details:
+* Two assessments (both assessments are pass/fail and are used to determine category ratings) with the following details:
     * Passing score of 1
     * Maximum score of 2
     * Any applicant who does not meet the requirements will receive an ineligible NOR code and _no score_
@@ -45,7 +45,7 @@ Scores will then be transmuted automatically by USA Staffing as follows:
 
 
 ### SME-QA Standard Example
-This assumes the standard SME-QA set up, using one *Resume Review* step and two *Interview* steps:
+This assumes the standard SME-QA set up for delegated examining, for one grade level, using one *Resume Review* step and two *Assessment* steps. _(note: the screenshots use assessment names of "Interview 1" and "Interview 2" but "Assessment 1" and "Assessment 2" are appropriate to use)_
 1. In the Vacancy's **Assessment Package** page, go to the **Assessment Plan** tab and click the **New Assessment** button.
     [![USA Staffing create a new assessment](/assets/img/usas/assessment-package-new-assessment.png)](/assets/img/usas/assessment-package-new-assessment.png){:target="_blank"}
 
@@ -58,10 +58,9 @@ This assumes the standard SME-QA set up, using one *Resume Review* step and two 
     - **Maximum Raw Score**: 1
     - **Scoring**: Do not standardize scores
 
-
     [![USA Staffing create a manual assessment for Resume Review](/assets/img/usas/assessment-create-resume-review.png)](/assets/img/usas/assessment-create-resume-review.png){:target="_blank"}
 
-4. Enter the assessment details for **Interview 1**:
+4. Enter the assessment details for **Assessment 1** 
     - **Assessment Type**: Manual
     - **Minimum Raw Score**: 1
     - **Maximum Raw Score**: 2
@@ -71,7 +70,7 @@ This assumes the standard SME-QA set up, using one *Resume Review* step and two 
     [![USA Staffing create a manual assessment for interview 1](/assets/img/usas/assessment-create-interview1.png)](/assets/img/usas/assessment-create-interview1.png){:target="_blank"}
 
 
-5. Enter the assessment details for **Interview 2**:
+5. Enter the assessment details for **Assessment 2**:
     - **Assessment Type**: Manual
     - **Minimum Raw Score**: 1
     - **Maximum Raw Score**: 2
@@ -101,6 +100,6 @@ This assumes the standard SME-QA set up, using one *Resume Review* step and two 
 Confirm which NOR message codes you will use for this process. We suggest the following (you may have to contact your TAS operator to add/enable these):
 
 * **IQSM - IN:** You are ineligible for this position because subject matter experts have determined you do not meet the required qualifications as described in the job announcement.
-* **ELSM - PA:** Subject matter experts have reviewed your resume for evidence of the required qualifications and have determined you should move on to the next phase of the process. You will be scheduled for one or more interviews to further assess your qualifications.
-* **ELSN - IN:** Based on the results of your interviews, subject matter experts have determined that you meet the qualifications for this position. However, you were not in the highest qualification category, or there are other applicants who, by law, must be considered before your application, such as displaced federal employees and certain veterans. Therefore, your application will not be referred to the selecting official at this time. If additional candidates are needed, your application may be referred at a later date.
-* **ELSR - PA:** Based on the results of your interviews, subject matter experts have determined that you meet the qualifications for this position. You have been referred to the hiring manager for selection consideration and may be contacted for additional interviews.
+* **ELSM - PA:** Subject matter experts have reviewed your resume for evidence of the required qualifications and have determined you should move on to the next phase of the process. You will receive information on one or more assessments to further assess your qualifications.
+* **ELSN - IN:** Based on the results of your assessments, subject matter experts have determined that you meet the qualifications for this position. However, you were not in the highest qualification category, or there are other applicants who, by law, must be considered before your application, such as displaced federal employees and certain veterans. Therefore, your application will not be referred to the selecting official at this time. If additional candidates are needed, your application may be referred at a later date.
+* **ELSR - PA:** Based on the results of your assessments, subject matter experts have determined that you meet the qualifications for this position. You have been referred to the hiring manager for selection consideration and may be contacted for additional interviews.

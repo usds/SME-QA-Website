@@ -1,4 +1,4 @@
-{% assign results = site.data.results | sort %}
+{% assign results = site.data.results %}
 {% assign pilots_count = results.size %}
 
 {% assign total_agencies = "" | split: ',' %}
@@ -43,10 +43,6 @@
 {% for count in total_qualified %}
   {% assign qualified = qualified | plus: count %}
 {% endfor %}
-
-<p class="smeqa-brief-hiring-actions__brief">
-  U.S. Digital Service and OPM have now conducted 2 rounds of pilots over the previous 18 months: 
-</p>
 
 <ul class="smeqa-brief-hiring-actions__list">
   <li class="smeqa-brief-hiring-actions__item">

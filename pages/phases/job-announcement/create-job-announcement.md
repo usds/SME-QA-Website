@@ -19,7 +19,10 @@ While you'll continue to use the occupational questionnaire to gather general bi
 
 ### 1. Title
 
-Use a clear title that qualified applicants will recognize as encompassing their skills. If your job is open to the public, use a title common to the private sector for the same position.
+Use a clear title that qualified applicants will recognize as encompassing their skills. If your job is open to the public, use a title common to the private sector for the same position - you do not need to copy the official title on the PD. Ideally, the PD might refer to the unofficial title, but this is not required. Use of unofficial titles is very common for recruitment purposes to better describe the nature of the position.
+
+Source: 5 U.S.C. § 5105 Standards for classification of positions
+ - (c) The official class titles established under subsection (a)(2) of this section shall be used for personnel, budget, and fiscal purposes. However, this requirement does not prevent the use of organizational or other titles for internal administration, public convenience, law enforcement, or similar purposes.
 
 ### 2. Overview
 

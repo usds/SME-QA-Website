@@ -1,9 +1,9 @@
 name: State Department
 abbrev: state
-office: Office of Procurement Executive
+office: Office of Procurement Executive (A/OPE)
 office-count: 1
 agency-count: 1
-office-abbrev: Office of Mission Support
+office-abbrev: Office of Procurement Executive
 overall-order: 6
 round: 2
 pilots:
@@ -33,8 +33,8 @@ pilots:
       well-qualified: 11
       qualified: 2
       referred: 14
-      selected: 5
-      hired: 5
+      selected: 8
+      hired: 8
     assessments:
       - name: Resume review
         passed: 45

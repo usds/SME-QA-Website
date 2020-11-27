@@ -345,9 +345,9 @@ Data:
     program-office-link: "XXX"
     open-positions:
       - level: 13
-        open: ?
+        open: "?"
       - level: 14
-        open: ?
+        open: "?"
     promotion-potential: "?"
     locations:
       - name: "?"

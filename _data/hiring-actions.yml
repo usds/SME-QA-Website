@@ -313,7 +313,7 @@ Data:
         open: 5
     promotion-potential: "No"
     locations:
-      - name: "Suitland, MD (or should this be DC?)"
+      - name: "Suitland, MD or possibly DC"
     relocation: "Yes"
     telework: "Yes"
     travel-occassional: true

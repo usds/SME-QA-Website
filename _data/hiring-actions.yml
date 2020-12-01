@@ -301,10 +301,11 @@ cx:
     sensitivity-and-risk: "Tier 2 (non-sensitive, moderate risk, public trust)"
     drug-test: "Yes"
     role-summary: "VHA is America's largest integrated health care system, serving more than 9 million enrolled Veterans. VHA aims to honor America’s Veterans by providing exceptional health care that improves their health and well-being, and we are undergoing the largest transformation in our history. We are reshaping the delivery of healthcare, and need individuals that can serve as a persuasive and inspiring thought leaders to bring teams and clients together to tackle business challenges. This position requires a unique mix of critical thinking, creative problem-solving, teaching, scoping, and activating to embed a customer lens and improve CX capacity working with 170 VA Medical Centers and 1,063 outpatient clinics. We need resourceful leaders who can create and co-develop innovative and practical solutions, often from scratch. This position will collaborate with VHA clients to understand their business challenges and opportunities and to help identify and prioritize their near- and long-term goals, leading projects that enhance employees understanding of our customers and translating customer needs into business requirements to help drive improvement in processes and systems."
+    
 data:
   - agency: Census Bureau
     agency-abbrev: Census
-    program-office: XXX
+    program-office: Various offices
     program-office-link: "XXX"
     open-positions:
       - level: 13
@@ -322,7 +323,7 @@ data:
     role-summary: "The U.S. Census Bureau serves as the nation’s leading provider of quality data about its people and economy. As we expand and refine our methods for data collection, analysis, and dissemination, data science techniques have become increasingly critical for our population of experienced researchers and statisticians. We are seeking passionate data scientists to help us hone our methodologies and outputs for the more than 100 surveys, censuses, and other statistical programs conducted by the Bureau each year, and to help us explore research-based innovative techniques to apply across all mission and support areas. Our roles vary by mission area, but no matter which team you join, your individuality will be valued and you’ll have opportunities to help shape the data science  landscape of a premier statistical organization. We offer competitive salaries, flexible hours/work arrangements, developmental opportunities, a variety of benefits/health insurance plans, and incentives."
   - agency: Department of Homeland Security
     agency-abbrev: DHS
-    program-office: XXX
+    program-office: Office of the Chief Data Officer
     program-office-link: "XXX"
     open-positions:
       - level: 13
@@ -341,7 +342,7 @@ data:
     role-summary: "DHS was created after 9/11 to secure the nation. This mission space is wide ranging and includes emergency response, border and aviation security, immigration, cybersecurity, infrastructure security, and more. In this new role you’ll play a key part in helping to stand up the Chief Data Officer office and establishing best practices across DHS. The office, of which you will be a founding member, will work across DHS Components with an iterative user focused approach to pull together key data and quickly deliver valuable insights to inform leadership decisions. Self-starters that can move projects forward, identify new opportunities, and enjoy working with a wide variety of stakeholders will thrive in this role."
   - agency: Equal Employment Opportunity Commission
     agency-abbrev: EEOC
-    program-office: XXX
+    program-office: ???
     program-office-link: "XXX"
     open-positions:
       - level: 13
@@ -376,7 +377,7 @@ data:
     role-summary: "CSO is responsible for anticipating, preventing, and responding to conflict that undermines U.S. national interests. To fulfill our mission, we provide evidence-based policy recommendations to senior leaders across the Department and the Interagency. We're seeking  experienced data scientists to join our office of advanced analytics to apply data science techniques to foreign policy problems, serving on the Instability Monitoring and Assessment Platform team, you will be providing situational awareness, early warning, and analytical products to all 75,000 DoS employees around the world, informing department principals and personnel about the state of conflict in the world today, and what may be happening tomorrow."
   - agency: Department of State
     agency-abbrev: State
-    program-office: Bureau of Global Public Affairs, Executive Office (GPA)
+    program-office: Bureau of Global Public Affairs (GPA)
     program-office-link: "https://www.state.gov/bureaus-offices/under-secretary-for-public-diplomacy-and-public-affairs/bureau-of-global-public-affairs/"
     main-point-of-contact:
     - name: Hattie Jones
@@ -427,7 +428,7 @@ The CfA is looking for highly motivated data scientists who love to solve proble
         open: "? (3 across DoT)"
     promotion-potential: "GS-13's FPL is 13; for GS-14's FPL is 14; for 1 GS-13, FPL is GS-14."
     locations:
-      - name: "Cambridge, MA"
+      - name: "Washington, DC"
     relocation: "Yes"
     telework: "Yes"
     travel-occassional: true
@@ -463,7 +464,7 @@ The CfA is looking for highly motivated data scientists who love to solve proble
         open: "? (3 across DoT)"
     promotion-potential: "GS-13's FPL is 13; for GS-14's FPL is 14; for 1 GS-13, FPL is GS-14."
     locations:
-      - name: "Cambridge, MA"
+      - name: "Washington, DC"
     relocation: "Yes"
     telework: "Yes"
     travel-occassional: true
@@ -481,7 +482,7 @@ The CfA is looking for highly motivated data scientists who love to solve proble
         open: "? (3 across DoT)"
     promotion-potential: "GS-13's FPL is 13; for GS-14's FPL is 14; for 1 GS-13, FPL is GS-14."
     locations:
-      - name: "Cambridge, MA"
+      - name: "Washington, DC"
     relocation: "Yes"
     telework: "Yes"
     travel-occassional: true
@@ -499,7 +500,7 @@ The CfA is looking for highly motivated data scientists who love to solve proble
         open: "? (3 across DoT)"
     promotion-potential: "GS-13's FPL is 13; for GS-14's FPL is 14; for 1 GS-13, FPL is GS-14."
     locations:
-      - name: "Cambridge, MA"
+      - name: "Washington, DC"
     relocation: "Yes"
     telework: "Yes"
     travel-occassional: true

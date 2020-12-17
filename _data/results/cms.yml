@@ -77,7 +77,7 @@ pilots:
     applicants:
       total: 202
       total-qualified: 19
-      selected: 7
+      selected: 8
       hired: 7
       declined: 1
     assessments:

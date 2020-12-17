@@ -37,6 +37,10 @@ To ensure your hiring process will be manageable for participating SMEs, clearly
 
 Duties should be informed by the job tasks you documented during job analysis. Place the most important job duties as the first few bullets.
 
+If you are posting for multiple roles (this is not typical), and your SMEs determine in job analysis that applicants should only reasonably be allowed to apply for a subset of those roles, include this text in this section (modifying the specific number as appropriate):
+
+> You may apply for up to two (2) roles using the Apply button at the bottom of the page. If you choose more than (2) you will only be considered for the first two selected in the order they are listed.
+
 ### 4. Qualifications
 
 List all competencies you developed during job analysis together to describe the minimum qualifications for the position. If required for the position, you can describe specific recency requirements when skills obtained many years ago would not be relevant to the work being performed. For example, a technical position may require experience with modern cloud technologies within the last three years.

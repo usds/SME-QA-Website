@@ -3,9 +3,12 @@ abbrev: cx
 office: 13 Offices
 office-abbrev: Multiple Offices
 office-count: 13
-agency-count: 9
+agency-count: 11
 is-gov-wide: true
 agencies:
+  - agency: Department of Agriculture
+    agency-abbrev: USDA
+    selections: 3
   - agency: Consumer Financial Protection Bureau (CFPB)
     agency-abbrev: CFPB
     selections: 2
@@ -14,23 +17,26 @@ agencies:
     selections: 0
   - agency: General Services Administration
     agency-abbrev: GSA
-    selections: 1
+    selections: 3
   - agency: Department of Health and Human Services
     agency-abbrev: HHS
     selections: 0
+  - agency: Internal Revenue Service
+    agency-abbrev: IRS
+    selections: 1
   - agency: National Aeronautics and Space Administration (NASA)
     agency-abbrev: NASA
     selections: 1
+  - agency: Office of Personnel Management
+    agency-abbrev: OPM
+    selections: 1    
   - agency: Department of State
     agency-abbrev: State
     selections: 5
-  - agency: Department of Agriculture
-    agency-abbrev: USDA
-    selections: 2
   - agency: "U.S. Patent and Trademark Office"
     agency-abbrev: USPTO
     selections: 0
-  - agency: Veterans Affairs
+  - agency: Department of Veterans Affairs
     agency-abbrev: VA
     selections: 2
 overall-order: 7
@@ -62,17 +68,17 @@ pilots:
       total: 844
       eligible: 291
       total-qualified: 63
-      selected: 22
-      hired: 17
+      selected: 27
+      hired: 19
     assessments:
       - name: Resume review
         entered: 290
         passed: 124
         percentage: 15
-      - name: Hirevue Interview
+      - name: HireVue Interview
         passed: 79
         percentage: 9
-      - name: Interview Two
+      - name: Structured Interview
         passed: 63
         percentage: 7
     cost-per-hire: $2,992

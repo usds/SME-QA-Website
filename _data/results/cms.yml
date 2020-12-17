@@ -55,3 +55,37 @@ pilots:
     cost-per-hire: $4,452
     time-to-hire: 5.8 weeks
     hours-per-hire: 52
+  - second:
+    role: Data Science
+    series: 2210
+    vacancies:
+      - grade: GS-12/13
+        open: 9
+    locations:
+      - name: Woodlawn, MD
+    participants:
+      - name: HR Specialists
+        count: 2 (part-time)
+      - name: Subject Matter Experts
+        count: 9
+    quote: "Everything worked really well."
+    quote-attribution: "Hiring Manager at CMS"
+    joa:
+      open-date: Thursday, September 3, 2020
+      close-date: Thursday, September 10, 2020
+      url: https://www.usajobs.gov/GetJob/ViewDetails/577619700
+    applicants:
+      total: 202
+      total-qualified: 19
+      selected: 8
+      hired: 7
+      declined: 1
+    assessments:
+      - name: Resume review
+        passed: 95
+      - name: Written
+        entered: 61
+        passed: 30
+      - name: Interview
+        entered: 28
+        passed: 19

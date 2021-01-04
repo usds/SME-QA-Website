@@ -328,7 +328,7 @@ data:
     open-positions:
       - level: 13
         open: 1
-    promotion-potential: "None"
+    promotion-potential: "No"
     locations:
       - name: "Washington, DC"
     relocation: "No"
@@ -414,7 +414,7 @@ The CfA is looking for highly motivated data scientists who love to solve proble
     open-positions:
       - level: "13 or 14"
         open: 12
-    promotion-potential: "None"
+    promotion-potential: "No"
     locations:
       - name: "Washington, DC"
     relocation: "No"
@@ -451,7 +451,7 @@ The Office of the Secretary (OST) oversees the formulation of national transport
     open-positions:
       - level: "13 or 14"
         open: 5
-    promotion-potential: "None"
+    promotion-potential: "No"
     locations:
       - name: "Cambridge, MA"
     relocation: "No"
@@ -537,7 +537,7 @@ This position is located in the Office of Data Transparency, Office of Fiscal Ac
     open-positions:
       - level: "13 or 14"
         open: 4
-    promotion-potential: "None"
+    promotion-potential: "No"
     locations:
       - name: "Washington, DC"
     relocation: "No"
@@ -571,7 +571,7 @@ This position is located in the Office of Data Transparency, Office of Fiscal Ac
     open-positions:
       - level: 13
         open: 1
-    promotion-potential: "None."
+    promotion-potential: "No"
     locations:
       - name: "Any; remote work is available."
     relocation: "Available for Washington DC if relocation desired by applicant."

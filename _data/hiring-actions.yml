@@ -562,7 +562,7 @@ This position is located in the Office of Data Transparency, Office of Fiscal Ac
     telework: "No"
     travel-occassional: true
     sensitivity-and-risk: "Tier 1 (low risk)"
-    drug-test: "No (needs verification)"
+    drug-test: "No"
     role-summary: "Join an award winning team working to modernize data analytics at USDA and across federal government.  We’re looking for data scientists who have a passion for solving business challenges, working on a wide variety of analytics projects and an interest in applying AI/ML, GIS, and/or NLP to mature USDA’s analytics capabilities.  We are particularly interested in applicants who have experience in data visualization and can work closely with program managers across the organization to develop solutions that support data driven decision-making.  Selected applicants will be part of a small team that explores and develops innovative solutions for cross-cutting priorities across USDA.  In this role, there will be opportunity to work with structured, unstructured and geospatial data in topic areas such as financial, food production, conservation, forestry, economics, food safety, and foreign trade.  Come be part of a team transforming how analytics is done as USDA."
   - agency: Veterans Affairs
     agency-abbrev: VA

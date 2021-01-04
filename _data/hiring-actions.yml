@@ -485,7 +485,7 @@ This position is located in the Office of Data Transparency, Office of Fiscal Ac
     locations:
       - name: "Washington, DC"
     relocation: "No"
-    telework: "Yes"
+    telework: "No"
     travel-occassional: true
     sensitivity-and-risk: "Tier 1 (low risk)"
     drug-test: "No (needs verification)"

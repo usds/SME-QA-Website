@@ -306,66 +306,55 @@ data:
   - agency: Census Bureau
     agency-abbrev: Census
     program-office: Various offices
-    program-office-link: "XXX"
-    open-positions:
-      - level: 13
-        open: 17
-      - level: 14
-        open: 5
-    promotion-potential: "No"
+    program-office-link: "https://www.census.gov/"
     locations:
-      - name: "Suitland, MD or possibly DC"
+      - name: "Suitland, MD"
     relocation: "Yes"
     telework: "Yes"
     travel-occassional: true
     sensitivity-and-risk: "Tier 1"
     drug-test: "No"
     role-summary: "The U.S. Census Bureau serves as the nation’s leading provider of quality data about its people and economy. As we expand and refine our methods for data collection, analysis, and dissemination, data science techniques have become increasingly critical for our population of experienced researchers and statisticians. We are seeking passionate data scientists to help us hone our methodologies and outputs for the more than 100 surveys, censuses, and other statistical programs conducted by the Bureau each year, and to help us explore research-based innovative techniques to apply across all mission and support areas. Our roles vary by mission area, but no matter which team you join, your individuality will be valued and you’ll have opportunities to help shape the data science  landscape of a premier statistical organization. We offer competitive salaries, flexible hours/work arrangements, developmental opportunities, a variety of benefits/health insurance plans, and incentives."
-  - agency: Department of Homeland Security
-    agency-abbrev: DHS
-    program-office: Office of the Chief Data Officer
-    program-office-link: "XXX"
-    open-positions:
-      - level: 13
-        open: 0
-      - level: 14
-        open: 1
-    promotion-potential: "Yes, GS-15"
+  - agency: Consumer Financial Protection Bureau
+    agency-abbrev: CFPB
+    program-office: Various offices
+    program-office-link: "https://www.consumerfinance.gov"
+    locations:
+      - name: "Washington, DC"
+    relocation: "Yes"
+    telework: "Yes"
+    travel-occassional: true
+    sensitivity-and-risk: "Tier 1 (low risk)"
+    drug-test: "No"
+    role-summary: "We aim to make consumer financial markets work for consumers, responsible providers, and the economy as a whole. We protect consumers from unfair, deceptive, or abusive practices and take action against companies that break the law. We arm people with the information, steps, and tools that they need to make smart financial decisions."
+  - agency: Equal Employment Opportunity Commission
+    agency-abbrev: EEOC
+    program-office: Office of Enterprise Data and Analytics
+    program-office-link: "https://www.eeoc.gov/"
     locations:
       - name: "Washington, DC"
     relocation: "No"
     telework: "Yes"
     travel-occassional: true
-    travel-percentage: "0-10%"
-    sensitivity-and-risk: "Secret"
-    drug-test: "Yes"
-    role-summary: "DHS was created after 9/11 to secure the nation. This mission space is wide ranging and includes emergency response, border and aviation security, immigration, cybersecurity, infrastructure security, and more. In this new role you’ll play a key part in helping to stand up the Chief Data Officer office and establishing best practices across DHS. The office, of which you will be a founding member, will work across DHS Components with an iterative user focused approach to pull together key data and quickly deliver valuable insights to inform leadership decisions. Self-starters that can move projects forward, identify new opportunities, and enjoy working with a wide variety of stakeholders will thrive in this role."
-  - agency: Equal Employment Opportunity Commission
-    agency-abbrev: EEOC
-    program-office: ???
-    program-office-link: "XXX"
-    open-positions:
-      - level: 13
-        open: "?"
-      - level: 14
-        open: "?"
-    promotion-potential: "?"
+    sensitivity-and-risk: "Tier 1 (low risk)"
+    drug-test: "No"
+    role-summary: "This position is located in the Office of Enterprise Data and Analytics (OEDA), Office of the Chair, Equal Employment Opportunity Commission (EEOC). The EEOC is a bi-partisan Commission whose mission is to enforce the Federal laws that prohibit employment discrimination and promote equal opportunity in the workplace. The mission of OEDA is to provide the EEOC with timely, accurate, and bias-free data and information to prevent and remedy unlawful employment discrimination and improve organizational performance.  Working within a division of data professionals, the incumbent initiates, develops and fully executes complex quantitative data science analytic projects - related to the identification, analysis, reporting, and remediation of illegal employment discrimination - by applying a range of analytical, mathematical, and/or statistical theories, principles, and practices to turn raw transactional, programmatic, and survey data into knowledge that supports and improves agency programs.  Additionally the incumbent may conceive, create, and disseminate state-of-the-art interactive data visualizations."
+  - agency: General Services Administration
+    agency-abbrev: GSA
+    program-office: Information Technology Category, Federal Acquisition Service
+    program-office-link: "www.gsa.gov/its"
     locations:
-      - name: "?"
-    relocation: "?"
-    telework: "?"
+      - name: "Washington, DC"
+    relocation: "No"
+    telework: "Yes"
     travel-occassional: true
-    sensitivity-and-risk: "?"
-    drug-test: "?"
-    role-summary: "Pending"
+    sensitivity-and-risk: "Public Trust"
+    drug-test: "No"
+    role-summary: "GSA's Federal Acquisition Service, Information Technology Category's Enterprise Strategy and Intelligence Division. ITC provides access to private sector IT & telecommunications solutions for federal, state & local government agencies, and plays a unique role in supporting agencies with acquisition & technical expertise to make better buying decisions, reduce duplication, and improve mission results. See www.gsa.gov/its for information on ITC programs & contracts. Positions: advanced data science positions developing analytical or mathematical models for complex studies; provding expert advice on quantitative anaysis and process improvement efforts; developing and leveraging analytical tools to include coding; and ability to leverage a cloud platform for performing complex and routine tasks."
   - agency: Department of State
     agency-abbrev: State
     program-office: Bureau of Conflict and Stabilization Operations, Office of Advanced Analytics (CSO)
     program-office-link: "https://www.state.gov/bureaus-offices/under-secretary-for-civilian-security-democracy-and-human-rights/bureau-of-conflict-and-stabilization-operations/"
-    open-positions:
-      - level: "13 or 14"
-        open: 1
-    promotion-potential: "Hires at the GS-13 level can be promoted to GS-14. GS-14 & 15 have no promotion potential."
     locations:
       - name: "Washington, DC"
     relocation: "No"
@@ -377,16 +366,8 @@ data:
     role-summary: "CSO is responsible for anticipating, preventing, and responding to conflict that undermines U.S. national interests. To fulfill our mission, we provide evidence-based policy recommendations to senior leaders across the Department and the Interagency. We're seeking  experienced data scientists to join our office of advanced analytics to apply data science techniques to foreign policy problems, serving on the Instability Monitoring and Assessment Platform team, you will be providing situational awareness, early warning, and analytical products to all 75,000 DoS employees around the world, informing department principals and personnel about the state of conflict in the world today, and what may be happening tomorrow."
   - agency: Department of State
     agency-abbrev: State
-    program-office: Bureau of Global Public Affairs (GPA)
-    program-office-link: "https://www.state.gov/bureaus-offices/under-secretary-for-public-diplomacy-and-public-affairs/bureau-of-global-public-affairs/"
-    main-point-of-contact:
-    - name: Hattie Jones
-      email: JonesHO2@state.gov
-      phone: "202-736-4451"
-    open-positions:
-      - level: "13 or 14"
-        open: 3
-    promotion-potential: "Hires at the GS-13 level can be promoted to GS-14. GS-14 & 15 have no promotion potential."
+    program-office: Center for Analytics
+    program-office-link: "https://www.state.gov/about-us-office-of-management-policy-rightsizing-and-innovation/"
     locations:
       - name: "Washington, DC"
     relocation: "No"
@@ -395,17 +376,11 @@ data:
     travel-percentage: "10%"
     security-clerance: "Secret"
     drug-test: "Yes"
-    role-summary: "The Bureau of Global Public Affairs delivers world-class content, media strategy, and research capabilities to advance the priority foreign policy goals of the Department through effective and consistent communication with global audiences. The Research and Analytics Offices support GPA’s mission by delivering actionable data-driven insights through robust audience research, content testing, marketing, and analysis of the information environment. Our teams pair social scientists and media analysts with data science expertise to harness all forms of communications data, provide robust analysis, and make recommendations to the Secretary, Spokesperson, and Missions across the globe. Our offices are at the forefront of a data-driven transformation to minimize risk and take the guesswork out of State’s communications efforts. 
-
-We seek highly-motivated data scientists who want to help drive this transformation across State’s offices and missions. You will get to work on the top foreign-policy priorities of the Department and the Secretary and know that your work is contributing to real successes that can be seen in the next 24-hour news cycle. Data scientists join a functional unit and work with other team members on cross-functional campaign teams and contribute their data science skills to drive innovation and extract insight through data analysis. The Analytics office has a development team that delivers innovative solutions to help analysts do their work or help communications teams understand their media environment and campaign performance. "
+    role-summary: "The Center for Analytics (CfA) is the U.S. Department of State’s official enterprise data and analytics capability. Led by the Chief Data Officer, CfA transforms data into bold insights that help over 75,000 employees – from working-level to the Secretary – make better management and foreign policy decisions. CfA is where the science of analytics meets the art of diplomacy. Its mission is to expand data access and grow analytic expertise across the Department’s domestic bureaus and missions around the world. As a central data hub, CfA tackles inter-departmental projects, prioritizing data quality, interoperability, and governance. The CfA is looking for highly motivated data scientists who love to solve problems and work on high functioning analytics teams. These data scientists will work on numerous complex mission and management challenges that come to the CfA from across all the Department’s families and bureaus. They will work with a team of business analysts, data analysts, data engineers, and product managers to develop innovative solutions to global challenges."
   - agency: Department of State
     agency-abbrev: State
-    program-office: Center for Analysis
-    program-office-link: "https://www.state.gov/bureaus-offices/under-secretary-for-civilian-security-democracy-and-human-rights/bureau-of-conflict-and-stabilization-operations/"
-    open-positions:
-      - level: "13 or 14"
-        open: 3
-    promotion-potential: "Hires at the GS-13 level can be promoted to GS-14. GS-14 & 15 have no promotion potential."
+    program-office: Center for Analytics
+    program-office-link: "https://www.state.gov/about-us-office-of-management-policy-rightsizing-and-innovation/"
     locations:
       - name: "Washington, DC"
     relocation: "No"
@@ -414,40 +389,26 @@ We seek highly-motivated data scientists who want to help drive this transformat
     travel-percentage: "10%"
     security-clerance: "Secret"
     drug-test: "Yes"
-    role-summary: "The Center for Analytics (CfA) is the U.S. Department of State’s official enterprise data and analytics capability. Led by the Chief Data Officer, CfA transforms data into bold insights that help over 75,000 employees – from working-level to the Secretary – make better management and foreign policy decisions. CfA is where the science of analytics meets the art of diplomacy. Its mission is to expand data access and grow analytic expertise across the Department’s domestic bureaus and missions around the world. As a central data hub, CfA tackles inter-departmental projects, prioritizing data quality, interoperability, and governance. 
-
-The CfA is looking for highly motivated data scientists who love to solve problems and work on high functioning analytics teams. These data scientists will work on numerous complex mission and management challenges that come to the CfA from across all the Department’s families and bureaus. They will work with a team of business analysts, data analysts, data engineers, and product managers to develop innovative solutions to global challenges."
+    role-summary: "The Bureau of Global Public Affairs delivers world-class content, media strategy, and research capabilities to advance the priority foreign policy goals of the Department through effective and consistent communication with global audiences. The Research and Analytics Offices support GPA’s mission by delivering actionable data-driven insights through robust audience research, content testing, marketing, and analysis of the information environment. Our teams pair social scientists and media analysts with data science expertise to harness all forms of communications data, provide robust analysis, and make recommendations to the Secretary, Spokesperson, and Missions across the globe. Our offices are at the forefront of a data-driven transformation to minimize risk and take the guesswork out of State’s communications efforts. We seek highly-motivated data scientists who want to help drive this transformation across State’s offices and missions. You will get to work on the top foreign-policy priorities of the Department and the Secretary and know that your work is contributing to real successes that can be seen in the next 24-hour news cycle. Data scientists join a functional unit and work with other team members on cross-functional campaign teams and contribute their data science skills to drive innovation and extract insight through data analysis. The Analytics office has a development team that delivers innovative solutions to help analysts do their work or help communications teams understand their media environment and campaign performance."
   - agency: Department of Transportation
     agency-abbrev: DOT
     program-office: "Office of the Secretary of Transportation"
-    program-office-link: "https://www.transportation.gov/"
-    open-positions:
-      - level: 13
-        open: "? (5 across DoT)"
-      - level: 14
-        open: "? (3 across DoT)"
-    promotion-potential: "GS-13's FPL is 13; for GS-14's FPL is 14; for 1 GS-13, FPL is GS-14."
+    program-office-link: "https://www.transportation.gov/transition/understanding-office-secretary-transportation"
     locations:
       - name: "Washington, DC"
-    relocation: "Yes"
+    relocation: "No"
     telework: "Yes"
     travel-occassional: true
     sensitivity-and-risk: "Tier 2 (non-sensitive, moderate risk, public trust)"
     drug-test: "No (needs verification)"
-    role-summary: "The Office of the Secretary (OST) oversees the formulation of national transportation policy and promotes intermodal transportation. Other responsibilities range from negotiation and implementation of international transportation agreements, assuring the fitness of US airlines, enforcing airline consumer protection regulations, issuance of regulations to prevent alcohol and illegal drug misuse in transportation systems and preparing transportation legislation."
+    role-summary: "The mission of the US Department of Transportation to ensure America has the safest, most efficient and modern transportation system in the world, which boosts our economic productivity and global competitiveness and enhances the quality of life in communities both rural and urban. The Office of the Secretary (OST) oversees the formulation of national transportation policy and promotes intermodal transportation. Other responsibilities range from negotiation and implementation of international transportation agreements, assuring the fitness of US airlines, enforcing airline consumer protection regulations, issuance of regulations to prevent alcohol and illegal drug misuse in transportation systems and preparing transportation legislation."
   - agency: Department of Transportation
     agency-abbrev: DOT
     program-office: "Volpe National Transportation Systems Center"
-    program-office-link: "https://www.transportation.gov/"
-    open-positions:
-      - level: 13
-        open: "? (5 across DoT)"
-      - level: 14
-        open: "? (3 across DoT)"
-    promotion-potential: "GS-13's FPL is 13; for GS-14's FPL is 14; for 1 GS-13, FPL is GS-14."
+    program-office-link: "https://www.volpe.dot.gov/"
     locations:
       - name: "Cambridge, MA"
-    relocation: "Yes"
+    relocation: "No"
     telework: "Yes"
     travel-occassional: true
     sensitivity-and-risk: "Tier 2 (non-sensitive, moderate risk, public trust)"
@@ -456,16 +417,10 @@ The CfA is looking for highly motivated data scientists who love to solve proble
   - agency: Department of Transportation
     agency-abbrev: DOT
     program-office: "Federal Highway Administration"
-    program-office-link: "https://www.transportation.gov/"
-    open-positions:
-      - level: 13
-        open: "? (5 across DoT)"
-      - level: 14
-        open: "? (3 across DoT)"
-    promotion-potential: "GS-13's FPL is 13; for GS-14's FPL is 14; for 1 GS-13, FPL is GS-14."
+    program-office-link: "https://highways.dot.gov/"
     locations:
       - name: "Washington, DC"
-    relocation: "Yes"
+    relocation: "No"
     telework: "Yes"
     travel-occassional: true
     sensitivity-and-risk: "Tier 2 (non-sensitive, moderate risk, public trust)"
@@ -475,15 +430,9 @@ The CfA is looking for highly motivated data scientists who love to solve proble
     agency-abbrev: DOT
     program-office: "Maritime Administration"
     program-office-link: "https://www.transportation.gov/"
-    open-positions:
-      - level: 13
-        open: "? (5 across DoT)"
-      - level: 14
-        open: "? (3 across DoT)"
-    promotion-potential: "GS-13's FPL is 13; for GS-14's FPL is 14; for 1 GS-13, FPL is GS-14."
     locations:
       - name: "Washington, DC"
-    relocation: "Yes"
+    relocation: "No"
     telework: "Yes"
     travel-occassional: true
     sensitivity-and-risk: "Tier 2 (non-sensitive, moderate risk, public trust)"
@@ -492,13 +441,7 @@ The CfA is looking for highly motivated data scientists who love to solve proble
   - agency: Department of Transportation
     agency-abbrev: DOT
     program-office: "National Highway Traffic Safety Administration"
-    program-office-link: "https://www.transportation.gov/"
-    open-positions:
-      - level: 13
-        open: "? (5 across DoT)"
-      - level: 14
-        open: "? (3 across DoT)"
-    promotion-potential: "GS-13's FPL is 13; for GS-14's FPL is 14; for 1 GS-13, FPL is GS-14."
+    program-office-link: "https://www.nhtsa.gov/"
     locations:
       - name: "Washington, DC"
     relocation: "Yes"
@@ -506,7 +449,23 @@ The CfA is looking for highly motivated data scientists who love to solve proble
     travel-occassional: true
     sensitivity-and-risk: "Tier 2 (non-sensitive, moderate risk, public trust)"
     drug-test: "No (needs verification)"
-    role-summary: "Our mission: Safety. NHTSA works to reduce deaths and injuries due to motor vehicle crashes. We do this by advancing innovations that make vehicles safer and by encouraging Americans to make safer choices when they drive, ride and walk.  Our goal: An America free from deaths and injuries in motor vehicle-related crashes.  Our commitment to safety means including all who share the road—drivers, cyclists and pedestrians alike. And it means harnessing the skills and knowledge of a talented and diverse workforce. NHTSA’s employees work in a variety of occupations—from testing vehicles, keeping car buyers informed and fighting to get vehicles with defects recalled, to working with local police to keep drunk drivers off the road and enforce safety laws."
+    role-summary: "Our mission: Safety. NHTSA works to reduce deaths and injuries due to motor vehicle crashes. We do this by advancing innovations that make vehicles safer and by encouraging Americans to make safer choices when they drive, ride and walk.  Our goal: An America free from deaths and injuries in motor vehicle-related crashes. Our commitment to safety means including all who share the road—drivers, cyclists and pedestrians alike. And it means harnessing the skills and knowledge of a talented and diverse workforce. NHTSA’s employees work in a variety of occupations—from testing vehicles, keeping car buyers informed and fighting to get vehicles with defects recalled, to working with local police to keep drunk drivers off the road and enforce safety laws."
+  - agency: Department of the Treasury
+    agency-abbrev: DOT
+    program-office: "Bureau of the Fiscal Service"
+    program-office-link: "https://www.fiscal.treasury.gov/"
+    locations:
+      - name: "Washington, DC"
+    relocation: "No"
+    telework: "Yes"
+    travel-occassional: true
+    sensitivity-and-risk: "Public Trust"
+    drug-test: "No (needs verification)"
+    role-summary: "The U.S. Department of the Treasury has a distinguished history dating back to the founding of our nation. As the steward of U.S. economic and financial systems, Treasury is a major and influential leader in today's global economy. We have over 100,000 employees across the country and around the world and we celebrate each individual’s identities and experiences. Our core value of inclusive diversity encourages our employees to be themselves and innovate from their unique perspectives.
+ 
+Within Treasury, the Bureau of Fiscal Service works to transform the way government works. Help us to promote the financial integrity and operational efficiency of the federal government through cutting edge use of data in support of Fiscal’s exceptional accounting, financing, collections, payments, and administrative services. Help build products used by government, academic and private sector researchers on the forefront of applying advanced data analytics to the workings of government and the economy.  Bring your skills and creativity to an organization that pursues excellence while embracing our values, Accountability, Learning, Integrity, Collaboration, and Excellence – in our dealings with each other, and with those we support and serve.
+
+This position is located in the Office of Data Transparency, Office of Fiscal Accounting, Bureau of the Fiscal Service (FS), Department of the Treasury. Data Transparency's mission is to transform financial management to reduce costs, increase transparency, and improve delivery of agencies' missions through use of data while operating at scale, relying on common standards, and using state-of-the-art technology. This position is responsible for providing expert level advice to other employees and is established to promote efficiency and effectiveness in financial management and standardization. The incumbent is responsible for performing data driven operations analysis and program management tasks on issues which require broad expertise and coordination. The incumbent conducts and/or coordinates a variety of projects to improve the effectiveness and efficiency of programmatic administrative and operational policies and procedures related to the mission of the organization and in promotion of financial management."
   - agency: United States Agency for International Development
     agency-abbrev: USAID
     program-office: ???

@@ -358,7 +358,7 @@ data:
   - agency: General Services Administration
     agency-abbrev: GSA
     program-office: Information Technology Category, Federal Acquisition Service
-    program-office-link: "www.gsa.gov/its"
+    program-office-link: "https://www.gsa.gov/its/"
     open-positions:
       - level: 13
         open: 2

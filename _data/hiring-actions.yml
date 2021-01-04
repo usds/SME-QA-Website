@@ -468,37 +468,37 @@ Within Treasury, the Bureau of Fiscal Service works to transform the way governm
 This position is located in the Office of Data Transparency, Office of Fiscal Accounting, Bureau of the Fiscal Service (FS), Department of the Treasury. Data Transparency's mission is to transform financial management to reduce costs, increase transparency, and improve delivery of agencies' missions through use of data while operating at scale, relying on common standards, and using state-of-the-art technology. This position is responsible for providing expert level advice to other employees and is established to promote efficiency and effectiveness in financial management and standardization. The incumbent is responsible for performing data driven operations analysis and program management tasks on issues which require broad expertise and coordination. The incumbent conducts and/or coordinates a variety of projects to improve the effectiveness and efficiency of programmatic administrative and operational policies and procedures related to the mission of the organization and in promotion of financial management."
   - agency: United States Agency for International Development
     agency-abbrev: USAID
-    program-office: ???
+    program-office: Various offices
     program-office-link: "https://www.usaid.gov/"
-    open-positions:
-      - level: 13
-        open: "3?"
-      - level: 14
-        open: "2?"
-    promotion-potential: "GS-14"
-    locations:
-      - name: "Washington, DC"
-    relocation: "No"
-    telework: "Yes"
-    travel-occassional: false
-    travel-percentage: "5-10%"
-    sensitivity-and-risk: "Tier 1 (non-sensitive, low risk)"
-    drug-test: "No"
-    role-summary: "Pending"
-  - agency: Veterans Affairs
-    agency-abbrev: VA
-    program-office: National Artificial Intelligence Institute (NAII)
-    program-office-link: "https://www.research.va.gov/naii/"
-    open-positions:
-      - level: "13 or 14"
-        open: 1
-    promotion-potential: "No"
     locations:
       - name: "Washington, DC"
     relocation: "No"
     telework: "Yes"
     travel-occassional: true
-    travel-percentage: "Less than 50%"
-    sensitivity-and-risk: "Tier 2 (non-sensitive, moderate risk, public trust)"
+    security-clerance: "Secret"
     drug-test: "Yes"
-    role-summary: "Pending"
+    role-summary: "USAID is the world's premier international development agency and a catalytic actor driving development results. USAID works to help lift lives, build communities, and advance democracy. USAID's work advances U.S. national security and economic prosperity; demonstrates American generosity; and promotes a path to recipient self-reliance and resilience. We operate in five regions of the world: Africa, Asia, the Middle East, Latin America and the Caribbean, and Europe and Eurasia."
+  - agency: Department of Agriculture
+    agency-abbrev: USDA
+    program-office: "Various offices"
+    program-office-link: "https://usda.gov/"
+    locations:
+      - name: "Washington, DC"
+    relocation: "No"
+    telework: "Yes"
+    travel-occassional: true
+    sensitivity-and-risk: "Tier 1 (low risk)"
+    drug-test: "No (needs verification)"
+    role-summary: "Join an award winning team working to modernize data analytics at USDA and across federal government.  We’re looking for data scientists who have a passion for solving business challenges, working on a wide variety of analytics projects and an interest in applying AI/ML, GIS, and/or NLP to mature USDA’s analytics capabilities.  We are particularly interested in applicants who have experience in data visualization and can work closely with program managers across the organization to develop solutions that support data driven decision-making.  Selected applicants will be part of a small team that explores and develops innovative solutions for cross-cutting priorities across USDA.  In this role, there will be opportunity to work with structured, unstructured and geospatial data in topic areas such as financial, food production, conservation, forestry, economics, food safety, and foreign trade.  Come be part of a team transforming how analytics is done as USDA."
+  - agency: Veterans Affairs
+    agency-abbrev: VA
+    program-office: National Artificial Intelligence Institute (NAII)
+    program-office-link: "https://www.research.va.gov/naii/"
+    locations:
+      - name: "Any, remote work available. Central Office is in Washington DC if relocation desired."
+    relocation: "Yes"
+    telework: "Yes"
+    travel-occassional: true
+    sensitivity-and-risk: "Tier 2 (non-sensitive, moderate risk, public trust)"
+    drug-test: "No"
+    role-summary: "The Department of Veterans Affairs (VA) has developed big data repositories including but not limited to an immense electronic health record and an imaging database with billions of medical images. The National Artificial Intelligence Institute (NAII) seeks to establish the VA as the preeminent organization for research, development, and training of artificial intelligence with impact on a global scale, ensuring the health and well-being of our Veterans. Join the NAII’s team to utilize data science skills to develop the VA’s artificial intelligence ecosystem to improve the lives of Veterans, their caregivers, and their families. The NAII is engaged with cutting-edge AI research efforts and partnerships aimed at improving mental health, predicting the course of infectious diseases including COVID-19, and diagnosing disease states. We offer a great opportunity to further develop and utilize data science skills in the healthcare sphere."

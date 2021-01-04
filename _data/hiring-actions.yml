@@ -307,6 +307,11 @@ data:
     agency-abbrev: Census
     program-office: Various offices
     program-office-link: "https://www.census.gov/"
+      - level: 13
+        open: 17
+      - level: 14
+        open: 5
+    promotion-potential: "None"
     locations:
       - name: "Suitland, MD"
     relocation: "Yes"
@@ -319,9 +324,12 @@ data:
     agency-abbrev: CFPB
     program-office: Various offices
     program-office-link: "https://www.consumerfinance.gov"
+      - level: 13
+        open: 1
+    promotion-potential: "None"
     locations:
       - name: "Washington, DC"
-    relocation: "Yes"
+    relocation: "No"
     telework: "Yes"
     travel-occassional: true
     sensitivity-and-risk: "Tier 1 (low risk)"
@@ -331,6 +339,11 @@ data:
     agency-abbrev: EEOC
     program-office: Office of Enterprise Data and Analytics
     program-office-link: "https://www.eeoc.gov/"
+      - level: 13
+        open: 1
+      - level: 14
+        open: 1
+    promotion-potential: "GS-13 has promotion potential to GS-14. GS-14 has no promotion potential."
     locations:
       - name: "Washington, DC"
     relocation: "No"
@@ -343,6 +356,9 @@ data:
     agency-abbrev: GSA
     program-office: Information Technology Category, Federal Acquisition Service
     program-office-link: "www.gsa.gov/its"
+      - level: 13
+        open: 2
+    promotion-potential: "None"
     locations:
       - name: "Washington, DC"
     relocation: "No"
@@ -355,6 +371,9 @@ data:
     agency-abbrev: State
     program-office: Bureau of Conflict and Stabilization Operations, Office of Advanced Analytics (CSO)
     program-office-link: "https://www.state.gov/bureaus-offices/under-secretary-for-civilian-security-democracy-and-human-rights/bureau-of-conflict-and-stabilization-operations/"
+      - level: "13 or 14"
+        open: 1
+    promotion-potential: "GS-13 has promotion potential to GS-14. GS-14 has no promotion potential."
     locations:
       - name: "Washington, DC"
     relocation: "No"
@@ -368,6 +387,9 @@ data:
     agency-abbrev: State
     program-office: Center for Analytics
     program-office-link: "https://www.state.gov/about-us-office-of-management-policy-rightsizing-and-innovation/"
+      - level: "13 or 14"
+        open: 3
+    promotion-potential: "GS-13 has promotion potential to GS-14. GS-14 has no promotion potential."
     locations:
       - name: "Washington, DC"
     relocation: "No"
@@ -383,6 +405,9 @@ The CfA is looking for highly motivated data scientists who love to solve proble
     agency-abbrev: State
     program-office: Bureau of Global Public Affairs
     program-office-link: "https://www.state.gov/about-us-bureau-of-global-public-affairs/"
+      - level: "13 or 14"
+        open: 12
+    promotion-potential: "None"
     locations:
       - name: "Washington, DC"
     relocation: "No"
@@ -398,6 +423,9 @@ We seek highly-motivated data scientists who want to help drive this transformat
     agency-abbrev: DOT
     program-office: "Office of the Secretary of Transportation"
     program-office-link: "https://www.transportation.gov/transition/understanding-office-secretary-transportation"
+      - level: 13
+        open: 1
+    promotion-potential: "GS-13 has promotion potential to GS-14. GS-14 has no promotion potential."
     locations:
       - name: "Washington, DC"
     relocation: "No"
@@ -412,6 +440,9 @@ The Office of the Secretary (OST) oversees the formulation of national transport
     agency-abbrev: DOT
     program-office: "Volpe National Transportation Systems Center"
     program-office-link: "https://www.volpe.dot.gov/"
+      - level: "13 or 14"
+        open: 5
+    promotion-potential: "None"
     locations:
       - name: "Cambridge, MA"
     relocation: "No"
@@ -424,6 +455,9 @@ The Office of the Secretary (OST) oversees the formulation of national transport
     agency-abbrev: DOT
     program-office: "Federal Highway Administration"
     program-office-link: "https://highways.dot.gov/"
+      - level: "13 or 14"
+        open: 1
+    promotion-potential: "GS-13 has promotion potential to GS-14. GS-14 has no promotion potential."
     locations:
       - name: "Washington, DC"
     relocation: "No"
@@ -436,6 +470,9 @@ The Office of the Secretary (OST) oversees the formulation of national transport
     agency-abbrev: DOT
     program-office: "Maritime Administration"
     program-office-link: "https://www.transportation.gov/"
+      - level: "13 or 14"
+        open: 2
+    promotion-potential: "GS-13 has promotion potential to GS-14. GS-14 has no promotion potential."
     locations:
       - name: "Washington, DC"
     relocation: "No"
@@ -448,6 +485,9 @@ The Office of the Secretary (OST) oversees the formulation of national transport
     agency-abbrev: DOT
     program-office: "National Highway Traffic Safety Administration"
     program-office-link: "https://www.nhtsa.gov/"
+      - level: 13
+        open: 2
+    promotion-potential: "GS-13 has promotion potential to GS-14. GS-14 has no promotion potential."
     locations:
       - name: "Washington, DC"
     relocation: "Yes"
@@ -460,6 +500,11 @@ The Office of the Secretary (OST) oversees the formulation of national transport
     agency-abbrev: Treasury
     program-office: "Bureau of the Fiscal Service"
     program-office-link: "https://www.fiscal.treasury.gov/"
+      - level: 13
+        open: 1
+      - level: 14
+        open: 1
+    promotion-potential: "GS-13 has promotion potential to GS-14. GS-14 has no promotion potential."
     locations:
       - name: "Washington, DC"
     relocation: "No"
@@ -476,6 +521,9 @@ This position is located in the Office of Data Transparency, Office of Fiscal Ac
     agency-abbrev: USAID
     program-office: Various offices
     program-office-link: "https://www.usaid.gov/"
+      - level: "13 or 14"
+        open: 4
+    promotion-potential: "None"
     locations:
       - name: "Washington, DC"
     relocation: "No"
@@ -488,6 +536,11 @@ This position is located in the Office of Data Transparency, Office of Fiscal Ac
     agency-abbrev: USDA
     program-office: "Various offices"
     program-office-link: "https://usda.gov/"
+      - level: 13
+        open: 1
+      - level: 14
+        open: 1
+    promotion-potential: "GS-13 has promotion potential to GS-14. GS-14 has no promotion potential."
     locations:
       - name: "Washington, DC"
     relocation: "No"
@@ -500,6 +553,9 @@ This position is located in the Office of Data Transparency, Office of Fiscal Ac
     agency-abbrev: VA
     program-office: National Artificial Intelligence Institute (NAII)
     program-office-link: "https://www.research.va.gov/naii/"
+      - level: 13
+        open: 1
+    promotion-potential: "None."
     locations:
       - name: "Any; remote work is available."
     relocation: "Available for Washington DC if relocation desired by applicant."

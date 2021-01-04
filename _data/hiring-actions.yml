@@ -305,7 +305,7 @@ cx:
 data:
   - agency: Census Bureau
     agency-abbrev: Census
-    program-office: Various offices
+    program-office: One or more offices
     program-office-link: "https://www.census.gov/"
     open-positions:
       - level: 13
@@ -323,7 +323,7 @@ data:
     role-summary: "The U.S. Census Bureau serves as the nation’s leading provider of quality data about its people and economy. As we expand and refine our methods for data collection, analysis, and dissemination, data science techniques have become increasingly critical for our population of experienced researchers and statisticians. We are seeking passionate data scientists to help us hone our methodologies and outputs for the more than 100 surveys, censuses, and other statistical programs conducted by the Bureau each year, and to help us explore research-based innovative techniques to apply across all mission and support areas. Our roles vary by mission area, but no matter which team you join, your individuality will be valued and you’ll have opportunities to help shape the data science  landscape of a premier statistical organization. We offer competitive salaries, flexible hours/work arrangements, developmental opportunities, a variety of benefits/health insurance plans, and incentives."
   - agency: Consumer Financial Protection Bureau
     agency-abbrev: CFPB
-    program-office: Various offices
+    program-office: one or more offices
     program-office-link: "https://www.consumerfinance.gov"
     open-positions:
       - level: 13
@@ -532,7 +532,7 @@ Within Treasury, the Bureau of Fiscal Service works to transform the way governm
 This position is located in the Office of Data Transparency, Office of Fiscal Accounting, Bureau of the Fiscal Service (FS), Department of the Treasury. Data Transparency's mission is to transform financial management to reduce costs, increase transparency, and improve delivery of agencies' missions through use of data while operating at scale, relying on common standards, and using state-of-the-art technology. This position is responsible for providing expert level advice to other employees and is established to promote efficiency and effectiveness in financial management and standardization. The incumbent is responsible for performing data driven operations analysis and program management tasks on issues which require broad expertise and coordination. The incumbent conducts and/or coordinates a variety of projects to improve the effectiveness and efficiency of programmatic administrative and operational policies and procedures related to the mission of the organization and in promotion of financial management."
   - agency: United States Agency for International Development
     agency-abbrev: USAID
-    program-office: Various offices
+    program-office: One or more offices
     program-office-link: "https://www.usaid.gov/"
     open-positions:
       - level: "13 or 14"
@@ -548,7 +548,7 @@ This position is located in the Office of Data Transparency, Office of Fiscal Ac
     role-summary: "USAID is the world's premier international development agency and a catalytic actor driving development results. USAID works to help lift lives, build communities, and advance democracy. USAID's work advances U.S. national security and economic prosperity; demonstrates American generosity; and promotes a path to recipient self-reliance and resilience. We operate in five regions of the world: Africa, Asia, the Middle East, Latin America and the Caribbean, and Europe and Eurasia."
   - agency: Department of Agriculture
     agency-abbrev: USDA
-    program-office: "Various offices"
+    program-office: One or more offices
     program-office-link: "https://usda.gov/"
     open-positions:
       - level: 13

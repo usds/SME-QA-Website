@@ -379,8 +379,8 @@ data:
     role-summary: "The Center for Analytics (CfA) is the U.S. Department of State’s official enterprise data and analytics capability. Led by the Chief Data Officer, CfA transforms data into bold insights that help over 75,000 employees – from working-level to the Secretary – make better management and foreign policy decisions. CfA is where the science of analytics meets the art of diplomacy. Its mission is to expand data access and grow analytic expertise across the Department’s domestic bureaus and missions around the world. As a central data hub, CfA tackles inter-departmental projects, prioritizing data quality, interoperability, and governance. The CfA is looking for highly motivated data scientists who love to solve problems and work on high functioning analytics teams. These data scientists will work on numerous complex mission and management challenges that come to the CfA from across all the Department’s families and bureaus. They will work with a team of business analysts, data analysts, data engineers, and product managers to develop innovative solutions to global challenges."
   - agency: Department of State
     agency-abbrev: State
-    program-office: Center for Analytics
-    program-office-link: "https://www.state.gov/about-us-office-of-management-policy-rightsizing-and-innovation/"
+    program-office: Bureau of Global Public Affairs
+    program-office-link: "https://www.state.gov/about-us-bureau-of-global-public-affairs/"
     locations:
       - name: "Washington, DC"
     relocation: "No"

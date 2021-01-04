@@ -451,7 +451,7 @@ data:
     drug-test: "No"
     role-summary: "Our mission: Safety. NHTSA works to reduce deaths and injuries due to motor vehicle crashes. We do this by advancing innovations that make vehicles safer and by encouraging Americans to make safer choices when they drive, ride and walk.  Our goal: An America free from deaths and injuries in motor vehicle-related crashes. Our commitment to safety means including all who share the road—drivers, cyclists and pedestrians alike. And it means harnessing the skills and knowledge of a talented and diverse workforce. NHTSA’s employees work in a variety of occupations—from testing vehicles, keeping car buyers informed and fighting to get vehicles with defects recalled, to working with local police to keep drunk drivers off the road and enforce safety laws."
   - agency: Department of the Treasury
-    agency-abbrev: DOT
+    agency-abbrev: Treasury
     program-office: "Bureau of the Fiscal Service"
     program-office-link: "https://www.fiscal.treasury.gov/"
     locations:

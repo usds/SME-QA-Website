@@ -78,12 +78,21 @@ joa-title: Data Scientist Job Announcement
               <ul class="smeqa-cx-agency-position__list">
                 <li class="smeqa-cx-agency-position__item">
                   <h5 class="smeqa-cx-agency-position__header">
-                    Telework eligible
+                    Open positions at grade level
                   </h5>
-                  <p class="smeqa-cx-agency-position__value">
-                    {{ org.telework }}
-                  </p>
-                </li>
+                  {% if org.open-positions.size > 1 %}
+                  <ul class="smeqa-cx-agency__grades">
+                    {% for grade in org.open-positions %}
+                    <li><strong>GS-{{ grade.level }}</strong>: {{grade.open }}</li>
+                    {% endfor %}
+                  </ul>
+                  {% else %}
+                    <p class="smeqa-cx-agency-position__value">
+                    {% assign grade = org.open-positions.first %}
+                      <strong>GS-{{ grade.level }}</strong>: {{grade.open }}
+                    </p>
+                  {% endif %}
+                </li> 
               </ul>
               <ul class="smeqa-cx-agency-position__list">
                 <li class="smeqa-cx-agency-position__item">
@@ -131,6 +140,14 @@ joa-title: Data Scientist Job Announcement
                 </h5>
                 <p class="smeqa-cx-agency-position__value">
                   {{ org.relocation }}
+                </p>
+              </li>
+              <li class="smeqa-cx-agency-position__item">
+                <h5 class="smeqa-cx-agency-position__header">
+                  Telework eligible
+                </h5>
+                <p class="smeqa-cx-agency-position__value">
+                  {{ org.telework }}
                 </p>
               </li>
               <li class="smeqa-cx-agency-position__item">

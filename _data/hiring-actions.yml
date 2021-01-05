@@ -346,7 +346,7 @@ data:
         open: 1
       - level: 14
         open: 1
-    promotion-potential: "GS-13 has promotion potential to GS-14. GS-14 has no promotion potential."
+    promotion-potential: "No"
     locations:
       - name: "Washington, DC"
     relocation: "No"

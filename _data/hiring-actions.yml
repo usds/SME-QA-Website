@@ -304,7 +304,7 @@ cx:
     
 data:
   - agency: Census Bureau
-    agency-abbrev: Census
+    agency-abbrev: Census Bureau
     program-office: One or more offices
     program-office-link: "https://www.census.gov/"
     open-positions:

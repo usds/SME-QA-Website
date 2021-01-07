@@ -10,7 +10,7 @@ pilots:
   - first:
     role: Grants Management Specialist
     series: 1109
-    vacancies:
+    vacancies: 8
       - grade: GS-12
         open: 4
     locations:

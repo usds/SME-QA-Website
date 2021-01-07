@@ -12,7 +12,7 @@ pilots:
     series: 1109
     vacancies: 8
       - grade: GS-12
-        open: 4
+        open: 8
     locations:
       - name: Washington, DC
     participants:
@@ -49,9 +49,9 @@ pilots:
   - second:
     role: Foreign Affairs Specialist
     series: 0130
-    vacancies:
+    vacancies: 20
       - grade: GS-13
-        open: 20
+        open: 9
     locations:
       - name: Washington, DC
     participants:
@@ -80,4 +80,3 @@ pilots:
         passed: 238
         percentage: 77
     time-to-hire: 10.4 weeks
-      

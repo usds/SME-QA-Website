@@ -1,16 +1,16 @@
 name: State Department
 abbrev: state
-office: Office of Procurement Executive (A/OPE)
+office: Multiple Offices
 office-count: 1
 agency-count: 1
-office-abbrev: Office of Procurement Executive
+office-abbrev:
 overall-order: 6
 round: 2
 pilots:
   - first:
     role: Grants Management Specialist
     series: 1109
-    vacancies:
+    vacancies: 8
       - grade: GS-12
         open: 4
     locations:
@@ -45,5 +45,39 @@ pilots:
       - name: Interview Two
         passed: 27
         percentage: 23
+    time-to-hire: 10.4 weeks
+  - second:
+    role: Foreign Affairs Specialist
+    series: 0130
+    vacancies:
+      - grade: GS-13
+        open: 20
+    locations:
+      - name: Washington, DC
+    participants:
+      - name: HR Specialists 
+        count: 1
+      - name: Subject Matter Experts
+        count: 15
+    joa:
+      open-date: Wednesday July 15, 2020
+      close-date: Wednesday July 15, 2020
+      url: https://www.usajobs.gov/GetJob/ViewDetails/571853700
+    applicants:
+      total: 115
+      total-qualified: 238
+      best-qualified: 176
+      well-qualified: 32
+      qualified: 30
+      referred: 12
+      selected: 9
+      hired: 9
+    assessments:
+      - name: Resume review
+        passed: 310
+        percentage: 44
+      - name: Interview One
+        passed: 238
+        percentage: 77
     time-to-hire: 10.4 weeks
       

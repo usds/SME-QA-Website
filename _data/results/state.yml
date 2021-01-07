@@ -49,9 +49,9 @@ pilots:
   - second:
     role: Foreign Affairs Specialist
     series: 0130
-    vacancies: 20
+    vacancies: 
       - grade: GS-13
-        open: 9
+        open: 20
     locations:
       - name: Washington, DC
     participants:

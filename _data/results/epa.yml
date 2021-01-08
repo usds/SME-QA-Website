@@ -42,3 +42,36 @@ pilots:
         passed: 8
         percentage: 7
     time-to-hire: 5.6 weeks
+  - Second:
+    role: IT Specialist
+    series: 0800
+    vacancies:
+      - grade: GS-13
+        open: 4
+    locations:
+      - name: Washington, DC
+    participants:
+      - name: HR Specialists 
+        count: 1
+      - name: Subject Matter Experts
+        count: 6
+    joa:
+      open-date: Friday June 5th, 2020
+      close-date: Thursday June 11th, 2019
+      url: https://www.usajobs.gov/GetJob/ViewDetails/570149000
+    applicants:
+      total: 102
+      total-qualified: 2
+      selected: 1
+      hired: 1
+    assessments:
+      - name: Resume review
+        passed: 14
+        percentage: 14
+      - name: Written
+        passed: 
+        percentage:
+      - name: Interview
+        passed: 2
+        percentage: 
+    time-to-hire: 5.6 weeks

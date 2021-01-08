@@ -63,7 +63,7 @@ pilots:
     applicants:
       total: 844
       eligible: 291
-      total-qualified: 63
+      total-qualified: 44
       selected: 27
       hired: 19
     assessments:
@@ -75,7 +75,7 @@ pilots:
         passed: 79
         percentage: 9
       - name: Structured Interview
-        passed: 63
+        passed: 44
         percentage: 7
     cost-per-hire: $2,992
     time-to-hire: 6.2 weeks

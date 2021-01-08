@@ -39,12 +39,8 @@ pilots:
     role: Customer Experience Strategist
     series: "0301"
     vacancies:
-      - grade: GS-13
-        open: 18
-      - grade: GS-14
-        open: 20
-      - grade: GS-15
-        open: 11
+      - grade: Multiple grades
+        open: 15
     locations:
       - name: Baltimore, MD
       - name: Charleston, SC

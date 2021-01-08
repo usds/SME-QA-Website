@@ -15,6 +15,7 @@ const sass = require("gulp-sass");
 const sourcemaps = require("gulp-sourcemaps");
 
 const env = process.env.NODE_ENV || "prod";
+console.log(`Environment set to ${env}`)
 const config = require("./config/gulp/config");
 
 const autoprefixerOptions = config.browsers;

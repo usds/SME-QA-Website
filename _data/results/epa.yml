@@ -44,7 +44,7 @@ pilots:
     time-to-hire: 5.6 weeks
   - Second:
     role: IT Specialist
-    series: 0800
+    series: 2210
     vacancies:
       - grade: GS-13
         open: 4

@@ -48,10 +48,10 @@ pilots:
     time-to-hire: 10.4 weeks
   - second:
     role: Foreign Affairs Officer
-    series: 130
+    series: "0130"
     vacancies: 
       - grade: GS-13
-        open: 20
+        open: "20+"
     locations:
       - name: Washington, DC
     participants:

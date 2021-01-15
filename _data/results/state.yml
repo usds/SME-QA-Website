@@ -47,7 +47,7 @@ pilots:
         percentage: 23
     time-to-hire: 10.4 weeks
   - second:
-    role: Foreign Affairs Specialist
+    role: Foreign Affairs Officer
     series: 0130
     vacancies: 
       - grade: GS-13
@@ -64,14 +64,14 @@ pilots:
       close-date: Wednesday July 15, 2020
       url: https://www.usajobs.gov/GetJob/ViewDetails/571853700
     applicants:
-      total: 115
+      total: 695
       total-qualified: 238
       best-qualified: 176
       well-qualified: 32
       qualified: 30
       referred: 12
-      selected: 9
-      hired: 9
+      selected: 11
+      hired: 11
     assessments:
       - name: Resume review
         passed: 310

@@ -30,6 +30,18 @@ Each level needs a definition of what that level entails. The proficiency defini
 
 Once proficiency levels are defined, HR and the SMEs will decide at which level you would require applicants to have one year of experience in order to qualify for the grade in question. For example, they made decide that to qualify for a GS13, applicants must have one year experience at the “Experienced” level. See the example below.
 
+Alternatively, you could use the NIH proficiency scale:
+
+1. **Novice:** Beginners have had little experience of the situation in which they are expected to perform.Their initial learning about the situation is in terms of objective attitributes--those that are measurable. These are features of the task world that can be recognized without situational experiences. Novices are limited in their understanding to context-free rules that guide action--this means their behavior is limited and inflexible.
+
+2. **Advanced Beginner:** They have coped with enough real situations to note (or have pointed out to them) recurring, meaningful situational components. At this level, understanding of aspects of the situation is limited to global characterisitics that reflect prior experience in actual situations. Advanced beginners need help setting priorities, because they operate on general guidelines and are only beginning to perceive recurrent, meaningful patterns.
+
+3. **Competent:** Performers at a journeyman's level can see their actions in terms of long-range goals or plans. They are consciously aware of formulating, evaluating, and modifying goals-plans. The competent performaer is able to generate plans in terms of current and contemplated future aspects that are most important, and those that are not. The competent performer lacks the speed and flexibility that emerges at higher levels of expertise but has a sense of mastery and the ability to cope with and manage a variety of situations.
+
+4. **Proficient:** Proficient performers perceive situations as wholes, rather than in terms of situational components. Their performance is guided by "maxims." Perception is key. The perscpective is NOT thought out but "presents itself" based upon experience. The proficient performer has learned what typical events to expect in a given situation and how plans need to be modified in accord with these events. This also means that she or he can recognize when the expected typical picture does not materialize and can modify plans and goals accordingly. Situational aspects stand out as more or less important in *this* situation.
+
+5. **Expert:** Expert performers no longer rely on analytic principles (rules, guidelines, maxims) to connect their understanding of the situation to an appropriate action. The expert, with an enormous background of experience, has an intuitive grasp of each situation and zeros in on the accurate region of the problem without wasteful consideration of a large range of unfruitful, alternative diagnoses and solutions. The performer is no longer aware of features and rules, and his or her performance becomes fluid and flexible and highly proficient.
+
 #### Example Competency: Collaboration
 
 The ability to work cooperatively with others to accomplish objectives and build inclusive and mutually beneficial partnerships.

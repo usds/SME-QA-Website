@@ -13,7 +13,12 @@ intro: During job analysis, SMEs and HR may decide to use a written assessment.
   {{ page.intro }}
 </p>
 
-Written assessments can be used before or after resume review. If your SMEs opt for a written assessment, you will need to prepare questions and training. SMEs do not need to review a written assessment for all competancies if it is failing for a required competancy.
+Written assessments can be used before or after resume review. If your SMEs opt for a written assessment, you will need to prepare questions and training. SMEs do not need to review a written assessment for all competancies if it is failing for a required competancy. 
+
+### Templates
+- The [written assessment guidance document](../../../toolkit/assessments/written-assessment-guidance.docx) has information about types of written assessments.
+- The [written assessment scoring sample document](../../../toolkit/assessments/written-assessment-guidance.docx) is a sample scoring template. You should expect to edit this heaviy based on what SMEs determine in job analysis.
+
 
 ### Items to check before sending a written assessment
 #### Communication to applicants

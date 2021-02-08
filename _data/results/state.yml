@@ -69,9 +69,9 @@ pilots:
       best-qualified: 176
       well-qualified: 32
       qualified: 30
-      referred: 12
-      selected: 11
-      hired: 11
+      referred: 15
+      selected: 13
+      hired: 12
     assessments:
       - name: Resume review
         passed: 310

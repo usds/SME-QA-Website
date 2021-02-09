@@ -26,6 +26,7 @@ Written assessments can be used before or after resume review. If your SMEs opt 
 - Have you expressed the due date of the assessment consistently, with time zone marked?
 - Have you marked the instructions that applicants **must read** to highlight them from the broader set of information for applicants?
 - Have you clarified any formatting requirements for submission and what will happen if people submit via another format?
+  - Some applicant mistakes may not justify failing them out of the process.
   - In past pilots, applicants routinely submitted more than one written attachment, despite instructions to the contrary.
 - Have you added language about how you will treat extenuating circumstances (e.g. a COVID infection)?
 - Have you decided if you will provide applicants with SME feedback about their written assessment submissions? (for example, the competancy where they failed) This is helpful to applicants but may frustrate applicants who disagree.

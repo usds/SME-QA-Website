@@ -26,7 +26,7 @@ If your SMEs opt for a written assessment instead of a first-round interview, yo
 #### Assessment readiness
 - Have you had one SME or trusted external party who has not worked on developing the written assessment take it in order to gauge difficulty level and time to complete?
    - A best practice is for someone who helped create the assessment to observe the other person/people testing the assessment, to gather real-time feedback.
-   - You will also use the attempt in the training for SMEs to calibrate the SMEs.
+   - You will also use results of the attempt/test in the training for SMEs as a calibration exercise.
 - Have you built out instructions for how to transmute the assessment scores, particularly if you have multiple reviewers? (the SME-QA team has a template you can reference)
 - If the assessment requires use of a download or external site (like downloading a dataset), do you have a backup plan if that external site goes down during the assessment period?
 

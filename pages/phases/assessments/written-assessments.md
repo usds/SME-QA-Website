@@ -29,8 +29,11 @@ Written assessments can be used before or after resume review. If your SMEs opt 
 - Have you decided if you will provide SME feedback about a written assessment submission to applicants or not?
 
 #### Assessment readiness
-- Have you had one SME who has not worked on developing the written assessment attempt to take it in order to gauge difficulty level and time to complete?
+- Have you had one SME or trusted external party who has not worked on developing the written assessment take it in order to gauge difficulty level and time to complete?
+   - A best practice is for someone who helped create the assessment to observe the other person/people testing the assessment, to gather real-time feedback.
+   - You will also use results of the attempt/test in the training for SMEs as a calibration exercise.
 - Have you built out instructions for how to transmute the assessment scores, particularly if you have multiple reviewers? (the SME-QA team has a template you can reference)
+- If the assessment requires use of a download or external site (like downloading a dataset), do you have a backup plan if that external site goes down during the assessment period?
 
 ### Use in fit interviews
 - We suggest making written assessments available to hiring managers when they are evaluating a certificate, so they can see a sample of the applicant's work. You can also provide the comments from the SME in reviewing the assessment.

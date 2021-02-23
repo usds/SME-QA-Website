@@ -24,6 +24,9 @@ agencies:
   - agency: Internal Revenue Service
     agency-abbrev: IRS
     selections: 1
+  - agency: National Archives and Records Administration
+    agency-abbrev: NARA
+    selections: 1
   - agency: National Aeronautics and Space Administration (NASA)
     agency-abbrev: NASA
     selections: 1
@@ -64,7 +67,7 @@ pilots:
       total: 844
       eligible: 291
       total-qualified: 44
-      selected: 27
+      selected: 28
       hired: 19
     assessments:
       - name: Resume review

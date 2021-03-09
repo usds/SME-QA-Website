@@ -15,7 +15,10 @@ intro: When the content of your well-written job announcement is complete, creat
 
 Agencies using the SME-QA process can use a special, plain-language USAJOBS job announcement template created for this assessment strategy. The template pre-populates many of the Job Opportunity Announcement posting requirements, including the required Legal and Regulatory Guidance section. To create your posting, complete only these sections.
 
-While you'll continue to use the occupational questionnaire to gather general biographical information about the applicant, you won't use the self-rated assessment portion of the questionnaire. Instead, the structured assessment interviews you've documented in your assessment strategy serve as the examination.
+While you'll continue to use the occupational questionnaire to gather general biographical information about the applicant, you won't use the self-rated assessment portion of the questionnaire. Instead, the assessment you've documented in your assessment strategy serve as the examination.
+
+As you draft your announcement, mark any government-specific terms and either remove any that are unnecessary or explain those that must be mentioned. Also, use pronouns to personalize the content and experience. For example, use “you” and “your” when speaking to the job seeker, instead of terms like “incumbent” or “candidate”.
+
 
 ### 1. Title
 

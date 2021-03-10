@@ -17,9 +17,6 @@ Agencies using the SME-QA process can use a special, plain-language USAJOBS job 
 
 While you'll continue to use the occupational questionnaire to gather general biographical information about the applicant, you won't use the self-rated assessment portion of the questionnaire. Instead, the assessment you've documented in your assessment strategy serve as the examination.
 
-As you draft your announcement, mark any government-specific terms and either remove any that are unnecessary or explain those that must be mentioned. Also, use pronouns to personalize the content and experience. For example, use “you” and “your” when speaking to the job seeker, instead of terms like “incumbent” or “candidate”.
-
-
 ### 1. Title
 
 Use a clear title that qualified applicants will recognize as encompassing their skills. If your job is open to the public, use a title common to the private sector for the same position - you do not need to copy the official title on the PD. Ideally, the PD might refer to the unofficial title, but this is not required. Use of unofficial titles is very common for recruitment purposes to better describe the nature of the position.

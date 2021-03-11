@@ -15,7 +15,7 @@ intro: When the content of your well-written job announcement is complete, creat
 
 Agencies using the SME-QA process can use a special, plain-language USAJOBS job opportunity announcement (JOA) template created for this assessment strategy. The template pre-populates many of the JOA posting requirements, including the required Legal and Regulatory Guidance section. To create your JOA, simply complete the unpopulated sections, as necessary.
 
-While you'll continue to use the occupational questionnaire to gather general biographical information about the applicant, you won't use the self-rated assessment portion of the questionnaire. Instead, the assessment you've documented in your assessment strategy serve as the examination.
+While you'll continue to use the occupational questionnaire to gather general biographical information about the applicant, you won't use the self-rated assessment portion of the questionnaire. Instead, the assessment or assessments you've documented serve as the examination.
 
 ### 1. Title
 

@@ -26,12 +26,12 @@ Source: 5 U.S.C. § 5105 Standards for classification of positions
 
 ### 2. Overview
 
-To ensure your hiring process will be manageable for participating SMEs, clearly state your limit on the number of applications that will be reviewed, ideally limited to 100. Consider the options in this table for limiting applications.
+To ensure your hiring process will be manageable for participating SMEs, clearly state your limit on the number of applications that will be reviewed. Consider the options in this table for limiting applications.
 
 | Suggested Text | Benefits | Risks |
 |---|---|---|
-| “The agency will consider applications from the first 100 applicants who complete their submission.” | SMEs will only need to review 100 applications. | Due to applicant volume on USAJOBS, announcement may close very shortly after it's posted, possibly after a couple of hours. Depending on when the announcement is posted, this limited timeframe may occur outside business hours in other US time zones.
-| "This announcement will close at midnight on the day that 100 applications are received." | Your announcement will remain open through midnight on the day it's posted, allowing interested people to apply after regular work hours. | Your SMEs may be required to review more than 100 applications. |
+| “The agency will consider applications from the first XXX applicants who complete their submission.” | SMEs will only need to review XXX applications. | Due to applicant volume on USAJOBS, announcement may close very shortly after it's posted, possibly after a couple of hours. Depending on when the announcement is posted, this limited timeframe may occur outside business hours in other US time zones.
+| "This announcement will close at midnight on the day that XXX applications are received." | Your announcement will remain open through midnight on the day it's posted, allowing interested people to apply after regular work hours. | Your SMEs may be required to review more than XXX applications. |
 
 ### 3. Duties
 

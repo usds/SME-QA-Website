@@ -43,7 +43,7 @@ If you are posting for multiple speciality areas (not typical) and, during job a
 
 ### 4. Qualifications
 
-List all competencies developed during job analysis to describe the minimum qualifications for the position. If required for the position, you can describe specific recency requirements when skills obtained many years ago would not be relevant to the work being performed. For example, a technical position may require experience with modern cloud technologies gained within the last three years.
+List all competencies developed during job analysis to describe the minimum qualifications for the position. If essential to the position, you can describe specific recency requirements when skills obtained many years ago would not be relevant to the work being performed. For example, a technical position may require experience with modern cloud technologies gained within the last three years.
 
 Include only the competencies SMEs developed during job analysis as the qualifications for your position. You should not cut and paste the OPM Qualification Standards nor from the Position Description. In accordance with Federal regulations and OPM guidance, you must conduct a job analysis to define the specialized experience required, which our pilots present in the form of competencies and proficiency levels.
 

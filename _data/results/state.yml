@@ -70,7 +70,7 @@ pilots:
       well-qualified: 32
       qualified: 30
       referred: 15
-      selected: 13
+      selected: 32
       hired: 12
     assessments:
       - name: Resume review

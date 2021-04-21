@@ -27,6 +27,21 @@ outputs:
   {% include toolkit/getting-started.html %}
 </div>
 
+<h3>Core SMEQA Roles</h3>
+<h4>HR Specialist</h4>
+<p>
+  HR Specialists will ____. You should have at least two HR specialists assigned to support the action, though one can be a backup in case of unexpected outage by the primary specialist.
+</p>
+<h4>Project Manager</h4>
+<p>
+  The project manager can be an HR specialist, but does not need to be. This role does tasks like scheduling trainings, keeping track of SMEs and hiring managers, creating template documents, and facilitaing interview scheduling. Project managers should be:
+</p>
+<ul class="usa-list">
+  <li>Highly organized.</li>
+  <li>Able to manage meeting/collaboration technology</li>
+</ul>
+
+
 {% assign page-list = '' | split: '' %}
 {% assign sub-pages = site.pages | where: "phase","getting-started" | sort: "sub-phase-order" %}
 {% for sub-page in sub-pages %}

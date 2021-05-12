@@ -60,6 +60,6 @@
     "uswds": "^2.10.0"
   },
   "dependencies": {
-    "postcss": "^8.2.4"
+    "postcss": "^8.2.10"
   }
 }

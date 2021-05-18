@@ -1,0 +1,93 @@
+name: Data Science gov-wide
+abbrev: data
+office: 16 Offices
+office-abbrev: Multiple Offices
+office-count: 16
+agency-count: 11
+is-gov-wide: true
+agencies:
+  - agency: Department of Agriculture
+    agency-abbrev: USDA
+    selections: 2
+  - agency: Census Bureau
+    agency-abbrev: Census
+    selections: 0
+  - agency: Department of Commerce
+    agency-abbrev: Commmerce
+    selections: 1
+  - agency: Consumer Financial Protection Bureau (CFPB)
+    agency-abbrev: CFPB
+    selections: 1
+  - agency: General Services Administration
+    agency-abbrev: GSA
+    selections: 6
+  - agency: Department of Health and Human Services
+    agency-abbrev: HHS
+    selections: 0
+  - agency: Department of Homeland Security
+    agency-abbrev: HHS
+    selections: 0
+  - agency: Equal Employment Opportunity Commisssion
+    agency-abbrev: EEOC
+    selections: 0
+  - agency: National Science Foundation
+    agency-abbrev: NSF
+    selections: 1
+  - agency: Office of Personnel Management
+    agency-abbrev: OPM
+    selections: 1    
+  - agency: Department of State
+    agency-abbrev: State
+    selections: 21
+  - agency: Department of Transportation
+    agency-abbrev: USPTO
+    selections: 3
+  - agency: Department of the Treasury
+    agency-abbrev: Treasury
+    selections: 3
+  - agency: United States Agency for International Development
+    agency-abbrev: USAID
+    selections: 0
+  - agency: Department of Veterans Affairs
+    agency-abbrev: VA
+    selections: 2
+overall-order: 7
+pilots:
+  - first:
+    role: Data Scientist
+    series: "0343"
+    vacancies:
+      - grade: GS-13/14
+        open: 83
+    locations:
+      - name: Cambridge, MA
+      - name: Washington, DC
+    participants:
+      - name: HR Specialists
+        count: 1
+      - name: Subject Matter Experts
+        count: 20
+    joa:
+      open-date: Monday January 11th, 2021
+      close-date: Wednesday January 13th, 2021
+      url: https://www.usajobs.gov/GetJob/ViewDetails/588499000
+    applicants:
+      total: 513
+      eligible: 367
+      total-qualified: 107
+      selected: 46
+      hired: 14
+    assessments:
+      - name: Resume review
+        entered: 367
+        passed: 266
+        percentage: 72
+      - name: Work Sample Assessment
+        passed: 144
+        percentage: 54
+      - name: Structured Interview
+        passed: 107
+        percentage: 74
+    cost-per-hire:
+    time-to-hire:
+    hours-per-hire:

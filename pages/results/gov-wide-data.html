@@ -1,0 +1,40 @@
+---
+layout: article
+section: results
+permalink: /results/gov-wide/data/
+title: Government-wide hiring
+sidenav: results
+phase: gov-wide
+---
+
+{% assign agencies = site.data.results %}
+{% assign data-results = agencies['data-gov-wide'] %}
+{% assign data-pilot = data-results.pilots.first %}
+{% assign smes = data-pilot.participants | where: 'name', 'Subject Matter Experts' %}
+
+<h2>Customer Experience</h2>
+
+<p class="usa-intro">
+  In April 2020, USDS and OPM initiated the Customer Experience Strategist (CX) Hiring Action Pilot using the SME-QA process. Nine federal agencies (13 components) participated and achieved the following results.
+</p>
+
+<h2 id="by-the-numbers">By the numbers</h2>
+<h3>Participating Agencies</h3>
+<ol class="smeqa-results-agencies__list">
+{% for org in data-results.agencies %}
+  <li class="smeqa-results-agencies__item">{{ org.agency }}</li>
+{% endfor %}
+</ol>
+
+{% include results/pilot-by-the-numbers.html pilot=data-results.pilots.first %}
+
+<h3>Applicants</h3>
+<ul>
+  <li>513 applicants applied in two days.</li>
+  <li>USDS made a <a href="https://smeqa.usds.gov/info/data-govwide/">micro-site</a> explaining this job.</li>
+</ul>
+
+<h3>Subject matter experts</h3>
+<p>
+  {{ smes[0].count }} designers from eleven agencies came together to evaluate applicants to the Data Scientist positions. 
+</p>

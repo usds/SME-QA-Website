@@ -66,7 +66,7 @@ pilots:
       - name: HR Specialists
         count: 1
       - name: Subject Matter Experts
-        count: 20
+        count: 23
     joa:
       open-date: Monday January 11th, 2021
       close-date: Wednesday January 13th, 2021

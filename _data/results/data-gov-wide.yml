@@ -58,7 +58,7 @@ pilots:
     series: "0343"
     vacancies:
       - grade: GS-13/14
-        open: 83
+        open: 62
     locations:
       - name: Cambridge, MA
       - name: Washington, DC

@@ -1,0 +1,43 @@
+---
+layout: article
+section: results
+permalink: /results/gov-wide/data/
+title: Government-wide hiring
+sidenav: results
+phase: gov-wide
+---
+
+{% assign agencies = site.data.results %}
+{% assign data-results = agencies['data-gov-wide'] %}
+{% assign data-pilot = data-results.pilots.first %}
+{% assign smes = data-pilot.participants | where: 'name', 'Subject Matter Experts' %}
+
+<h2>Data Science</h2>
+
+<p class="usa-intro">
+  In August 2020, USDS, OPM, and the Chief Data Officer council initiated the multi-agency Data Science Hiring Action Pilot using the SME-QA process. Ten federal agencies (16 components) participated in the initial posting, followed by selections from more agencies. The cert is available for selections until Spring 2022.
+</p>
+
+<h2 id="by-the-numbers">By the numbers</h2>
+<h3>Participating Agencies</h3>
+<ol class="smeqa-results-agencies__list">
+{% for org in data-results.agencies %}
+  <li class="smeqa-results-agencies__item">{{ org.agency }}</li>
+{% endfor %}
+</ol>
+
+{% include results/pilot-by-the-numbers.html pilot=data-results.pilots.first %}
+
+<i>Important note: selections are currently ongoing and the cert is available for selection until Spring 2022 - <a href="mailto:dl.omb.smeqa@omb.eop.gov">contact the SMEQA team</a> for access.</i>
+
+
+<h3>Applicants</h3>
+<ul>
+  <li>513 applicants applied in two days.</li>
+  <li>USDS made a <a href="https://smeqa.usds.gov/info/data-govwide/">micro-site</a> explaining this job.</li>
+</ul>
+
+<h3>Subject matter experts</h3>
+<p>
+  {{ smes[0].count }} data scientists from eleven agencies came together to evaluate applicants to the Data Scientist positions. 
+</p>

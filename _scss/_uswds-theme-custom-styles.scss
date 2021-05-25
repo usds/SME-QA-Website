@@ -965,3 +965,9 @@ blockquote {
 .usa-nav__submenu-list>li, .usa-process-list>li, .usa-prose .usa-process-list>li, .usa-sidenav>li, .usa-sidenav__sublist>li {
   margin-left: 1rem;
 }
+
+// padding to fix sidenav and align with uswds/issues/3967 
+.usa-sidenav__sublist .usa-sidenav__item a {
+  padding-left: 1.6rem;
+  line-height: 1.4rem;
+}

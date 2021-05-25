@@ -141,7 +141,7 @@ results:
       href: "/results/gsa/"
     - text: State
       href: "/results/state/"
-  - text: Gov-wide
+  - text: Gov-wide CX
     href: "/results/gov-wide/cx/"
     phase: gov-wide
     subnav:
@@ -153,3 +153,9 @@ results:
       href: "/results/gov-wide/cx/#new-technology"
     - text: Lessons Learned
       href: "/results/gov-wide/cx/#lessons-learned"
+  - text: Gov-wide Data
+    href: "/results/gov-wide/data/"
+    phase: gov-wide
+    subnav:
+    - text: By the numbers
+      href: "/results/gov-wide/data/#by-the-numbers"

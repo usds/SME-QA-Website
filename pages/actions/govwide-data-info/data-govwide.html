@@ -2,11 +2,11 @@
 layout: hiring-action
 section: actions
 permalink: /info/data-govwide/
-header: Data Science Positions
-title: Data Science Strategist positions open across the federal government
-joa-url: https://www.usajobs.gov/GetJob/ViewDetails/566005100
-navigation-link: https://strategy.data.gov/news/2020/01/31/federal-chief-data-officers-council-holds-inaugural-meeting/
-navigation-title: CDO Council
+header: Data Scientist Positions
+title: Data Scientist positions open across the federal government
+joa-url: https://www.usajobs.gov/GetJob/ViewDetails/588499000
+navigation-link: https://strategy.data.gov/
+navigation-title: Federal Data Strategy
 joa-title: Data Scientist Job Announcement
 ---
 
@@ -15,12 +15,12 @@ joa-title: Data Scientist Job Announcement
 <section class="usa-hero smeqa-cx__hero" aria-label="Introduction">
   <div class="grid-container">
     <h1>
-      Recruitment headline will go here
+      Use your data science skills for the public good
     </h1>
     <h4>
-      Subtitle to go here (draft: Data Science positions are currently being filled through a single application on USAJOBS.)
+      Apply once to be considered for data science opportunities across the federal government
     </h4>
-    <a href="{{ page.joa-url }}" class="usa-button usa-button--secondary" target="_blank">USAJOBS page (not posted yet)</a>
+    <a href="{{ page.joa-url }}" class="usa-button usa-button--secondary" target="_blank">USAJOBS page (application closed as of 1/13)</a>
   </div>
 </section>
 <div class="grid-container">
@@ -30,23 +30,24 @@ joa-title: Data Scientist Job Announcement
         <div class="tablet:grid-col">
           <h4>What to know as you read the positions below</h4>
           <ul>
-            <li>Each of these unique roles requires the competencies and experience described in the <a href="{{ page.joa-url }}" target="_blank">Data Science posting</a>.</li>
+            <li>Each of these unique roles requires the competencies and experience described in the <a href="{{ page.joa-url }}" target="_blank">Data Scientist posting</a>.</li>
             <li>GS is an abbreviation for "General Schedule", a federal government pay scale that agencies use to set pay bands. The number following GS is <a href="https://www.usajobs.gov/Help/faq/pay/series-and-grade/" target="_blank">a grade and sets the pay level</a> and qualifications for the job.</li>
-            <li>Data Science positions below may be at the GS 13 or 14 level. The number following is the number of positions this agency is seeking to fill at this level.</li>
-            <li>To apply to any of the positions below, <a href="{{ page.joa-url }}" target="_blank">apply to this job announcement (now closed)</a>. During the application process you will be asked which of the following positions you are interested in being considered for and at which GS level(s) and location(s).</li>
+            <li>Data Science positions below may be at the GS 13 or 14 level. The number following each GS level is the number of positions this agency is seeking to fill at each level, and <b>is subject to change based on the needs of the hiring agencies.</b></li>
+            <li>To apply to any of the positions below, <a href="{{ page.joa-url }}" target="_blank">apply to this job announcement (open on 1/11)</a>. During the application process, you will be asked which offices you'd like to be considered for, which locations you'd accept, and your minimum GS level.</li>
             <li>A panel of subject matter experts will determine if you are qualified at the GS 13 or 14 level. You may accept a position for a level that is below the one you are qualified for.</li>
+            <li>Do you have questions about the application process or requirements? Join a Q&A session January 11 at 2 PM EST! Participant Dial-In: (888) 251-2949 | Participant Code: 224 2221#</li>
             <li>Visit our <a href="{{ site.baseurl }}/info/data-govwide/privacy/">Privacy Act statement</a>.</li>
           </ul>
         </div>
         <div class="tablet:grid-col">
           <aside class="sidenav">
-            <h4 class="smeqa-cx__agencies">Agencies who are hiring</h4>
+            <h4 class="smeqa-cx__agencies">Agencies that are hiring</h4>
             <ul class="site-sidenav usa-sidenav">
               {% for org in agencies %}
                 {% assign num = forloop.index %}
               <li class="usa-sidenav__item is-current">
                 <a href="#{{ org.agency-abbrev }}-{{ num }}">
-                  {{ org.program-office }} at {{ org.agency-abbrev }}
+                  <b>{{ org.agency-abbrev }}</b>: {{ org.program-office }}
                 </a>
               </li>
               {% endfor %}
@@ -92,8 +93,8 @@ joa-title: Data Scientist Job Announcement
                       <strong>GS-{{ grade.level }}</strong>: {{grade.open }}
                     </p>
                   {% endif %}
-                </li>
-                <li class="smeqa-cx-agency-position__item">
+                </li> 
+                 <li class="smeqa-cx-agency-position__item">
                   <h5 class="smeqa-cx-agency-position__header">
                     Promotion potential
                   </h5>
@@ -172,7 +173,6 @@ joa-title: Data Scientist Job Announcement
               </li>
             </ul>
           </div>
-
         </div>
       </div>
       {% endfor %}

@@ -961,3 +961,7 @@ blockquote {
     margin-top: units(6);
   }
 }
+
+.usa-nav__submenu-list>li, .usa-process-list>li, .usa-prose .usa-process-list>li, .usa-sidenav>li, .usa-sidenav__sublist>li {
+  margin-left: 1rem;
+}

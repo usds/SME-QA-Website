@@ -24,7 +24,7 @@ To prepare for your training:
     Update the <a href="{{ site.baseurl }}/toolkit/resume-review/sme-training-resume-review.pptx">resume review training presentation template</a> with your agency-specific information, including the final competencies and proficiencies from your job analysis workshop.
   </li>
   <li>
-    Gather sample resumes from the <a href="https://agencyportal.usajobs.gov/">USAJOBS Agency Talent Portal</a>. To request an account, write to <a href="mailto:recruiter-help@usajobs.gov">recruiter-help@usajobs.gov</a>. You'll need around five resumes total from both private sector and current federal employees in the role you're hiring for.  
+    Gather sample resumes from the <a href="https://agencyportal.usajobs.gov/">USAJOBS Agency Talent Portal</a>, where USAJOBS users have opted into providing resumes for search. To request an account, write to <a href="mailto:recruiter-help@usajobs.gov">recruiter-help@usajobs.gov</a>. You'll need around five resumes total from both private sector and current federal employees in the role you're hiring for. You can also ask current federal employees for their resumes from before their federal positions, and blank out identifying information.
   </li>
   <li>
     Prepare your handouts:

@@ -56,7 +56,7 @@ pilots:
     time-to-hire: 5.8 weeks
     hours-per-hire: 52
   - second:
-    role: Data Science
+    role: Data Scientist
     series: 2210
     vacancies:
       - grade: GS-12/13
@@ -77,8 +77,8 @@ pilots:
     applicants:
       total: 202
       total-qualified: 19
-      selected: 8
-      hired: 7
+      selected: 14
+      hired: 11
       declined: 1
     assessments:
       - name: Resume review

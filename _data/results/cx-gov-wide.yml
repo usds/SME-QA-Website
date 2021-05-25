@@ -3,9 +3,12 @@ abbrev: cx
 office: 13 Offices
 office-abbrev: Multiple Offices
 office-count: 13
-agency-count: 9
+agency-count: 11
 is-gov-wide: true
 agencies:
+  - agency: Department of Agriculture
+    agency-abbrev: USDA
+    selections: 3
   - agency: Consumer Financial Protection Bureau (CFPB)
     agency-abbrev: CFPB
     selections: 2
@@ -14,23 +17,29 @@ agencies:
     selections: 0
   - agency: General Services Administration
     agency-abbrev: GSA
-    selections: 1
+    selections: 3
   - agency: Department of Health and Human Services
     agency-abbrev: HHS
     selections: 0
+  - agency: Internal Revenue Service
+    agency-abbrev: IRS
+    selections: 1
+  - agency: National Archives and Records Administration
+    agency-abbrev: NARA
+    selections: 1
   - agency: National Aeronautics and Space Administration (NASA)
     agency-abbrev: NASA
     selections: 1
+  - agency: Office of Personnel Management
+    agency-abbrev: OPM
+    selections: 1    
   - agency: Department of State
     agency-abbrev: State
     selections: 5
-  - agency: Department of Agriculture
-    agency-abbrev: USDA
-    selections: 2
   - agency: "U.S. Patent and Trademark Office"
     agency-abbrev: USPTO
     selections: 0
-  - agency: Veterans Affairs
+  - agency: Department of Veterans Affairs
     agency-abbrev: VA
     selections: 2
 overall-order: 7
@@ -39,12 +48,8 @@ pilots:
     role: Customer Experience Strategist
     series: "0301"
     vacancies:
-      - grade: GS-13
-        open: 18
-      - grade: GS-14
-        open: 20
-      - grade: GS-15
-        open: 11
+      - grade: GS-13/14/15
+        open: 15
     locations:
       - name: Baltimore, MD
       - name: Charleston, SC
@@ -61,19 +66,19 @@ pilots:
     applicants:
       total: 844
       eligible: 291
-      total-qualified: 63
-      selected: 22
-      hired: 17
+      total-qualified: 44
+      selected: 26
+      hired: 19
     assessments:
       - name: Resume review
         entered: 290
         passed: 124
         percentage: 15
-      - name: Hirevue Interview
+      - name: HireVue Interview
         passed: 79
         percentage: 9
-      - name: Interview Two
-        passed: 63
+      - name: Structured Interview
+        passed: 44
         percentage: 7
     cost-per-hire: $2,992
     time-to-hire: 6.2 weeks

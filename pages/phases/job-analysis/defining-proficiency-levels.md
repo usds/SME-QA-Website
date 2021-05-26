@@ -64,3 +64,18 @@ Alternatively, you could use the NIH proficiency scale:
 The same set of competencies and proficiencies can be used for different grade levels because roles that require more seniority set the required proficiencies higher than junior roles.
 
 For more information about how applicants are considered qualified in this process, see [our minimum qualifications definition](../../../about/differences/).
+
+
+## Resume Review decisions
+
+At this point, you have two more decisions to make about how your competancies will apply during resume review.
+
+<h3 id="resume-review-page-count">Number of reviewed resume work experience pages</h3>
+<p>
+  Longer, government style resumes take longer for SMEs to review and can increase bias against shorter, private sector resumes. During the job analysis workshop when SMEs are practicing resume review, ask them to agree on <strong>how many pages of work experience they will review on each resume submitted</strong>. We recommend limiting reviewed pages to two or three at most. If an applicant submits a longer resume, they will not be penalized but the SMEs will not review past the documented limit.
+</p>
+
+<h3>Tech recency requirements</h3>
+<p>
+  Technology changes quickly, and depending on the needs of your agency, SMEs may determine that applicants should demonstrate knowledge of modern technical methods, platforms, and languages within a certain number of the most recent years. We recommend that this type of technical recency be documented at between three and five years.
+</p>

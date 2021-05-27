@@ -15,18 +15,31 @@ intro: Define proficiency levels for each competency, determining what is needed
 
 ### Setting the required proficiency level
 
+Core competencies are the professional skills an applicant must possess from their first day in the position you're hiring for, while proficiencies gauge how skilled an applicant is with the given competency. The proficiency definitions should be consistent, involving these types of differences:
 
-Each level needs a definition of what that level entails. The proficiency definitions should be consistent, involving these types of differences:
-
-- **Scale of activity:** The applicant did something at a small organization _-vs-_ did something at a large organization.
-- **Seniority:** The applicant did something as part of a group _-vs-_ lead the group that did something.
+- **Complexity:** The applicant can manage straightforward workflows _-vs-_ can manage highly complex workflows.
 - **Level of detail:** The applicant can explain a general concept _-vs-_ can discuss the concept in detail.
+- **Scale of activity:** The applicant did something at a small organization _-vs-_ did something at a large organization.
+- **Seniority/independence:** The applicant did something as part of a group _-vs-_ lead the group that did something.
 
 When defining proficiency levels, you have two options.
 
+### Two levels
+
+Use two levels if your announcement is only for one GS grade and you want to save time during job analysis by defining the minimum required levels: the minimum required level and one level above that to establish categories as required by category rating rules. If the hiring action was for a GS13 position, the “meets” level would mean the applicant needs 52 weeks experience at that level in order to qualify for GS13. If your hiring action is for two GS grades, you will need at least three proficiency levels.
+
+#### Example (for an analytical competancy)
+
+* **GS-13 Meets:** Breaks problems down into component parts. Displays repeated
+experience in qualitative and quantitative analysis. Defines product or project metrics
+beyond the basics and ties these metrics to decisions.
+* **GS-13 Exceeds:** Brings analytical thinking to everything they do, and has a range and depth of
+experience doing so. Anticipates the need for metrics and analysis early in the product
+and project discovery and design process, and carries metrics through iterations.
+
 ### Four levels
 
-Use four levels when doing job analysis for more than one grade level or when you may want to leverage this work for other grade levels in the future. It may also help to define four levels before deciding which level is appropriate for the grade in question. If you use four levels, we reccomend these titles for each level:
+Use four levels when you may want to leverage this work for other grades in the future; the same set of competencies and proficiencies can be used for different grade levels because roles that require more seniority set the required proficiencies higher than junior roles. It may also help to define four levels before deciding which level is appropriate for the grade in question. If you use four levels, we recommend these titles for each level:
 
 1. Novice
 2. Competant
@@ -35,38 +48,43 @@ Use four levels when doing job analysis for more than one grade level or when yo
 
 Once proficiency levels are defined, HR and the SMEs will decide at which level you would require applicants to have one year of experience in order to qualify for the grade in question. For example, they made decide that to qualify for a GS13, applicants must have one year experience at the “Advanced” level. See this example:
 
-#### Example Competency: Collaboration
+#### Example (for an analytical competancy)
 
-The ability to work cooperatively with others to accomplish objectives and build inclusive and mutually beneficial partnerships.
+* **Novice:** Unable to break down problems or only talks through problems at a high
+level. Does not make data-driven decisions, or actively eschews data in decision-making.
+* **Competant:** Displays some critical thinking and problem-solving abilities. May start to break
+a problem down in component parts, but not completely. Able to identify basic product
+or project metrics but does not connect these to business or user value.
+* **Advanced (Required):** Breaks problems down into component parts. Displays repeated
+experience in qualitative and quantitative analysis. Defines product or project metrics
+beyond the basics and ties these metrics to decisions.
+* **Expert:** Brings analytical thinking to everything they do, and has a range and depth of
+experience doing so. Anticipates the need for metrics and analysis early in the product
+and project discovery and design process, and carries metrics through iterations.
 
-* **Novice:** Has not worked in cross-functional teams or collaborated closely with people from other disciplines or worked in teams that encourage diverse perspectives.
-* **Competant:** Has experience constructively discussing and integrating design feedback from peers, clients, or stakeholders.
-* **Advanced (Required):** Demonstrates success in working with large organizations, highly regulated domains, or highly bureaucratic environments.
-* **Expert:** Leads projects with changing priorities or competing interests. Is skilled at negotiating or mediating conflicts. Coordinates across group boundaries to achieve organizational as well as design goals.
+### Generic proficiency levels
 
+**Novice:** Applies the competency in simple situations, requiring close and extensive guidance. Has the level of experience gained in a classroom and/or experimental scenarios or as a trainee on-the-job. Aware of terminology, concepts, principles, and issues related to this competency.
 
-Alternatively, you could use the NIH proficiency scale:
+> Novices have had little experience of the situation in which they are expected to perform. Their initial learning about the situation is in terms of objective attributes--those that are measurable. These are features of the task world that can be recognized without situational experiences. Novices are limited in their understanding to context-free rules that guide action--this means their behavior is limited and inflexible.
 
-1. **Novice:** Beginners have had little experience of the situation in which they are expected to perform.Their initial learning about the situation is in terms of objective attitributes--those that are measurable. These are features of the task world that can be recognized without situational experiences. Novices are limited in their understanding to context-free rules that guide action--this means their behavior is limited and inflexible.
+**Basic:** Applies the competency in somewhat difficult situations, requiring frequent guidance. Familiar with and can discuss terminology, concepts, principles, and issues related to this competency.
 
-2. **Advanced Beginner:** They have coped with enough real situations to note (or have pointed out to them) recurring, meaningful situational components. At this level, understanding of aspects of the situation is limited to global characterisitics that reflect prior experience in actual situations. Advanced beginners need help setting priorities, because they operate on general guidelines and are only beginning to perceive recurrent, meaningful patterns.
+> Basic performers have coped with enough real situations to note (or have pointed out to them) recurring, meaningful situational components. At this level, understanding of aspects of the situation is limited to global characterisitics that reflect prior experience in actual situations. The basic performer needs help setting priorities, because they operate on general guidelines and are only beginning to perceive recurrent, meaningful patterns.
 
-3. **Competent:** Performers at a journeyman's level can see their actions in terms of long-range goals or plans. They are consciously aware of formulating, evaluating, and modifying goals-plans. The competent performaer is able to generate plans in terms of current and contemplated future aspects that are most important, and those that are not. The competent performer lacks the speed and flexibility that emerges at higher levels of expertise but has a sense of mastery and the ability to cope with and manage a variety of situations.
+**Competent:** Applies the competency in difficult situations, requiring occasional guidance. Able to successfully complete tasks in this competency as requested. Demonstrates understanding of terminology, concepts, principles, and issues related to this competency.
+ 
+> Competant performers can see their actions in terms of long-range goals or plans. They are consciously aware of formulating, evaluating, and modifying goals-plans. The competent performer is able to generate plans in terms of current and contemplated future aspects that are most important, and those that are not. The competent performer lacks the speed and flexibility that emerges at higher levels of expertise but has a sense of mastery and the ability to cope with and manage a variety of situations.
 
-4. **Proficient:** Proficient performers perceive situations as wholes, rather than in terms of situational components. Their performance is guided by "maxims." Perception is key. The perscpective is NOT thought out but "presents itself" based upon experience. The proficient performer has learned what typical events to expect in a given situation and how plans need to be modified in accord with these events. This also means that she or he can recognize when the expected typical picture does not materialize and can modify plans and goals accordingly. Situational aspects stand out as more or less important in *this* situation.
+**Advanced:** Applies the competency in considerably difficult situations, generally requiring little or no guidance. Recognized within immediate organization as "a person to ask" when difficult questions arise regarding this skill. Demonstrates broad understanding of terminology, concepts, principles, and issues related to this competency.
 
-5. **Expert:** Expert performers no longer rely on analytic principles (rules, guidelines, maxims) to connect their understanding of the situation to an appropriate action. The expert, with an enormous background of experience, has an intuitive grasp of each situation and zeros in on the accurate region of the problem without wasteful consideration of a large range of unfruitful, alternative diagnoses and solutions. The performer is no longer aware of features and rules, and his or her performance becomes fluid and flexible and highly proficient.
+> Advanced performers perceive situations as wholes, rather than in terms of situational components. Their performance is guided by "maxims." Perception is key. The perspective is NOT thought out but "presents itself" based upon experience. The proficient performer has learned what typical events to expect in a given situation and how plans need to be modified in accord with these events. This also means that she or he can recognize when the expected typical picture does not materialize and can modify plans and goals accordingly. Situational aspects stand out as more or less important in *this* situation.
 
+**Expert:** Applies the competency in exceptionally difficult situations, serving as a key resource and advising others. Demonstrates comprehensive, expert understanding of terminology, concepts, principles, and issues related to this competency.
+ 
+> Expert performers no longer rely on analytic principles (rules, guidelines, maxims) to connect their understanding of the situation to an appropriate action. The expert, with an enormous background of experience, has an intuitive grasp of each situation and zeros in on the accurate region of the problem without wasteful consideration of a large range of unfruitful, alternative diagnoses and solutions. The performer is no longer aware of features and rules, and his or her performance becomes fluid and flexible and highly proficient.
 
-
-### Using proficiency levels across grade levels
-
-The same set of competencies and proficiencies can be used for different grade levels because roles that require more seniority set the required proficiencies higher than junior roles.
-
-For more information about how applicants are considered qualified in this process, see [our minimum qualifications definition](../../../about/differences/).
-
-
-## Resume Review decisions
+## Resume review decisions
 
 At this point, you have two more decisions to make about how your competancies will apply during resume review.
 

@@ -74,7 +74,7 @@ and project discovery and design process, and carries metrics through iterations
 
 **Competent:** Applies the competency in difficult situations, requiring occasional guidance. Able to successfully complete tasks in this competency as requested. Demonstrates understanding of terminology, concepts, principles, and issues related to this competency.
  
-> Competant performers can see their actions in terms of long-range goals or plans. They are consciously aware of formulating, evaluating, and modifying goals-plans. The competent performer is able to generate plans in terms of current and contemplated future aspects that are most important, and those that are not. The competent performer lacks the speed and flexibility that emerges at higher levels of expertise but has a sense of mastery and the ability to cope with and manage a variety of situations.
+> Competent performers can see their actions in terms of long-range goals or plans. They are consciously aware of formulating, evaluating, and modifying goals or plans. The competent performer is able to generate plans in terms of current and contemplated future aspects that are most important, and those that are not. The competent performer lacks the speed and flexibility that emerges at higher levels of expertise but has a sense of mastery and the ability to cope with and manage a variety of situations.
 
 **Advanced:** Applies the competency in considerably difficult situations, generally requiring little or no guidance. Recognized within immediate organization as "a person to ask" when difficult questions arise regarding this skill. Demonstrates broad understanding of terminology, concepts, principles, and issues related to this competency.
 

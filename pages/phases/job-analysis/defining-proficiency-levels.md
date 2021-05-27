@@ -20,7 +20,7 @@ Core competencies are the professional skills an applicant must possess from the
 - **Complexity:** The applicant can manage straightforward workflows _-vs-_ can manage highly complex workflows.
 - **Level of detail:** The applicant can explain a general concept _-vs-_ can discuss the concept in detail.
 - **Scale of activity:** The applicant did something at a small organization _-vs-_ did something at a large organization.
-- **Seniority/independence:** The applicant did something as part of a group _-vs-_ lead the group that did something.
+- **Seniority/independence:** The applicant did something as part of a group _-vs-_ led the group that did something.
 
 When defining proficiency levels, you have two options.
 

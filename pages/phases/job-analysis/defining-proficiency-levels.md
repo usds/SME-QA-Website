@@ -82,7 +82,7 @@ and project discovery and design process, and carries metrics through iterations
 
 **Expert:** Applies the competency in exceptionally difficult situations, serving as a key resource and advising others. Demonstrates comprehensive, expert understanding of terminology, concepts, principles, and issues related to this competency.
  
-> Expert performers no longer rely on analytic principles (rules, guidelines, maxims) to connect their understanding of the situation to an appropriate action. The expert, with an enormous background of experience, has an intuitive grasp of each situation and zeros in on the accurate region of the problem without wasteful consideration of a large range of unfruitful, alternative diagnoses and solutions. The performer is no longer aware of features and rules, and his or her performance becomes fluid and flexible and highly proficient.
+> Expert performers no longer rely on analytic principles (rules, guidelines, maxims) to connect their understanding of the situation to an appropriate action. The expert, with an enormous background of experience, has an intuitive grasp of each situation and zeros in on the accurate region of the problem without wasteful consideration of a large range of unfruitful, alternative diagnoses and solutions. The performer is no longer aware of features and rules, and their performance becomes fluid and flexible and highly proficient.
 
 ## Resume review decisions
 

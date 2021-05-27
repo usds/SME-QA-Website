@@ -26,7 +26,7 @@ When defining proficiency levels, you have two options.
 
 ### Two levels
 
-Use two levels if your announcement is only for one GS grade and you want to save time during job analysis by defining the minimum required levels: the minimum required level and one level above that to establish categories as required by category rating rules. If the hiring action was for a GS13 position, the “meets” level would mean the applicant needs 52 weeks experience at that level in order to qualify for GS13. If your hiring action is for two GS grades, you will need at least three proficiency levels.
+Use two levels if your announcement is only for one GS grade and you want to save time during job analysis by defining the minimum required levels: the minimum required level ("meets") and one level above that ("exceeds") to establish categories as required by category rating rules. If the hiring action was for a GS-13 position, the “meets” level would mean the applicant needs 52 weeks experience at that level in order to qualify for GS-13. If your hiring action is for two GS grades, you will need at least three proficiency levels.
 
 #### Example (for an analytical competancy)
 

@@ -9,20 +9,22 @@ title: SME Recruitment Email
 description: Template - Email to recruit SMEs
 ---
 
-Good afternoon,
+Good [Morning or Afternoon],
 
-We are currently recruiting subject matter experts (SMEs) to partner with HR to improve hiring outcomes for GS-XX XXX Position. In this process, SMEs will partner with HR to develop a list of common competencies and proficiency levels required for a position. SMEs will then conduct resume reviews and structured interviews with the applicant pool that will allow us to filter applicants to those that are absolutely qualified. Hiring managers can then confidently make multiple selections from a competitive hiring list.
+We are currently recruiting subject matter experts (SMEs) to partner with HR to improve hiring outcomes for a GS-_[grade level(s)]_ _[series]_ position. In this process, SMEs work with HR to develop a list of common competencies and proficiency levels required for this position. SMEs will then conduct some combination of resume reviews, written excercise scoring, and structured interviews that will allow us to filter the applicant pool to those that are absolutely qualified. Hiring managers can then confidently make multiple selections from a competitive hiring list.
 
-We have a need for SMEs who are passionate about bringing high quality talent into their agency.  SMEs participating in this process will dedicate 50-60 hours over 2-3 months for the following:
+We have a need for SMEs who are passionate about bringing high-quality talent into their agency. SMEs participating in this process will dedicate 50-60 hours over 2-3 months for the following:
 
--	2.5 day workshop to develop common competencies and structured interview questions
--	Resume review training
--	Resume reviews (8 hours over 1 week)
--	phone interviews training
--	SME phone interviews (up to 40 hours over three weeks)
+-	2.5 day workshop to develop common competencies, proficiency levels, and some combination of written exercises and/or structured interview questions
+-	Resume review training (3 hrs)
+-	Resume reviews (time needed depends on # of applicants)
+-	Written excercise training (2 hrs, if needed)
+-	Structured interview training (2 hrs, if needed)
+-	Assessments and scoring (time needed depends on # of applicants)
 
 If you’d like to learn more about this process, please see the attached one-pager.
 
-By XXX Date, please let us know if you wish to participate (and have agreement from your hiring manager) and your availability for a 2-day job analysis workshop.
+By MM/DD _[date]_, please let us know if you wish to participate (and have agreement from your hiring manager) and your availability for a 2-day job analysis workshop.
 
 Thank you,
+_[name and contact info}_

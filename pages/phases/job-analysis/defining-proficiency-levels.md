@@ -46,7 +46,7 @@ Use four levels when you may want to leverage this work for other grades in the 
 3. Advanced
 4. Expert
 
-Once proficiency levels are defined, HR and the SMEs will decide at which level you would require applicants to have one year of experience in order to qualify for the grade in question. For example, they made decide that to qualify for a GS13, applicants must have one year experience at the “Advanced” level. See this example:
+Once proficiency levels are defined, HR and the SMEs will decide at which level you would require applicants to have one year of experience in order to qualify for the grade in question. For example, they made decide that to qualify for a GS-13, applicants must have one year of experience at the “Advanced” level. See this example:
 
 #### Example (for an analytical competancy)
 

@@ -17,11 +17,10 @@ We have a need for SMEs who are passionate about bringing high-quality talent in
 
 -	2.5 day workshop to develop common competencies, proficiency levels, and some combination of written exercises and/or structured interview questions
 -	Resume review training (3 hrs)
--	Resume reviews (8 hours over 1 week)
--	Written excercise training (2 hrs if needed)
--	Structured interview training (2 hrs if needed)
--	Written excercise scoring (up to 20 hours over two weeks)
--	SME phone interviews (up to 40 hours over two weeks)
+-	Resume reviews (time needed depends on # of applicants)
+-	Written excercise training (2 hrs, if needed)
+-	Structured interview training (2 hrs, if needed)
+-	Assessments and scoring (time needed depends on # of applicants)
 
 If you’d like to learn more about this process, please see the attached one-pager.
 

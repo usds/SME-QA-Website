@@ -50,27 +50,17 @@ Once proficiency levels are defined, HR and the SMEs will decide at which level 
 
 #### Example (for an analytical competancy)
 
-* **Novice:** Unable to break down problems or only talks through problems at a high
-level. Does not make data-driven decisions, or actively eschews data in decision-making.
+* **Novice:** Unable to break down problems or only talks through problems at a high level. Does not make data-driven decisions. May have classroom education in analysis.
 * **Competant:** Displays some critical thinking and problem-solving abilities. May start to break
-a problem down in component parts, but not completely. Able to identify basic product
-or project metrics but does not connect these to business or user value.
-* **Advanced (Required):** Breaks problems down into component parts. Displays repeated
-experience in qualitative and quantitative analysis. Defines product or project metrics
-beyond the basics and ties these metrics to decisions.
-* **Expert:** Brings analytical thinking to everything they do, and has a range and depth of
-experience doing so. Anticipates the need for metrics and analysis early in the product
-and project discovery and design process, and carries metrics through iterations.
+a problem down in component parts, but cannot do so completely without help in some situations. Able to identify basic product or project metrics but does not fully connect these to business or user value.
+* **Advanced (this might be the required minimum):** Breaks problems down into component parts. Displays repeated experience in qualitative and quantitative analysis. Defines product or project metrics beyond the basics and ties these metrics to decisions.
+* **Expert:** Brings analytical thinking to everything they do, and has a range and depth of experience doing so. Anticipates the need for metrics and analysis early in the product and project discovery and design process, and carries metrics through iterations.
 
 ### Generic proficiency levels
 
 **Novice:** Applies the competency in simple situations, requiring close and extensive guidance. Has the level of experience gained in a classroom and/or experimental scenarios or as a trainee on-the-job. Aware of terminology, concepts, principles, and issues related to this competency.
 
 > Novices have had little experience of the situation in which they are expected to perform. Their initial learning about the situation is in terms of objective attributes--those that are measurable. These are features of the task world that can be recognized without situational experiences. Novices are limited in their understanding to context-free rules that guide action--this means their behavior is limited and inflexible.
-
-**Basic:** Applies the competency in somewhat difficult situations, requiring frequent guidance. Familiar with and can discuss terminology, concepts, principles, and issues related to this competency.
-
-> Basic performers have coped with enough real situations to note (or have pointed out to them) recurring, meaningful situational components. At this level, understanding of aspects of the situation is limited to global characterisitics that reflect prior experience in actual situations. The basic performer needs help setting priorities, because they operate on general guidelines and are only beginning to perceive recurrent, meaningful patterns.
 
 **Competent:** Applies the competency in difficult situations, requiring occasional guidance. Able to successfully complete tasks in this competency as requested. Demonstrates understanding of terminology, concepts, principles, and issues related to this competency.
  

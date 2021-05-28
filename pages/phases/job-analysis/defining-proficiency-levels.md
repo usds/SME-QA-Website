@@ -46,14 +46,14 @@ Use four levels when you may want to leverage this work for other grades in the 
 3. Advanced
 4. Expert
 
-Once proficiency levels are defined, HR and the SMEs will decide at which level you would require applicants to have one year of experience in order to qualify for the grade in question. For example, they made decide that to qualify for a GS-13, applicants must have one year of experience at the “Advanced” level. See this example:
+Once proficiency levels are defined, HR and the SMEs will decide at which level you would require applicants to have one year of experience in order to qualify for the grade in question. For example, they made decide that to qualify for a GS-13, applicants must have one year of experience at the “Advanced” level. See this example for that scenario:
 
 #### Example (for an analytical competancy)
 
 * **Novice:** Unable to break down problems or only talks through problems at a high level. Does not make data-driven decisions. May have classroom education in analysis.
 * **Competant:** Displays some critical thinking and problem-solving abilities. May start to break
 a problem down in component parts, but cannot do so completely without help in some situations. Able to identify basic product or project metrics but does not fully connect these to business or user value.
-* **Advanced (this might be the required minimum):** Breaks problems down into component parts. Displays repeated experience in qualitative and quantitative analysis. Defines product or project metrics beyond the basics and ties these metrics to decisions.
+* **Advanced (minimum required for GS-13):** Breaks problems down into component parts. Displays repeated experience in qualitative and quantitative analysis. Defines product or project metrics beyond the basics and ties these metrics to decisions.
 * **Expert:** Brings analytical thinking to everything they do, and has a range and depth of experience doing so. Anticipates the need for metrics and analysis early in the product and project discovery and design process, and carries metrics through iterations.
 
 ### Generic proficiency levels

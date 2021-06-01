@@ -28,7 +28,7 @@ When defining proficiency levels, you have two options.
 
 Use two levels if your announcement is only for one GS grade and you want to save time during job analysis by defining the minimum required levels: the minimum required level ("meets") and one level above that ("exceeds") to establish categories as required by category rating rules. If the hiring action was for a GS-13 position, the “meets” level would mean the applicant needs 52 weeks experience at that level in order to qualify for GS-13. If your hiring action is for two GS grades, you will need at least three proficiency levels.
 
-#### Example (for an analytical competancy)
+#### Example (for an analytical competency)
 
 * **GS-13 Meets:** Breaks problems down into component parts. Displays repeated
 experience in qualitative and quantitative analysis. Defines product or project metrics
@@ -48,7 +48,7 @@ Use four levels when you may want to leverage this work for other grades in the 
 
 Once proficiency levels are defined, HR and the SMEs will decide at which level you would require applicants to have one year of experience in order to qualify for the grade in question. For example, they made decide that to qualify for a GS-13, applicants must have one year of experience at the “Advanced” level. See this example for that scenario:
 
-#### Example (for an analytical competancy)
+#### Example (for an analytical competency)
 
 * **Novice:** Unable to break down problems or only talks through problems at a high level. Does not make data-driven decisions. May have classroom education in analysis.
 * **Competent:** Displays some critical thinking and problem-solving abilities. May start to break

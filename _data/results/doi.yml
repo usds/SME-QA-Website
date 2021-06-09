@@ -84,16 +84,9 @@ pilots:
       hired: 6
     assessments:
       - name: Resume review
-        passed: 78
-        percentage: 35
+        passed: 43
       - name: Interview One
-        passed: 40
-        percentage: 18
-      - name: Interview Two
-        passed: 25
-        percentage: 11
+        passed: 18
     cost-per-hire: $1,673
     time-to-hire: 9.4 weeks
     hours-per-hire: 34.5
-    
-        

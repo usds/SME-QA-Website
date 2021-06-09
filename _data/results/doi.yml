@@ -51,6 +51,49 @@ pilots:
     cost-per-hire: $1,673
     time-to-hire: 9.4 weeks
     hours-per-hire: 34.5
-      
+  - second:
+    role: IT Specialist 
+    series: 2210
+    vacancies:
+      - grade: GS-13
+        open: 8
+    locations:
+      - name: Lakewood, CO
+      - name: Reston, VA
+      - name: Washington, DC
+    participants:
+      - name: HR Specialists 
+        count: 1
+      - name: Subject Matter Experts
+        count: 8
+    joa:
+      open-date: November 19, 2020
+      close-date: November 23, 2020
+      url: https://www.usajobs.gov/GetJob/ViewDetails/584981500
+    roles:
+      - Sysadmin - Active Directory
+      - Sysadmin - Office 365
+      - Sysanalysis - Network
+      - Sysanalysis - Records/FOIA
+      - Network - Generalist
+      - Network - RoIP
+    applicants:
+      total: 200
+      total-qualified: 18
+      selected: 8
+      hired: 6
+    assessments:
+      - name: Resume review
+        passed: 78
+        percentage: 35
+      - name: Interview One
+        passed: 40
+        percentage: 18
+      - name: Interview Two
+        passed: 25
+        percentage: 11
+    cost-per-hire: $1,673
+    time-to-hire: 9.4 weeks
+    hours-per-hire: 34.5
     
         

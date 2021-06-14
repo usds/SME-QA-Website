@@ -11,16 +11,16 @@ source "http://rubygems.org"
 # gem "jekyll", "~> 3.7.3"
 
 gem "rubyzip", "~> 1.3.0"
-gem "nokogiri", ">= 1.11.0"
+gem "nokogiri", "~> 1.11.4"
 
 gem "html-proofer"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
-gem "github-pages", "~> 207", group: :jekyll_plugins
+gem "github-pages", "~> 215", group: :jekyll_plugins
 
 # Patch
-gem "kramdown", ">= 2.3.0"
+gem "kramdown", ">= 2.3.1"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do

@@ -54,7 +54,7 @@
     "normalize.css": "^8.0.1",
     "object-path": ">=0.11.5",
     "path": "^0.12.7",
-    "postcss": "^8.2.10",
+    "postcss": "~>8.2.10",
     "postcss-csso": "^5.0.0",
     "postcss-discard-comments": "^4.0.2",
     "run-sequence": "^2.2.1",

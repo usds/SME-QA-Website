@@ -75,8 +75,8 @@ pilots:
       total: 513
       eligible: 367
       total-qualified: 107
-      selected: 70
-      hired: 23
+      selected: 72
+      hired: 29
     assessments:
       - name: Resume review
         entered: 367

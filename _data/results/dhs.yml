@@ -1,0 +1,46 @@
+name: Department of Homeland Security
+abbrev: dhs
+office: IT Operations
+office-abbrev: OIT
+office-count: 1
+agency-count: 1
+overall-order: 3
+round: 2
+pilots:
+  - first:
+    role: IT Specialist (INFOSEC)
+    series: 2210
+    vacancies:
+      - grade: GS-12/13
+        open: 20
+    locations:
+      - name: Chandler, AZ
+      - name: Stennis, MS
+    participants:
+      - name: HR Specialists 
+        count: 1
+      - name: Subject Matter Experts
+        count: 4
+    joa:
+      open-date: February 19, 2021
+      close-date: March 4, 2021
+      url: https://www.usajobs.gov/GetJob/ViewDetails/592840100
+    applicants:
+      total: 170
+      total-qualified: 26
+      qualified: 26
+      selected: 14
+      hired: 13
+    assessments:
+      - name: Resume review
+        passed: 90
+        percentage: 53
+      - name: Written Assessment
+        entered: 57
+        passed: 38
+        percentage: 42
+      - name: Interview Two
+        entered: 32
+        passed: 26
+        percentage: 68
+    time-to-hire: 11 weeks

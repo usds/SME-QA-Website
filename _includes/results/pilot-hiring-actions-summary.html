@@ -6,6 +6,7 @@
 {% assign total_applicants = "" | split: ',' %}
 {% assign total_qualified = "" | split: ',' %}
 {% assign total_selected = "" | split: ',' %}
+{% assign total_hired = "" | split: ',' %}
 
 {%- for agencies_hash in results -%}
   {%- assign agency = agencies_hash[1] -%}
@@ -15,6 +16,7 @@
   {% for pilot in agency.pilots %}
     {% assign total_pilots = total_pilots | push: agency.pilots.size %}
     {% assign total_selected = total_selected | push: pilot.applicants.selected %}
+    {% assign total_hired = total_hired | push: pilot.applicants.hired %}
     {% assign total_applicants = total_applicants | push: pilot.applicants.total %}
     {% assign total_qualified = total_qualified | push: pilot.applicants.total-qualified %}
   {% endfor %}
@@ -35,6 +37,11 @@
   {% assign selections = selections | plus: selected %}
 {% endfor %}
 
+{% assign hired = 0 %}
+{% for hired in total_hired %}
+  {% assign hired = hired | plus: hired %}
+{% endfor %}
+
 {% assign applicants = 0 %}
 {% for applicant in total_applicants %}
   {% assign applicants = applicants | plus: applicant %}
@@ -53,9 +60,6 @@
     <span class="smeqa-brief-hiring-actions__stat">{{ agencies }}</span> agencies
   </li>
   <li class="smeqa-brief-hiring-actions__item">
-    <span class="smeqa-brief-hiring-actions__stat">{{ offices }}</span> offices
-  </li>
-  <li class="smeqa-brief-hiring-actions__item">
     <span class="smeqa-brief-hiring-actions__stat">{{ applicants }}</span> applicants
   </li>
   <li class="smeqa-brief-hiring-actions__item">
@@ -63,5 +67,8 @@
   </li>
   <li class="smeqa-brief-hiring-actions__item">
     <span class="smeqa-brief-hiring-actions__stat">{{ selections }}</span> selections
+  </li>
+  <li class="smeqa-brief-hiring-actions__item">
+    <span class="smeqa-brief-hiring-actions__stat">{{ hired }}</span> hired
   </li>
 </ul>

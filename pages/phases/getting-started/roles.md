@@ -16,13 +16,13 @@ intro: A SMEQA hiring action has multiple roles involved.
 ## HR Specialist
 
 <p class="usa-intro">
-  (to insert HR specialist info)
+  The HR specialist ensures that the hiring action adheres to merit system principles and controls all messaging to applicants about the hiring process.
 </p>
 
 ## Project Manager
 
 <p class="usa-intro">
-  (To insure project manager info)
+  The project manager coordinates the moving pieces, setting up trainings, tracking SME participation, and managing the document flow for the action. They may have an HR background but might instead be new to hiring work.
 </p>
 
 ## Sponsor
@@ -32,11 +32,11 @@ intro: A SMEQA hiring action has multiple roles involved.
 </p>
 
 Throughout a hiring action the sponsor may –
- - Help identify positions/grade levels for inclusion on an interest survey to agencies
- - Share information about the survey, SMEQA, the possible hiring action with appropriate stakeholders (eg CXO Councils, interagency groups, etc)
- - Work with appropriate stakeholders to gather PDs, job announcements, competencies, etc that can be used for a job analysis workshop
- - Help identify SMEs that can participate in a job analysis workshop, resume review, interviews, etc – and send out messaging to them throughout the process
- - Join weekly or as needed meetings with the cross-agency hiring team or agency hiring team to answer questions, provide input on process and outreach language, advise on timeline given broader situational issues, and to engage stakeholders as necessary
+ - Help identify positions/grade levels for inclusion on an interest survey
+ - Share information about the possible hiring action with appropriate stakeholders (eg CXO Councils, interagency groups, etc)
+ - Work with appropriate stakeholders to gather materials (e.g. PDs, job announcements, competencies), that can be used for job analysis
+ - Help identify SMEs and send out messaging to them throughout the process
+ - Join weekly or as needed meetings with the hiring team to answer questions, provide input on process and outreach language, advise on timeline given broader situational issues, and to engage stakeholders as necessary
  - Encourage agencies to participate in the hiring action or use shared cert
  - Assist in the marketing of the job announcement once it is posted (share with CoPs, agencies, outside organizations, etc)
  - Provide additional input and insights as needed throughout the process

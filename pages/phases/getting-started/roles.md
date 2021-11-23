@@ -55,4 +55,3 @@ Throughout a hiring action the sponsor may –
  - Encourage agencies to participate in the hiring action or use the shared certificate
  - Assist in the marketing of the job announcement once it is posted (share with CoPs, agencies, outside organizations, etc)
  - Provide additional input and insights as needed throughout the process
-

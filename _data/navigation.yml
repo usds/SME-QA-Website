@@ -24,6 +24,8 @@ hiring-phases:
     href: /hiring-phases/getting-started/
     phase: getting-started
     subnav:
+    - text: SMEQA Roles
+      href: /hiring-phases/getting-started/roles/
     - text: Identifying Appropriate Positions
       href: /hiring-phases/getting-started/identifying-appropriate-positions/
     - text: Selecting Subject Matter Experts

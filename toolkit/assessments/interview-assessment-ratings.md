@@ -4,8 +4,8 @@ permalink: /toolkit/assessments/interview-ratings-and-outcomes/
 section: hiring-phases
 sidenav: hiring-phases
 phase: assessments
-title: Interview Ratings and Outcomes
-description: Defines the 3 ratings an interview can receive and a key to understand how to provide a final interview outcome assessment.
+title: Assessments Ratings and Outcomes
+description: Defines the 3 ratings an assessment can receive and a key to understand how to provide a final assessment outcome.
 ---
 
 **2: Exceeds Requirements:** Give the applicant a "2" if the SME determined that the applicant’s answers met all required proficiency levels for required competencies AND exceeded at least one.

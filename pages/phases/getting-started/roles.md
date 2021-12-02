@@ -37,6 +37,10 @@ The HR specialist ensures that prohibitive personnel practices are trained again
 
 The project manager works closely with the sponsor and with the HR specialist throughout the action. This includes coordinating the moving pieces, setting up trainings, tracking SME participation, and managing the document flow for the action - along with the other steps described throughout this site. They may have an HR background but may also be new to hiring work and be designated by the sponsor, the hiring manager, or the HR specialist. The HR specialist may serve as the project manager for an action, however, often a separate individual is designated to this role.
 
+## Subject Matter Experts (SMEs)
+
+SME information is covered in depth [on this page.](/hiring-phases/getting-started/selecting-smes/).
+
 ## Sponsor
 
 <p class="usa-intro">

@@ -26,7 +26,7 @@ During resume review and interview assessments, applicants can be removed from c
 
 ### Time in Grade Verification
 
-In addition, at this stage you may verify the Time in Grade requirements for those applicants who will be on the certificate. If the hiring action covers multiple grades, SME resume review may have been specifically at the lowest grade level, requiring HR to verify time-in-grade for applicants who met minimum qualifications through a federal role.
+At this stage, you may verify the Time in Grade requirements for applicants who will be on the certificate.
 
 ## Post-Certificate Interviews
 

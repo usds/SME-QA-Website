@@ -26,7 +26,7 @@ During resume review and interview assessments, applicants can be removed from c
 
 ### Time in Grade Verification
 
-In addition, at this stage you may verify the Time in Grade requirements for those applicants who will be on the certificate.
+At this stage, you may verify Time in Grade requirements for qualifying applicants with federal experience.
 
 ## Post-Certificate Interviews
 

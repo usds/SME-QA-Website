@@ -89,3 +89,47 @@ pilots:
       - name: Interview
         entered: 28
         passed: 19
+  - third:
+    role: Product Manager
+    series: 2210
+    vacancies:
+      - grade: GS-13
+        open: 9
+    locations:
+      - name: Woodlawn, MD
+    participants:
+      - name: HR Specialists
+        count: 2 (part-time)
+      - name: Subject Matter Experts
+        count: 13
+    joa:
+      open-date: Monday, November 1, 2021
+      close-date: Friday, November 5, 2021
+      url: https://www.usajobs.gov/GetJob/ViewDetails/619072100
+    applicants:
+      total: 215
+      total-qualified: 11
+      best-qualified: 4
+      well-qualified: 5
+      qualified: 2
+      selected: 10
+      hired: 4
+      declined: 1
+    assessments:
+      - name: Resume review
+        passed: 21
+        percentage: 10
+      - name: Written
+        entered: 21
+        passed: 11
+        percentage: 52
+        breakdown:
+          did-not-respond: 5
+          failed: 5
+          passed: 6
+          exceeded: 5
+      - name: Interview
+        entered: 11
+        passed: 11
+        percentage: 100
+    time-to-hire: 4.9 weeks

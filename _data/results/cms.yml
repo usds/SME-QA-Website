@@ -113,7 +113,7 @@ pilots:
       well-qualified: 5
       qualified: 2
       selected: 10
-      hired: 4
+      hired: 7
       declined: 1
     assessments:
       - name: Resume review

@@ -12,7 +12,7 @@ intro: To attract highly qualified applicants who don't typically search USAJOBS
 <p class="usa-intro">
   {{ page.intro }}
 </p>
-High applicant volume from USAJOBS often convinces agencies they don't need to recruit for their positions. Recruitment is key to ensure a strong talent pipeline at the beginning of the process.
+High applicant volume from USAJOBS often convinces agencies they don't need to recruit for their positions. Recruitment is key to ensure a strong talent pipeline at the beginning of the process. If you give notice with a USAJOBS event (or otherwise ensure that information about the position is broadly/widely available, you may recruit for your posting with details from the JOA before applications are open.)
 
 ### Use personal and professional referrals
 

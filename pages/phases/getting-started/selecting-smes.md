@@ -20,7 +20,7 @@ intro: The success of your hiring action depends on the strength of your subject
 
 SMEs will participate throughout your hiring action at various levels, depending on the phase. Use these descriptions of their efforts to set expectations with hiring managers and SMEs you’re considering for participation.
 
-It's critical for you to identify a project manager to manage the deliverables required from each phase of your action, in addition to the hiring manager who will make selections off of your resulting certificate.
+It's critical for you to identify a project manager to manage the deliverables required from each phase of your action (this person could also be the HR specialist assigned to the action), in addition to the hiring manager who will make selections off of your resulting certificate.
 
 - **Job Analysis:** With guidance from HR, SMEs will spend up to 16 hours within a one week period creating the competencies, proficiency levels, and structured interview questions they’ll use during resume review and interview assessments. Ideally, all SMEs conducting the assessments should take part in the job analysis. These exercises work best when all SMEs attend in person.
 - **Follow-up:** The week after job analysis, a subset of SMEs who participated in that workshop will spend up to four hours composing the language for the job announcement with HR. They’ll also test and refine the interview questions developed during the job analysis phase.

@@ -50,10 +50,11 @@ SME information is covered in depth [on this page.](/hiring-phases/getting-start
 Note: In a single agency action, a sponsor is typically the individual or representative of an entity that initiaties the action or is appointed as sponsor by a senior official. In a multi-agency action or cross-government action, a sponsor might be a representative of, or leader from, a CXO Council, working group or other entity initiating and partnering on the action.
 
 Throughout a hiring action the sponsor may –
+ - Help identify SMEs and contribute to or send out SME messaging throughout the process
+ - Participate in job analysis activities to help the group achieve consensus as needed
  - Help identify positions/grade levels for inclusion on an interest survey
  - Share information about the possible hiring action with appropriate stakeholders (eg CXO Councils, interagency groups, etc)
  - Work with appropriate stakeholders to gather materials (e.g. PDs, job announcements, competencies), that can be used for job analysis
- - Help identify SMEs and send out messaging to them throughout the process
  - If needed, work with HR to remove SMEs from the action
  - Join weekly or as needed meetings with the hiring team to answer questions, provide input on process and outreach language, advise on timeline given broader situational issues, and engage stakeholders as necessary
  - Encourage agencies to participate in the hiring action or use the shared certificate

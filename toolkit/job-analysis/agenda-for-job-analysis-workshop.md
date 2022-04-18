@@ -143,22 +143,14 @@ This agenda will take more than one day to accomplish. Edit it and insert breaks
       </td>
     </tr>
     <tr>
-      <th scope="row">1 hour</th>
+      <th scope="row">2 hours 15 minutes</th>
       <td>
-        Create materials for first assessment
+        Create assessment materials
         <ul>
           <li>Break out into different groups to brainstorm question options</li>
           <li>Bring group back together to choose specific questions</li>
           <li>Split up again to draft attributes of answers at different proficiency levels</li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <th scope="row">1 hour 15 min</th>
-      <td>
-        Create materials for second assessment
-        <ul>
-          <li>Follow similar process as before to create a more intensive assessment</li>
+          <li>Exact materials will depend on assessment strategy</li>
         </ul>
       </td>
     </tr>

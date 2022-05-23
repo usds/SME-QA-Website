@@ -24,10 +24,10 @@ The hiring manager initiates the hiring action and may be the sponsor of the act
 ## HR Specialist
 
 <p class="usa-intro">
-  The HR specialist ensures that the hiring action adheres to merit system principles and controls all messaging to applicants about the hiring process. As with all hiring actions, tthe HR specialist is responsible for any HR functions related to the hiring action.
+  The HR specialist ensures that the hiring action adheres to merit system principles and controls all messaging to applicants about the hiring process. As with all hiring actions, the HR specialist is responsible for any HR functions related to the hiring action.
 </p>
 
-The HR specialist ensures that prohibitive personnel practices are trained against and monitored for throughout an action and trains/monitors SMEs such that SMEs can conduct assessment activities independently with HR review of case file materials. Depending on the nature of assessments used, an HR Specialist may be assisted by an I/O psychologist. In a multi-agency action where certificates are shared with other agencies (per the Competitive Service Act), the HR specialist handles the mechanics of sharing the cert with other agencies. The HR specialist should have a designated backup in case of unexpected outages.
+The HR specialist ensures that prohibitive personnel practices are trained against and monitored for throughout an action and trains/monitors SMEs such that SMEs can conduct assessment activities independently with HR review of case file materials. Depending on the nature of assessments used, an HR Specialist may be assisted by an I/O psychologist. In a multi-agency action where certificates are shared with other agencies (per the Competitive Service Act), the HR specialist handles the mechanics of sharing the cert with other agencies. The HR specialist should have a designated backup in case of unexpected outages and must be DE certified to run a competitive action using SMEQA.
 
 ## Project Manager
 

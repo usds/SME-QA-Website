@@ -13,9 +13,9 @@ Good [Morning or Afternoon],
 
 We are currently recruiting subject matter experts (SMEs) to partner with HR to improve hiring outcomes for a GS-_[grade level(s)]_ _[series]_ position. In this process, SMEs work with HR to develop a list of common competencies and proficiency levels required for this position. SMEs will then conduct some combination of resume reviews, written exercise scoring, and structured interviews that will allow us to filter the applicant pool to those that are qualified. Hiring managers can then confidently make multiple selections from a competitive hiring list.
 
-We have a need for SMEs who are passionate about bringing high-quality talent into their agency. SMEs participating in this process will dedicate 50-60 hours over 2-3 months for the following:
+We have a need for SMEs who are passionate about bringing high-quality talent into their agency. SMEs participating in this process will dedicate 20+ hours over 2-3 months for the following:
 
--	2.5 day workshop to develop common competencies, proficiency levels, and some combination of written exercises and/or structured interview questions
+-	A workshop (often 2 - 2.5 days) to develop common competencies, proficiency levels, and some combination of written exercises and/or structured interview questions
 -	Resume review training (3 hrs)
 -	Resume reviews (time needed depends on # of applicants)
 -	Written excercise training (2 hrs, if needed)

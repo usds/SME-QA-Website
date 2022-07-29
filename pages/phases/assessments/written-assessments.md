@@ -38,7 +38,8 @@ Written assessments can be used before or after resume review. If your SMEs opt 
    - You will also use results of the attempt/test in the training for SMEs as a calibration exercise.
 - Before training, have you conducted a full dress rehearsal of an evaluation to check the evaluation workflow from start to finish? (checking all of the template content?)
 - Have you built out instructions for how to transmute the assessment scores, particularly if you have multiple reviewers? (the SME-QA team has a template you can reference)
-- Have you done a dress rehearsal for how written assessments will be distributed?
+- Have you done a dress rehearsal for how written assessments will be distributed and found by SMEs?
+  - Do SMEs know what to do if they can't find a submitted assessment?
 - Is it possible for applicants to do overwork on the assessment (going into extreme detail, pulling in other information from their own research, providing many graphs/images), and do you have a plan if they overwork?
 - If the assessment requires use of a download or external site (like downloading a dataset), do you have a backup plan if that external site goes down during the assessment period?
 - If your assessment involves sending out a data file for review, have you checked that everyone is using a common source of truth for the file?

@@ -38,8 +38,8 @@
 {% endfor %}
 
 {% assign hired = 0 %}
-{% for hired in total_hired %}
-  {% assign hired = hired | plus: hired %}
+{% for accepted in total_hired %}
+  {% assign hired = hired | plus: accepted %}
 {% endfor %}
 
 {% assign applicants = 0 %}
@@ -69,6 +69,6 @@
     <span class="smeqa-brief-hiring-actions__stat">{{ selections }}</span> selections
   </li>
   <li class="smeqa-brief-hiring-actions__item">
-    <span class="smeqa-brief-hiring-actions__stat">221</span> accepted offers
+    <span class="smeqa-brief-hiring-actions__stat">{{ hired }}</span> accepted offers
   </li>
 </ul>

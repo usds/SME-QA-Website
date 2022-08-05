@@ -17,7 +17,7 @@ title: Subject Matter Expert Qualification Assessments
 email: matthew.j.dingee@omb.eop.gov
 description: >- # this means to ignore newlines until "baseurl:"
   The United States Digital Service is transforming federal hiring. Our SME-QA process helps agencies improve their assessment of job candidates within the competitive hiring process and upholds the merit systems princples.
-baseurl: "/"
+baseurl: ""
 
 styles: styles.min.css
 print-styles: print-styles.min.css

@@ -103,6 +103,29 @@ function jekyll(done) {
   }
 }
 
+function copyUserAssets(done) {
+  return gulp.src(["_assets/**/*"])
+    .pipe(gulp.dest(`assets`))
+    .pipe(gulp.dest(`assets`))
+    .on("close", done)
+}
+
+function copyAssets(dir) {
+  return function copyFiles(done) {
+    return gulp.src([`node_modules/uswds/dist/${dir}/**/*`])
+        .pipe(gulp.dest(`assets/${dir}`))
+        .pipe(gulp.dest(`_site/assets/${dir}`))
+        .on("close", done)
+    } 
+}
+
+const assets = gulp.parallel(
+  copyUserAssets,
+  copyAssets("img"),
+  copyAssets("js"),
+  copyAssets("fonts")
+);
+
 function watchFiles() {
   gulp.watch(watchConfig.jekyll, gulp.series(jekyll, browserSyncReload));
   gulp.watch(watchConfig.styles, gulp.series(css, browserSyncReload));
@@ -114,6 +137,7 @@ const watch = gulp.parallel(watchFiles, browserSync);
 
 // Export tasks
 exports.css = css;
+exports.assets = assets;
 exports.jekyll = jekyll;
 exports.build = build;
 exports.watch = watch;

@@ -3,6 +3,7 @@ _site
 .jekyll-metadata
 /node_modules
 .DS_Store
+/assets
 
 
 # ignore gulp-generated vendor files

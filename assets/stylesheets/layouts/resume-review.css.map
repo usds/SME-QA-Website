@@ -1,1 +1,0 @@
-{"version":3,"sources":["layouts/resume-review.scss","layouts/resume-review.css"],"names":[],"mappings":"AAEA,QACE,YAAa,CACb,gBCDF","file":"resume-review.css","sourcesContent":["// SME-QA: Resume Review layout\n\n.sme-rr {\n  margin-top: 0;\n  padding-top: 32px;\n}\n",".sme-rr {\n  margin-top: 0;\n  padding-top: 32px;\n}\n"]}

@@ -33,12 +33,6 @@ github_url: https://github.com/usds/SME-QA-Website/
 # Build settings
 markdown: kramdown
 
-# Assets settings
-sass:
-  sass_dir: _scss
-  style: compressed
-  # implementation: sass-embedded
-
 # Plugins
 plugins:
   - jekyll-feed

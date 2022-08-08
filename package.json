@@ -10,7 +10,7 @@
     "build:assets": "gulp assets",
     "build:dev": "npm run build:css && npm run build:assets",
     "build:jekyll": "gulp jekyll",
-    "dev": "NODE_ENV=dev npm run build:dev && gulp watch",
+    "dev": "NODE_ENV=dev npm run build:dev && npm run watch",
     "crawl": "node config/crawl.js",
     "lint": "gulp eslint scss-lint",
     "init": "gulp init",

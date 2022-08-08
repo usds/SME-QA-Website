@@ -11,7 +11,7 @@ const gulp = require("gulp");
 const log = require("fancy-log");
 const postcss = require("gulp-postcss");
 const rename = require("gulp-rename");
-const sass = require("gulp-sass");
+const sass = require("gulp-sass")(require("sass"));
 const sourcemaps = require("gulp-sourcemaps");
 
 const env = process.env.NODE_ENV || "prod";
@@ -22,8 +22,6 @@ const autoprefixerOptions = config.browsers;
 const browserSyncConfig = config.browsersync.development;
 const task = "sass";
 const watchConfig = config.watch;
-
-sass.compiler = require("sass");
 
 function browserSync(done) {
   browsersync.init(browserSyncConfig);

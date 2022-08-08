@@ -8,14 +8,15 @@
     "build": "gulp build",
     "build:css": "gulp css",
     "build:assets": "gulp assets",
+    "build:dev": "npm run build:css && npm run build:assets",
     "build:jekyll": "gulp jekyll",
-    "dev": "NODE_ENV=dev gulp watch",
+    "dev": "NODE_ENV=dev npm run build:dev && gulp watch",
     "crawl": "node config/crawl.js",
     "lint": "gulp eslint scss-lint",
     "init": "gulp init",
     "start": "npm run dev",
     "test": "NODE_ENV=dev rake test && npm run axe",
-    "watch": "gulp watch"
+    "watch": "bundle exec jekyll serve --watch & gulp watch"
   },
   "repository": {
     "type": "git",
@@ -43,7 +44,7 @@
     "gulp-postcss": "^9.0.0",
     "gulp-rename": "^2.0.0",
     "gulp-replace": "^1.0.0",
-    "gulp-sass": "^4.1.0",
+    "gulp-sass": "^5.1.0",
     "gulp-sourcemaps": "^3.0.0",
     "gulp-util": "^3.0.8",
     "hosted-git-info": "~>2.8.9",

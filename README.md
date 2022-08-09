@@ -50,7 +50,7 @@ bundle install
 npm run dev
 ```
 
-This will serve the aplication on port 8080 and should automatically open http://localhost:8080.
+This will serve the application on port 8080 and should automatically open http://localhost:8080.
 
 ### Do this to perform a clean build for deployment
 ```

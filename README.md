@@ -58,4 +58,8 @@ npm run build
 ```
 NOTE: This isn't necessary as github pages will perform this step automatically.
 
+### If you have no styles when building locally or otherwise need to have a separate local configuration, run the following command:
 
+```
+bundle exec jekyll serve --config _config-dev.yml
+```

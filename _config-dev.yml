@@ -1,0 +1,4 @@
+baseurl: ""
+styles: styles.css
+print-styles: print-styles.css
+hiring-action-styles: hiring-action.css

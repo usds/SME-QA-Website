@@ -1,5 +1,4 @@
 var gulp        = require('gulp');
-var gutil       = require('gulp-util');
 var dutil       = require('./doc-util');
 var browserify  = require('browserify');
 var buffer      = require('vinyl-buffer');
@@ -55,7 +54,7 @@ gulp.task(task,
         .pipe(buffer())
         .pipe(sourcemaps.init({ loadMaps: true }))
           .pipe(uglify())
-          .on('error', gutil.log)
+          .on('error', console.log)
           .pipe(rename({
             basename: 'styleguide',
           }))

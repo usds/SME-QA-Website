@@ -47,8 +47,10 @@ bundle install
 
 ### Do this to start development
 ```
-npm start
+npm run dev
 ```
+
+This will serve the application on port 8080 and should automatically open http://localhost:8080.
 
 ### Do this to perform a clean build for deployment
 ```
@@ -56,10 +58,8 @@ npm run build
 ```
 NOTE: This isn't necessary as github pages will perform this step automatically.
 
-The website will start at http://localhost:4000
+### If you have no styles when building locally or otherwise need to have a separate local configuration, run the following command:
 
-### If you have no styles when building locally
-Will can only make the build work with this command:
 ```
 bundle exec jekyll serve --config _config-dev.yml
 ```

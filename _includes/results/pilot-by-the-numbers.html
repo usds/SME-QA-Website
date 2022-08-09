@@ -4,9 +4,15 @@
 
 <h5 class="smeqa-brief-hiring-action__position">
   {%- unless grades.size > 1 -%}
-    {{ pilot.role }} - {{ grades | join: ", " }} - {{ pilot.series }} series
+    <a class="usa-link" href="{{ pilot.joa.url }}" target="_blank">{{ pilot.role }}</a>
+    <span class="margin-x-05">-</span>
+    {{ grades | join: ", " }}
+    <span class="margin-x-05">-</span>
+    {{ pilot.series }} series
   {%- else -%}
-    {{ pilot.role }} - {{ pilot.series }} series
+    <a class="usa-link" href="{{ pilot.joa.url }}" target="_blank">{{ pilot.role }}</a>
+    <span class="margin-x-05">-</span>
+    {{ pilot.series }} series
   {%- endunless -%}
 </h5>
 

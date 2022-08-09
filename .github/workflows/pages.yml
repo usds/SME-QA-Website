@@ -20,9 +20,6 @@ concurrency:
   group: "pages"
   cancel-in-progress: true
 
-env:
-  BASE_URL: ${{ secrets.BASE_URL }}
-
 jobs:
   # Build job
   build:
@@ -44,7 +41,7 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v1
-      - run: bundle exec jekyll build --baseurl "${{env.BASE_URL}}"
+      - run: bundle exec jekyll build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1 # This will automatically upload an artifact from the '/_site' directory
 

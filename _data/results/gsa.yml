@@ -49,7 +49,6 @@ pilots:
         passed: 8
         percentage: 5
     time-to-hire: 18.8 weeks
-pilots:
   - second:
     role: Contract Specialist
     series: 1102

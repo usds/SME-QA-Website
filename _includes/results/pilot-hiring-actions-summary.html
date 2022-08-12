@@ -1,6 +1,5 @@
 {% assign results = site.data.results %}
 
-{% assign total_pilots = "" | split: ',' %}
 {% assign total_agencies = "" | split: ',' %}
 {% assign total_offices = "" | split: ',' %}
 {% assign total_applicants = "" | split: ',' %}
@@ -8,13 +7,15 @@
 {% assign total_selected = "" | split: ',' %}
 {% assign total_hired = "" | split: ',' %}
 
+{% assign actions = 0 %}
+
 {%- for agencies_hash in results -%}
   {%- assign agency = agencies_hash[1] -%}
   {% assign total_agencies = total_agencies | push: agency.agency-count %}
   {% assign total_offices = total_offices | push: agency.office-count %}
 
   {% for pilot in agency.pilots %}
-    {% assign total_pilots = total_pilots | push: agency.pilots.size %}
+    {% assign actions = actions | plus: 1 %}
     {% assign total_selected = total_selected | push: pilot.applicants.selected %}
     {% assign total_hired = total_hired | push: pilot.applicants.hired %}
     {% assign total_applicants = total_applicants | push: pilot.applicants.total %}
@@ -54,10 +55,10 @@
 
 <ul class="smeqa-brief-hiring-actions__list">
   <li class="smeqa-brief-hiring-actions__item">
-    <span class="smeqa-brief-hiring-actions__stat">15</span> completed actions
+    <span class="smeqa-brief-hiring-actions__stat">{{ actions }}</span> completed actions
   </li>
   <li class="smeqa-brief-hiring-actions__item">
-    <span class="smeqa-brief-hiring-actions__stat">22</span> agencies
+    <span class="smeqa-brief-hiring-actions__stat">{{ agencies }}</span> agencies
   </li>
   <li class="smeqa-brief-hiring-actions__item">
     <span class="smeqa-brief-hiring-actions__stat">{{ applicants }}</span> applicants

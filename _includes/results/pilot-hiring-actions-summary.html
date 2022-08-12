@@ -22,6 +22,12 @@
   {% endfor %}
 {%- endfor -%}
 
+{% assign actions = 0 %}
+{% for pilot in total_pilots %}
+  {% assign actions = actions | plus: pilot %}
+{% endfor %}
+
+
 {% assign agencies = 0 %}
 {% for agency in total_agencies %}
   {% assign agencies = agencies | plus: agency %}
@@ -54,10 +60,10 @@
 
 <ul class="smeqa-brief-hiring-actions__list">
   <li class="smeqa-brief-hiring-actions__item">
-    <span class="smeqa-brief-hiring-actions__stat">15</span> completed actions
+    <span class="smeqa-brief-hiring-actions__stat">{{ actions }}</span> completed actions
   </li>
   <li class="smeqa-brief-hiring-actions__item">
-    <span class="smeqa-brief-hiring-actions__stat">22</span> agencies
+    <span class="smeqa-brief-hiring-actions__stat">{{ agencies }}</span> agencies
   </li>
   <li class="smeqa-brief-hiring-actions__item">
     <span class="smeqa-brief-hiring-actions__stat">{{ applicants }}</span> applicants

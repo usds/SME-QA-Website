@@ -44,19 +44,20 @@ SME information is covered in depth [on this page.](/hiring-phases/getting-start
 ## Sponsor
 
 <p class="usa-intro">
-  The sponsor leads the hiring managers and SMEs, supporting the action either via funding and/or participation in the hiring process. The sponsor can provide SMEs, engage stakeholders, and/or assist with job analysis. The sponsor "makes the call" with HR leadership on the specific grade levels/position for an action. In conflicts between SMEs, the sponsor or their designee resolves those conflicts in partnership with HR.
+  Sponsors leads the cohort of hiring managers and SMEs, supporting the action via funding and/or participation in the hiring process. A sponsor might provide SMEs, engage stakeholders, and/or assist with job analysis. The sponsor "makes the call" with HR leadership on the specific grade levels/position for an action after gathering agency needs in the space. In conflicts between SMEs, the sponsor or their designee resolves those conflicts, in partnership with HR.
 </p>
 
-Note: In a single agency action, a sponsor is typically the individual or representative of an entity that initiaties the action or is appointed as sponsor by a senior official. In a multi-agency action or cross-government action, a sponsor might be a representative of, or leader from, a CXO Council, working group or other entity initiating and partnering on the action.
+Note: In a single agency action, a sponsor is typically the individual or representative of an entity that initiaties the action or is appointed as sponsor by a senior official. In a multi-agency or cross-government action, a sponsor might be a representative/leader in a CXO Council, working group, or other entity initiating and partnering on the action.
 
 Throughout a hiring action the sponsor may –
- - Help identify SMEs and contribute to or send out SME messaging throughout the process
- - Participate in job analysis activities to help the group achieve consensus as needed
- - Help identify positions/grade levels for inclusion on an interest survey
+ - Help identify possible participating agencies, offices, or SMEs.
  - Share information about the possible hiring action with appropriate stakeholders (eg CXO Councils, interagency groups, etc)
- - Work with appropriate stakeholders to gather materials (e.g. PDs, job announcements, competencies), that can be used for job analysis
- - If needed, work with HR to remove SMEs from the action
- - Join weekly or as needed meetings with the hiring team to answer questions, provide input on process and outreach language, advise on timeline given broader situational issues, and engage stakeholders as necessary
- - Encourage agencies to participate in the hiring action or use the shared certificate
+ - Help identify positions/grade levels for inclusion on an interest survey
+ - Contribute to or send out SME messaging throughout the process aligning to that audience
+ - Assist in gathering materials (e.g. PDs, job announcements, competencies), that can be used for job analysis
+ - As needed, participate in job analysis activities to help the group achieve consensus. (more important if the SME group is not aligned)
+ - If needed, work with HR to remove SMEs from the action because they are not responsive to training or for poor conduct
+ - Join regular meetings with the hiring team to answer questions, provide input on process and outreach language, advise on timeline given broader situational issues, and engage stakeholders as necessary
  - Assist in the marketing of the job announcement once it is posted (share with CoPs, agencies, outside organizations, etc)
+ - Encourage agencies/offices to participate in the hiring action or use the shared certificate
  - Provide additional input and insights as needed throughout the process

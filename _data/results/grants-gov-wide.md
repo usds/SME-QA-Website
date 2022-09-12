@@ -47,4 +47,3 @@ pilots:
       - name: SME resume review
         passed: 93
         failed: 231
-      

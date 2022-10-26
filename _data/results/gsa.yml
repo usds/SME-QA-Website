@@ -69,10 +69,10 @@ pilots:
     applicants:
       total: 1208
       total-qualified: 203
-      best-qualified:
+      best-qualified: 56
       well-qualified:
       qualified:
-      selected: 28
+      selected: 30
       hired: 25
     assessments:
       - name: Resume review

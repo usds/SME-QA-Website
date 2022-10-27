@@ -83,4 +83,37 @@ pilots:
     cost-per-hire: $2,992
     time-to-hire: 6.2 weeks
     hours-per-hire: 41
-      
+  - second:
+    role: Customer Experience Strategist
+    series: "0301"
+    vacancies:
+      - grade: GS-13
+        open: 15
+    locations:
+      - name: Location Negotiable After Selection
+    participants:
+      - name: HR Specialists
+        count: 1
+      - name: Subject Matter Experts
+        count: 20
+    joa:
+      open-date: October 21, 2021
+      close-date: October 26, 2021
+      url: https://www.usajobs.gov/job/618079400
+    applicants:
+      total: 553
+      eligible: 477
+      total-qualified: 47
+      selected: 31
+      hired: 12
+    assessments:
+      - name: Resume review
+        entered: 338
+        passed: 71
+        percentage: 21
+      - name: HireVue Interview
+        passed: 47
+        percentage: 72
+    cost-per-hire:
+    time-to-hire:
+    hours-per-hire:

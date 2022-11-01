@@ -32,8 +32,8 @@ pilots:
       total: 749
       eligible: 691
       total-qualified: 102
-      selected: 25
-      hired: 7
+      selected: 41
+      hired: 13
     assessments:
       - name: Questionnaire
         entered: 749

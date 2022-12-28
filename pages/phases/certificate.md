@@ -36,7 +36,7 @@ To pass over a veteran, hiring managers must meet the requirements of 5 U.S.C. Â
 
 ## Selecting Qualified Applicants from a Certificate
 
-When using the SME-QA process, there should be *fewer* applicants who make it to the certificate based on their qualifications, and hiring managers should be able to make *more* selections off of the certificates. Ideally, the extraordinary SME review process that confirms that an applicant meets the required technical qualifications will allow these applicants to receive offers for positions at an agency. If there are more qualified applicants on a certificate than vacancies at an agency, that agency may choose to share the certificate with other offices or agencies.
+When using the SME-QA process, there should be *fewer* applicants who make it to the certificate based on their qualifications, and hiring managers should be able to make *more* selections off of the certificates. Ideally, the extraordinary SME review process that confirms that an applicant meets the required technical qualifications will allow these applicants to receive offers for positions at an agency. If there are more qualified applicants on a certificate than vacancies at an agency, that agency may choose to share the certificate with other offices or agencies. Hiring managers may also check references at this time.
 
 ## Post-Selection
 

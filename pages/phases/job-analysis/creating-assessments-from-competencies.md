@@ -17,7 +17,9 @@ The SMEs should decide which assessment types make sense to evaluate each compet
 
 As a best practice, applicants should pass through multiple hurdles with multiple SMEs before an agency considers them qualified. In order to eliminate unqualified applicants in each round, the two rounds should measure different things. For example, one assessment can measure breadth of knowledge and the second can measure depth of knowledge. Or, a written demonstration project can measure technical competencies while a phone interview measures competencies more easily assessed through oral communications. Any applicant who does not pass the first assessment will not progress to the second. 
 
-Use your defined competencies, proficiencies, and required experience to create guidance for SMEs reviewing applicant responses. This page covers various assessment options available to you.
+Use your defined competencies, proficiencies, and required experience to create possible assessment materials in breakout groups. Have the SMEs from other groups test the materials and record their test responses. Use those responses to iterate on the questions (especially on the time required to answer them) and create guidance for SMEs reviewing applicant responses, including possible follow-up questions for interviews. You can also use test responses later when training SMEs on the final materials.
+
+This page covers some available assessment options.
 
 ## Assessment options summary
 

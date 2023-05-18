@@ -16,7 +16,15 @@ High applicant volume from USAJOBS often convinces agencies they don't need to r
 
 ### Use personal and professional referrals
 
-Traditional networking is extremely effective for finding great candidates. Engage hiring managers and SMEs in the recruitment process so they have a role in recruiting top talent.
+Traditional networking is extremely effective for finding great candidates.
+
+### Tap your SMEs and hiring managers as recruiting partners
+
+Engage hiring managers and SMEs in the recruitment process so they have a role in recruiting top talent. Work with them to pull listserves and social media groups where the posting should be announced, and test the content on the job announcement to ensure it resonates with the target audience.
+
+### Announce the position with sample text for people to post on social media
+
+Providing sample language (tested with SMEs) and making it easier for people to spread the word will amplify the reach of your announcement. You can choose what langauge is best based on SME feedback on where their community finds job postings, specifically considering audiences of groups that may not be aware of government opportunities.
 
 ### Post to free and popular targeted job boards
 
